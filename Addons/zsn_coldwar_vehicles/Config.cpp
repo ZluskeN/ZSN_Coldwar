@@ -2590,7 +2590,7 @@ class cfgvehicles
 			class _xx_ZSN_762x51_ammobelts
 			{
 				backpack = "ZSN_762x51_ammobelts";
-				count = 3;
+				count = 2;
 			};
 		};
 	};
