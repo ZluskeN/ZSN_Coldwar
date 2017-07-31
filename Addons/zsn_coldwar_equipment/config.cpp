@@ -15,6 +15,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {"ZSN_CUP_srifle_M21"};
 		requiredVersion = 0.1;
+		requiredAddons[] = {"TMR_RPG42"};
 		magazines[] = {};
 	};
 };
