@@ -137,7 +137,7 @@ class cfgvehicles
 	class ZSN_MarineE: O_Soldier_base_F
 	{
 		Items[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		RespawnItems[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};;
+		RespawnItems[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 	};
 	class ZSN_MarineEAR: ZSN_MarineE
 	{
@@ -187,7 +187,7 @@ class cfgvehicles
 	class ZSN_RangerE: O_Soldier_base_F
 	{
 		Items[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		RespawnItems[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};;
+		RespawnItems[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 	};
 	class ZSN_SoldierEPilot: ZSN_RangerE
 	{
@@ -200,7 +200,7 @@ class cfgvehicles
 	class ZSN_RangerED: O_Soldier_base_F
 	{
 		Items[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		RespawnItems[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};;
+		RespawnItems[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 	};
 	class ZSN_SoldierEDPilot: ZSN_RangerED
 	{
