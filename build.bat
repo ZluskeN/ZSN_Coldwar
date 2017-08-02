@@ -17,7 +17,7 @@ REM Build pbo files using pboproject and check for errors
 for /D %%s in (Addons\*) do (
 	if %%~nxs NEQ temp (
 		@echo Building %%~nxs
-		pboproject +Clean -Engine=Arma3 -Key -Workspace=P:\ -Noisy -P -G +Mod="%modpath%\@zsn_coldwar" -F +W -Z P:\%%~nxs
+		pboproject +Clean -Engine=Arma3 -Key -Workspace=P:\ -Noisy -P -X +Mod="%modpath%\@zsn_coldwar" -R -Z P:\%%~nxs
 		if !errorlevel! neq 0 (
 			@echo Error encountered while building %%~nxs
 			exit /b !errorlevel!
@@ -36,7 +36,7 @@ for /D %%s in (Optional\*) do (
 	if %%~nxs NEQ temp (
 		@echo Building %%~nxs
 		mkdir @%%~nxs > nul 2> nul
-		pboproject +Clean -Engine=Arma3 -Key -Workspace=P:\ -Noisy -P -G +Mod="%modpath%\@%%~nxs" -F +W -Z P:\%%~nxs
+		pboproject +Clean -Engine=Arma3 -Key -Workspace=P:\ -Noisy -P -X +Mod="%modpath%\@%%~nxs" -R -Z P:\%%~nxs
 		if !errorlevel! neq 0 (
 			@echo Error encountered while building %%~nxs
 			exit /b !errorlevel!
