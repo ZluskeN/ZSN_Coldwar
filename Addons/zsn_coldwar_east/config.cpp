@@ -1887,6 +1887,27 @@ class CfgUnitInsignia
 };
 class Extended_Init_EventHandlers
 {
+	class ZSN_MarineE
+	{
+		class ZSN_Eastmarinepatch
+		{
+			init = "[(_this select 0), 'zsn_soviet_marines'] call BIS_fnc_setUnitInsignia";
+		};
+	};
+	class ZSN_RangerE
+	{
+		class ZSN_Eastrangerpatch
+		{
+			init = "[(_this select 0), 'zsn_soviet_airborne'] call BIS_fnc_setUnitInsignia";
+		};
+	};
+	class ZSN_SoldierESaboteur
+	{
+		class ZSN_Eastsaboteurpatch
+		{
+			init = "[(_this select 0), 'zsn_soviet_army'] call BIS_fnc_setUnitInsignia";
+		};
+	};
 	class ZSN_MarineED
 	{
 		class ZSN_Eastmarinepatch
