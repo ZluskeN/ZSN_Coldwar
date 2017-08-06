@@ -96,9 +96,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class usm_pack_762x51_ammobelts;
-	class ZSN_762x51_ammobelts;
-	class ZSN_762x54_ammobelts: ZSN_762x51_ammobelts
+	class ZSN_762x54_ammobelts: CUP_B_CivPack_WDL
 	{
 		class TransportMagazines
 		{
