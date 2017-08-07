@@ -1429,8 +1429,8 @@ class CfgVehicles
 	{
 		displayName = "RPG-29 Soldier";
 		icon = "iconManAT";
-		weapons[] = {"Throw","Put","CUP_arifle_AKS74","launch_RPG32_ghex_F"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS74","launch_RPG32_ghex_F"};
+		weapons[] = {"Throw","Put","CUP_arifle_AKS74","launch_RPG32_F"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS74","launch_RPG32_F"};
 		magazines[] = {"RPG32_F","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"RPG32_F","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_TK_TankerHelmet","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
