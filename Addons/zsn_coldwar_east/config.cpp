@@ -417,7 +417,7 @@ class CfgVehicles
 	{
 		displayName = "Spets Naz";
 		icon = "iconManExplosive";
-		uniformClass = "CUP_U_O_CHDKZ_Kam_06";
+		uniformClass = "CUP_U_O_Partisan_VSR_Mixed2";
 		backpack = "ZSN_Demopack_khk";
 		weapons[] = {"Throw","Put","CUP_hgun_SA61","CUP_smg_bizon_snds","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_SA61","CUP_smg_bizon_snds","Binocular"};
@@ -642,7 +642,7 @@ class CfgVehicles
 	{
 		displayName = "Spets Naz (Day)";
 		icon = "iconManExplosive";
-		uniformClass = "CUP_U_O_Partisan_TTsKO";
+		uniformClass = "CUP_U_O_Partisan_VSR_Mixed1";
 		backpack = "ZSN_DemoPack_cbr";
 		weapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","CUP_arifle_AK107","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","CUP_arifle_AK107","Binocular"};
