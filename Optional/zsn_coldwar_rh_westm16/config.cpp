@@ -15,7 +15,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"ZSN_ColdWarUnits","RH_m4_cfg"};
+		requiredAddons[] = {"ZSN_ColdWarWest","RH_m4_cfg"};
 	};
 };
 class CfgVehicles

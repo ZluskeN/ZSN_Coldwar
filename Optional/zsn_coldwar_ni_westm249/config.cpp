@@ -14,7 +14,7 @@ class CfgPatches
 		author = "ZluskeN";
 		units[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"ZSN_ColdWarUnits","HLC_COMPAT_CUP_SAW"};
+		requiredAddons[] = {"ZSN_ColdWarWest","HLC_COMPAT_CUP_SAW"};
 	};
 };
 class CfgVehicles

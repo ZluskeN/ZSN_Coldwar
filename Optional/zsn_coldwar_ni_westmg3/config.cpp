@@ -14,7 +14,7 @@ class CfgPatches
 		author = "ZluskeN";
 		units[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"ZSN_ColdWarUnits","ZSN_ColdWarWest","ZSN_ColdWareuro","ZSN_ColdWarVehicles"};
+		requiredAddons[] = {"ZSN_ColdWarEuro"};
 	};
 };
 class CfgVehicles
