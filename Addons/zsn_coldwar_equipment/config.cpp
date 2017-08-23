@@ -123,6 +123,40 @@ class CfgWeapons
 			};
 		};
 	};
+	class ZSN_SVD_des: CUP_srifle_SVD
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_DovetailMount_SVD";
+				item = "CUP_optic_PSO_3";
+			};
+ 			class LinkedItemsAcc
+ 			{
+ 				slot = "PointerSlot";
+ 				item = "CUP_SVD_camo_d";
+ 			};
+		};
+	};
+	class ZSN_SVD_wdl: CUP_srifle_SVD
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_DovetailMount_SVD";
+				item = "CUP_optic_PSO_3";
+			};
+ 			class LinkedItemsAcc
+ 			{
+ 				slot = "PointerSlot";
+ 				item = "CUP_SVD_camo_g";
+ 			};
+		};
+	};
 	class CUP_saw_base;
 	class CUP_lmg_minimipara;
 	class CUP_lmg_minimi;
