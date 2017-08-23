@@ -9,13 +9,13 @@
 //Class zsn_coldwar_bow_west : config.bin{
 class CfgPatches
 {
-	class ZSN_ColdWarWest_Plus
+	class ZSN_ColdWar_BOW
 	{
 		author = "ZluskeN";
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"ZSN_ColdWarWest","BO_weapons"};
+		requiredAddons[] = {"ZSN_ColdWarUnits","BO_weapons"};
 	};
 };
 class cfgweapons

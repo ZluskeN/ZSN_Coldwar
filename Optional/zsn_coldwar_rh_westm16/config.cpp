@@ -9,7 +9,7 @@
 //Class zsn_coldwar_bow_west : config.bin{
 class CfgPatches
 {
-	class ZSN_ColdWarWest_Plus
+	class ZSN_ColdWar_RHM4
 	{
 		author = "ZluskeN";
 		units[] = {};
