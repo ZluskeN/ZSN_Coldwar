@@ -106,7 +106,7 @@ class CfgWeapons
 	{
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
-			class CUP_DovetailMount_SVD{};
+			class CUP_DovetailMount_SVD;
 			class CowsSlot{};
 			class PointerSlot{};
 		};
