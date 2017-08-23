@@ -791,8 +791,8 @@ class CfgVehicles
 	{
 		displayName = "Sniper";
 		icon = "iconManRecon";
-		weapons[] = {"Throw","Put","ZSN_SVD_Wdl"};
-		respawnWeapons[] = {"Throw","Put","ZSN_SVD_Wdl"};
+		weapons[] = {"Throw","Put","ZSN_SVD"};
+		respawnWeapons[] = {"Throw","Put","ZSN_SVD"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_CDF_6B3_1_Green","ItemMap","ItemCompass","ItemWatch"};
@@ -1009,8 +1009,8 @@ class CfgVehicles
 	{
 		displayName = "Sniper";
 		icon = "iconManRecon";
-		weapons[] = {"Throw","Put","ZSN_SVD_Des"};
-		respawnWeapons[] = {"Throw","Put","ZSN_SVD_Des"};
+		weapons[] = {"Throw","Put","ZSN_SVD"};
+		respawnWeapons[] = {"Throw","Put","ZSN_SVD"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Flak_Vest01","ItemMap","ItemCompass","ItemWatch"};
@@ -1233,8 +1233,8 @@ class CfgVehicles
 	{
 		displayName = "Sniper";
 		icon = "iconManRecon";
-		weapons[] = {"Throw","Put","CUP_srifle_SVD_pso"};
-		respawnWeapons[] = {"Throw","Put","CUP_srifle_SVD_pso"};
+		weapons[] = {"Throw","Put","ZSN_SVD_wdl"};
+		respawnWeapons[] = {"Throw","Put","ZSN_SVD_wdl"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_RUS_TSH_4_Brown","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
@@ -1454,8 +1454,8 @@ class CfgVehicles
 	{
 		displayName = "Sniper";
 		icon = "iconManRecon";
-		weapons[] = {"Throw","Put","CUP_srifle_SVD_pso"};
-		respawnWeapons[] = {"Throw","Put","CUP_srifle_SVD_pso"};
+		weapons[] = {"Throw","Put","ZSN_SVD_des"};
+		respawnWeapons[] = {"Throw","Put","ZSN_SVD_des"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_TK_TankerHelmet","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
