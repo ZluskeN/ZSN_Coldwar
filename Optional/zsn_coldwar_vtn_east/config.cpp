@@ -9,7 +9,7 @@
 //Class zsn_coldwar_hlc_east : config.bin{
 class CfgPatches
 {
-	class ZSN_ColdWarEast_Plus
+	class ZSN_ColdWar_VTN
 	{
 		author = "ZluskeN";
 		units[] = {};
