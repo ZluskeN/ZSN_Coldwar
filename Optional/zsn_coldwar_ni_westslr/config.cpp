@@ -14,7 +14,7 @@ class CfgPatches
 		author = "ZluskeN";
 		units[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"ZSN_ColdWarUnits","HLC_COMPAT_CUP_FAL"};
+		requiredAddons[] = {"ZSN_ColdWarEuro","HLC_COMPAT_CUP_FAL"};
 	};
 };
 class CfgVehicles

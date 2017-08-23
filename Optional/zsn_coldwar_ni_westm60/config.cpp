@@ -13,7 +13,7 @@ class CfgPatches
 		author = "ZluskeN";
 		units[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"ZSN_ColdWarUnits","HLC_COMPAT_CUP_M60E4"};
+		requiredAddons[] = {"ZSN_ColdWarWest","HLC_COMPAT_CUP_M60E4"};
 	};
 };
 class CfgVehicles
