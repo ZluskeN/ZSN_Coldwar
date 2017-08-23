@@ -111,7 +111,7 @@ class CfgWeapons
 			class PointerSlot{};
 		};
 	};
-	class ZSN_SVD_Des: CUP_srifle_SVD
+	class ZSN_SVD: CUP_srifle_SVD
 	{
 		scope = 1;
 		class LinkedItems
@@ -120,72 +120,6 @@ class CfgWeapons
 			{
 				slot = "CUP_DovetailMount_SVD";
 				item = "CUP_optic_PSO_3";
-			};
-			class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "CUP_SVD_camo_d";
-			};
-		};
-	};
-	class ZSN_SVD_Wdl: CUP_srifle_SVD
-	{
-		scope = 1;
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = "CUP_DovetailMount_SVD";
-				item = "CUP_optic_PSO_3";
-			};
-			class LinkedItemsAcc
-			{
-				slot = "PointerSlot";
-				item = "CUP_SVD_camo_g";
-			};
-		};
-	};
-	class CUP_srifle_M24_des: Rifle_Base_F
-	{
-		class WeaponSlotsInfo: WeaponSlotsInfo
-		{
-			class CUP_PicatinnyTopMountM24;
-			class CUP_PicatinnyUnderMountM24;
-			class PointerSlot{};
-		};
-	};
-	class CUP_srifle_M40A3;
-	class ZSN_CUP_srifle_M40: CUP_srifle_M40A3
-	{
-		displayName = "M40A1";
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = "CUP_PicatinnyTopMountM24";
-				item = "optic_AMS";
-			};
-		};
-	};
-	class ZSN_CUP_srifle_M40_Des: ZSN_CUP_srifle_M40
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = "CUP_PicatinnyTopMountM24";
-				item = "CUP_optic_LeupoldMk4_10x40_LRT_Desert";
-			};
-		};
-	};
-	class ZSN_CUP_srifle_M40_Wdl: ZSN_CUP_srifle_M40
-	{
-		class LinkedItems
-		{
-			class LinkedItemsOptic
-			{
-				slot = "CUP_PicatinnyTopMountM24";
-				item = "CUP_optic_LeupoldMk4_10x40_LRT_Woodland";
 			};
 		};
 	};
