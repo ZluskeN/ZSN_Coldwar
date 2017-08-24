@@ -3267,7 +3267,7 @@ class cfgvehicles
 		scopeArsenal = 2;
 		side = 1;
 		crew = "ZSN_SoldierWPilot";
-		faction = "ZSN_WRangers_ColdWar";
+		faction = "ZSN_WArmy_ColdWar";
 		typicalCargo[] = {"ZSN_SoldierWPilot"};
 		hiddenSelectionsTextures[] = {"CUP\AirVehicles\CUP_AirVehicles_C130J\data\c130j_body_co.paa","CUP\AirVehicles\CUP_AirVehicles_C130J\data\c130j_wings_co.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_C130J\Data\preview\CUP_B_C130J_USMC.jpg";
@@ -3280,7 +3280,7 @@ class cfgvehicles
 		scopeArsenal = 2;
 		side = 1;
 		crew = "ZSN_SoldierWPilot";
-		faction = "ZSN_WRangers_ColdWar";
+		faction = "ZSN_WArmy_ColdWar";
 		typicalCargo[] = {"ZSN_SoldierWPilot"};
 		hiddenSelectionsTextures[] = {"CUP\AirVehicles\CUP_AirVehicles_C130J\data\textures\c130j_body_usmc_co.paa","CUP\AirVehicles\CUP_AirVehicles_C130J\data\textures\c130j_wings_usmc_co.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_C130J\Data\preview\CUP_B_C130J_Cargo_USMC.jpg";
@@ -3470,7 +3470,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
-		faction = "ZSN_WArmy_ColdWar";
+		faction = "ZSN_WRangers_ColdWar";
 		side = 1;
 		crew = "ZSN_SoldierWPilot";
 		typicalCargo[] = {"ZSN_SoldierWPilot"};
@@ -3485,7 +3485,7 @@ class cfgvehicles
 		scopeArsenal = 2;
 		side = 1;
 		crew = "ZSN_SoldierWPilot";
-		faction = "ZSN_WArmy_ColdWar";
+		faction = "ZSN_WRangers_ColdWar";
 		typicalCargo[] = {"ZSN_SoldierWPilot"};
 		hiddenSelectionsTextures[] = {"cup\airvehicles\cup_airvehicles_ch47\data\ch47_ext_1_co.paa","cup\airvehicles\cup_airvehicles_ch47\data\ch47_ext_2_co.paa","cup\airvehicles\cup_airvehicles_ch47\data\ch47f_nalepky_ca.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_CH47\Data\preview\CUP_B_CH47F_USA.jpg";
