@@ -14,7 +14,7 @@ class CfgPatches
 		author = "ZluskeN";
 		units[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"ZSN_ColdWarEast","vtn_core_wpn_config"};
+		requiredAddons[] = {"ZSN_ColdWarVehicles","vtn_core_wpn_config"};
 	};
 };
 class cfgFactionClasses
