@@ -1,1 +1,1 @@
-name = "ZluskeN - Cold War Units - HLC + CUP AK74";
+name = "ZluskeN - Cold War Units - NI Arms";
