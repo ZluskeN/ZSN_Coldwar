@@ -15,7 +15,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"RH_m4_cfg"};
+		requiredAddons[] = {};
 	};
 };
 class CfgVehicles
