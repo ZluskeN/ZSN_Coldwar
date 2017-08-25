@@ -45,16 +45,6 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","hlc_rifle_L1A1SLR","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_L1A1SLR","hgun_Pistol_Signal_F","Binocular"};
 	};
-	class ZSN_EurosolWcrew: ZSN_EurosolW
-	{
-		weapons[] = {"Throw","Put","hlc_rifle_FAL5061","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_FAL5061","Binocular"};
-	};
-	class ZSN_EurosolWPilot: ZSN_EurosolW
-	{
-		weapons[] = {"Throw","Put","hlc_rifle_FAL5061"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_FAL5061"};
-	};
 	class ZSN_EurosolWD: B_Soldier_base_F
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_L1A1SLR"};
@@ -79,16 +69,6 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_L1A1SLR","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_L1A1SLR","hgun_Pistol_Signal_F","Binocular"};
-	};
-	class ZSN_EurosolWDcrew: ZSN_EurosolWD
-	{
-		weapons[] = {"Throw","Put","hlc_rifle_FAL5061","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_FAL5061","Binocular"};
-	};
-	class ZSN_EurosolWDPilot: ZSN_EurosolWD
-	{
-		weapons[] = {"Throw","Put","hlc_rifle_FAL5061"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_FAL5061"};
 	};
 	class LandVehicle;
 	class Car;
