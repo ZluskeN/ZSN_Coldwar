@@ -788,7 +788,9 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "TakistaniMen";
 		identityTypes[] = {"Head_TK","NoGlasses","LanguagePER_F","G_IRAN_default"};
-		uniformClass = "ZSN_U_I_TK_MixedCamo";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_crewman.p3d";
+		uniformClass = "CUP_U_O_TK_MixedCamo";
+		hiddenSelectionsTextures[] = {"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier_mixed_co.paa"};
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_AK47"};
