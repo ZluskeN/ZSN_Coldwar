@@ -20,7 +20,7 @@ mkdir @zsn_coldwar\Keys > nul 2> nul
 REM Build pbo files using pboproject and check for errors
 for /D %%s in (Addons\*) do (
 	if %%~nxs NEQ temp (
-		echo Building %%~nxs to @zsn_coldwar
+		echo Building Addons\%%~nxs to @zsn_coldwar\Addons
 		pboproject +Clean -Engine=Arma3 -Key -Workspace=P:\ -Noisy -P -X +Mod="%modpath%\@zsn_coldwar" -R -Z P:\%%~nxs
 		if !errorlevel! neq 0 (
 			@echo Error encountered while building %%~nxs
@@ -29,7 +29,7 @@ for /D %%s in (Addons\*) do (
 
 		if defined DSSIGNFILEPATH (
 			for %%k in (Keys\*.biprivatekey) do (
-				echo Signing %%~nxs with %%~nxk
+				echo Signing @%%~nxs\Addons\%%~nxs with Keys\%%~nxk
 				"%DSSIGNFILEPATH%\DSSignFile.exe" "%%k" "@zsn_coldwar\Addons\%%~nxs.pbo"
 			)
 		)
@@ -52,7 +52,7 @@ subst p: "%modpath%\Optional"
 REM Build pbo files using pboproject and check for errors
 for /D %%s in (Optional\*) do (
 	if %%~nxs NEQ temp (
-		@echo Building %%~nxs to @%%~nxs
+		@echo Building Optional\%%~nxs to @%%~nxs\Addons
 		mkdir @%%~nxs > nul 2> nul
 		mkdir @%%~nxs\Keys > nul 2> nul
 		pboproject +Clean -Engine=Arma3 -Key -Workspace=P:\ -Noisy -P -X +Mod="%modpath%\@%%~nxs" -R -Z P:\%%~nxs
@@ -68,8 +68,10 @@ for /D %%s in (Optional\*) do (
 			)
 
 			for %%k in (Keys\*.biprivatekey) do (
-				echo Signing %%~nxs with %%~nxk
-				"%DSSIGNFILEPATH%\DSSignFile.exe" "%%k" "@%%~nxs\Addons\%%~nxs.pbo"
+				for %%f in (@%%~nxs\Addons\*.pbo) do (
+					echo Signing @%%~nxs\Addons\%%~nxf with Keys\%%~nxk
+					"%DSSIGNFILEPATH%\DSSignFile.exe" "%%k" "@%%~nxs\Addons\%%~nxf"
+				)
 			)
 		)
 	)
