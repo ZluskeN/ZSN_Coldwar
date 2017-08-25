@@ -235,6 +235,20 @@ class CfgVehicles
 		magazines[] = {"fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"};
 		respawnMagazines[] = {"fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"};
 	};
+	class ZSN_EurosolWcrew: ZSN_EurosolW
+	{
+		weapons[] = {"Throw","Put","fow_w_sten_mk2","Binocular"};
+		respawnWeapons[] = {"Throw","Put","fow_w_sten_mk2","Binocular"};
+		magazines[] = {"fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten"};
+		respawnMagazines[] = {"fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten"};
+	};
+	class ZSN_EurosolWPilot: ZSN_EurosolW
+	{
+		weapons[] = {"Throw","Put","fow_w_sten_mk2"};
+		respawnWeapons[] = {"Throw","Put","fow_w_sten_mk2"};
+		magazines[] = {"fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten"};
+		respawnMagazines[] = {"fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten"};
+	};
 	class ZSN_EurosolWD: B_Soldier_base_F
 	{
 		Items[] = {"fow_h_uk_beret_para","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
@@ -246,6 +260,20 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","fow_w_bren"};
 		magazines[] = {"fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"};
 		respawnMagazines[] = {"fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"};
+	};
+	class ZSN_EurosolWDcrew: ZSN_EurosolWD
+	{
+		weapons[] = {"Throw","Put","fow_w_sten_mk2","Binocular"};
+		respawnWeapons[] = {"Throw","Put","fow_w_sten_mk2","Binocular"};
+		magazines[] = {"fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten"};
+		respawnMagazines[] = {"fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten"};
+	};
+	class ZSN_EurosolWDPilot: ZSN_EurosolWD
+	{
+		weapons[] = {"Throw","Put","fow_w_sten_mk2"};
+		respawnWeapons[] = {"Throw","Put","fow_w_sten_mk2"};
+		magazines[] = {"fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten"};
+		respawnMagazines[] = {"fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten"};
 	};
 	class ZSN_GersolW: B_Soldier_base_F
 	{
