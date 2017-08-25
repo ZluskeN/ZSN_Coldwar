@@ -3,7 +3,20 @@ pipeline {
         label 'mikero'
     }
 
+    options {
+        skipDefaultCheckout()
+    }
+
     stages {
+        stage('Checkout') {
+            steps {
+                // Wipe the workspace so we are building completely clean
+                deleteDir()
+                // Checkout code from repository
+                checkout scm
+            }
+        }
+
         stage('Build') {
             steps {
                 withCredentials([
@@ -14,7 +27,7 @@ pipeline {
                     bat 'copy %ZLUSKEN_PUBLIC_KEY% Keys'
                 }
 
-                bat 'build.bat' 
+                bat 'build.bat'
                 archiveArtifacts artifacts: '@*/**/*'
             }
             post {
