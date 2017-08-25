@@ -395,6 +395,51 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","hlc_rifle_aks74u"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74u"};
 	};
+	class I_G_soldier_base_F;
+	class ZSN_EurosolG: I_G_Soldier_base_F
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_ak47"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak47"};
+	};
+	class ZSN_EurosolGMG: ZSN_EurosolG
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_rpk"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_rpk"};
+		magazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
+	class ZSN_EurosolGLAW: ZSN_EurosolG
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_ak47","CUP_launch_RPG7V"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak47","CUP_launch_RPG7V"};
+	};
+	class ZSN_EurosolGLeader: ZSN_EurosolG
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_ak47","hgun_Pistol_Signal_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak47","hgun_Pistol_Signal_F","Binocular"};
+	};
+	class ZSN_EurosolGD: I_G_Soldier_base_F
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_ak47"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak47"};
+	};
+	class ZSN_EurosolGDMG: ZSN_EurosolGD
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_rpk"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_rpk"};
+		magazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
+	class ZSN_EurosolGDLAW: ZSN_EurosolGD
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_ak47","CUP_launch_MAAWS"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak47","CUP_launch_MAAWS"};
+	};
+	class ZSN_EurosolGDLeader: ZSN_EurosolGD
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_ak47","hgun_Pistol_Signal_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak47","hgun_Pistol_Signal_F","Binocular"};
+	};
 	class LandVehicle;
 	class Car;
 	class Car_F;
