@@ -710,8 +710,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_srifle_LeeEnfield"};
 		magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		linkedItems[] = {"CUP_H_C_Ushanka_04","CUP_V_OI_TKI_Jacket3_04","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_C_Ushanka_04","CUP_V_OI_TKI_Jacket3_04","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_C_Ushanka_04","CUP_V_OI_TKI_Jacket2_02","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_C_Ushanka_04","CUP_V_OI_TKI_Jacket2_02","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_EurosolGMG: ZSN_EurosolG
 	{
@@ -763,8 +763,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS","Binocular"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 		respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-		linkedItems[] = {"CUP_H_PMC_PRR_Headset","CUP_V_OI_TKI_Jacket2_02","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_PMC_PRR_Headset","CUP_V_OI_TKI_Jacket2_02","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PMC_PRR_Headset","CUP_V_OI_TKI_Jacket3_04","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PMC_PRR_Headset","CUP_V_OI_TKI_Jacket3_04","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_EurosolGPilot: ZSN_EurosolG
 	{
@@ -817,8 +817,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_srifle_LeeEnfield"};
 		magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_TK_Lungee","CUP_V_OI_TKI_Jacket2_04","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_TK_Lungee","CUP_V_OI_TKI_Jacket2_04","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_TK_Lungee","CUP_V_OI_TKI_Jacket3_02","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_TK_Lungee","CUP_V_OI_TKI_Jacket3_02","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_EurosolGDMG: ZSN_EurosolGD
 	{
@@ -870,8 +870,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS","Binocular"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 		respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-		linkedItems[] = {"CUP_H_PMC_PRR_Headset","CUP_V_OI_TKI_Jacket3_02","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_PMC_PRR_Headset","CUP_V_OI_TKI_Jacket3_02","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PMC_PRR_Headset","CUP_V_OI_TKI_Jacket2_04","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PMC_PRR_Headset","CUP_V_OI_TKI_Jacket2_04","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_EurosolGDPilot: ZSN_EurosolGD
 	{
