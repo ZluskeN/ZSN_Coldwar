@@ -127,6 +127,9 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_ind_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_ind_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_reammo_ind_co"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Covered_TKA.jpg";
 	};
 	class CUP_V3S_Refuel_Base;
 	class CUP_I_V3S_Refuel_TKG;
@@ -145,6 +148,9 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_ind_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_ind_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_refuel_co"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Refuel_TKA.jpg";
 	};
 	class CUP_V3S_Repair_Base;
 	class CUP_O_V3S_Repair_TKA;
@@ -230,6 +236,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
 		hiddenselectionstextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\civ_r_lr_special_co.paa"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Special_Des_CZ_D.jpg";
 	};
 	class ZSN_CUP_DGUER_LR: ZSN_CUP_GUER_LR
 	{
@@ -238,6 +245,8 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\tk_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_Transport_TKM.jpg";
 	};
 	class CUP_B_LR_Transport_GB_W;
 	class ZSN_CUP_BAF_LR: CUP_B_LR_Transport_GB_W
@@ -343,7 +352,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa"};
-		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_SPG9_TKA.jpg";
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Special_Des_CZ_D.jpg";
 	};
 	class ZSN_CUP_DGUER_LR_SPG9: ZSN_CUP_GUER_LR_SPG9
 	{
@@ -352,6 +361,8 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\tk_lr_base_co.paa"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_SPG9_TKM.jpg";
 	};
 	class CUP_LR_Ambulance_Base;
 	class CUP_B_LR_Ambulance_GB_W;
@@ -1047,6 +1058,8 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_tka_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_tka_co.paa"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_ZU23_TKM.jpg";
 	};
 	class CUP_Ural_Base;
 	class ZSN_CUP_MSV_Ural: CUP_Ural_Base
@@ -1888,6 +1901,8 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\data\btr40extcamo_co.paa"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\Data\preview\CUP_O_BTR40_MG_TKM.jpg";
 	};
 	class CUP_BTR40_Base;
 	class CUP_I_BTR40_TKG;
@@ -1907,6 +1922,8 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\data\btr40extcamo_co.paa"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\Data\preview\CUP_O_BTR40_TKM.jpg";
 	};
 	class CUP_BRDM2_Base;
 	class ZSN_CUP_VMF_BRDM2: CUP_BRDM2_Base
@@ -2170,6 +2187,8 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDCrew";
 		typicalCargo[] = {"ZSN_EurosolGDCrew"};
+		hiddenselectionstextures[] = {"\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Body01_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Body02_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Turret_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Wheels_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Body03_IND_CO.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T34\Data\preview\CUP_O_T34_TKA.jpg";
 	};
 	class CUP_T55_Base;
 	class CUP_O_T55_TK;
@@ -2207,8 +2226,8 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDCrew";
 		typicalCargo[] = {"ZSN_EurosolGDCrew"};
-		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_sla_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_sla_co"};
-		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_I_T55_TK_GUE.jpg";
+		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_co.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_O_T55_TK.jpg";
 	};
 	class CUP_2S6_Base;
 	class CUP_O_2S6_RU;
