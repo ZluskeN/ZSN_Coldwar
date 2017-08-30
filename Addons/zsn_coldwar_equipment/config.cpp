@@ -1294,6 +1294,7 @@ class CfgVehicles
 	class ZSN_762x54_ammobelts: CUP_B_CivPack_WDL
 	{
 		scope = 1;
+        	scopeArsenal = 2;
 		displayName = "Linked 7.62x54, 500 rnd";
 		maximumLoad = 340;
 		mass = 0;
