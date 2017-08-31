@@ -26,10 +26,10 @@ class CfgVehicles
 		class TransportMagazines
 		{
 			delete _xx_fow_50Rnd_792x57;
-			class _xx_hlc_100Rnd_762x51_M_MG3
+			class _xx_hlc_50Rnd_762x51_M_MG3
 			{
-				magazine = "hlc_100Rnd_762x51_M_MG3";
-				count = 1;
+				magazine = "hlc_50Rnd_762x51_M_MG3";
+				count = 2;
 			};
 			class _xx_ACE_SpareBarrel
 			{
@@ -56,8 +56,8 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","hlc_lmg_MG3"};
 		respawnWeapons[] = {"Throw","Put","hlc_lmg_MG3"};
-		magazines[] = {"hlc_100Rnd_762x51_M_MG3","hlc_100Rnd_762x51_M_MG3"};
-		respawnMagazines[] = {"hlc_100Rnd_762x51_M_MG3","hlc_100Rnd_762x51_M_MG3"};
+		magazines[] = {"hlc_50Rnd_762x51_M_MG3","hlc_50Rnd_762x51_M_MG3","hlc_50Rnd_762x51_M_MG3","hlc_50Rnd_762x51_M_MG3"};
+		respawnMagazines[] = {"hlc_50Rnd_762x51_M_MG3","hlc_50Rnd_762x51_M_MG3","hlc_50Rnd_762x51_M_MG3","hlc_50Rnd_762x51_M_MG3"};
 	};
 };
 //};
