@@ -292,8 +292,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_g3a3"};
 		magazines[] = {};
 		respawnMagazines[] = {};
-		Items[] = {"fow_h_uk_beret_commando","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
-		RespawnItems[] = {"fow_h_uk_beret_commando","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
+		Items[] = {"fow_h_ger_feldmutze","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
+		RespawnItems[] = {"fow_h_ger_feldmutze","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
 		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
 	};
