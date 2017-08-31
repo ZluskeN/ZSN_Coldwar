@@ -9,7 +9,7 @@
 //Class zsn_coldwar_bow_west : config.bin{
 class CfgPatches
 {
-	class ZSN_ColdWar_RHM4
+	class ZSN_ColdWar_RHM16
 	{
 		author = "ZluskeN";
 		units[] = {};
@@ -124,11 +124,6 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","RH_M16A1","CUP_launch_FIM92Stinger"};
 		respawnWeapons[] = {"Throw","Put","RH_M16A1","CUP_launch_FIM92Stinger"};
-	};
-	class ZSN_SoldierWDSaboteur: ZSN_SoldierWD
-	{
-		weapons[] = {"Throw","Put","CUP_hgun_glock17_snds","RH_m4","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_hgun_glock17_snds","RH_m4","Binocular"};
 	};
 	class ZSN_marinew: usm_base_w
 	{

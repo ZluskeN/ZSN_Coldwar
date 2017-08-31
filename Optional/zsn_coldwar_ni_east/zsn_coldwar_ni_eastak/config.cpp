@@ -19,6 +19,21 @@ class CfgPatches
 };
 class CfgVehicles
 {
+	class ReammoBox_F;
+	class CUP_ReammoBox_EP1;
+	class CUP_RUSpecialWeaponsBox;
+	class ZSN_East_Ammocrate: CUP_RUSpecialWeaponsBox
+	{
+		class TransportMagazines
+		{
+			delete _xx_CUP_8Rnd_9x18_Makarov_M;
+			class _xx_10Rnd_9x21_Mag
+			{
+				magazine = "10Rnd_9x21_Mag";
+				count = 100;
+			};
+		};
+	};
 	class O_soldier_base_F;
 	class ZSN_SoldierE: O_Soldier_base_F
 	{
@@ -42,8 +57,10 @@ class CfgVehicles
 	};
 	class ZSN_SoldierEOfficer: ZSN_SoldierE
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","hgun_Pistol_01_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","hgun_Pistol_01_F","Binocular"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_SoldierENCO: ZSN_SoldierE
 	{
@@ -77,8 +94,10 @@ class CfgVehicles
 	};
 	class ZSN_SoldierECrew: ZSN_SoldierE
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_aks74u","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74u","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"Throw","Put","hlc_rifle_aks74u","hgun_Pistol_01_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74u","hgun_Pistol_01_F","Binocular"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell"};
 	};
 	class ZSN_SoldierED: O_Soldier_base_F
 	{
@@ -102,8 +121,10 @@ class CfgVehicles
 	};
 	class ZSN_SoldierEDOfficer: ZSN_SoldierED
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","hgun_Pistol_01_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","hgun_Pistol_01_F","Binocular"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_SoldierEDNCO: ZSN_SoldierED
 	{
@@ -142,8 +163,10 @@ class CfgVehicles
 	};
 	class ZSN_SoldierEDCrew: ZSN_SoldierED
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_aks74u","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74u","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"Throw","Put","hlc_rifle_aks74u","hgun_Pistol_01_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74u","hgun_Pistol_01_F","Binocular"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell"};
 	};
 	class ZSN_MarineE: O_Soldier_base_F
 	{
@@ -167,8 +190,10 @@ class CfgVehicles
 	};
 	class ZSN_MarineEOfficer: ZSN_MarineE
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"Throw","Put","hlc_rifle_ak74","hgun_Pistol_01_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","hgun_Pistol_01_F","Binocular"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_MarineENCO: ZSN_MarineE
 	{
@@ -202,8 +227,10 @@ class CfgVehicles
 	};
 	class ZSN_MarineECrew: ZSN_MarineE
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_aks74u","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74u","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"Throw","Put","hlc_rifle_aks74u","hgun_Pistol_01_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74u","hgun_Pistol_01_F","Binocular"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell"};
 	};
 	class ZSN_MarineED: O_Soldier_base_F
 	{
@@ -227,8 +254,10 @@ class CfgVehicles
 	};
 	class ZSN_MarineEDOfficer: ZSN_MarineED
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"Throw","Put","hlc_rifle_ak74","hgun_Pistol_01_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","hgun_Pistol_01_F","Binocular"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_MarineEDNCO: ZSN_MarineED
 	{
@@ -262,8 +291,10 @@ class CfgVehicles
 	};
 	class ZSN_MarineEDCrew: ZSN_MarineED
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_aks74u","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74u","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"Throw","Put","hlc_rifle_aks74u","hgun_Pistol_01_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74u","hgun_Pistol_01_F","Binocular"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell"};
 	};
 	class ZSN_RangerE: O_Soldier_base_F
 	{
@@ -292,8 +323,10 @@ class CfgVehicles
 	};
 	class ZSN_RangerEOfficer: ZSN_RangerE
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_aks74","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"Throw","Put","hlc_rifle_aks74","hgun_Pistol_01_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","hgun_Pistol_01_F","Binocular"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_RangerENCO: ZSN_RangerE
 	{
@@ -357,8 +390,10 @@ class CfgVehicles
 	};
 	class ZSN_RangerEDOfficer: ZSN_RangerED
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_aks74","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"Throw","Put","hlc_rifle_aks74","hgun_Pistol_01_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","hgun_Pistol_01_F","Binocular"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_RangerEDNCO: ZSN_RangerED
 	{
@@ -458,6 +493,15 @@ class CfgVehicles
 				count = 2;
 			};
 		};
+		class TransportMagazines
+		{
+			delete _xx_CUP_8Rnd_9x18_Makarov_M;
+			class _xx_10Rnd_9x21_Mag
+			{
+				magazine = "10Rnd_9x21_Mag";
+				count = 100;
+			};
+		};
 	};
 	class ZSN_CUP_VMF_Ural_Reammo: CUP_Ural_Reammo_Base
 	{
@@ -468,6 +512,15 @@ class CfgVehicles
 			{
 				weapon = "hlc_rifle_ak74";
 				count = 2;
+			};
+		};
+		class TransportMagazines
+		{
+			delete _xx_CUP_8Rnd_9x18_Makarov_M;
+			class _xx_10Rnd_9x21_Mag
+			{
+				magazine = "10Rnd_9x21_Mag";
+				count = 100;
 			};
 		};
 	};
