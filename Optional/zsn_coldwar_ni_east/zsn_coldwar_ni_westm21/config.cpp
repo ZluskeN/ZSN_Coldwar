@@ -37,14 +37,14 @@ class Extended_Init_EventHandlers
 {
 	class ZSN_SoldierWSniper
 	{
-		class ZSN_Eastmarinepatch
+		class ZSN_ScopeWM21
 		{
 			init = "[(_this select 0) addPrimaryWeaponItem "hlc_optic_artel_m14"]";
 		};
 	};
 	class ZSN_SoldierWDSniper
 	{
-		class ZSN_Eastrangerpatch
+		class ZSN_ScopeWDM21
 		{
 			init = "[(_this select 0) addPrimaryWeaponItem "hlc_optic_artel_m14"]";
 		};

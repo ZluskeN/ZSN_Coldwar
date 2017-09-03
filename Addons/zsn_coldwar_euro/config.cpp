@@ -246,6 +246,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_FNFAL_OSW"};
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
 		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
+		Items[] = {"CUP_H_BAF_Officer_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"CUP_H_BAF_Officer_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_USMC_Helmet_Pilot","CUP_V_B_Interceptor_Rifleman","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USMC_Helmet_Pilot","CUP_V_B_Interceptor_Rifleman","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -388,6 +390,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_FNFAL_OSW"};
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
 		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
+		Items[] = {"CUP_H_BAF_Officer_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"CUP_H_BAF_Officer_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_TK_PilotHelmet","CUP_V_B_Interceptor_Rifleman","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_TK_PilotHelmet","CUP_V_B_Interceptor_Rifleman","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -516,8 +520,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_Sa58V","Binocular"};
 		magazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M"};
 		respawnMagazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M"};
-		Items[] = {"CUP_H_ChDKZ_Cap","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
-		RespawnItems[] = {"CUP_H_ChDKZ_Cap","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		Items[] = {"CUP_H_SLA_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"CUP_H_SLA_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -529,6 +533,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_Sa58V"};
 		magazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M"};
 		respawnMagazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M"};
+		Items[] = {"CUP_H_SLA_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"CUP_H_SLA_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_SLA_Pilot_Helmet","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Pilot_Helmet","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -656,8 +662,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_Sa58V_camo","Binocular"};
 		magazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M"};
 		respawnMagazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M"};
-		Items[] = {"CUP_H_ChDKZ_Cap","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
-		RespawnItems[] = {"CUP_H_ChDKZ_Cap","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		Items[] = {"CUP_H_TK_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"CUP_H_TK_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -669,6 +675,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_Sa58V_camo"};
 		magazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M"};
 		respawnMagazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M"};
+		Items[] = {"CUP_H_TK_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"CUP_H_TK_Beret","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_SLA_Pilot_Helmet","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Pilot_Helmet","CUP_V_O_Ins_Carrier_Rig","ItemMap","ItemCompass","ItemWatch"};
 	};
