@@ -1175,6 +1175,7 @@ class CfgVehicles
 	{
 		author = "ZluskeN";
 		scope = 1;
+		hiddenSelectionsTextures[] = {"zsn_coldwar_equipment\backpack_vdv_assault.paa"};
 		displayName = "Backpack, 5.45x39mm, 45 rnd x 9";
 		maximumLoad = 200;
 		class TransportMagazines
@@ -1236,6 +1237,7 @@ class CfgVehicles
 	class ZSN_200rnd_762x54_bandoliers: CUP_B_CivPack_WDL
 	{
 		scope = 1;
+		hiddenSelectionsTextures[] = {"zsn_coldwar_equipment\backpack_vdv_assault.paa"};
 		displayName = "MG Bag";
 		maximumLoad = 136;
 		class TransportMagazines
@@ -1295,6 +1297,7 @@ class CfgVehicles
 	{
 		scope = 1;
         	scopeArsenal = 2;
+		hiddenSelectionsTextures[] = {"zsn_coldwar_equipment\backpack_vdv_assault.paa"};
 		displayName = "Linked 7.62x54, 500 rnd";
 		maximumLoad = 340;
 		mass = 0;
@@ -1337,6 +1340,7 @@ class CfgVehicles
 	class ZSN_minepack_east: CUP_B_CivPack_WDL
 	{
 		scope = 1;
+		hiddenSelectionsTextures[] = {"zsn_coldwar_equipment\backpack_vdv_assault.paa"};
 		class TransportItems
 		{
 			class _xx_ACE_DefusalKit

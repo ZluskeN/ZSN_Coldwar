@@ -99,9 +99,15 @@ class cfgvehicles
 	class ZSN_SoldierE;
 	class ZSN_SoldierELAW: ZSN_SoldierE
 	{
-		displayName = "Rifleman, RPG-26";
 		weapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg26"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg26"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
+	class ZSN_SoldierEAA: ZSN_SoldierE
+	{
+		weapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_igla"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_igla"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
@@ -118,9 +124,15 @@ class cfgvehicles
 	class ZSN_SoldierED;
 	class ZSN_SoldierEDLAW: ZSN_SoldierED
 	{
-		displayName = "Rifleman, RPG-26";
 		weapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg26"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg26"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
+	class ZSN_SoldierEDAA: ZSN_SoldierED
+	{
+		weapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_igla"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_igla"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
@@ -139,20 +151,26 @@ class cfgvehicles
 		Items[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 	};
-	class ZSN_MarineEAR: ZSN_MarineE
+	class ZSN_MarineELAW: ZSN_MarineE
 	{
-		displayName = "Rifleman, RPG-26";
 		weapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg26"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg26"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
-	class ZSN_MarineELAW: ZSN_MarineE
+	class ZSN_MarineEHAT: ZSN_MarineE
 	{
 		weapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg7_pgo"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg7_pgo"};
 		magazines[] = {"rhs_rpg7_PG7VR_mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"rhs_rpg7_PG7VR_mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
+	class ZSN_MarineEAA: ZSN_MarineE
+	{
+		weapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_igla"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_igla"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_MarineECrew: ZSN_MarineE
 	{
@@ -164,20 +182,26 @@ class cfgvehicles
 		Items[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 	};
-	class ZSN_MarineEDAR: ZSN_MarineED
+	class ZSN_MarineEDLAW: ZSN_MarineED
 	{
-		displayName = "Rifleman, RPG-26";
 		weapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg26"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg26"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
-	class ZSN_MarineEDLAW: ZSN_MarineED
+	class ZSN_MarineEDHAT: ZSN_MarineED
 	{
 		weapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg7_pgo"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_rpg7_pgo"};
 		magazines[] = {"rhs_rpg7_PG7VR_mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"rhs_rpg7_PG7VR_mag","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
+	class ZSN_MarineEDAA: ZSN_MarineED
+	{
+		weapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_igla"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","rhs_weap_igla"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_MarineEDCrew: ZSN_MarineED
 	{
@@ -188,6 +212,20 @@ class cfgvehicles
 	{
 		Items[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
+	};
+	class ZSN_RangerELAW: ZSN_RangerE
+	{
+		weapons[] = {"Throw","Put","CUP_arifle_AKS74","rhs_weap_rpg26"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS74","rhs_weap_rpg26"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
+	class ZSN_RangerEAA: ZSN_RangerE
+	{
+		weapons[] = {"Throw","Put","CUP_arifle_AKS74","rhs_weap_igla"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS74","rhs_weap_igla"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_SoldierEPilot: ZSN_RangerE
 	{
@@ -201,6 +239,20 @@ class cfgvehicles
 	{
 		Items[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
+	};
+	class ZSN_RangerEDLAW: ZSN_RangerED
+	{
+		weapons[] = {"Throw","Put","CUP_arifle_AKS74","rhs_weap_rpg26"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS74","rhs_weap_rpg26"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
+	class ZSN_RangerEDAA: ZSN_RangerED
+	{
+		weapons[] = {"Throw","Put","CUP_arifle_AKS74","rhs_weap_igla"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS74","rhs_weap_igla"};
+		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_SoldierEDPilot: ZSN_RangerED
 	{
@@ -988,11 +1040,6 @@ class cfgvehicles
 				magazine = "CUP_PG7VR_M";
 				count = 8;
 			};
-			class _xx_CUP_RPG18_M
-			{
-				magazine = "CUP_RPG18_M";
-				count = 10;
-			};
 			class _xx_CUP_30Rnd_545x39_AK_M
 			{
 				magazine = "CUP_30Rnd_545x39_AK_M";
@@ -1118,11 +1165,6 @@ class cfgvehicles
 		};
 		class TransportMagazines
 		{
-			class _xx_CUP_RPG18_M
-			{
-				magazine = "CUP_RPG18_M";
-				count = 20;
-			};
 			class _xx_CUP_30Rnd_545x39_AK_M
 			{
 				magazine = "CUP_30Rnd_545x39_AK_M";
@@ -1879,7 +1921,7 @@ class CfgGroups
 					class Unit12
 					{
 						side = 0;
-						vehicle = "ZSN_MarineELAWAss";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -2244,7 +2286,7 @@ class CfgGroups
 					class Unit12
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDLAWAss";
+						vehicle = "ZSN_MarineEDLAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};

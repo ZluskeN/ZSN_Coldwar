@@ -55,6 +55,11 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG18"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG18"};
 	};
+	class ZSN_SoldierEHAT: ZSN_SoldierE
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG7V"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG7V"};
+	};
 	class ZSN_SoldierEOfficer: ZSN_SoldierE
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","hgun_Pistol_01_F","Binocular"};
@@ -119,6 +124,11 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG18"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG18"};
 	};
+	class ZSN_SoldierEDHAT: ZSN_SoldierED
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG7V"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG7V"};
+	};
 	class ZSN_SoldierEDOfficer: ZSN_SoldierED
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","hgun_Pistol_01_F","Binocular"};
@@ -175,8 +185,8 @@ class CfgVehicles
 	};
 	class ZSN_MarineEAR: ZSN_MarineE
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG18"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG18"};
+		weapons[] = {"Throw","Put","hlc_rifle_rpk74n"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_rpk74n"};
 	};
 	class ZSN_MarineEMGAss: ZSN_MarineE
 	{
@@ -184,6 +194,11 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","Binocular"};
 	};
 	class ZSN_MarineELAW: ZSN_MarineE
+	{
+		weapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG18"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG18"};
+	};
+	class ZSN_MarineEHAT: ZSN_MarineE
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG7V_PGO7V"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG7V_PGO7V"};
@@ -249,6 +264,11 @@ class CfgVehicles
 	};
 	class ZSN_MarineEDLAW: ZSN_MarineED
 	{
+		weapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG18"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG18"};
+	};
+	class ZSN_MarineEDHAT: ZSN_MarineED
+	{
 		weapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG7V_PGO7V"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG7V_PGO7V"};
 	};
@@ -313,10 +333,15 @@ class CfgVehicles
 	};
 	class ZSN_RangerELAW: ZSN_RangerE
 	{
+		weapons[] = {"Throw","Put","hlc_rifle_aks74","CUP_launch_RPG18"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","CUP_launch_RPG18"};
+	};
+	class ZSN_RangerEHAT: ZSN_RangerE
+	{
 		weapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_ghex_F"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_ghex_F"};
 	};
-	class ZSN_RangerELAWAss: ZSN_RangerE
+	class ZSN_RangerEHATAss: ZSN_RangerE
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_aks74","ZSN_Rangefinder"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","ZSN_Rangefinder"};
@@ -380,10 +405,15 @@ class CfgVehicles
 	};
 	class ZSN_RangerEDLAW: ZSN_RangerED
 	{
+		weapons[] = {"Throw","Put","hlc_rifle_aks74","CUP_launch_RPG18"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","CUP_launch_RPG18"};
+	};
+	class ZSN_RangerEDHAT: ZSN_RangerED
+	{
 		weapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_ghex_F"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_ghex_F"};
 	};
-	class ZSN_RangerEDLAWAss: ZSN_RangerED
+	class ZSN_RangerEDHATAss: ZSN_RangerED
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_aks74","ZSN_Rangefinder"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","ZSN_Rangefinder"};

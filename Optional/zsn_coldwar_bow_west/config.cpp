@@ -115,6 +115,11 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","BOM16A1","CUP_launch_M72A6"};
 		respawnWeapons[] = {"Throw","Put","BOM16A1","CUP_launch_M72A6"};
 	};
+	class ZSN_SoldierWHAT: ZSN_SoldierW
+	{
+		weapons[] = {"Throw","Put","BOM16A1","CUP_launch_MAAWS"};
+		respawnWeapons[] = {"Throw","Put","BOM16A1","CUP_launch_MAAWS"};
+	};
 	class ZSN_SoldierWofficer: ZSN_SoldierW
 	{
 		weapons[] = {"Throw","Put","BOM16A1","CUP_hgun_M9","Binocular"};
@@ -189,6 +194,11 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","BOM16A1","CUP_launch_M72A6"};
 		respawnWeapons[] = {"Throw","Put","BOM16A1","CUP_launch_M72A6"};
 	};
+	class ZSN_SoldierWDHAT: ZSN_SoldierWD
+	{
+		weapons[] = {"Throw","Put","BOM16A1","CUP_launch_MAAWS"};
+		respawnWeapons[] = {"Throw","Put","BOM16A1","CUP_launch_MAAWS"};
+	};
 	class ZSN_SoldierWDofficer: ZSN_SoldierWD
 	{
 		weapons[] = {"Throw","Put","BOM16A1","CUP_hgun_M9","Binocular"};
@@ -243,8 +253,8 @@ class CfgVehicles
 	};
 	class ZSN_MarineWAR: ZSN_MarineW
 	{
-		weapons[] = {"Throw","Put","BOM16A2","CUP_launch_M72A6"};
-		respawnWeapons[] = {"Throw","Put","BOM16A2","CUP_launch_M72A6"};
+		weapons[] = {"Throw","Put","ZSN_BoM249e1"};
+		respawnWeapons[] = {"Throw","Put","ZSN_BoM249e1"};
 	};
 	class ZSN_MarineWMG: ZSN_MarineW
 	{
@@ -257,6 +267,11 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","BOM16A2","Binocular"};
 	};
 	class ZSN_marinewlaw: ZSN_marinew
+	{
+		weapons[] = {"Throw","Put","BOM16A2","CUP_launch_M72A6_Special"};
+		respawnWeapons[] = {"Throw","Put","BOM16A2","CUP_launch_M72A6_Special"};
+	};
+	class ZSN_marinewhat: ZSN_marinew
 	{
 		weapons[] = {"Throw","Put","bom16a2","CUP_launch_Mk153Mod0_SMAWOptics"};
 		respawnWeapons[] = {"Throw","Put","bom16a2","CUP_launch_Mk153Mod0_SMAWOptics"};
@@ -312,8 +327,8 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDAR: ZSN_MarineWD
 	{
-		weapons[] = {"Throw","Put","BOM16A2","CUP_launch_M72A6"};
-		respawnWeapons[] = {"Throw","Put","BOM16A2","CUP_launch_M72A6"};
+		weapons[] = {"Throw","Put","ZSN_BoM249e1"};
+		respawnWeapons[] = {"Throw","Put","ZSN_BoM249e1"};
 	};
 	class ZSN_MarineWDMG: ZSN_MarineWD
 	{
@@ -326,6 +341,11 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","BOM16A2","Binocular"};
 	};
 	class ZSN_MarineWDlaw: ZSN_MarineWD
+	{
+		weapons[] = {"Throw","Put","BOM16A2","CUP_launch_M72A6_Special"};
+		respawnWeapons[] = {"Throw","Put","BOM16A2","CUP_launch_M72A6_Special"};
+	};
+	class ZSN_marinewDhat: ZSN_marinewD
 	{
 		weapons[] = {"Throw","Put","bom16a2","CUP_launch_Mk153Mod0_SMAWOptics"};
 		respawnWeapons[] = {"Throw","Put","bom16a2","CUP_launch_Mk153Mod0_SMAWOptics"};
@@ -396,10 +416,15 @@ class CfgVehicles
 	};
 	class ZSN_RangerWlaw: ZSN_RangerW
 	{
+		weapons[] = {"Throw","Put","bom16a2","CUP_launch_M136"};
+		respawnWeapons[] = {"Throw","Put","bom16a2","CUP_launch_M136"};
+	};
+	class ZSN_RangerWHAT: ZSN_Rangerw
+	{
 		weapons[] = {"Throw","Put","bom16a2","CUP_launch_MAAWS_Scope"};
 		respawnWeapons[] = {"Throw","Put","bom16a2","CUP_launch_MAAWS_Scope"};
 	};
-	class ZSN_RangerWlawass: ZSN_RangerW
+	class ZSN_RangerWhatass: ZSN_RangerW
 	{
 		weapons[] = {"Throw","Put","bom16a2","zsn_rangefinder"};
 		respawnWeapons[] = {"Throw","Put","bom16a2","zsn_rangefinder"};
@@ -461,10 +486,15 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDlaw: ZSN_RangerWD
 	{
+		weapons[] = {"Throw","Put","bom16a2","CUP_launch_M136"};
+		respawnWeapons[] = {"Throw","Put","bom16a2","CUP_launch_M136"};
+	};
+	class ZSN_RangerWDHAT: ZSN_RangerWD
+	{
 		weapons[] = {"Throw","Put","bom16a2","CUP_launch_MAAWS_Scope"};
 		respawnWeapons[] = {"Throw","Put","bom16a2","CUP_launch_MAAWS_Scope"};
 	};
-	class ZSN_RangerWDlawass: ZSN_RangerWD
+	class ZSN_RangerWdhatass: ZSN_RangerWd
 	{
 		weapons[] = {"Throw","Put","bom16a2","zsn_rangefinder"};
 		respawnWeapons[] = {"Throw","Put","bom16a2","zsn_rangefinder"};

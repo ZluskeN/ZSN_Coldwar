@@ -453,8 +453,21 @@ class cfgvehicles
 		faction = "ZSN_WRangers_ColdWar";
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_base_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_GB_W.jpg";
+		class Transportweapons
+		{
+			class _xx_CUP_launch_M136
+			{
+				weapon = "CUP_launch_M136";
+				count = 2;
+			};
+		};
 		class TransportMagazines
 		{
+			class _xx_CUP_M136_M
+			{
+				magazine = "CUP_M136_M";
+				count = 2;
+			};
 			class _xx_CUP_MAAWS_HEAT_M
 			{
 				magazine = "CUP_MAAWS_HEAT_M";
@@ -590,8 +603,21 @@ class cfgvehicles
 		crew = "ZSN_RangerEB";
 		typicalCargo[] = {"ZSN_RangerEB"};
 		faction = "ZSN_ERangers_ColdWar";
+		class Transportweapons
+		{
+			class _xx_CUP_launch_RPG18
+			{
+				weapon = "CUP_launch_RPG18";
+				count = 2;
+			};
+		};
 		class TransportMagazines
 		{
+			class _xx_CUP_RPG18_M
+			{
+				magazine = "CUP_RPG18_M";
+				count = 2;
+			};
 			class _xx_RPG32_F
 			{
 				magazine = "RPG32_F";
@@ -619,8 +645,21 @@ class cfgvehicles
 		crew = "ZSN_RangerEDB";
 		typicalCargo[] = {"ZSN_RangerEDB"};
 		faction = "ZSN_ERangersD_ColdWar";
+		class Transportweapons
+		{
+			class _xx_CUP_launch_RPG18
+			{
+				weapon = "CUP_launch_RPG18";
+				count = 2;
+			};
+		};
 		class TransportMagazines
 		{
+			class _xx_CUP_RPG18_M
+			{
+				magazine = "CUP_RPG18_M";
+				count = 2;
+			};
 			class _xx_RPG32_F
 			{
 				magazine = "RPG32_F";
@@ -4045,21 +4084,21 @@ class CfgGroups
 					class Unit10
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAR";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {5,-6,0};
 					};
 					class Unit11
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAR";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {-5,-6,0};
 					};
 					class Unit12
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAR";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -4149,21 +4188,21 @@ class CfgGroups
 					class Unit10
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAR";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {5,-6,0};
 					};
 					class Unit11
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAR";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {-5,-6,0};
 					};
 					class Unit12
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAR";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -4211,7 +4250,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAR";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {9,0,0};
 					};
@@ -4569,21 +4608,21 @@ class CfgGroups
 					class Unit10
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDAR";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {5,-6,0};
 					};
 					class Unit11
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDAR";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {-5,-6,0};
 					};
 					class Unit12
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDAR";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -4631,7 +4670,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDAR";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {9,0,0};
 					};
@@ -4992,21 +5031,21 @@ class CfgGroups
 					class Unit10
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEAR";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {5,-6,0};
 					};
 					class Unit11
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEAR";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {-5,-6,0};
 					};
 					class Unit12
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEAR";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -5096,21 +5135,21 @@ class CfgGroups
 					class Unit10
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEAR";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {5,-6,0};
 					};
 					class Unit11
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEAR";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {-5,-6,0};
 					};
 					class Unit12
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEAR";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -5172,7 +5211,7 @@ class CfgGroups
 					class Unit6
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEAR";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {11,0,0};
 					};
@@ -5523,21 +5562,21 @@ class CfgGroups
 					class Unit10
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDAR";
+						vehicle = "ZSN_MarineEDLAW";
 						rank = "Private";
 						position[] = {5,-6,0};
 					};
 					class Unit11
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDAR";
+						vehicle = "ZSN_MarineEDLAW";
 						rank = "Private";
 						position[] = {-5,-6,0};
 					};
 					class Unit12
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDAR";
+						vehicle = "ZSN_MarineEDLAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -5599,7 +5638,7 @@ class CfgGroups
 					class Unit6
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDAR";
+						vehicle = "ZSN_MarineEDLAW";
 						rank = "Private";
 						position[] = {11,0,0};
 					};

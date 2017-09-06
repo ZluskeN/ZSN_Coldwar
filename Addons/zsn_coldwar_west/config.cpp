@@ -231,7 +231,7 @@ class CfgVehicles
 	class ZSN_SoldierW: usm_base_w
 	{
 		author = "ZluskeN";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		faction = "ZSN_WArmy_ColdWar";
@@ -257,6 +257,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWAR: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "AR Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -270,6 +271,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWMedic: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "Medic";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -283,6 +285,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWRTO: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "Sapper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -295,6 +298,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWB: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -305,6 +309,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWMG: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "Machine Gunner";
 		picture = "\us_military_units\icons\pic_mg_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -319,6 +324,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWMGAss: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "MG Assistant";
 		picture = "\us_military_units\icons\pic_mgab_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -332,6 +338,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWLAW: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "LAW Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -343,8 +350,24 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 	};
+	class ZSN_SoldierWHAT: ZSN_SoldierW
+	{
+		scope = 2;
+		displayName = "Gustav Soldier";
+		picture = "\us_military_units\icons\i_null_ca.paa";
+		portrait = "\us_military_units\icons\p_army.paa";
+		icon = "iconManAT";
+		backpack = "ZSN_alice_Gustav";
+		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_MAAWS"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_MAAWS"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
+	};
 	class ZSN_SoldierWSniper: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "Sniper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -358,6 +381,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWOfficer: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -371,6 +395,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWNCO: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -384,6 +409,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWLeader: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -397,6 +423,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWG: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "Grenadier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -409,6 +436,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWAT: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "AT Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -422,6 +450,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWATAss: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "AT Assistant";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -435,6 +464,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWAA: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "AA Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -448,6 +478,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWSaboteur: ZSN_Soldierw
 	{
+		scope = 2;
 		displayName = "Black Op";
 		icon = "iconManExplosive";
 		uniformClass = "usm_bdu_blk";
@@ -464,6 +495,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWcrew: ZSN_SoldierW
 	{
+		scope = 2;
 		displayName = "Crew";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -480,7 +512,7 @@ class CfgVehicles
 	class ZSN_SoldierWD: usm_base_w
 	{
 		author = "ZluskeN";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		faction = "ZSN_WArmyD_ColdWar";
@@ -506,6 +538,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDAR: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "AR Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -519,6 +552,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDMedic: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Medic";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -532,6 +566,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDRTO: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Sapper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -544,6 +579,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDB: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -554,6 +590,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDMG: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Machine Gunner";
 		picture = "\us_military_units\icons\pic_mg_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -568,6 +605,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDMGAss: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "MG Assistant";
 		picture = "\us_military_units\icons\pic_mgab_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -581,6 +619,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDLAW: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "LAW Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -592,8 +631,24 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_d","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_d","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 	};
+	class ZSN_SoldierWDHAT: ZSN_SoldierWD
+	{
+		scope = 2;
+		displayName = "Gustav Soldier";
+		picture = "\us_military_units\icons\i_null_ca.paa";
+		portrait = "\us_military_units\icons\p_army.paa";
+		icon = "iconManAT";
+		backpack = "ZSN_alice_Gustav";
+		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_MAAWS"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_MAAWS"};
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"usm_helmet_pasgt_d","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_helmet_pasgt_d","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
+	};
 	class ZSN_SoldierWDSniper: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Sniper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -607,6 +662,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDOfficer: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -620,6 +676,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDNCO: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -633,6 +690,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDLeader: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -646,6 +704,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDG: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Grenadier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -658,6 +717,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDAT: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "AT Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -671,6 +731,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDATAss: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "AT Assistant";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -684,6 +745,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDAA: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "AA Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -697,6 +759,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDSaboteur: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Black Op (Day)";
 		icon = "iconManExplosive";
 		uniformClass = "usm_bdu_w";
@@ -713,6 +776,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDcrew: ZSN_SoldierWD
 	{
+		scope = 2;
 		displayName = "Crew";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -729,7 +793,7 @@ class CfgVehicles
 	class ZSN_MarineW: usm_base_w
 	{
 		author = "ZluskeN";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		faction = "ZSN_WMarines_ColdWar";
@@ -755,19 +819,21 @@ class CfgVehicles
 	};
 	class ZSN_MarineWAR: ZSN_MarineW
 	{
-		displayName = "LAW Soldier";
+		scope = 2;
+		displayName = "AR Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
-		icon = "iconManAT";
-		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M72A6"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M72A6"};
-		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		icon = "iconManMG";
+		weapons[] = {"Throw","Put","ZSN_M249_SAW"};
+		respawnWeapons[] = {"Throw","Put","ZSN_M249_SAW"};
+		magazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"usm_helmet_pasgt_w_m","usm_vest_pasgt_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w_m","usm_vest_pasgt_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWMedic: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "Corpsman";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_navy.paa";
@@ -783,6 +849,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWRTO: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "Sapper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -795,6 +862,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWB: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -805,6 +873,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWMG: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "Machine Gunner";
 		picture = "\us_military_units\icons\pic_mg_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -819,6 +888,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWMGAss: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "MG Assistant";
 		picture = "\us_military_units\icons\pic_mgab_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -832,6 +902,21 @@ class CfgVehicles
 	};
 	class ZSN_MarineWLAW: ZSN_MarineW
 	{
+		scope = 2;
+		displayName = "LAW Soldier";
+		picture = "\us_military_units\icons\i_null_ca.paa";
+		portrait = "\us_military_units\icons\p_marinecorps.paa";
+		icon = "iconManAT";
+		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M72A6_Special"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M72A6_Special"};
+		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"usm_helmet_pasgt_w_m","usm_vest_pasgt_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_helmet_pasgt_w_m","usm_vest_pasgt_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_MarineWHAT: ZSN_MarineW
+	{
+		scope = 2;
 		displayName = "SMAW Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -843,8 +928,9 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_w_m","usm_vest_pasgt_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w_m","usm_vest_pasgt_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_MarineWLAWAss: ZSN_MarineW
+	class ZSN_MarineWHATAss: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "SMAW Assistant";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -856,6 +942,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWSniper: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "Sniper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -869,6 +956,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWOfficer: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -882,6 +970,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWNCO: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -895,6 +984,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWLeader: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -908,6 +998,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWG: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "Grenadier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -920,6 +1011,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWAT: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "AT Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -933,6 +1025,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWATAss: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "AT Assistant";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -946,6 +1039,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWAA: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "AA Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -959,6 +1053,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWCrew: ZSN_MarineW
 	{
+		scope = 2;
 		displayName = "Crew";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -975,7 +1070,7 @@ class CfgVehicles
 	class ZSN_MarineWD: usm_base_w
 	{
 		author = "ZluskeN";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		faction = "ZSN_WMarinesD_ColdWar";
@@ -1001,19 +1096,21 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDAR: ZSN_MarineWD
 	{
-		displayName = "LAW Soldier";
+		scope = 2;
+		displayName = "AR Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
-		icon = "iconManAT";
-		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M72A6"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M72A6"};
-		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		icon = "iconManMG";
+		weapons[] = {"Throw","Put","ZSN_M249_SAW"};
+		respawnWeapons[] = {"Throw","Put","ZSN_M249_SAW"};
+		magazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"usm_helmet_pasgt_d_m","usm_vest_pasgtdes_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_d_m","usm_vest_pasgtdes_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDMedic: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "Corpsman";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_navy.paa";
@@ -1029,6 +1126,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDRTO: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "Sapper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1041,6 +1139,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDB: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1051,6 +1150,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDMG: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "Machine Gunner";
 		picture = "\us_military_units\icons\pic_mg_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1065,6 +1165,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDMGAss: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "MG Assistant";
 		picture = "\us_military_units\icons\pic_mgab_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1078,6 +1179,21 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDLAW: ZSN_MarineWD
 	{
+		scope = 2;
+		displayName = "LAW Soldier";
+		picture = "\us_military_units\icons\i_null_ca.paa";
+		portrait = "\us_military_units\icons\p_marinecorps.paa";
+		icon = "iconManAT";
+		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M72A6_Special"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M72A6_Special"};
+		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"usm_helmet_pasgt_d_m","usm_vest_pasgtdes_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_helmet_pasgt_d_m","usm_vest_pasgtdes_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_MarineWDHAT: ZSN_MarineWD
+	{
+		scope = 2;
 		displayName = "SMAW Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1089,8 +1205,9 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_d_m","usm_vest_pasgtdes_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_d_m","usm_vest_pasgtdes_lbe_rm_m","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_MarineWDLAWAss: ZSN_MarineWD
+	class ZSN_MarineWDHATAss: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "SMAW Assistant";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1102,6 +1219,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDSniper: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "Sniper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1115,6 +1233,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDOfficer: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1128,6 +1247,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDNCO: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1141,6 +1261,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDLeader: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1154,6 +1275,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDG: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "Grenadier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1166,6 +1288,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDAT: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "AT Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1179,6 +1302,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDATAss: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "AT Assistant";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1192,6 +1316,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDAA: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "AA Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1205,6 +1330,7 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDCrew: ZSN_MarineWD
 	{
+		scope = 2;
 		displayName = "Crew";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
@@ -1221,7 +1347,7 @@ class CfgVehicles
 	class ZSN_Rangerw: usm_base_w
 	{
 		author = "ZluskeN";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		faction = "ZSN_WRangers_ColdWar";
@@ -1247,6 +1373,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWAR: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "AR Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1260,6 +1387,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWMedic: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "Medic";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1273,6 +1401,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWRTO: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "Sapper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1285,6 +1414,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWB: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1295,6 +1425,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWMG: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "Machine Gunner";
 		picture = "\us_military_units\icons\pic_mg_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1309,6 +1440,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWMGAss: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "MG Assistant";
 		picture = "\us_military_units\icons\pic_mgab_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1322,6 +1454,21 @@ class CfgVehicles
 	};
 	class ZSN_RangerWLAW: ZSN_Rangerw
 	{
+		scope = 2;
+		displayName = "AT4 Soldier";
+		picture = "\us_military_units\icons\i_null_ca.paa";
+		portrait = "\us_military_units\icons\p_army.paa";
+		icon = "iconManAT";
+		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M136"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M136"};
+		magazines[] = {"CUP_M136_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_M136_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"usm_helmet_pasgt_g_w","usm_vest_lbv_rm","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_helmet_pasgt_g_w","usm_vest_lbv_rm","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_RangerWHAT: ZSN_Rangerw
+	{
+		scope = 2;
 		displayName = "Gustav Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1333,8 +1480,9 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_g_w","usm_vest_lbv_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_g_w","usm_vest_lbv_rm","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_RangerWLAWAss: ZSN_Rangerw
+	class ZSN_RangerWHATAss: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "Gustav Assistant";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1348,6 +1496,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWSniper: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "Sniper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1361,6 +1510,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWOfficer: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1374,6 +1524,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWNCO: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1387,6 +1538,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWLeader: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1400,6 +1552,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWG: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "Grenadier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1412,6 +1565,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerwAT: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "AT Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1425,6 +1579,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerwATAss: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "AT Assistant";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1438,6 +1593,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWAA: ZSN_Rangerw
 	{
+		scope = 2;
 		displayName = "AA Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1451,6 +1607,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWPilot: ZSN_RangerW
 	{
+		scope = 2;
 		displayName = "Pilot (Helicopter)";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_airforce.paa";
@@ -1462,13 +1619,13 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 		Items[] = {"CUP_NVG_PVS7","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		RespawnItems[] = {"CUP_NVG_PVS7","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_RangerWD: usm_base_w
 	{
 		author = "ZluskeN";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		faction = "ZSN_WRangersD_ColdWar";
@@ -1494,6 +1651,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDAR: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "AR Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1507,6 +1665,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDMedic: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Medic";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1520,6 +1679,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDRTO: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Sapper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1532,6 +1692,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDB: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1542,6 +1703,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDMG: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Machine Gunner";
 		picture = "\us_military_units\icons\pic_mg_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1556,6 +1718,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDMGAss: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "MG Assistant";
 		picture = "\us_military_units\icons\pic_mgab_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1569,6 +1732,21 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDLAW: ZSN_RangerWD
 	{
+		scope = 2;
+		displayName = "AT4 Soldier";
+		picture = "\us_military_units\icons\i_null_ca.paa";
+		portrait = "\us_military_units\icons\p_army.paa";
+		icon = "iconManAT";
+		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M136"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M136"};
+		magazines[] = {"CUP_M136_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_M136_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"usm_helmet_pasgt_g_d","usm_vest_lbv_rm","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_helmet_pasgt_g_d","usm_vest_lbv_rm","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_RangerWDHAT: ZSN_RangerWD
+	{
+		scope = 2;
 		displayName = "Gustav Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1580,8 +1758,9 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_g_d","usm_vest_lbv_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_g_d","usm_vest_lbv_rm","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_RangerWDLAWass: ZSN_RangerWD
+	class ZSN_RangerWDHATass: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Gustav Assistant";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1595,6 +1774,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDSniper: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Sniper";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1608,6 +1788,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDOfficer: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1621,6 +1802,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDNCO: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1634,6 +1816,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDLeader: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1647,6 +1830,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDG: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Grenadier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1659,6 +1843,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDAT: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "AT Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1672,6 +1857,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDATAss: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "AT Assistant";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1685,6 +1871,7 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDAA: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "AA Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
@@ -1698,6 +1885,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDPilot: ZSN_RangerWD
 	{
+		scope = 2;
 		displayName = "Pilot (Plane)";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_airforce.paa";
@@ -1710,8 +1898,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 		Items[] = {"CUP_NVG_PVS7","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		RespawnItems[] = {"CUP_NVG_PVS7","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		linkedItems[] = {"H_PilotHelmetHeli_O","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"H_PilotHelmetHeli_O","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"H_PilotHelmetHeli_O","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"H_PilotHelmetHeli_O","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class LandVehicle;
 	class StaticWeapon: LandVehicle
@@ -2323,21 +2511,21 @@ class CfgGroups
 					class Unit10
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAR";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {5,-6,0};
 					};
 					class Unit11
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAR";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {-5,-6,0};
 					};
 					class Unit12
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAR";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -2452,28 +2640,28 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWLAW";
+						vehicle = "ZSN_MarineWHAT";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWLAW";
+						vehicle = "ZSN_MarineWHAT";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWLAWAss";
+						vehicle = "ZSN_MarineWHATAss";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWLAWAss";
+						vehicle = "ZSN_MarineWHATAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
 					};
@@ -2529,21 +2717,21 @@ class CfgGroups
 					class Unit5
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWLAW";
+						vehicle = "ZSN_RangerWHAT";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
 					class Unit6
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWG";
+						vehicle = "ZSN_RangerWLAW";
 						rank = "Private";
 						position[] = {-9,0,0};
 					};
 					class Unit7
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWLAWAss";
+						vehicle = "ZSN_RangerWHATAss";
 						rank = "Private";
 						position[] = {9,0,0};
 					};
@@ -2949,21 +3137,21 @@ class CfgGroups
 					class Unit10
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDAR";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {5,-6,0};
 					};
 					class Unit11
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDAR";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {-5,-6,0};
 					};
 					class Unit12
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDAR";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -3078,28 +3266,28 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDLAW";
+						vehicle = "ZSN_MarineWDHAT";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDLAW";
+						vehicle = "ZSN_MarineWDHAT";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDLAWAss";
+						vehicle = "ZSN_MarineWDHATAss";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDLAWAss";
+						vehicle = "ZSN_MarineWDHATAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
 					};
@@ -3155,21 +3343,21 @@ class CfgGroups
 					class Unit5
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDLAW";
+						vehicle = "ZSN_RangerWDHAT";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
 					class Unit6
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDG";
+						vehicle = "ZSN_RangerWDLAW";
 						rank = "Private";
 						position[] = {-9,0,0};
 					};
 					class Unit7
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDLAWAss";
+						vehicle = "ZSN_RangerWDHATAss";
 						rank = "Private";
 						position[] = {9,0,0};
 					};

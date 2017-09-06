@@ -308,6 +308,11 @@ class CfgVehicles
 		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
 	};
+	class ZSN_SoldierWHAT: ZSN_SoldierW
+	{
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
+	};
 	class ZSN_SoldierWSniper: ZSN_SoldierW
 	{
 		magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
@@ -378,6 +383,11 @@ class CfgVehicles
 		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
 	};
+	class ZSN_SoldierWDHAT: ZSN_SoldierWD
+	{
+		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
+	};
 	class ZSN_SoldierWDSniper: ZSN_SoldierWD
 	{
 		magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
@@ -440,10 +450,15 @@ class CfgVehicles
 	};
 	class ZSN_MarineWLAW: ZSN_MarineW
 	{
+		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
+		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
+	};
+	class ZSN_MarineWHAT: ZSN_MarineW
+	{
 		magazines[] = {"CUP_SMAW_Spotting","CUP_SMAW_HEAA_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"CUP_SMAW_Spotting","CUP_SMAW_HEAA_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 	};
-	class ZSN_MarineWLAWAss: ZSN_MarineW
+	class ZSN_MarineWHATAss: ZSN_MarineW
 	{
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
@@ -503,10 +518,15 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDLAW: ZSN_MarineWD
 	{
+		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
+		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
+	};
+	class ZSN_MarineWDHAT: ZSN_MarineWD
+	{
 		magazines[] = {"CUP_SMAW_Spotting","CUP_SMAW_HEAA_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"CUP_SMAW_Spotting","CUP_SMAW_HEAA_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 	};
-	class ZSN_MarineWDLAWAss: ZSN_MarineWD
+	class ZSN_MarineWDHATAss: ZSN_MarineWD
 	{
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
@@ -566,10 +586,15 @@ class CfgVehicles
 	};
 	class ZSN_RangerWLAW: ZSN_Rangerw
 	{
+		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
+		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
+	};
+	class ZSN_RangerWHAT: ZSN_Rangerw
+	{
 		magazines[] = {"CUP_MAAWS_HEAT_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"CUP_MAAWS_HEAT_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 	};
-	class ZSN_RangerWLAWAss: ZSN_Rangerw
+	class ZSN_RangerWHATAss: ZSN_Rangerw
 	{
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
@@ -645,10 +670,15 @@ class CfgVehicles
 	};
 	class ZSN_RangerWDLAW: ZSN_RangerWD
 	{
+		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
+		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
+	};
+	class ZSN_RangerWDHAT: ZSN_RangerWD
+	{
 		magazines[] = {"CUP_MAAWS_HEAT_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"CUP_MAAWS_HEAT_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 	};
-	class ZSN_RangerWDLAWass: ZSN_RangerWD
+	class ZSN_RangerWDHATass: ZSN_RangerWD
 	{
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18G","VTN_M18R","VTN_M67","VTN_M67"};
@@ -1688,20 +1718,59 @@ class CfgVehicles
 	class CUP_O_UAZ_SPG9_RU;
 	class ZSN_CUP_VDV_UAZ_SPG9: CUP_O_UAZ_SPG9_RU
 	{
+		class Transportweapons
+		{
+			delete _xx_CUP_launch_RPG18;
+			class _xx_VTN_RPG26_D
+			{
+				weapon = "VTN_RPG26_D";
+				count = 2;
+			};
+		};
 		class TransportMagazines
 		{
-			delete _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M;
+			delete _xx_CUP_RPG18_M;
 			class _xx_VTN_PK_100s_TRC
 			{
 				magazine = "VTN_PK_100s_TRC";
 				count = 2;
 			};
-			delete _xx_CUP_10Rnd_762x54_SVD_M;
+			delete _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M;
 			class _xx_VTN_SVD_10s_SC
 			{
 				magazine = "VTN_SVD_10s_SC";
 				count = 28;
 			};
+			delete _xx_CUP_10Rnd_762x54_SVD_M;
+		};
+	};
+	class CUP_O_UAZ_SPG9_SLA;
+	class ZSN_CUP_DVDV_UAZ_SPG9:  CUP_O_UAZ_SPG9_SLA
+	{
+		class Transportweapons
+		{
+			delete _xx_CUP_launch_RPG18;
+			class _xx_VTN_RPG26_D
+			{
+				weapon = "VTN_RPG26_D";
+				count = 2;
+			};
+		};
+		class TransportMagazines
+		{
+			delete _xx_CUP_RPG18_M;
+			class _xx_VTN_PK_100s_TRC
+			{
+				magazine = "VTN_PK_100s_TRC";
+				count = 2;
+			};
+			delete _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M;
+			class _xx_VTN_SVD_10s_SC
+			{
+				magazine = "VTN_SVD_10s_SC";
+				count = 28;
+			};
+			delete _xx_CUP_10Rnd_762x54_SVD_M;
 		};
 	};
 	class Truck_F;
@@ -1926,6 +1995,23 @@ class CfgVehicles
 				magazine = "VTN_RDG2CH";
 				count = 40;
 			};
+		};
+	};
+	class CUP_LR_MG_Base;
+	class ZSN_CUP_USR_LR_MG: CUP_LR_MG_Base
+	{
+		class Transportweapons
+		{
+			delete _xx_CUP_launch_M136;
+			class _xx_VTN_M136_HEAT_C
+			{
+				weapon = "VTN_M136_HEAT_C";
+				count = 2;
+			};
+		};
+		class TransportMagazines
+		{
+			delete _xx_CUP_M136_M;
 		};
 	};
 	class B_Truck_01_transport_F;
