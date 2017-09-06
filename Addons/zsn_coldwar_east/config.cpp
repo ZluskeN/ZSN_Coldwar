@@ -395,8 +395,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"H_Bandanna_cbr","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"H_Bandanna_cbr","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"H_Bandanna_cbr","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_Bandanna_cbr","ItemMap","ItemCompass","ItemWatch"};
 		class Wounds
 		{
 			tex[] = {};
@@ -662,8 +662,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"H_Bandanna_cbr","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"H_Bandanna_cbr","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"H_Bandanna_cbr","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_Bandanna_cbr","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierEDAR: ZSN_SoldierED
 	{
@@ -931,8 +931,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"CUP_H_ChDKZ_Beret","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"CUP_H_ChDKZ_Beret","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_ChDKZ_Beret","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_ChDKZ_Beret","ItemMap","ItemCompass","ItemWatch"};
 		class Wounds
 		{
 			tex[] = {};
@@ -1186,8 +1186,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"CUP_H_ChDKZ_Beret","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"CUP_H_ChDKZ_Beret","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_ChDKZ_Beret","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_ChDKZ_Beret","ItemMap","ItemCompass","ItemWatch"};
 		class Wounds
 		{
 			tex[] = {};
@@ -1444,8 +1444,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"CUP_H_RUS_Beret_VDV","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"CUP_H_RUS_Beret_VDV","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_RUS_Beret_VDV","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_RUS_Beret_VDV","ItemMap","ItemCompass","ItemWatch"};
 		class Wounds
 		{
 			tex[] = {};
@@ -1703,8 +1703,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"CUP_H_RUS_Beret_VDV","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"CUP_H_RUS_Beret_VDV","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_RUS_Beret_VDV","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_RUS_Beret_VDV","ItemMap","ItemCompass","ItemWatch"};
 		class Wounds
 		{
 			tex[] = {};

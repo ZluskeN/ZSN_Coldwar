@@ -252,8 +252,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"usm_bdu_cap_wdl","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"usm_bdu_cap_wdl","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"usm_bdu_cap_wdl","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_bdu_cap_wdl","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWAR: ZSN_SoldierW
 	{
@@ -533,8 +533,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"usm_bdu_cap_des","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"usm_bdu_cap_des","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"usm_bdu_cap_des","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_bdu_cap_des","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDAR: ZSN_SoldierWD
 	{
@@ -814,8 +814,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"usm_bdu_8point_wdl_m","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"usm_bdu_8point_wdl_m","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"usm_bdu_8point_wdl_m","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_bdu_8point_wdl_m","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWAR: ZSN_MarineW
 	{
@@ -1091,8 +1091,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"usm_bdu_8point_des_m","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"usm_bdu_8point_des_m","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"usm_bdu_8point_des_m","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_bdu_8point_des_m","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDAR: ZSN_MarineWD
 	{
@@ -1368,8 +1368,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"usm_bdu_boonie_wdl","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"usm_bdu_boonie_wdl","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"usm_bdu_boonie_wdl","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_bdu_boonie_wdl","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWAR: ZSN_Rangerw
 	{
@@ -1646,8 +1646,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"usm_bdu_boonie_des","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"usm_bdu_boonie_des","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"usm_bdu_boonie_des","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"usm_bdu_boonie_des","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDAR: ZSN_RangerWD
 	{

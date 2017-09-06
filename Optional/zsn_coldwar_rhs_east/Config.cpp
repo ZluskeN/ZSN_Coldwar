@@ -150,6 +150,8 @@ class cfgvehicles
 	{
 		Items[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"rhs_beret_mp1","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"rhs_beret_mp1","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineELAW: ZSN_MarineE
 	{
@@ -181,6 +183,8 @@ class cfgvehicles
 	{
 		Items[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"rhs_beret_mp1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"rhs_beret_mp1","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"rhs_beret_mp1","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineEDLAW: ZSN_MarineED
 	{
@@ -212,6 +216,8 @@ class cfgvehicles
 	{
 		Items[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"rhs_beret_vdv1","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"rhs_beret_vdv1","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerELAW: ZSN_RangerE
 	{
@@ -239,6 +245,8 @@ class cfgvehicles
 	{
 		Items[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"rhs_beret_vdv1","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"rhs_beret_vdv1","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"rhs_beret_vdv1","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerEDLAW: ZSN_RangerED
 	{

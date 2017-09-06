@@ -236,6 +236,8 @@ class CfgVehicles
 	{
 		Items[] = {"fow_h_uk_beret_para","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"fow_h_uk_beret_para","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"fow_h_uk_beret_para","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"fow_h_uk_beret_para","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_EurosolWMedic: ZSN_EurosolW
 	{
@@ -308,6 +310,8 @@ class CfgVehicles
 	{
 		Items[] = {"fow_h_uk_beret_para","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"fow_h_uk_beret_para","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"fow_h_uk_beret_para","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"fow_h_uk_beret_para","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_EurosolWDMedic: ZSN_EurosolWD
 	{
@@ -395,8 +399,8 @@ class CfgVehicles
 		respawnMagazines[] = {};
 		Items[] = {"fow_h_ger_feldmutze","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"fow_h_ger_feldmutze","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"fow_h_ger_feldmutze","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"fow_h_ger_feldmutze","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_GersolWMedic: ZSN_GersolW
 	{

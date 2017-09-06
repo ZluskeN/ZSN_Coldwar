@@ -834,6 +834,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976"};
 		Items[] = {"VTN_BANDANA","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"VTN_BANDANA","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"VTN_BANDANA","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_BANDANA","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierEAR: ZSN_SoldierE
 	{
@@ -959,6 +961,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976"};
 		Items[] = {"VTN_BANDANA","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"VTN_BANDANA","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"VTN_BANDANA","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_BANDANA","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierEDAR: ZSN_SoldierED
 	{
