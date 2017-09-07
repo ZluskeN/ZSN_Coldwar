@@ -97,7 +97,7 @@ class cfgWeapons
 		scope = 2;
 		allowedSlots[] = {901};
 		displayName = "Soviet KLMK Uniform";
-		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\data\ui\icon_u_o_kam_6_ca.paa";
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\data\ui\icon_u_o_kam_2_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
