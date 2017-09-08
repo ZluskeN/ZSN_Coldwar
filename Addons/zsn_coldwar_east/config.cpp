@@ -97,7 +97,7 @@ class cfgWeapons
 		scope = 2;
 		allowedSlots[] = {901};
 		displayName = "Soviet KLMK Uniform";
-		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\data\ui\icon_u_o_kam_2_ca.paa";
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_u_o_gorka_olive_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -113,13 +113,30 @@ class cfgWeapons
 		dlc = "CUP_Units";
 		scope = 2;
 		allowedSlots[] = {901};
-		displayName = "Soviet KLMK Uniform (Hood)";
+		displayName = "Soviet KLMK Uniform 2";
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\data\ui\icon_u_o_kam_2_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "ZSN_RangerE";
+			uniformClass = "ZSN_SoldierEP";
+			containerClass = "Supply40";
+			mass = 20;
+		};
+	};
+	class ZSN_Uniform_KLMK_3: ItemCore
+	{
+		author = "ZluskeN";
+		dlc = "CUP_Units";
+		scope = 2;
+		allowedSlots[] = {901};
+		displayName = "Soviet KLMK Uniform 3";
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\data\ui\icon_u_o_kam_2_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "ZSN_RangerEP";
 			containerClass = "Supply40";
 			mass = 20;
 		};
@@ -170,7 +187,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "ZSN_RangerEP";
+			uniformClass = "ZSN_RangerE";
 			containerClass = "Supply40";
 			mass = 20;
 		};
@@ -370,9 +387,11 @@ class CfgVehicles
 		portrait = "";
 		picture = "";
 		icon = "iconMan";
+		uniformClass = "ZSN_Uniform_KLMK";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka.p3d";
+		hiddenSelections[] = {"camo","clan","insignia"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\gorka_klmk.paa"};
 		//model = "DiscloseAfghanData\Berezka.p3d";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_Uniform2.p3d";
-		hiddenSelections[] = {"camo","camo2","clan","insignia"};
 		genericNames = "CUP_Names_RussianMen";
 		identityTypes[] = {"Head_Euro","NoGlasses","CUP_D_Language_RU"};
 		cost = 200000;
@@ -384,9 +403,7 @@ class CfgVehicles
 		sensitivity = 2.5;
 		threat[] = {1,1,0.8};
 		//uniformClass = "CUP_U_O_CHDKZ_Kam_06";
-		uniformClass = "ZSN_Uniform_KLMK";
 		//hiddenSelectionsTextures[] = {"DiscloseAfghanData\N_co.paa","DiscloseAfghanData\n_grove.paa"};
-		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\jacket_2_klmk.paa","\zsn_coldwar_east\smersh_body_klmk.paa"};
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_AK74"};
@@ -893,6 +910,13 @@ class CfgVehicles
 		RespawnItems[] = {"H_Bandanna_cbr","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_CDF_OfficerBelt2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_CDF_OfficerBelt2","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_SoldierEP: ZSN_SoldierE
+	{
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_Uniform2.p3d";
+		hiddenSelections[] = {"camo","camo2","clan","insignia"};
+		uniformClass = "ZSN_Uniform_KLMK_2";
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\jacket_2_klmk.paa","\zsn_coldwar_east\smersh_body_klmk.paa"};
 	};
 	class ZSN_MarineE: O_Soldier_base_F
 	{
@@ -1420,10 +1444,11 @@ class CfgVehicles
 		picture = "";
 		icon = "iconMan";
 		//model = "DiscloseAfghanData\Berezka.p3d";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_Uniform1.p3d";
-		hiddenSelections[] = {"camo","camo2","clan","insignia"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier1.p3d";
+		uniformClass = "ZSN_Uniform_VDV";
+		hiddenSelections[] = {"Camo","clan","insignia"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\uniform_vdv.paa"};
 		//hiddenSelectionsTextures[] = {"DiscloseAfghanData\N_vdv1.paa","DiscloseAfghanData\n_grove.paa"};
-		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\kam_jacket_klmk.paa","\zsn_coldwar_east\lifcik_body_klmk.paa"};
 		genericNames = "CUP_Names_RussianMen";
 		identityTypes[] = {"Head_Euro","NoGlasses","CUP_D_Language_RU"};
 		cost = 200000;
@@ -1435,7 +1460,6 @@ class CfgVehicles
 		sensitivity = 2.5;
 		threat[] = {1,1,0.8};
 		//uniformClass = "CUP_U_O_CHDKZ_Kam_06";
-		uniformClass = "ZSN_Uniform_KLMK_2";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_AKS74"};
@@ -1930,8 +1954,10 @@ class CfgVehicles
 	};
 	class ZSN_RangerEP: ZSN_RangerED
 	{
-		uniformClass = "ZSN_Uniform_VDV";
-		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\uniform_vdv.paa"};
+		uniformClass = "ZSN_Uniform_KLMK_3";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_Uniform1.p3d";
+		hiddenSelections[] = {"camo","camo2","clan","insignia"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\kam_jacket_klmk.paa","\zsn_coldwar_east\lifcik_body_klmk.paa"};
 	};
 	class LandVehicle;
 	class StaticWeapon: LandVehicle

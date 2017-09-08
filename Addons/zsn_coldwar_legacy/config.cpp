@@ -35,4 +35,18 @@ class CfgPatches
 		requiredVersion = 0.1;
 		requiredAddons[] = {"ZSN_ColdWarunits"};
 	};
+	class ZSN_ColdWar_NIMG3
+	{
+		author = "ZluskeN";
+		units[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"ZSN_ColdWarunits"};
+	};
+	class ZSN_ColdWar_NIMP5
+	{
+		author = "ZluskeN";
+		units[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {"ZSN_ColdWarunits"};
+	};
 };
