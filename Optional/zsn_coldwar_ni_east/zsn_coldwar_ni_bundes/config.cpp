@@ -43,15 +43,15 @@ class cfgWeapons
 	class ZSN_Feldgrau: ItemCore
 	{
 		author = "ZluskeN";
-		scope = 1;
+		scope = 2;
 		allowedSlots[] = {901};
-		displayName = "Steingrau Uniform";
+		displayName = "German Feldgrau";
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_NAPA\data\ui\icon_u_i_flecktarn2_ca.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "ZSN_GersolW";
+			uniformClass = "ZSN_GersolWP";
 			containerClass = "Supply40";
 			mass = 20;
 		};
@@ -128,15 +128,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "CUP_Names_GermanMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_Euro","G_GUERIL_default"};
-		//model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_NAPA\CUP_NAPA_Soldier3.p3d";
-		//uniformClass = "ZSN_Feldgrau";
-		//hiddenSelections[] = {"Camo1","Camo2","clan","insignia"};
-		//hiddenSelectionsTextures[] = {"\zsn_coldwar_ni_east\zsn_coldwar_ni_bundes\feldgrau2_co.paa","\zsn_coldwar_ni_east\zsn_coldwar_ni_bundes\feldgrau_co.paa"};
-		model = "\A3\characters_F\OPFOR\o_officer.p3d";
-		hiddenSelections[] = {"Camo","insignia"};
-		hiddenSelectionsTextures[] = {"\zsn_coldwar_ni_east\zsn_coldwar_ni_bundes\officer_ger_co.paa"};
-		uniformClass = "ZSN_Feldgrau";
-		//uniformClass = "fow_u_ger_m43_02_private";
+		uniformClass = "CUP_U_B_GER_Flecktarn_1";
 		canCarryBackPack = 1;
 		weapons[] = {"Throw","Put","hlc_rifle_g3a3"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_g3a3"};
@@ -246,7 +238,8 @@ class CfgVehicles
 		displayName = "Pilot";
 		icon = "iconManEngineer";
 		backpack = "";
-		uniformClass = "U_BG_Guerrilla_6_1";
+		uniformClass = "CUP_U_B_GER_Flecktarn_2";
+		//uniformClass = "U_BG_Guerrilla_6_1";
 		weapons[] = {"Throw","Put","hlc_smg_mp5a3"};
 		respawnWeapons[] = {"Throw","Put","hlc_smg_mp5a3"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
@@ -261,8 +254,12 @@ class CfgVehicles
 		scope = 1;
 		model = "\A3\characters_F\OPFOR\o_officer.p3d";
 		hiddenSelections[] = {"Camo","insignia"};
-		hiddenSelectionsTextures[] = {"\zsn_coldwar_bundes\officer_ger_co.paa"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_ni_east\zsn_coldwar_ni_bundes\officer_ger_co.paa"};
 		uniformClass = "ZSN_Feldgrau";
+		//model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_NAPA\CUP_NAPA_Soldier3.p3d";
+		//hiddenSelections[] = {"Camo1","Camo2","clan","insignia"};
+		//hiddenSelectionsTextures[] = {"\zsn_coldwar_ni_east\zsn_coldwar_ni_bundes\feldgrau2_co.paa","\zsn_coldwar_ni_east\zsn_coldwar_ni_bundes\feldgrau_co.paa"};
+		//uniformClass = "fow_u_ger_m43_02_private";
 	};
 	class CUP_B_UH1D_slick_GER_KSK;
 	class ZSN_CUP_B_UH1D_GER: CUP_B_UH1D_slick_GER_KSK
