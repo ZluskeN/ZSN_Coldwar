@@ -243,6 +243,23 @@ class cfgWeapons
 			mass = 20;
 		};
 	};
+	class ZSN_Uniform_KLMK_Ghillie_Top: ItemCore
+	{
+		author = "ZluskeN";
+		dlc = "CUP_Units";
+		scope = 2;
+		allowedSlots[] = {901};
+		displayName = "Half-Ghillie (KLMK)";
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\ui\icon_u_o_tk_ghillie_top_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "ZSN_SoldierESniper";
+			containerClass = "Supply40";
+			mass = 20;
+		};
+	};
 };
 class CfgVehicles
 {
@@ -524,8 +541,17 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_srifle_SVD_pso"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Ghillie_Top.p3d";
+		uniformClass = "ZSN_Uniform_KLMK_Ghillie_Top";
+		hiddenSelections[] = {"Camo","clan","insignia"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\ghillie_top_klmk_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W1_tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W2_tak_soldier.rvmat"};
+		};
 	};
 	class ZSN_SoldierEOfficer: ZSN_SoldierE
 	{
@@ -786,8 +812,17 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_srifle_SVD_pso"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Ghillie_Top.p3d";
+		uniformClass = "CUP_U_O_TK_Ghillie_Top";
+		hiddenSelections[] = {"Camo","clan","insignia"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\ghillie_top_klmk_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W1_tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W2_tak_soldier.rvmat"};
+		};
 	};
 	class ZSN_SoldierEDOfficer: ZSN_SoldierED
 	{
@@ -1076,8 +1111,17 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","ZSN_SVD"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_CDF_6B3_1_Green","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_CDF_6B3_1_Green","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Ghillie_Top.p3d";
+		uniformClass = "ZSN_Uniform_KLMK_Ghillie_Top";
+		hiddenSelections[] = {"Camo","clan","insignia"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\ghillie_top_klmk_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W1_tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W2_tak_soldier.rvmat"};
+		};
 	};
 	class ZSN_MarineEOfficer: ZSN_MarineE
 	{
@@ -1331,8 +1375,17 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","ZSN_SVD"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Flak_Vest01","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Flak_Vest01","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Ghillie_Top.p3d";
+		uniformClass = "CUP_U_O_TK_Ghillie_Top";
+		hiddenSelections[] = {"Camo","clan","insignia"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\ghillie_top_klmk_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W1_tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W2_tak_soldier.rvmat"};
+		};
 	};
 	class ZSN_MarineEDOfficer: ZSN_MarineED
 	{
@@ -1591,8 +1644,17 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","ZSN_SVD_wdl"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		linkedItems[] = {"CUP_H_RUS_TSH_4_Brown","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_RUS_TSH_4_Brown","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Ghillie_Top.p3d";
+		uniformClass = "ZSN_Uniform_KLMK_Ghillie_Top";
+		hiddenSelections[] = {"Camo","clan","insignia"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\ghillie_top_klmk_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W1_tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W2_tak_soldier.rvmat"};
+		};
 	};
 	class ZSN_RangerEOfficer: ZSN_RangerE
 	{
@@ -1850,8 +1912,17 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","ZSN_SVD_des"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		linkedItems[] = {"CUP_H_TK_TankerHelmet","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_TK_TankerHelmet","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Ghillie_Top.p3d";
+		uniformClass = "CUP_U_O_TK_Ghillie_Top";
+		hiddenSelections[] = {"Camo","clan","insignia"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\ghillie_top_klmk_co.paa"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W1_tak_soldier.rvmat","CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\W2_tak_soldier.rvmat"};
+		};
 	};
 	class ZSN_RangerEDOfficer: ZSN_RangerED
 	{
