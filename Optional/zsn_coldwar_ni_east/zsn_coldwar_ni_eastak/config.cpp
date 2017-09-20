@@ -410,8 +410,8 @@ class CfgVehicles
 	};
 	class ZSN_RangerEDHAT: ZSN_RangerED
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_ghex_F"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_ghex_F"};
+		weapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_F"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_F"};
 	};
 	class ZSN_RangerEDHATAss: ZSN_RangerED
 	{
