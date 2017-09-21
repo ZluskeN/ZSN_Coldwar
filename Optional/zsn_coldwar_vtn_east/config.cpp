@@ -834,8 +834,6 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976"};
 		Items[] = {"VTN_BANDANA","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"VTN_BANDANA","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"VTN_BANDANA","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"VTN_BANDANA","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierEAR: ZSN_SoldierE
 	{
@@ -880,6 +878,13 @@ class CfgVehicles
 		magazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 	};
+	class ZSN_SoldierEHAT: ZSN_SoldierE
+	{
+		weapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V"};
+		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V"};
+		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+	};
 	class ZSN_SoldierESniper: ZSN_SoldierE
 	{
 		weapons[] = {"Throw","Put","VTN_SVD_1963"};
@@ -893,6 +898,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","VTN_PM","Binocular"};
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
+		linkedItems[] = {"VTN_BANDANA","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"VTN_BANDANA","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_SoldierENCO: ZSN_SoldierE
 	{
@@ -961,8 +968,6 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976"};
 		Items[] = {"VTN_BANDANA","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
 		RespawnItems[] = {"VTN_BANDANA","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"VTN_BANDANA","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"VTN_BANDANA","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierEDAR: ZSN_SoldierED
 	{
@@ -984,8 +989,8 @@ class CfgVehicles
 	{
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
-		linkedItems[] = {"VTN_SSH68_KHAKI","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"VTN_SSH68_KHAKI","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"VTN_SSH68_KHAKI","CUP_V_CDF_6B3_4_FST","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_SSH68_KHAKI","CUP_V_CDF_6B3_4_FST","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierEDB: ZSN_SoldierED
 	{
@@ -1021,6 +1026,15 @@ class CfgVehicles
 		linkedItems[] = {"VTN_SSH68_KHAKI","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"VTN_SSH68_KHAKI","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 	};
+	class ZSN_SoldierEDHAT: ZSN_SoldierED
+	{
+		weapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V"};
+		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V"};
+		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch"};
+	};
 	class ZSN_SoldierEDSniper: ZSN_SoldierED
 	{
 		weapons[] = {"Throw","Put","VTN_SVD_1963"};
@@ -1036,8 +1050,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","VTN_PM","Binocular"};
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
-		linkedItems[] = {"VTN_SSH68_KHAKI","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"VTN_SSH68_KHAKI","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"VTN_BANDANA","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"VTN_BANDANA","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_SoldierEDNCO: ZSN_SoldierED
 	{
@@ -1134,8 +1148,8 @@ class CfgVehicles
 	{
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
-		linkedItems[] = {"VTN_SSH68M","CUP_V_CDF_6B3_2_Green","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"VTN_SSH68M","CUP_V_CDF_6B3_2_Green","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"VTN_SSH68M","CUP_V_CDF_6B3_4_FST","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_SSH68M","CUP_V_CDF_6B3_4_FST","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineEB: ZSN_MarineE
 	{
@@ -1164,6 +1178,15 @@ class CfgVehicles
 	};
 	class ZSN_MarineELAW: ZSN_MarineE
 	{
+		weapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG18"};
+		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG18"};
+		magazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
+		respawnMagazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
+		linkedItems[] = {"VTN_SSH68M","CUP_V_CDF_6B3_1_Green","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_SSH68M","CUP_V_CDF_6B3_1_Green","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_MarineEHAT: ZSN_MarineE
+	{
 		weapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V_PGO7V"};
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V_PGO7V"};
 		magazines[] = {"CUP_PG7VR_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
@@ -1171,7 +1194,7 @@ class CfgVehicles
 		linkedItems[] = {"VTN_SSH68M","CUP_V_CDF_6B3_1_Green","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"VTN_SSH68M","CUP_V_CDF_6B3_1_Green","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_MarineELAWAss: ZSN_MarineE
+	class ZSN_MarineEHATAss: ZSN_MarineE
 	{
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
@@ -1193,8 +1216,6 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","VTN_PM","Binocular"};
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
-		linkedItems[] = {"VTN_SSH68M","CUP_V_CDF_6B3_5_Green","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"VTN_SSH68M","CUP_V_CDF_6B3_5_Green","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_MarineENCO: ZSN_MarineE
 	{
@@ -1280,8 +1301,8 @@ class CfgVehicles
 	{
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
-		linkedItems[] = {"VTN_SSH68_SANDKHAKI","CUP_V_O_SLA_Flak_Vest03","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"VTN_SSH68_SANDKHAKI","CUP_V_O_SLA_Flak_Vest03","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"VTN_SSH68_SANDKHAKI","CUP_V_CDF_6B3_4_MNT","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_SSH68_SANDKHAKI","CUP_V_CDF_6B3_4_MNT","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineEDB: ZSN_MarineED
 	{
@@ -1310,6 +1331,15 @@ class CfgVehicles
 	};
 	class ZSN_MarineEDLAW: ZSN_MarineED
 	{
+		weapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG18"};
+		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG18"};
+		magazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
+		respawnMagazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
+		linkedItems[] = {"VTN_SSH68_SANDKHAKI","CUP_V_O_SLA_Flak_Vest01","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_SSH68_SANDKHAKI","CUP_V_O_SLA_Flak_Vest01","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_MarineEDHAT: ZSN_MarineED
+	{
 		weapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V_PGO7V"};
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V_PGO7V"};
 		magazines[] = {"CUP_PG7VR_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
@@ -1317,7 +1347,7 @@ class CfgVehicles
 		linkedItems[] = {"VTN_SSH68_SANDKHAKI","CUP_V_O_SLA_Flak_Vest01","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"VTN_SSH68_SANDKHAKI","CUP_V_O_SLA_Flak_Vest01","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_MarineEDLAWASS: ZSN_MarineED
+	class ZSN_MarineEDHATASS: ZSN_MarineED
 	{
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
@@ -1428,8 +1458,8 @@ class CfgVehicles
 	{
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
-		linkedItems[] = {"VTN_TSH4M","CUP_V_O_Ins_Carrier_Rig_Light","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"VTN_TSH4M","CUP_V_O_Ins_Carrier_Rig_Light","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"VTN_TSH4M","CUP_V_CDF_6B3_4_MNT","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_TSH4M","CUP_V_CDF_6B3_4_MNT","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerEB: ZSN_RangerE
 	{
@@ -1458,6 +1488,15 @@ class CfgVehicles
 	};
 	class ZSN_RangerELAW: ZSN_RangerE
 	{
+		weapons[] = {"Throw","Put","VTN_AKS74_1976","CUP_launch_RPG18"};
+		respawnWeapons[] = {"Throw","Put","VTN_AKS74_1976","CUP_launch_RPG18"};
+		magazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
+		respawnMagazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
+		linkedItems[] = {"VTN_TSH4M","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_TSH4M","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_RangerEHAT: ZSN_RangerE
+	{
 		weapons[] = {"Throw","Put","VTN_AKS74_1976","launch_RPG32_ghex_F"};
 		respawnWeapons[] = {"Throw","Put","VTN_AKS74_1976","launch_RPG32_ghex_F"};
 		magazines[] = {"RPG32_F","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
@@ -1465,7 +1504,7 @@ class CfgVehicles
 		linkedItems[] = {"VTN_TSH4M","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"VTN_TSH4M","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_RangerELAWAss: ZSN_RangerE
+	class ZSN_RangerEHATAss: ZSN_RangerE
 	{
 		weapons[] = {"Throw","Put","VTN_AKS74_1976","VTN_LPR1"};
 		respawnWeapons[] = {"Throw","Put","VTN_AKS74_1976","VTN_LPR1"};
@@ -1489,8 +1528,6 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","VTN_AKS74_1976","VTN_PM","Binocular"};
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_PM_8s_PST","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
-		linkedItems[] = {"VTN_TSH4M","CUP_V_O_Ins_Carrier_Rig_Light","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"VTN_TSH4M","CUP_V_O_Ins_Carrier_Rig_Light","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_RangerENCO: ZSN_RangerE
 	{
@@ -1583,8 +1620,8 @@ class CfgVehicles
 	{
 		magazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
-		linkedItems[] = {"VTN_TSH4M_H","CUP_V_O_Ins_Carrier_Rig_Light","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"VTN_TSH4M_H","CUP_V_O_Ins_Carrier_Rig_Light","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"VTN_TSH4M_H","CUP_V_CDF_6B3_4_DST","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_TSH4M_H","CUP_V_CDF_6B3_4_DST","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerEDB: ZSN_RangerED
 	{
@@ -1613,14 +1650,23 @@ class CfgVehicles
 	};
 	class ZSN_RangerEDLAW: ZSN_RangerED
 	{
-		weapons[] = {"Throw","Put","VTN_AKS74_1976","launch_RPG32_ghex_F"};
-		respawnWeapons[] = {"Throw","Put","VTN_AKS74_1976","launch_RPG32_ghex_F"};
+		weapons[] = {"Throw","Put","VTN_AKS74_1976","CUP_launch_RPG18"};
+		respawnWeapons[] = {"Throw","Put","VTN_AKS74_1976","CUP_launch_RPG18"};
+		magazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
+		respawnMagazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
+		linkedItems[] = {"VTN_TSH4M_H","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"VTN_TSH4M_H","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_RangerEDHAT: ZSN_RangerED
+	{
+		weapons[] = {"Throw","Put","VTN_AKS74_1976","launch_RPG32_F"};
+		respawnWeapons[] = {"Throw","Put","VTN_AKS74_1976","launch_RPG32_F"};
 		magazines[] = {"RPG32_F","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"RPG32_F","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		linkedItems[] = {"VTN_TSH4M_H","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"VTN_TSH4M_H","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_RangerEDLAWAss: ZSN_RangerED
+	class ZSN_RangerEDHATAss: ZSN_RangerED
 	{
 		weapons[] = {"Throw","Put","VTN_AKS74_1976","VTN_LPR1"};
 		respawnWeapons[] = {"Throw","Put","VTN_AKS74_1976","VTN_LPR1"};
