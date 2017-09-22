@@ -121,7 +121,7 @@ class CfgVehicles
 	class ZSN_GersolW: B_Soldier_base_F
 	{
 		author = "ZluskeN";
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		faction = "ZSN_WGer_ColdWar";
 		displayName = "Soldier (Garrison)";
@@ -248,6 +248,22 @@ class CfgVehicles
 		RespawnItems[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class ZSN_GersolWCrew: ZSN_GersolW
+	{
+		displayName = "Crew";
+		icon = "iconManEngineer";
+		backpack = "";
+		uniformClass = "CUP_U_B_GER_Flecktarn_2";
+		//uniformClass = "U_BG_Guerrilla_6_1";
+		weapons[] = {"Throw","Put","hlc_smg_mp5a3"};
+		respawnWeapons[] = {"Throw","Put","hlc_smg_mp5a3"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
+		Items[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		linkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_GersolWP: ZSN_GersolW
 	{
