@@ -43,6 +43,16 @@ class cfgFactionClasses
 	{
        	 	backpack_tf_faction_radio = "VTN_BP_R168KNE_FLORA";
 	};
+	class ZSN_WGer_ColdWar
+	{
+		displayName = "Cold War FRG";
+		backpack_tf_faction_radio = "ZSN_st138_prc77";
+		personal_tf_faction_radio = "tf_rf7800str";
+		airborne_tf_faction_radio = "tf_anarc210";
+		flag = "\zsn_coldwar_ëuro\FRGFlag.paa";
+		priority = 1;
+		side = 1;
+	};
 };
 class CfgVehicles
 {

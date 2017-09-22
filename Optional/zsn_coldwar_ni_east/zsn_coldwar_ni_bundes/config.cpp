@@ -27,7 +27,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "ZSN_st138_prc77";
 		personal_tf_faction_radio = "tf_rf7800str";
 		airborne_tf_faction_radio = "tf_anarc210";
-		flag = "\zsn_coldwar_bundes\FRGFlag.paa";
+		flag = "\zsn_coldwar_euro\FRGFlag.paa";
 		priority = 1;
 		side = 1;
 	};
