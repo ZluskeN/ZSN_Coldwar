@@ -2255,6 +2255,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWMedic: ZSN_GersolW
 	{
+		scope = 2;
 		displayName = "Medic";
 		icon = "iconManMedic";
 		attendant = 1;
@@ -2266,6 +2267,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWB: ZSN_GersolW
 	{
+		scope = 2;
 		displayName = "Soldier";
 		magazines[] = {"VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_M83W","VTN_M83W","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_M83W","VTN_M83W","VTN_M67","VTN_M67"};
@@ -2274,6 +2276,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWAA: ZSN_GersolW
 	{
+		scope = 2;
 		displayName = "AA Soldier";
 		icon = "iconManAT";
 		weapons[] = {"Throw","Put","VTN_HK_G3A3","CUP_launch_FIM92Stinger"};
@@ -2285,6 +2288,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWLAW: ZSN_GersolW
 	{
+		scope = 2;
 		displayName = "Gustav Soldier";
 		icon = "iconManAT";
 		weapons[] = {"Throw","Put","VTN_HK_G3A3","CUP_launch_MAAWS"};
@@ -2296,6 +2300,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWLAWAss: ZSN_Gersolw
 	{
+		scope = 2;
 		displayName = "Gustav Assistant";
 		backpack = "ZSN_ger_alice_Gustav";
 		magazines[] = {"VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_M83W","VTN_M83W","VTN_M67","VTN_M67"};
@@ -2305,6 +2310,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWLeader: ZSN_GersolW
 	{
+		scope = 2;
 		displayName = "Section Leader";
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","VTN_HK_G3A3","VTN_SP81","Binocular"};
@@ -2316,6 +2322,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWSniper: ZSN_GersolW
 	{
+		scope = 2;
 		displayName = "Sniper";
 		weapons[] = {"Throw","Put","VTN_HK_G3A3"};
 		respawnWeapons[] = {"Throw","Put","VTN_HK_G3A3"};
@@ -2326,6 +2333,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWMG: ZSN_GersolW
 	{
+		scope = 2;
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_GER_250rnd_MG3_bandoliers";
@@ -2338,6 +2346,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWMGAss: ZSN_GersolW
 	{
+		scope = 2;
 		displayName = "MG Assistant";
 		backpack = "ZSN_GER_MG3_ammobelts";
 		weapons[] = {"Throw","Put","VTN_HK_G3A3","Binocular"};
@@ -2349,6 +2358,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWPilot: ZSN_GersolW
 	{
+		scope = 2;
 		displayName = "Pilot";
 		icon = "iconManEngineer";
 		backpack = "";
@@ -2365,6 +2375,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWCrew: ZSN_GersolW
 	{
+		scope = 2;
 		displayName = "Crew";
 		icon = "iconManEngineer";
 		backpack = "";
