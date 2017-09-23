@@ -2689,15 +2689,23 @@ class cfgvehicles
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
-		displayName = "T-72";
+		displayName = "T-72A";
 		crew = "ZSN_SoldierEDCrew";
 		typicalCargo[] = {"ZSN_SoldierEDCrew"};
 		faction = "ZSN_EArmyD_ColdWar";
 		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\GUE_T72_1_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\GUE_T72_2_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\GUE_T72_3_co.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_O_T72_SLA.jpg";
 	};
+	class ZSN_CUP_MSV_T72: ZSN_CUP_DMSV_T72
+	{
+		crew = "ZSN_SoldierECrew";
+		typicalCargo[] = {"ZSN_SoldierECrew"};
+		faction = "ZSN_EArmy_ColdWar";
+		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\RU_T72_1_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\RU_T72_2_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\RU_T72_3_co.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_O_T72_RU.jpg";
+	};
 	class CUP_T72_ACR_Base;
-	class ZSN_CUP_MSV_T72: CUP_T72_ACR_Base
+	class ZSN_CUP_DMSV_T72B: CUP_T72_ACR_Base
 	{
 		side = 0;
 		scope = 2;
@@ -2705,11 +2713,24 @@ class cfgvehicles
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
 		displayName = "T-72B1";
+		crew = "ZSN_SoldierEDCrew";
+		typicalCargo[] = {"ZSN_SoldierEDCrew"};
+		faction = "ZSN_EArmyD_ColdWar";
+		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\CZ_T72_1_co.paa","ZSN_ColdWar_Vehicles\CZ_T72_2_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\CZ_T72_3_co.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_B_T72_CZ.jpg";
+	};
+	class CUP_O_T90_RU;
+	class ZSN_CUP_MSV_T72B: CUP_O_T90_RU
+	{
+		side = 0;
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		displayName = "T-72BU";
 		crew = "ZSN_SoldierECrew";
 		typicalCargo[] = {"ZSN_SoldierECrew"};
 		faction = "ZSN_EArmy_ColdWar";
-		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\CZ_T72_1_co.paa","ZSN_ColdWar_Vehicles\CZ_T72_2_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\CZ_T72_3_co.paa"};
-		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_B_T72_CZ.jpg";
 	};
 	class CUP_M1_Abrams_base;
 	class CUP_B_M1A1_Woodland_US_Army;
