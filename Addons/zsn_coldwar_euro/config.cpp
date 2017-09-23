@@ -466,7 +466,7 @@ class CfgVehicles
 		faction = "ZSN_EEuro_ColdWar";
 		displayName = "Soldier (Garrison)";
 		genericNames = "CUP_Names_CzechMen";
-		identityTypes[] = {"Head_Euro","NoGlasses","CUP_D_Language_CZ_ACR","LanguageGRE_F"};
+		identityTypes[] = {"Head_Euro","NoGlasses","CUP_D_Language_CZ_ACR"};
 		uniformClass = "CUP_U_O_SLA_MixedCamo";
 		icon = "iconMan";
 		canCarryBackPack = 1;
@@ -609,7 +609,7 @@ class CfgVehicles
 		displayName = "Soldier (Garrison)";
 		icon = "iconMan";
 		genericNames = "TakistaniMen";
-		identityTypes[] = {"Head_TK","NoGlasses","LanguagePER_F","G_IRAN_default"};
+		identityTypes[] = {"Head_TK","NoGlasses","LanguagePER_F"};
 		uniformClass = "CUP_U_O_TK_Green";
 		canCarryBackPack = 1;
 		backpack = "";
