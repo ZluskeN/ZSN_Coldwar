@@ -470,8 +470,8 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_rpk"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_rpk"};
-		magazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_EurosolGLAW: ZSN_EurosolG
 	{
@@ -492,8 +492,8 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_rpk"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_rpk"};
-		magazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","SmokeShellRed","SmokeShellPurple","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		respawnMagazines[] = {"hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","hlc_75Rnd_762x39_m_rpk","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
 	class ZSN_EurosolGDLAW: ZSN_EurosolGD
 	{
