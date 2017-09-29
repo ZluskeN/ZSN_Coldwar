@@ -2678,9 +2678,22 @@ class cfgvehicles
 		faction = "ZSN_WArmyD_ColdWar";
 		crew = "ZSN_SoldierWDCrew";
 		typicalCargo[] = {"ZSN_SoldierWDCrew"};
-		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_desert_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_02_co.paa"};
+		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_desert_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcansp_02_co.paa"};
 	};
 	class MBT_02_base_F;
+	class CUP_B_M60A3_USMC;
+	class ZSN_CUP_Army_M60A3: CUP_B_M60A3_USMC
+	{
+		faction = "ZSN_WArmy_ColdWar";
+		crew = "ZSN_SoldierWCrew";
+		typicalCargo[] = {"ZSN_SoldierWCrew"};
+	};
+	class ZSN_CUP_DArmy_M60A3: ZSN_CUP_Army_M60A3
+	{
+		faction = "ZSN_WArmyD_ColdWar";
+		crew = "ZSN_SoldierWDCrew";
+		typicalCargo[] = {"ZSN_SoldierWDCrew"};
+	};
 	class CUP_T72_Base;
 	class ZSN_CUP_DMSV_T72: CUP_T72_Base
 	{
