@@ -49,7 +49,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "ZSN_st138_prc77";
 		personal_tf_faction_radio = "tf_rf7800str";
 		airborne_tf_faction_radio = "tf_anarc210";
-		flag = "\zsn_coldwar_ëuro\FRGFlag.paa";
+		flag = "\zsn_coldwar_Ã«uro\FRGFlag.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -2334,10 +2334,10 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Sniper";
-		weapons[] = {"Throw","Put","VTN_HK_G3A3"};
-		respawnWeapons[] = {"Throw","Put","VTN_HK_G3A3"};
-		magazines[] = {"VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_M83W","VTN_M83W","VTN_M67","VTN_M67"};
-		respawnMagazines[] = {"VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_HKG3_20a_SC","VTN_M83W","VTN_M83W","VTN_M67","VTN_M67"};
+		weapons[] = {"Throw","Put","CUP_srifle_G22_des_SBPMII"};
+		respawnWeapons[] = {"Throw","Put","CUP_srifle_G22_des_SBPMII"};
+		magazines[] = {"CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","VTN_M83W","VTN_M83W","VTN_M67","VTN_M67"};
+		respawnMagazines[] = {"CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","VTN_M83W","VTN_M83W","VTN_M67","VTN_M67"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
