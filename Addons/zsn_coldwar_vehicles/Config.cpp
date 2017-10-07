@@ -2231,21 +2231,23 @@ class cfgvehicles
 	};
 	class CUP_T55_Base;
 	class CUP_O_T55_TK;
-	class ZSN_CUP_DCSLA_T55: CUP_O_T55_TK
+	class ZSN_CUP_DVMF_T55: CUP_O_T55_TK
 	{
 		scope = 2;
 		scopeCurator = 2;
-		faction = "ZSN_EEuroD_ColdWar";
-		crew = "ZSN_EurosolEDCrew";
-		typicalCargo[] = {"ZSN_EurosolEDCrew"};
+		crew = "ZSN_MarineEDCrew";
+		typicalCargo[] = {"ZSN_MarineEDCrew"};
+		faction = "ZSN_EMarinesD_ColdWar";
+		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_sla_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_sla_co"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_O_T55_SLA.jpg";
 	};
-	class ZSN_CUP_CSLA_T55: ZSN_CUP_DCSLA_T55
+	class ZSN_CUP_VMF_T55: ZSN_CUP_DVMF_T55
 	{
 		scope = 2;
 		scopeCurator = 2;
-		faction = "ZSN_EEuro_ColdWar";
-		crew = "ZSN_EurosolECrew";
-		typicalCargo[] = {"ZSN_EurosolECrew"};
+		crew = "ZSN_MarineECrew";
+		typicalCargo[] = {"ZSN_MarineECrew"};
+		faction = "ZSN_EMarines_ColdWar";
 		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_TKG_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_TKG_co"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_I_T55_TK_GUE.jpg";
 	};
@@ -2682,43 +2684,43 @@ class cfgvehicles
 	};
 	class MBT_02_base_F;
 	class CUP_B_M60A3_USMC;
-	class ZSN_CUP_Army_M60A3: CUP_B_M60A3_USMC
+	class ZSN_CUP_USMC_M60A3: CUP_B_M60A3_USMC
 	{
-		faction = "ZSN_WArmy_ColdWar";
-		crew = "ZSN_SoldierWCrew";
-		typicalCargo[] = {"ZSN_SoldierWCrew"};
+		crew = "ZSN_MarineWCrew";
+		typicalCargo[] = {"ZSN_MarineWCrew"};
+		faction = "ZSN_WMarines_ColdWar";
 	};
-	class ZSN_CUP_DArmy_M60A3: ZSN_CUP_Army_M60A3
+	class ZSN_CUP_DUSMC_M60A3: ZSN_CUP_USMC_M60A3
 	{
-		faction = "ZSN_WArmyD_ColdWar";
-		crew = "ZSN_SoldierWDCrew";
-		typicalCargo[] = {"ZSN_SoldierWDCrew"};
+		crew = "ZSN_MarineWDCrew";
+		typicalCargo[] = {"ZSN_MarineWDCrew"};
+		faction = "ZSN_WMarinesD_ColdWar";
 	};
 	class CUP_T72_Base;
-	class ZSN_CUP_DMSV_T72: CUP_T72_Base
+	class ZSN_CUP_DCSLA_T72: CUP_T72_Base
 	{
 		side = 0;
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
-		displayName = "T-72A";
-		crew = "ZSN_SoldierEDCrew";
-		typicalCargo[] = {"ZSN_SoldierEDCrew"};
-		faction = "ZSN_EArmyD_ColdWar";
-		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\GUE_T72_1_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\GUE_T72_2_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\GUE_T72_3_co.paa"};
-		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_O_T72_SLA.jpg";
+		displayName = "T-72S";
+		faction = "ZSN_EEuroD_ColdWar";
+		crew = "ZSN_EurosolEDCrew";
+		typicalCargo[] = {"ZSN_EurosolEDCrew"};
+		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\TK_T72_1_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\TK_T72_2_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\TK_T72_3_co.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_O_T72_TKA.jpg";
 	};
-	class ZSN_CUP_MSV_T72: ZSN_CUP_DMSV_T72
+	class ZSN_CUP_CSLA_T72: ZSN_CUP_DCSLA_T72
 	{
-		crew = "ZSN_SoldierECrew";
-		typicalCargo[] = {"ZSN_SoldierECrew"};
-		faction = "ZSN_EArmy_ColdWar";
-		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\RU_T72_1_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\RU_T72_2_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\RU_T72_3_co.paa"};
-		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_O_T72_RU.jpg";
+		faction = "ZSN_EEuro_ColdWar";
+		crew = "ZSN_EurosolECrew";
+		typicalCargo[] = {"ZSN_EurosolECrew"};
+		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\CDF_T72_1_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\CDF_T72_2_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\CDF_T72_3_co.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_B_T72_CDF.jpg";
 	};
 	class CUP_T72_ACR_Base;
-	class ZSN_CUP_DMSV_T72B: CUP_T72_ACR_Base
+	class ZSN_CUP_DMSV_T72: CUP_T72_ACR_Base
 	{
 		side = 0;
 		scope = 2;
@@ -2733,7 +2735,7 @@ class cfgvehicles
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_B_T72_CZ.jpg";
 	};
 	class CUP_O_T90_RU;
-	class ZSN_CUP_MSV_T72B: CUP_O_T90_RU
+	class ZSN_CUP_MSV_T72: CUP_O_T90_RU
 	{
 		side = 0;
 		scope = 2;
