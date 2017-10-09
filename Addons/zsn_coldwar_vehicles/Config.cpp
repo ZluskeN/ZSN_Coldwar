@@ -176,6 +176,11 @@ class cfgvehicles
 				name = "medikit";
 				count = 12;
 			};
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 3;
+			};
 			class _xx_ACE_bodyBag
 			{
 				name = "ACE_bodyBag";
@@ -211,6 +216,11 @@ class cfgvehicles
 			{
 				name = "medikit";
 				count = 12;
+			};
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 3;
 			};
 			class _xx_ACE_bodyBag
 			{
@@ -391,6 +401,11 @@ class cfgvehicles
 				name = "medikit";
 				count = 12;
 			};
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 3;
+			};
 			class _xx_ACE_bodyBag
 			{
 				name = "ACE_bodyBag";
@@ -427,6 +442,11 @@ class cfgvehicles
 			{
 				name = "medikit";
 				count = 12;
+			};
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 3;
 			};
 			class _xx_ACE_bodyBag
 			{
@@ -1237,6 +1257,14 @@ class cfgvehicles
 		faction = "ZSN_EArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Repair_RU.jpg";
+		class TransportItems
+		{
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 3;
+			};
+		};
 	};
 	class ZSN_CUP_VMF_Ural_Repair: ZSN_CUP_MSV_Ural_Repair
 	{
@@ -1580,6 +1608,14 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_SoldierWDB"};
 		faction = "ZSN_WArmyD_ColdWar";
 		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\truck_d_01_ext_01_co.paa","zsn_coldwar_vehicles\truck_d_01_ext_02_co.paa","zsn_coldwar_vehicles\truck_d_01_ammo_CO.paa"};
+		class TransportItems
+		{
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 3;
+			};
+		};
 	};
 	class ZSN_DUSMC_Truck_Repair: ZSN_DArmy_Truck_Repair
 	{
