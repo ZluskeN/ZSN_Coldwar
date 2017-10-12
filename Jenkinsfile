@@ -7,6 +7,10 @@ pipeline {
         skipDefaultCheckout()
     }
 
+    environment {
+        DISCORD_WEBHOOK_URL = credentials('ZLUSKEN_DISCORD_WEBHOOK_URL')
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -33,8 +37,25 @@ pipeline {
             post {
                 always {
                     bat 'subst p: /d > nul || exit /b 0'
+                    sendNotificationToDiscord()
                 }
             }
         }
     }
+}
+
+void sendNotificationToDiscord() {
+    def description = "**Log:** ${BUILD_URL}console\n**Artifacts:** ${BUILD_URL}artifact/"
+    def successful = currentBuild.resultIsBetterOrEqualTo('SUCCESS')
+    def title = JOB_NAME
+
+    if (env.CHANGE_TITLE) {
+        title += " - ${env.CHANGE_TITLE}"
+    }
+
+    if (env.CHANGE_URL) {
+        description += "\n**GitHub:** ${env.CHANGE_URL}"
+    }
+
+    discordSend description: description, link: BUILD_URL, title: title, successful: successful, webhookURL: DISCORD_WEBHOOK_URL
 }
