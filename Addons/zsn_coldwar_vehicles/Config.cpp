@@ -179,7 +179,7 @@ class cfgvehicles
 			class _xx_ToolKit
 			{
 				name = "ToolKit";
-				count = 3;
+				count = 2;
 			};
 			class _xx_ACE_bodyBag
 			{
@@ -189,7 +189,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -220,7 +220,7 @@ class cfgvehicles
 			class _xx_ToolKit
 			{
 				name = "ToolKit";
-				count = 3;
+				count = 2;
 			};
 			class _xx_ACE_bodyBag
 			{
@@ -230,7 +230,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -339,7 +339,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -404,7 +404,7 @@ class cfgvehicles
 			class _xx_ToolKit
 			{
 				name = "ToolKit";
-				count = 3;
+				count = 2;
 			};
 			class _xx_ACE_bodyBag
 			{
@@ -414,7 +414,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -446,7 +446,7 @@ class cfgvehicles
 			class _xx_ToolKit
 			{
 				name = "ToolKit";
-				count = 3;
+				count = 2;
 			};
 			class _xx_ACE_bodyBag
 			{
@@ -456,7 +456,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -600,7 +600,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -832,7 +832,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -1072,7 +1072,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -2583,7 +2583,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -2648,7 +2648,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -2990,7 +2990,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -3061,7 +3061,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -3120,7 +3120,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -3161,7 +3161,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -3232,7 +3232,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -3290,7 +3290,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
@@ -3567,7 +3567,7 @@ class cfgvehicles
 			class _xx_ACE_personalAidKit
 			{
 				name = "ACE_personalAidKit";
-				count = 2;
+				count = 3;
 			};
 		};
 	};
