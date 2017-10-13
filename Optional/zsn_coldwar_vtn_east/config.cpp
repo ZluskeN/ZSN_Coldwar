@@ -2334,8 +2334,8 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Sniper";
-		weapons[] = {"Throw","Put","CUP_srifle_G22_des_SBPMII"};
-		respawnWeapons[] = {"Throw","Put","CUP_srifle_G22_des_SBPMII"};
+		weapons[] = {"Throw","Put","CUP_srifle_G22_wdl_SBPMII"};
+		respawnWeapons[] = {"Throw","Put","CUP_srifle_G22_wdl_SBPMII"};
 		magazines[] = {"CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","VTN_M83W","VTN_M83W","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","VTN_M83W","VTN_M83W","VTN_M67","VTN_M67"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
