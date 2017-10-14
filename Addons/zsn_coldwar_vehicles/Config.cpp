@@ -4109,6 +4109,44 @@ class CfgGroups
 		class ZSN_WMarines_ColdWar
 		{
 			name = "Cold War U.S. Marines";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_Wmarines_M60Platoon
+				{
+					name = "M60 Platoon";
+					faction = "ZSN_WMarines_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_USMC_M60A3";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_USMC_M60A3";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_USMC_M60A3";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_USMC_M60A3";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
 			class Mechanised
 			{
 				name = "Mechanised Infantry";
@@ -4633,6 +4671,44 @@ class CfgGroups
 		class ZSN_WMarinesD_ColdWar
 		{
 			name = "Cold War U.S. Marines (Desert)";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_WmarinesD_M60Platoon
+				{
+					name = "M60 Platoon";
+					faction = "ZSN_WMarinesD_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DUSMC_M60A3";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DUSMC_M60A3";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DUSMC_M60A3";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DUSMC_M60A3";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
 			class Motorized
 			{
 				name = "Motorized Infantry";
@@ -5056,6 +5132,44 @@ class CfgGroups
 		class ZSN_EMarines_ColdWar
 		{
 			name = "Cold War USSR Marines";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_EMarines_T55Platoon
+				{
+					name = "T55 Platoon";
+					faction = "ZSN_EMarines_ColdWar";
+					side = 0;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_VMF_T55";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_VMF_T55";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_VMF_T55";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_VMF_T55";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
 			class Mechanised
 			{
 				name = "Mechanised Infantry";
@@ -5587,6 +5701,44 @@ class CfgGroups
 		class ZSN_EMarinesD_ColdWar
 		{
 			name = "Cold War USSR Marines (Desert)";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_EMarinesD_T55Platoon
+				{
+					name = "T55 Platoon";
+					faction = "ZSN_EMarinesD_ColdWar";
+					side = 0;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_DVMF_T55";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_DVMF_T55";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_DVMF_T55";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_DVMF_T55";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
 			class Motorized
 			{
 				name = "Motorized Infantry";
