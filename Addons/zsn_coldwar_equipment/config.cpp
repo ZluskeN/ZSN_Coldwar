@@ -1099,6 +1099,7 @@ class CfgVehicles
 	class ZSN_ALICE_Repair: CUP_B_AlicePack_Khaki
 	{
 		scope = 1;
+		maximumLoad = 210;
 		class TransportItems
 		{
 			class _xx_ToolKit
@@ -1202,6 +1203,8 @@ class CfgVehicles
 	class ZSN_RD54_Repair: CUP_B_CivPack_WDL
 	{
 		scope = 1;
+		hiddenSelectionsTextures[] = {"zsn_coldwar_equipment\backpack_vdv_assault.paa"};
+		maximumLoad = 200;
 		class TransportItems
 		{
 			class _xx_ToolKit

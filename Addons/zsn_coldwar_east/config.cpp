@@ -481,6 +481,16 @@ class CfgVehicles
 		scope = 1;
 		displayName = "$STR_B_soldier_exp_F0";
 	};
+	class SUD_USSR_Soldier_Repair: ZSN_SoldierEDriver
+	{
+		scope = 2;
+		displayName = "$STR_B_soldier_repair_F0";
+		engineer = 1;
+		detectSkill = 40;
+		icon = "iconManEngineer";
+		picture = "pictureRepair";
+		backpack = "ZSN_RD54_Repair";
+	};
 	class ZSN_SoldierEB: ZSN_SoldierE
 	{
 		scope = 2;
@@ -494,16 +504,6 @@ class CfgVehicles
 	{
 		scope = 1;
 		displayName = "$STR_A3_CfgVehicles_B_Soldier_F0";
-	};
-	class SUD_USSR_Soldier_Repair: SUD_USSR_Soldier
-	{
-		scope = 2;
-		displayName = "$STR_B_soldier_repair_F0";
-		engineer = 1;
-		detectSkill = 40;
-		icon = "iconManEngineer";
-		picture = "pictureRepair";
-		backpack = "ZSN_RD54_Repair";
 	};
 	class ZSN_SoldierEMG: ZSN_SoldierE
 	{
