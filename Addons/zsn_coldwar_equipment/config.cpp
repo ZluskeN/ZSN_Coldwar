@@ -1096,6 +1096,18 @@ class CfgVehicles
 			};
 		};
 	};
+	class ZSN_ALICE_Repair: CUP_B_AlicePack_Khaki
+	{
+		scope = 1;
+		class TransportItems
+		{
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 1;
+			};
+		};
+	};
 	class CUP_B_AlicePack_Bedroll;
 	class ZSN_baf_alice_Gustav: CUP_B_AlicePack_Bedroll
 	{
@@ -1184,6 +1196,18 @@ class CfgVehicles
 			{
 				magazine = "CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
 				count = 9;
+			};
+		};
+	};
+	class ZSN_RD54_Repair: CUP_B_CivPack_WDL
+	{
+		scope = 1;
+		class TransportItems
+		{
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 1;
 			};
 		};
 	};

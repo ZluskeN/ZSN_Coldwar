@@ -324,6 +324,11 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 	};
+	class SUD_NATO_Soldier_Medic: ZSN_SoldierWMedic
+	{
+		scope = 1;
+		displayName = "$STR_B_medic_F0";
+	};
 	class ZSN_SoldierWRTO: ZSN_SoldierW
 	{
 		scope = 2;
@@ -337,6 +342,11 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_rba_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_rba_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 	};
+	class SUD_NATO_Soldier_Sapper: ZSN_SoldierWRTO
+	{
+		scope = 1;
+		displayName = "$STR_B_soldier_exp_F0";
+	};
 	class ZSN_SoldierWB: ZSN_SoldierW
 	{
 		scope = 2;
@@ -347,6 +357,21 @@ class CfgVehicles
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class SUD_NATO_Soldier: ZSN_SoldierWB
+	{
+		scope = 1;
+		displayName = "$STR_A3_CfgVehicles_B_Soldier_F0";
+	};
+	class SUD_NATO_Soldier_Repair: SUD_NATO_Soldier
+	{
+		scope = 2;
+		engineer = 1;
+		detectSkill = 40;
+		icon = "iconManEngineer";
+		picture = "pictureRepair";
+		displayName = "$STR_B_soldier_repair_F0";
+		backPack = "ZSN_ALICE_Repair";
 	};
 	class ZSN_SoldierWMG: ZSN_SoldierW
 	{
@@ -362,6 +387,11 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_mg","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_mg","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class SUD_NATO_Soldier_AR: ZSN_SoldierWMG
+	{
+		scope = 1;
+		displayName = "$STR_B_Soldier_AR_F0";
 	};
 	class ZSN_SoldierWMGAss: ZSN_SoldierW
 	{
@@ -391,10 +421,10 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_SoldierWHAT: ZSN_SoldierW
+	class SUD_NATO_Soldier_AT: ZSN_SoldierW
 	{
-		scope = 2;
-		displayName = "Gustav Soldier";
+		scope = 1;
+		displayName = "$STR_B_Soldier_LAT_F0";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
 		icon = "iconManAT";
@@ -473,6 +503,11 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_gr","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_gr","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
+	class SUD_NATO_Soldier_TL: ZSN_SoldierWLeader
+	{
+		scope = 1;
+		displayName = "$STR_B_Soldier_TL_F0";
+	};
 	class ZSN_SoldierWG: ZSN_SoldierW
 	{
 		scope = 2;
@@ -485,6 +520,11 @@ class CfgVehicles
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
 		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_gr","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_gr","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class SUD_NATO_Soldier_GL: ZSN_SoldierWG
+	{
+		scope = 1;
+		displayName = "$STR_B_Soldier_GL_F0";
 	};
 	class ZSN_SoldierWAT: ZSN_SoldierW
 	{
@@ -499,6 +539,11 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_Dragon_EP1_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class SUD_NATO_Soldier_HAT: ZSN_SoldierWAT
+	{
+		scope = 1;
+		displayName = "$STR_B_soldier_AT_F0";
 	};
 	class ZSN_SoldierWATAss: ZSN_SoldierW
 	{
@@ -527,6 +572,11 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_Stinger_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","SmokeShellGreen","SmokeShellGreen","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_w","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class SUD_NATO_Soldier_AA: ZSN_SoldierWAA
+	{
+		scope = 1;
+		displayName = "$STR_B_soldier_AA_F0";
 	};
 	class ZSN_SoldierWSaboteur: ZSN_Soldierw
 	{
@@ -560,6 +610,11 @@ class CfgVehicles
 		RespawnItems[] = {"usm_bdu_cap_wdl","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
 		linkedItems[] = {"usm_helmet_cvc","usm_vest_pasgt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_cvc","usm_vest_pasgt","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class SUD_NATO_Soldier_Crew: ZSN_SoldierWcrew
+	{
+		scope = 1;
+		displayName = "$STR_B_crew_F0";
 	};
 	class ZSN_SoldierWD: usm_base_w
 	{
@@ -834,6 +889,11 @@ class CfgVehicles
 		RespawnItems[] = {"Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"H_ShemagOpen_tan","usm_vest_rba_lbe_rmp","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"H_ShemagOpen_tan","usm_vest_rba_lbe_rmp","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+	};
+	class SUD_NATO_Soldier_Specop: ZSN_SoldierWDSaboteur
+	{
+		scope = 1;
+		displayName = "$STR_B_recon_F0";
 	};
 	class ZSN_SoldierWDcrew: ZSN_SoldierWD
 	{
@@ -1709,6 +1769,11 @@ class CfgVehicles
 		RespawnItems[] = {"CUP_NVG_PVS7","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+	};
+	class SUD_NATO_Soldier_Pilot: ZSN_SoldierWPilot
+	{
+		scope = 1;
+		displayName = "Pilot";
 	};
 	class ZSN_RangerWD: usm_base_w
 	{

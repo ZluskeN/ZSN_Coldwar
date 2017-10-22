@@ -542,6 +542,10 @@ class cfgvehicles
 			};
 		};
 	};
+	class SUD_UAZ: ZSN_CUP_MSV_UAZ_Unarmed
+	{
+		scope = 1;
+	};
 	class ZSN_CUP_DMSV_UAZ_Unarmed: ZSN_CUP_MSV_UAZ_Unarmed
 	{
 		crew = "ZSN_SoldierEDB";
@@ -883,6 +887,10 @@ class cfgvehicles
 			};
 		};
 	};
+	class SUD_HMMWV: ZSN_CUP_ARMY_HMMWV_Unarmed
+	{
+		scope = 1;
+	};
 	class ZSN_CUP_USMC_HMMWV_Unarmed: ZSN_CUP_ARMY_HMMWV_Unarmed
 	{
 		crew = "ZSN_MarineWB";
@@ -932,6 +940,10 @@ class cfgvehicles
 		faction = "ZSN_WArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\hmmwv_body_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\Data\preview\CUP_B_HMMWV_M2_USMC.jpg";
+	};
+	class SUD_HMMWV_M2: ZSN_CUP_ARMY_HMMWV_M2
+	{
+		scope = 1;
 	};
 	class ZSN_CUP_USMC_HMMWV_M2: ZSN_CUP_ARMY_HMMWV_M2
 	{
@@ -1134,6 +1146,10 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_RU.jpg";
 	};
+	class SUD_Ural: ZSN_CUP_MSV_Ural
+	{
+		scope = 1;
+	};
 	class ZSN_CUP_VMF_Ural: ZSN_CUP_MSV_Ural
 	{
 		crew = "ZSN_MarineEB";
@@ -1167,6 +1183,10 @@ class cfgvehicles
 		faction = "ZSN_EArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Open_RU.jpg";
+	};
+	class SUD_Ural_Open: ZSN_CUP_MSV_Ural_Open
+	{
+		scope = 1;
 	};
 	class ZSN_CUP_VMF_Ural_Open: ZSN_CUP_MSV_Ural_Open
 	{
@@ -1224,6 +1244,10 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_fuel_chdkz_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Refuel_RU.jpg";
 	};
+	class SUD_Ural_Refuel: ZSN_CUP_MSV_Ural_Refuel
+	{
+		scope = 1;
+	};
 	class ZSN_CUP_VMF_Ural_Refuel: ZSN_CUP_MSV_Ural_Refuel
 	{
 		crew = "ZSN_MarineEB";
@@ -1252,8 +1276,8 @@ class cfgvehicles
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
-		crew = "ZSN_SoldierEB";
-		typicalCargo[] = {"ZSN_SoldierEB"};
+		crew = "SUD_USSR_Soldier_Repair";
+		typicalCargo[] = {"SUD_USSR_Soldier_Repair"};
 		faction = "ZSN_EArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Repair_RU.jpg";
@@ -1266,24 +1290,28 @@ class cfgvehicles
 			};
 		};
 	};
+	class SUD_Ural_Repair: ZSN_CUP_MSV_Ural_Repair
+	{
+		scope = 1;
+	};
 	class ZSN_CUP_VMF_Ural_Repair: ZSN_CUP_MSV_Ural_Repair
 	{
-		crew = "ZSN_MarineEB";
-		typicalCargo[] = {"ZSN_MarineEB"};
+		crew = "SUD_USSR_Soldier_Repair";
+		typicalCargo[] = {"SUD_USSR_Soldier_Repair"};
 		faction = "ZSN_EMarines_ColdWar";
 	};
 	class ZSN_CUP_DMSV_Ural_Repair: ZSN_CUP_MSV_Ural_Repair
 	{
-		crew = "ZSN_SoldierEDB";
-		typicalCargo[] = {"ZSN_SoldierEDB"};
+		crew = "SUD_USSR_Soldier_Repair";
+		typicalCargo[] = {"SUD_USSR_Soldier_Repair"};
 		faction = "ZSN_EArmyD_ColdWar";
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_rus_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Repair_SLA.jpg";
 	};
 	class ZSN_CUP_DVMF_Ural_Repair: ZSN_CUP_DMSV_Ural_Repair
 	{
-		crew = "ZSN_MarineEDB";
-		typicalCargo[] = {"ZSN_MarineEDB"};
+		crew = "SUD_USSR_Soldier_Repair";
+		typicalCargo[] = {"SUD_USSR_Soldier_Repair"};
 		faction = "ZSN_EMarinesD_ColdWar";
 	};
 	class CUP_Ural_Reammo_Base;
@@ -1404,6 +1432,10 @@ class cfgvehicles
 				count = 15;
 			};
 		};
+	};
+	class SUD_Ural_Reammo: ZSN_CUP_MSV_Ural_Reammo
+	{
+		scope = 1;
 	};
 	class ZSN_CUP_VMF_Ural_Reammo: CUP_Ural_Reammo_Base
 	{
@@ -1566,6 +1598,10 @@ class cfgvehicles
 		faction = "ZSN_WArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\truck_wl_01_ext_01_co.paa","zsn_coldwar_vehicles\truck_wl_01_ext_02_co.paa"};
 	};
+	class SUD_truck5t_open: ZSN_Army_Truck_transport
+	{
+		scope = 1;
+	};
 	class ZSN_USMC_Truck_transport: ZSN_Army_Truck_transport
 	{
 		crew = "ZSN_MarineWB";
@@ -1594,6 +1630,10 @@ class cfgvehicles
 		faction = "ZSN_WArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\truck_wl_01_ext_01_co.paa","zsn_coldwar_vehicles\truck_wl_01_ext_02_co.paa"};
 	};
+	class SUD_truck5t: ZSN_Army_Truck_covered
+	{
+		scope = 1;
+	};
 	class ZSN_USMC_Truck_covered: ZSN_Army_Truck_covered
 	{
 		crew = "ZSN_MarineWB";
@@ -1604,8 +1644,8 @@ class cfgvehicles
 	class ZSN_DArmy_Truck_Repair: B_Truck_01_Repair_F
 	{
 		tf_hasLRradio = 1;
-		crew = "ZSN_SoldierWDB";
-		typicalCargo[] = {"ZSN_SoldierWDB"};
+		crew = "SUD_NATO_Soldier_Repair";
+		typicalCargo[] = {"SUD_NATO_Soldier_Repair"};
 		faction = "ZSN_WArmyD_ColdWar";
 		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\truck_d_01_ext_01_co.paa","zsn_coldwar_vehicles\truck_d_01_ext_02_co.paa","zsn_coldwar_vehicles\truck_d_01_ammo_CO.paa"};
 		class TransportItems
@@ -1619,21 +1659,25 @@ class cfgvehicles
 	};
 	class ZSN_DUSMC_Truck_Repair: ZSN_DArmy_Truck_Repair
 	{
-		crew = "ZSN_MarineWDB";
-		typicalCargo[] = {"ZSN_MarineWDB"};
+		crew = "SUD_NATO_Soldier_Repair";
+		typicalCargo[] = {"SUD_NATO_Soldier_Repair"};
 		faction = "ZSN_WMarinesD_ColdWar";
 	};
 	class ZSN_Army_Truck_Repair: ZSN_DArmy_Truck_Repair
 	{
-		crew = "ZSN_SoldierWB";
-		typicalCargo[] = {"ZSN_SoldierWB"};
+		crew = "SUD_NATO_Soldier_Repair";
+		typicalCargo[] = {"SUD_NATO_Soldier_Repair"};
 		faction = "ZSN_WArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\truck_wl_01_ext_01_co.paa","zsn_coldwar_vehicles\truck_wl_01_ext_02_co.paa","zsn_coldwar_vehicles\truck_wl_01_ammo_CO.paa"};
 	};
+	class SUD_truck5t_Repair: ZSN_Army_Truck_Repair
+	{
+		scope = 1;
+	};
 	class ZSN_USMC_Truck_Repair: ZSN_Army_Truck_Repair
 	{
-		crew = "ZSN_MarineWB";
-		typicalCargo[] = {"ZSN_MarineWB"};
+		crew = "SUD_NATO_Soldier_Repair";
+		typicalCargo[] = {"SUD_NATO_Soldier_Repair"};
 		faction = "ZSN_WMarines_ColdWar";
 	};
 	class B_Truck_01_ammo_F;
@@ -1875,6 +1919,10 @@ class cfgvehicles
 		faction = "ZSN_WArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\truck_wl_01_ext_01_co.paa","zsn_coldwar_vehicles\truck_wl_01_ext_02_co.paa","zsn_coldwar_vehicles\truck_wl_01_ammo_CO.paa"};
 	};
+	class SUD_truck5t_Reammo: ZSN_Army_Truck_ammo
+	{
+		scope = 1;
+	};
 	class ZSN_USMC_Truck_ammo: ZSN_DUSMC_Truck_ammo
 	{
 		crew = "ZSN_MarineWB";
@@ -1903,6 +1951,10 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_SoldierWB"};
 		faction = "ZSN_WArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\truck_wl_01_ext_01_co.paa","zsn_coldwar_vehicles\truck_wl_01_ext_02_co.paa","zsn_coldwar_vehicles\truck_wl_01_fuel_CO.paa"};
+	};
+	class SUD_truck5t_Refuel: ZSN_Army_Truck_fuel
+	{
+		scope = 1;
 	};
 	class ZSN_USMC_Truck_fuel: ZSN_Army_Truck_fuel
 	{
@@ -2014,6 +2066,10 @@ class cfgvehicles
 		hiddenselectionstextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\textures\rus_brdm2_01_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\Data\preview\CUP_O_BRDM2_RUS.jpg";
 	};
+	class SUD_BRDM2: ZSN_CUP_VMF_BRDM2
+	{
+		scope = 1;
+	};
 	class ZSN_CUP_DVMF_BRDM2: ZSN_CUP_VMF_BRDM2
 	{
 		faction = "ZSN_EMarinesD_ColdWar";
@@ -2080,6 +2136,10 @@ class cfgvehicles
 		faction = "ZSN_EArmy_ColdWar";
 		hiddenselectionstextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\data\textures\btr60_sla_1_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\data\textures\btr60_sla_2_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\Data\preview\CUP_O_BTR60_SLA.jpg";
+	};
+	class SUD_BTR60: ZSN_CUP_MSV_BTR60
+	{
+		scope = 1;
 	};
 	class ZSN_CUP_DMSV_BTR60: ZSN_CUP_MSV_BTR60
 	{
@@ -2335,6 +2395,10 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"CUP\TrackedVehicles\CUP_TrackedVehicles_ZSU23\Data\zsu_01_sla_co.paa","CUP\TrackedVehicles\CUP_TrackedVehicles_ZSU23\Data\zsu_02_sla_co.paa","CUP\TrackedVehicles\CUP_TrackedVehicles_ZSU23\Data\zsu_03_sla_co.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_ZSU23\Data\preview\CUP_O_ZSU23_SLA.jpg";
 	};
+	class SUD_ZSU: ZSN_CUP_DMSV_ZSU23
+	{
+		scope = 1;
+	};
 	class CUP_M270_HE_Base;
 	class ZSN_CUP_Army_M270: CUP_M270_HE_Base
 	{
@@ -2393,6 +2457,10 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_SoldierWCrew"};
 		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\base_wdl_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\a3_wdl_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\ultralp_wdl_co.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_Bradley\Data\preview\CUP_B_M2Bradley_USA_W.jpg";
+	};
+	class SUD_M2A2: ZSN_CUP_ARMY_M2Bradley
+	{
+		scope = 1;
 	};
 	class CUP_BMP1_base;
 	class CUP_O_BMP1_TKA;
@@ -2507,6 +2575,10 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_BMP\bmp2\data\bmp2_01_sla_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_BMP\bmp2\data\bmp2_02_sla_co.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_BMP\Data\preview\CUP_O_BMP2_SLA.jpg";
 	};
+	class SUD_BMP2: ZSN_CUP_DMSV_BMP2
+	{
+		scope = 1;
+	};
 	class CUP_BMP2_ZU_base;
 	class ZSN_CUP_VMF_BMP2_ZU: CUP_BMP2_ZU_Base
 	{
@@ -2607,6 +2679,10 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_SoldierWCrew"};
 		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_co.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M113_USA.jpg";
+	};
+	class SUD_M113: ZSN_CUP_Army_M113
+	{
+		scope = 1;
 	};
 	class ZSN_CUP_DArmy_M113: ZSN_CUP_Army_M113
 	{
@@ -2711,6 +2787,10 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_01_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_02_co.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M163_USA.jpg";
 	};
+	class SUD_M163: ZSN_CUP_ARMY_M163
+	{
+		scope = 1;
+	};
 	class ZSN_CUP_DARMY_M163: ZSN_CUP_ARMY_M163
 	{
 		faction = "ZSN_WArmyD_ColdWar";
@@ -2804,6 +2884,10 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\CZ_T72_1_co.paa","ZSN_ColdWar_Vehicles\CZ_T72_2_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\CZ_T72_3_co.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_B_T72_CZ.jpg";
 	};
+	class SUD_T72B: ZSN_CUP_DMSV_T72B
+	{
+		scope = 1;
+	};
 	class CUP_O_T90_RU;
 	class ZSN_CUP_MSV_T72B: CUP_O_T90_RU
 	{
@@ -2830,6 +2914,10 @@ class cfgvehicles
 		crew = "ZSN_SoldierWCrew";
 		typicalCargo[] = {"ZSN_SoldierWCrew"};
 		faction = "ZSN_WArmy_ColdWar";
+	};
+	class SUD_M1A1: ZSN_CUP_ARMY_M1A1
+	{
+		scope = 1;
 	};
 	class ZSN_CUP_DARMY_M1A1: ZSN_CUP_ARMY_M1A1
 	{
@@ -2863,6 +2951,10 @@ class cfgvehicles
 		faction = "ZSN_EArmy_ColdWar";
 		crew = "ZSN_SoldierEDPilot";
 	};
+	class SUD_SU25: ZSN_CUP_MSV_Su25
+	{
+		scope = 1;
+	};
 	class CUP_A10_Base;
 	class ZSN_CUP_Army_A10: CUP_A10_Base
 	{
@@ -2877,6 +2969,10 @@ class cfgvehicles
 		magazines[] = {"CUP_1Rnd_Sidewinder_A10_Pod_M","CUP_1Rnd_ALQ131_M","CUP_2Rnd_Hydra_Pod_19_Full_M","CUP_2Rnd_MK82_Rack_M","CUP_4Rnd_Mk82_M","CUP_1Rnd_pylonblank_M","CUP_2Rnd_AIM_9L_Sidewinder_External_M","CUP_2Rnd_pylonblank_M","CUP_6Rnd_AGM65_Maverick_M","CUP_6Rnd_pylonblank_M","CUP_12Rnd_pylonblank_M","CUP_1350Rnd_TE1_Red_Tracer_30mm_GAU8_M","CUP_38Rnd_FFAR_M","168Rnd_CMFlare_Chaff_Magazine"};
 		hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_A10\data\sti_skins\a10_01_co_green_hog.paa","\CUP\AirVehicles\CUP_AirVehicles_A10\data\sti_skins\a10_02_co_green.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_A10\Data\preview\CUP_B_A10_AT_USA.jpg";
+	};
+	class SUD_A10: ZSN_CUP_Army_A10
+	{
+		scope = 1;
 	};
 	class CUP_AV8B_Base;
 	class ZSN_CUP_USMC_AV8B: CUP_AV8B_Base
@@ -2947,6 +3043,10 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_SoldierWPilot"};
 		faction = "ZSN_WMarines_ColdWar";
 	};
+	class SUD_AH1W: ZSN_CUP_USMC_AH1
+	{
+		scope = 1;
+	};
 	class CUP_AH64D_Base;
 	class CUP_B_AH64D_USA;
 	class ZSN_CUP_ARMY_AH64: CUP_B_AH64D_USA
@@ -3015,6 +3115,10 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_SoldierEPilot"};
 		hiddenSelectionsTextures[] = {"CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_body_g_vsr_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_det_g_co.paa","a3\data_f\clear_empty.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_Mi8\Data\preview\CUP_O_Mi8_RU.jpg";
+	};
+	class SUD_MI8: ZSN_CUP_MSV_Mi8
+	{
+		scope = 1;
 	};
 	class ZSN_CUP_VMF_Mi8: ZSN_CUP_MSV_Mi8
 	{
@@ -3198,6 +3302,10 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"cup\airvehicles\cup_airvehicles_uh60\data\uh60m_fuselage_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\uh60m_engine_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_UH60\Data\preview\CUP_B_UH60L_FFV_US.jpg";
 	};
+	class SUD_UH60: ZSN_CUP_USR_UH60
+	{
+		scope = 1;
+	};
 	class CUP_Uh60_Unarmed_Base;
 	class CUP_Uh60_Unarmed_FFV_Base;
 	class CUP_Uh60L_Unarmed_FFV_Base;
@@ -3328,7 +3436,7 @@ class cfgvehicles
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_Mi24\Data\preview\CUP_O_Mi24_P_RU.jpg";
 	};
 	class CUP_Mi24_V_Base;
-	class ZSN_CUP_VDV_Mi24_V: CUP_Mi24_V_Base
+	class SUD_Mi24V: CUP_Mi24_V_Base
 	{
 		scope = 1;
 		scopeCurator = 1;
