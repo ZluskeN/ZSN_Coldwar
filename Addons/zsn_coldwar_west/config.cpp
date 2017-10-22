@@ -693,6 +693,16 @@ class CfgVehicles
 		linkedItems[] = {"usm_helmet_pasgt_d","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"usm_helmet_pasgt_d","usm_vest_lbe_rm","ItemMap","ItemCompass","ItemWatch"};
 	};
+	class SUD_DNATO_Soldier_Repair: ZSN_SoldierWDB
+	{
+		scope = 2;
+		engineer = 1;
+		detectSkill = 40;
+		icon = "iconManEngineer";
+		picture = "pictureRepair";
+		displayName = "$STR_B_soldier_repair_F0";
+		backPack = "ZSN_ALICE_Repair";
+	};
 	class ZSN_SoldierWDMG: ZSN_SoldierWD
 	{
 		scope = 2;
@@ -738,7 +748,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDHAT: ZSN_SoldierWD
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "Gustav Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";

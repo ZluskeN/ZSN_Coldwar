@@ -806,6 +806,16 @@ class CfgVehicles
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 	};
+	class SUD_DUSSR_Soldier_Repair: ZSN_SoldierEDB
+	{
+		scope = 2;
+		displayName = "$STR_B_soldier_repair_F0";
+		engineer = 1;
+		detectSkill = 40;
+		icon = "iconManEngineer";
+		picture = "pictureRepair";
+		backpack = "ZSN_RD54_Repair";
+	};
 	class ZSN_SoldierEDMG: ZSN_SoldierED
 	{
 		scope = 2;
@@ -845,7 +855,7 @@ class CfgVehicles
 	};
 	class ZSN_SoldierEDHAT: ZSN_SoldierED
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "RPG-7 Soldier";
 		icon = "iconManAT";
 		backpack = "ZSN_csla_rpg_pack_rpg7";

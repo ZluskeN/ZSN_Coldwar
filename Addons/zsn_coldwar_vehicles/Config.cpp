@@ -1302,8 +1302,8 @@ class cfgvehicles
 	};
 	class ZSN_CUP_DMSV_Ural_Repair: ZSN_CUP_MSV_Ural_Repair
 	{
-		crew = "SUD_USSR_Soldier_Repair";
-		typicalCargo[] = {"SUD_USSR_Soldier_Repair"};
+		crew = "SUD_DUSSR_Soldier_Repair";
+		typicalCargo[] = {"SUD_DUSSR_Soldier_Repair"};
 		faction = "ZSN_EArmyD_ColdWar";
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_rus_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Repair_SLA.jpg";
@@ -1659,8 +1659,8 @@ class cfgvehicles
 	};
 	class ZSN_DUSMC_Truck_Repair: ZSN_DArmy_Truck_Repair
 	{
-		crew = "SUD_NATO_Soldier_Repair";
-		typicalCargo[] = {"SUD_NATO_Soldier_Repair"};
+		crew = "SUD_DNATO_Soldier_Repair";
+		typicalCargo[] = {"SUD_DNATO_Soldier_Repair"};
 		faction = "ZSN_WMarinesD_ColdWar";
 	};
 	class ZSN_Army_Truck_Repair: ZSN_DArmy_Truck_Repair
@@ -1676,8 +1676,8 @@ class cfgvehicles
 	};
 	class ZSN_USMC_Truck_Repair: ZSN_Army_Truck_Repair
 	{
-		crew = "SUD_NATO_Soldier_Repair";
-		typicalCargo[] = {"SUD_NATO_Soldier_Repair"};
+		crew = "SUD_DNATO_Soldier_Repair";
+		typicalCargo[] = {"SUD_DNATO_Soldier_Repair"};
 		faction = "ZSN_WMarines_ColdWar";
 	};
 	class B_Truck_01_ammo_F;
