@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////
+﻿////////////////////////////////////////////////////////////////////
 //DeRap: Produced from mikero's Dos Tools Dll version 5.24
 //Produced on Sun Jan 01 18:59:50 2017 : Created on Sun Jan 01 18:59:50 2017
 //http://dev-heaven.net/projects/list_files/mikero-pbodll
@@ -318,7 +318,7 @@ class CfgVehicles
 		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
 	};
-	class ZSN_SoldierWHAT: ZSN_SoldierW
+	class SUD_NATO_Soldier_AT: ZSN_SoldierW
 	{
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
@@ -393,7 +393,7 @@ class CfgVehicles
 		magazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"CUP_M72A6_M","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
 	};
-	class ZSN_SoldierWDHAT: ZSN_SoldierWD
+	class SUD_DNATO_Soldier_AT: ZSN_SoldierWD
 	{
 		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
 		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","VTN_M18R","VTN_M18G","VTN_M67","VTN_M67"};
@@ -888,7 +888,7 @@ class CfgVehicles
 		magazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 		respawnMagazines[] = {"CUP_RPG18_M","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_AK74_30b_SC","VTN_RDG2B","VTN_RDG2CH","VTN_RGD5","VTN_RGD5"};
 	};
-	class ZSN_SoldierEHAT: ZSN_SoldierE
+	class SUD_USSR_Soldier_AT: ZSN_SoldierE
 	{
 		weapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V"};
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V"};
@@ -1036,7 +1036,7 @@ class CfgVehicles
 		linkedItems[] = {"VTN_SSH68_KHAKI","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"VTN_SSH68_KHAKI","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_SoldierEDHAT: ZSN_SoldierED
+	class SUD_DUSSR_Soldier_AT: ZSN_SoldierED
 	{
 		weapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V"};
 		respawnWeapons[] = {"Throw","Put","VTN_AK74_1976","CUP_launch_RPG7V"};

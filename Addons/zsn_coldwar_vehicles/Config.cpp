@@ -2066,10 +2066,6 @@ class cfgvehicles
 		hiddenselectionstextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\textures\rus_brdm2_01_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\Data\preview\CUP_O_BRDM2_RUS.jpg";
 	};
-	class SUD_BRDM2: ZSN_CUP_VMF_BRDM2
-	{
-		scope = 1;
-	};
 	class ZSN_CUP_DVMF_BRDM2: ZSN_CUP_VMF_BRDM2
 	{
 		faction = "ZSN_EMarinesD_ColdWar";
@@ -2077,6 +2073,10 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_MarineEDCrew"};
 		hiddenselectionstextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\textures\sla_brdm2_01_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\Data\preview\CUP_I_BRDM2_NAPA.jpg";
+	};
+	class SUD_BRDM2: ZSN_CUP_DVMF_BRDM2
+	{
+		scope = 1;
 	};
 	class CUP_BRDM2_ATGM_Base;
 	class ZSN_CUP_VMF_BRDM2_ATGM: CUP_BRDM2_ATGM_Base
@@ -3043,10 +3043,6 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_SoldierWPilot"};
 		faction = "ZSN_WMarines_ColdWar";
 	};
-	class SUD_AH1W: ZSN_CUP_USMC_AH1
-	{
-		scope = 1;
-	};
 	class CUP_AH64D_Base;
 	class CUP_B_AH64D_USA;
 	class ZSN_CUP_ARMY_AH64: CUP_B_AH64D_USA
@@ -3059,6 +3055,10 @@ class cfgvehicles
 		crew = "ZSN_SoldierWPilot";
 		typicalCargo[] = {"ZSN_SoldierWPilot"};
 		faction = "ZSN_WArmy_ColdWar";
+	};
+	class SUD_AH1W: ZSN_CUP_ARMY_AH64
+	{
+		scope = 1;
 	};
 	class CUP_Mi8_base;
 	class CUP_B_Mi17_CDF;

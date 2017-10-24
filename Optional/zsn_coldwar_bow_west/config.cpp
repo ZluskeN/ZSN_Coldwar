@@ -115,7 +115,7 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","BOM16A1","CUP_launch_M72A6"};
 		respawnWeapons[] = {"Throw","Put","BOM16A1","CUP_launch_M72A6"};
 	};
-	class ZSN_SoldierWHAT: ZSN_SoldierW
+	class SUD_NATO_Soldier_AT: ZSN_SoldierW
 	{
 		weapons[] = {"Throw","Put","BOM16A1","CUP_launch_MAAWS"};
 		respawnWeapons[] = {"Throw","Put","BOM16A1","CUP_launch_MAAWS"};
@@ -194,7 +194,7 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","BOM16A1","CUP_launch_M72A6"};
 		respawnWeapons[] = {"Throw","Put","BOM16A1","CUP_launch_M72A6"};
 	};
-	class ZSN_SoldierWDHAT: ZSN_SoldierWD
+	class SUD_DNATO_Soldier_AT: ZSN_SoldierWD
 	{
 		weapons[] = {"Throw","Put","BOM16A1","CUP_launch_MAAWS"};
 		respawnWeapons[] = {"Throw","Put","BOM16A1","CUP_launch_MAAWS"};

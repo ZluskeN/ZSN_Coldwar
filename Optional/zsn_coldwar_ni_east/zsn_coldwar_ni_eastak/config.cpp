@@ -55,7 +55,7 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG18"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG18"};
 	};
-	class ZSN_SoldierEHAT: ZSN_SoldierE
+	class SUD_USSR_Soldier_AT: ZSN_SoldierE
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG7V"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG7V"};
@@ -124,7 +124,7 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG18"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG18"};
 	};
-	class ZSN_SoldierEDHAT: ZSN_SoldierED
+	class SUD_DUSSR_Soldier_AT: ZSN_SoldierED
 	{
 		weapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG7V"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74_dirty","CUP_launch_RPG7V"};
