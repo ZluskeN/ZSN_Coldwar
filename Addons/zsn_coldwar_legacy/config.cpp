@@ -91,13 +91,6 @@ class CfgPatches
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
 	};
-	class SUD_GW_DATA
-	{
-		author = "Sudden";
-		units[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {};
-	};
 	class SUD_GW_V
 	{
 		author = "Sudden";
@@ -218,13 +211,6 @@ class CfgPatches
 		requiredAddons[] = {};
 	};
 	class SUD_GW_DATA
-	{
-		author = "Sudden";
-		units[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {};
-	};
-	class SUD_MI24
 	{
 		author = "Sudden";
 		units[] = {};

@@ -373,16 +373,6 @@ class CfgVehicles
 		scope = 1;
 		displayName = "$STR_A3_CfgVehicles_B_Soldier_F0";
 	};
-	class SUD_NATO_Soldier_Repair: SUD_NATO_Soldier
-	{
-		scope = 2;
-		engineer = 1;
-		detectSkill = 40;
-		icon = "iconManEngineer";
-		picture = "pictureRepair";
-		displayName = "$STR_B_soldier_repair_F0";
-		backPack = "ZSN_ALICE_Repair";
-	};
 	class ZSN_SoldierWMG: ZSN_SoldierW
 	{
 		scope = 2;
