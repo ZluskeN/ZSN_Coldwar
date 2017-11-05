@@ -888,7 +888,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Black Op (Day)";
 		icon = "iconManExplosive";
-		uniformClass = "usm_bdu_w";
+		uniformClass = "usm_bdu_odg";
 		backpack = "ZSN_demopack_oli";
 		portrait = "\us_military_units\icons\p_navy_ca.paa";
 		weapons[] = {"Throw","Put","CUP_hgun_glock17_snds","CUP_arifle_M4A1","Binocular"};
