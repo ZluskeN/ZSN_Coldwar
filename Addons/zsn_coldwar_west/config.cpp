@@ -27,7 +27,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "ZSN_st138_prc77";
 		personal_tf_faction_radio = "tf_rf7800str";
 		airborne_tf_faction_radio = "tf_anarc210";
-		flag = "\a3\Data_f\Flags\flag_us_co.paa";
+		flag = "\zsn_coldwar_west\USA.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -37,7 +37,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "ZSN_st138_prc77";
 		personal_tf_faction_radio = "tf_rf7800str";
 		airborne_tf_faction_radio = "tf_anarc210";
-		flag = "\a3\Data_f\Flags\flag_us_co.paa";
+		flag = "\zsn_coldwar_west\USA.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -47,7 +47,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "ZSN_st138_prc77";
 		personal_tf_faction_radio = "tf_rf7800str";
 		airborne_tf_faction_radio = "tf_anarc210";
-		flag = "\a3\Data_f\Flags\flag_us_co.paa";
+		flag = "\zsn_coldwar_west\USA.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -57,7 +57,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "ZSN_st138_prc77";
 		personal_tf_faction_radio = "tf_rf7800str";
 		airborne_tf_faction_radio = "tf_anarc210";
-		flag = "\a3\Data_f\Flags\flag_us_co.paa";
+		flag = "\zsn_coldwar_west\USA.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -67,7 +67,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "ZSN_st138_prc77";
 		personal_tf_faction_radio = "tf_rf7800str";
 		airborne_tf_faction_radio = "tf_anarc210";
-		flag = "\a3\Data_f\Flags\flag_us_co.paa";
+		flag = "\zsn_coldwar_west\USA.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -77,7 +77,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "ZSN_st138_prc77";
 		personal_tf_faction_radio = "tf_rf7800str";
 		airborne_tf_faction_radio = "tf_anarc210";
-		flag = "\a3\Data_f\Flags\flag_us_co.paa";
+		flag = "\zsn_coldwar_west\USA.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -590,8 +590,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_MicroUzi","CUP_smg_MP5SD6","Binocular"};
 		magazines[] = {"CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		Items[] = {"CUP_RUS_Balaclava_blk","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"CUP_RUS_Balaclava_blk","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
+		Items[] = {"CUP_RUS_Balaclava_blk","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
+		RespawnItems[] = {"CUP_RUS_Balaclava_blk","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"H_Watchcap_blk","CUP_NVG_PVS7","usm_vest_LBE_rmp_m","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"H_Watchcap_blk","CUP_NVG_PVS7","usm_vest_LBE_rmp_m","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
@@ -895,8 +895,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_glock17_snds","CUP_arifle_M4A1","Binocular"};
 		magazines[] = {"CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		Items[] = {"Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
+		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"H_ShemagOpen_tan","usm_vest_rba_lbe_rmp","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"H_ShemagOpen_tan","usm_vest_rba_lbe_rmp","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};

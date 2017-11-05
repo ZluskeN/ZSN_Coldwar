@@ -27,7 +27,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "tf_rt1523g";
 		personal_tf_faction_radio = "tf_anprc152";
 		airborne_tf_faction_radio = "tf_anarc164";
-		flag = "\a3\Data_f\Flags\flag_nato_co.paa";
+		flag = "\zsn_coldwar_euro\NATO.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -37,7 +37,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "tf_rt1523g";
 		personal_tf_faction_radio = "tf_anprc152";
 		airborne_tf_faction_radio = "tf_anarc164";
-		flag = "\a3\Data_f\Flags\flag_nato_co.paa";
+		flag = "\zsn_coldwar_euro\NATO.paa";
 		priority = 1;
 		side = 1;
 	};

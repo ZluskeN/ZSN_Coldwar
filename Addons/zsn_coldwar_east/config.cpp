@@ -27,6 +27,7 @@ class cfgFactionClasses
 		backpack_tf_faction_radio = "tf_bussole";
 		personal_tf_faction_radio = "tf_pnr1000a";
 		airborne_tf_faction_radio = "tf_mr6000l";
+		flag = "\zsn_coldwar_east\USSR.paa";
 		//flag = "\DiscloseAFGHANunits2\Logo.paa";
 		priority = 1;
 		side = 0;
@@ -38,6 +39,7 @@ class cfgFactionClasses
 		personal_tf_faction_radio = "tf_pnr1000a";
 		airborne_tf_faction_radio = "tf_mr6000l";
 		//flag = "\DiscloseAFGHANunits2\Logo.paa";
+		flag = "\zsn_coldwar_east\USSR.paa";
 		priority = 1;
 		side = 0;
 	};
@@ -48,6 +50,7 @@ class cfgFactionClasses
 		personal_tf_faction_radio = "tf_pnr1000a";
 		airborne_tf_faction_radio = "tf_mr6000l";
 		//flag = "\DiscloseAFGHANunits2\Logo.paa";
+		flag = "\zsn_coldwar_east\USSR.paa";
 		priority = 1;
 		side = 0;
 	};
@@ -58,6 +61,7 @@ class cfgFactionClasses
 		personal_tf_faction_radio = "tf_pnr1000a";
 		airborne_tf_faction_radio = "tf_mr6000l";
 		//flag = "\DiscloseAFGHANunits2\Logo.paa";
+		flag = "\zsn_coldwar_east\USSR.paa";
 		priority = 1;
 		side = 0;
 	};
@@ -68,6 +72,7 @@ class cfgFactionClasses
 		personal_tf_faction_radio = "tf_pnr1000a";
 		airborne_tf_faction_radio = "tf_mr6000l";
 		//flag = "\DiscloseAFGHANunits2\Logo.paa";
+		flag = "\zsn_coldwar_east\USSR.paa";
 		priority = 1;
 		side = 0;
 	};
@@ -78,6 +83,7 @@ class cfgFactionClasses
 		personal_tf_faction_radio = "tf_pnr1000a";
 		airborne_tf_faction_radio = "tf_mr6000l";
 		//flag = "\DiscloseAFGHANunits2\Logo.paa";
+		flag = "\zsn_coldwar_east\USSR.paa";
 		priority = 1;
 		side = 0;
 	};
@@ -699,8 +705,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_SA61","CUP_smg_bizon_snds","Binocular"};
 		magazines[] = {"CUP_20Rnd_B_765x17_Ball_M","CUP_20Rnd_B_765x17_Ball_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_20Rnd_B_765x17_Ball_M","CUP_20Rnd_B_765x17_Ball_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		Items[] = {"G_Balaclava_oli","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"G_Balaclava_oli","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
+		Items[] = {"G_Balaclava_oli","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
+		RespawnItems[] = {"G_Balaclava_oli","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"H_Bandanna_khk_hs","CUP_NVG_PVS7","CUP_V_RUS_Smersh_1","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"H_Bandanna_khk_hs","CUP_NVG_PVS7","CUP_V_RUS_Smersh_1","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		class Wounds
@@ -986,8 +992,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","CUP_arifle_AK107","Binocular"};
 		magazines[] = {"CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		Items[] = {"Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
+		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"CUP_H_RUS_Beret_Spetsnaz","CUP_V_O_Ins_Carrier_Rig_Com","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"CUP_H_RUS_Beret_Spetsnaz","CUP_V_O_Ins_Carrier_Rig_Com","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		class Wounds
