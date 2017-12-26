@@ -3407,6 +3407,7 @@ class cfgvehicles
 	class CUP_B_Mi24_D_CDF;
 	class ZSN_CSLA_Mi24: CUP_B_Mi24_D_CDF
 	{
+		displayName = "Mi-25";
 		side = 0;
 		scope = 2;
 		scopeCurator = 2;
@@ -3416,6 +3417,7 @@ class cfgvehicles
 	};
 	class ZSN_DCSLA_Mi24: ZSN_CSLA_Mi24
 	{
+		displayName = "Mi-25";
 		faction = "ZSN_EEuroD_ColdWar";
 		crew = "ZSN_EurosolEDPilot";
 		typicalCargo[] = {"ZSN_EurosolEDPilot"};
