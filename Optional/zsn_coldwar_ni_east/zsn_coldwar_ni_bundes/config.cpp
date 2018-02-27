@@ -56,6 +56,21 @@ class cfgWeapons
 			mass = 20;
 		};
 	};
+	class Rifle_Base_F;
+	class hlc_g3_base;
+	class hlc_rifle_g3sg1;
+	class zsn_G3SG1: hlc_rifle_g3sg1
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "HLC_Optic_ZFSG1";
+			};
+		};
+	};
 };
 class CfgVehicles
 {
@@ -164,8 +179,8 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Sniper";
-		weapons[] = {"Throw","Put","hlc_rifle_g3sg1"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_g3sg1"};
+		weapons[] = {"Throw","Put","zsn_G3SG1"};
+		respawnWeapons[] = {"Throw","Put","zsn_G3SG1"};
 		magazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","Smokeshell","Smokeshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","hlc_20rnd_762x51_b_G3","Smokeshell","Smokeshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
@@ -242,40 +257,6 @@ class CfgVehicles
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
-	class ZSN_GersolWPilot: ZSN_GersolW
-	{
-		scope = 2;
-		displayName = "Pilot";
-		icon = "iconManEngineer";
-		backpack = "";
-		uniformClass = "CUP_U_B_GER_Flecktarn_2";
-		//uniformClass = "U_BG_Guerrilla_6_1";
-		weapons[] = {"Throw","Put","hlc_smg_mp5a3"};
-		respawnWeapons[] = {"Throw","Put","hlc_smg_mp5a3"};
-		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
-		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
-		Items[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
-		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-	};
-	class ZSN_GersolWCrew: ZSN_GersolW
-	{
-		scope = 2;
-		displayName = "Crew";
-		icon = "iconManEngineer";
-		backpack = "";
-		uniformClass = "CUP_U_B_GER_Flecktarn_2";
-		//uniformClass = "U_BG_Guerrilla_6_1";
-		weapons[] = {"Throw","Put","hlc_smg_mp5a3"};
-		respawnWeapons[] = {"Throw","Put","hlc_smg_mp5a3"};
-		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
-		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
-		Items[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
-		RespawnItems[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
-		linkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
-	};
 	class ZSN_GersolWP: ZSN_GersolW
 	{
 		scope = 1;
@@ -288,13 +269,17 @@ class CfgVehicles
 		//hiddenSelectionsTextures[] = {"\zsn_coldwar_ni_east\zsn_coldwar_ni_bundes\feldgrau2_co.paa","\zsn_coldwar_ni_east\zsn_coldwar_ni_bundes\feldgrau_co.paa"};
 		//uniformClass = "fow_u_ger_m43_02_private";
 	};
-	class CUP_B_UH1D_slick_GER_KSK;
-	class ZSN_CUP_B_UH1D_GER: CUP_B_UH1D_slick_GER_KSK
+	class ZSN_GersolWPilot: ZSN_GersolW
 	{
-		faction = "ZSN_WGer_ColdWar";
-		crew = "ZSN_GersolWPilot";
-		displayName = "UH-1D Slick";
-		typicalCargo[] = {"ZSN_GersolWPilot"};
+		scope = 2;
+		weapons[] = {"Throw","Put","hlc_smg_mp5a3"};
+		respawnWeapons[] = {"Throw","Put","hlc_smg_mp5a3"};
+	};
+	class ZSN_GersolWCrew: ZSN_GersolW
+	{
+		scope = 2;
+		weapons[] = {"Throw","Put","hlc_smg_mp5a3"};
+		respawnWeapons[] = {"Throw","Put","hlc_smg_mp5a3"};
 	};
 	class ZSN_SoldierW;
 	class ZSN_SoldierWSaboteur: ZSN_SoldierW
@@ -303,16 +288,6 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_MicroUzi","hlc_smg_mp5sd6","Binocular"};
 		magazines[] = {"CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","hlc_30Rnd_9x19_SD_MP5","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-	};
-};
-class Extended_Init_EventHandlers
-{
-	class ZSN_GersolWSniper
-	{
-		class ZSN_ScopeWG3
-		{
-			init = "[(_this select 0) addPrimaryWeaponItem "HLC_Optic_ZFSG1"]";
-		};
 	};
 };
 class CfgGroups

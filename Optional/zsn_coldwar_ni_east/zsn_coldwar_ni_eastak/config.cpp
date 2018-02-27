@@ -17,6 +17,25 @@ class CfgPatches
 		requiredAddons[] = {"ZSN_ColdWarVehicles","HLC_COMPAT_CUP_AK"};
 	};
 };
+class cfgweapons
+{
+	class Rifle_Base_F;
+	class hlc_ak_base;
+	class hlc_rifle_ak74;
+	class hlc_rifle_aek971;
+	class zsn_aek971: hlc_rifle_aek971
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "HLC_Optic_1p29";
+			};
+		};
+	};
+};
 class CfgVehicles
 {
 	class ReammoBox_F;
@@ -168,8 +187,8 @@ class CfgVehicles
 	};
 	class ZSN_SoldierEDSaboteur: ZSN_SoldierED
 	{
-		weapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","hlc_rifle_aek971","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","hlc_rifle_aek971","Binocular"};
+		weapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","zsn_aek971","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","zsn_aek971","Binocular"};
 	};
 	class ZSN_SoldierEDCrew: ZSN_SoldierED
 	{
@@ -338,8 +357,8 @@ class CfgVehicles
 	};
 	class ZSN_RangerEHAT: ZSN_RangerE
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_ghex_F"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_ghex_F"};
+		weapons[] = {"Throw","Put","hlc_rifle_aks74","zsn_rpg29"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","zsn_rpg29"};
 	};
 	class ZSN_RangerEHATAss: ZSN_RangerE
 	{
@@ -410,8 +429,8 @@ class CfgVehicles
 	};
 	class ZSN_RangerEDHAT: ZSN_RangerED
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_F"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","launch_RPG32_F"};
+		weapons[] = {"Throw","Put","hlc_rifle_aks74","zsn_rpg29"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_aks74","zsn_rpg29"};
 	};
 	class ZSN_RangerEDHATAss: ZSN_RangerED
 	{

@@ -26,6 +26,35 @@ class cfgweapons
 		class WeaponSlotsInfo;
 		class GunParticles;
 	};
+	class SMG_02_F;
+	class BOmp5SD3;
+	class zsn_hk: BOmp5SD3
+	{
+		class LinkedItems
+		{
+			class LinkedItemsPointer
+			{
+				slot = "PointerSlot";
+				item = "mp5irlaser";
+			};
+		};
+	};
+	class arifle_Mk20_plain_F;
+	class BOM653;
+	class BOm723;
+	class BOm733;
+	class BOxm177e2;
+	class zsn_xms: BOxm177e2
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "aimpoint2000";
+			};
+		};
+	};
 	class Rifle_Long_Base_F;
 	class EBR_base_F;
 	class srifle_EBR_F;
@@ -41,7 +70,7 @@ class cfgweapons
 	};
 	class ZSN_CUP_srifle_M21: boM14
 	{
-		scope = 1;
+		scope = 2;
 		displayName = "M21";
 		modes[] = {"Single","single_close_optics1","single_medium_optics1","single_far_optics1"};
 		class LinkedItems
@@ -57,13 +86,13 @@ class cfgweapons
 	class BOm60e3;
 	class ZSN_BOm60e3: BOm60e3
 	{
-		scope = 1;
+		scope = 2;
 		magazines[] = {"hlc_100Rnd_762x51_B_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_Barrier_M60E4","hlc_100Rnd_762x51_T_M60E4","100rnd_m60E3","100rnd_m60E3_tracer","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 	};
 	class BoM249e1;
 	class ZSN_BoM249e1: BoM249e1
 	{
-		scope = 1;
+		scope = 2;
 		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE1_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_G36","30Rnd_556x45_STANAG"};
 	};
 };
@@ -157,8 +186,8 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWSaboteur: ZSN_SoldierW
 	{
-		weapons[] = {"Throw","Put","CUP_hgun_MicroUzi","BOmp5SD3","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_hgun_MicroUzi","BOmp5SD3","Binocular"};
+		weapons[] = {"Throw","Put","CUP_hgun_MicroUzi","zsn_hk","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_hgun_MicroUzi","zsn_hk","Binocular"};
 		magazines[] = {"CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 	};
@@ -236,8 +265,8 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWDSaboteur: ZSN_SoldierWD
 	{
-		weapons[] = {"Throw","Put","CUP_hgun_glock17_snds","BOxm177e2","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_hgun_glock17_snds","BOxm177e2","Binocular"};
+		weapons[] = {"Throw","Put","CUP_hgun_glock17_snds","zsn_xms","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_hgun_glock17_snds","zsn_xms","Binocular"};
 	};
 	class ZSN_SoldierWDCrew: ZSN_SoldierWD
 	{

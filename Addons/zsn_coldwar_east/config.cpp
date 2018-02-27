@@ -705,8 +705,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_SA61","CUP_smg_bizon_snds","Binocular"};
 		magazines[] = {"CUP_20Rnd_B_765x17_Ball_M","CUP_20Rnd_B_765x17_Ball_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_20Rnd_B_765x17_Ball_M","CUP_20Rnd_B_765x17_Ball_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_64Rnd_9x19_Bizon_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		Items[] = {"G_Balaclava_oli","Firstaidkit","Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"G_Balaclava_oli","Firstaidkit","Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
+		Items[] = {"G_Balaclava_oli","Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
+		RespawnItems[] = {"G_Balaclava_oli","Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"H_Bandanna_khk_hs","CUP_NVG_PVS7","CUP_V_RUS_Smersh_1","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"H_Bandanna_khk_hs","CUP_NVG_PVS7","CUP_V_RUS_Smersh_1","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		class Wounds
@@ -881,7 +881,7 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_srifle_SVD_pso"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		linkedItems[] = {"CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Ghillie_Top.p3d";
 		uniformClass = "CUP_U_O_TK_Ghillie_Top";
@@ -992,8 +992,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","CUP_arifle_AK107","Binocular"};
 		magazines[] = {"CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		Items[] = {"Firstaidkit","Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"Firstaidkit","Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
+		Items[] = {"Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"CUP_H_RUS_Beret_Spetsnaz","CUP_V_O_Ins_Carrier_Rig_Com","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"CUP_H_RUS_Beret_Spetsnaz","CUP_V_O_Ins_Carrier_Rig_Com","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		class Wounds
@@ -1690,8 +1690,8 @@ class CfgVehicles
 		scope = 2;
 		displayName = "RPG-29 Soldier";
 		icon = "iconManAT";
-		weapons[] = {"Throw","Put","CUP_arifle_AKS74","launch_RPG32_ghex_F"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS74","launch_RPG32_ghex_F"};
+		weapons[] = {"Throw","Put","CUP_arifle_AKS74","zsn_RPG29"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS74","zsn_RPG29"};
 		magazines[] = {"RPG32_F","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"RPG32_F","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_RUS_TSH_4_Brown","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
@@ -1963,8 +1963,8 @@ class CfgVehicles
 		scope = 2;
 		displayName = "RPG-29 Soldier";
 		icon = "iconManAT";
-		weapons[] = {"Throw","Put","CUP_arifle_AKS74","launch_RPG32_F"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS74","launch_RPG32_F"};
+		weapons[] = {"Throw","Put","CUP_arifle_AKS74","zsn_RPG29"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_AKS74","zsn_RPG29"};
 		magazines[] = {"RPG32_F","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"RPG32_F","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_TK_TankerHelmet","CUP_V_O_Ins_Carrier_Rig_MG","ItemMap","ItemCompass","ItemWatch"};
@@ -2559,7 +2559,7 @@ class CfgGroups
 				};
 				class ZSN_EArmy_AASquad
 				{
-					name = "AA Squad";
+					name = "AA Team";
 					faction = "ZSN_EArmy_ColdWar";
 					side = 0;
 					class Unit0
@@ -2593,7 +2593,7 @@ class CfgGroups
 				};
 				class ZSN_EArmy_ATSquad
 				{
-					name = "AT Squad";
+					name = "AT Team";
 					faction = "ZSN_EArmy_ColdWar";
 					side = 0;
 					class Unit0
@@ -2627,7 +2627,7 @@ class CfgGroups
 				};
 				class ZSN_EArmy_MGSquad
 				{
-					name = "MG Squad";
+					name = "MG Team";
 					faction = "ZSN_EArmy_ColdWar";
 					side = 0;
 					class Unit0
@@ -2800,7 +2800,7 @@ class CfgGroups
 				};
 				class ZSN_EMarine_ATSquad
 				{
-					name = "AT Squad";
+					name = "AT Team";
 					faction = "ZSN_EMarines_ColdWar";
 					side = 0;
 					class Unit0
@@ -2834,7 +2834,7 @@ class CfgGroups
 				};
 				class ZSN_EMarine_RPGSquad
 				{
-					name = "RPG Squad";
+					name = "RPG Team";
 					faction = "ZSN_EMarines_ColdWar";
 					side = 0;
 					class Unit0
@@ -2868,7 +2868,7 @@ class CfgGroups
 				};
 				class ZSN_EMarine_AASquad
 				{
-					name = "AA Squad";
+					name = "AA Team";
 					faction = "ZSN_EMarines_ColdWar";
 					side = 0;
 					class Unit0
@@ -3006,7 +3006,7 @@ class CfgGroups
 				};
 				class ZSN_ERanger_ATSquad
 				{
-					name = "AT Squad";
+					name = "AT Team";
 					faction = "ZSN_ERangers_ColdWar";
 					side = 0;
 					class Unit0
@@ -3040,7 +3040,7 @@ class CfgGroups
 				};
 				class ZSN_ERanger_AASquad
 				{
-					name = "AA Squad";
+					name = "AA Team";
 					faction = "ZSN_ERangers_ColdWar";
 					side = 0;
 					class Unit0
@@ -3185,7 +3185,7 @@ class CfgGroups
 				};
 				class ZSN_EArmyD_AASquad
 				{
-					name = "AA Squad";
+					name = "AA Team";
 					faction = "ZSN_EArmyD_ColdWar";
 					side = 0;
 					class Unit0
@@ -3219,7 +3219,7 @@ class CfgGroups
 				};
 				class ZSN_EArmyD_ATSquad
 				{
-					name = "AT Squad";
+					name = "AT Team";
 					faction = "ZSN_EArmyD_ColdWar";
 					side = 0;
 					class Unit0
@@ -3253,7 +3253,7 @@ class CfgGroups
 				};
 				class ZSN_EArmyD_MGSquad
 				{
-					name = "MG Squad";
+					name = "MG Team";
 					faction = "ZSN_EArmyD_ColdWar";
 					side = 0;
 					class Unit0
@@ -3426,7 +3426,7 @@ class CfgGroups
 				};
 				class ZSN_EMarineD_ATSquad
 				{
-					name = "AT Squad";
+					name = "AT Team";
 					faction = "ZSN_EMarinesD_ColdWar";
 					side = 0;
 					class Unit0
@@ -3460,7 +3460,7 @@ class CfgGroups
 				};
 				class ZSN_EMarineD_RPGSquad
 				{
-					name = "RPG Squad";
+					name = "RPG Team";
 					faction = "ZSN_EMarinesD_ColdWar";
 					side = 0;
 					class Unit0
@@ -3494,7 +3494,7 @@ class CfgGroups
 				};
 				class ZSN_EMarineD_AASquad
 				{
-					name = "AA Squad";
+					name = "AA Team";
 					faction = "ZSN_EMarinesD_ColdWar";
 					side = 0;
 					class Unit0
@@ -3632,7 +3632,7 @@ class CfgGroups
 				};
 				class ZSN_ERangerD_ATSquad
 				{
-					name = "AT Squad";
+					name = "AT Team";
 					faction = "ZSN_ERangersD_ColdWar";
 					side = 0;
 					class Unit0
@@ -3666,7 +3666,7 @@ class CfgGroups
 				};
 				class ZSN_ERangerD_AASquad
 				{
-					name = "AA Squad";
+					name = "AA Team";
 					faction = "ZSN_ERangersD_ColdWar";
 					side = 0;
 					class Unit0

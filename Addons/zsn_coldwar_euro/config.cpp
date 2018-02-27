@@ -77,6 +77,16 @@ class cfgFactionClasses
 		priority = 1;
 		side = 2;
 	};
+	class ZSN_WGer_ColdWar
+	{
+		displayName = "Cold War FRG";
+		backpack_tf_faction_radio = "ZSN_st138_prc77";
+		personal_tf_faction_radio = "tf_rf7800str";
+		airborne_tf_faction_radio = "tf_anarc210";
+		flag = "\zsn_coldwar_euro\Germany.paa";
+		priority = 1;
+		side = 1;
+	};
 };
 class cfgWeapons
 {
@@ -955,6 +965,49 @@ class CfgVehicles
 		linkedItems[] = {"CUP_H_PMC_EP_Headset","CUP_V_OI_TKI_Jacket2_04","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_H_PMC_EP_Headset","CUP_V_OI_TKI_Jacket2_04","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
+	class ZSN_GersolW: B_Soldier_base_F {};
+	class ZSN_GersolWPilot: ZSN_GersolW
+	{
+		scope = 1;
+		displayName = "Pilot";
+		icon = "iconManEngineer";
+		backpack = "";
+		uniformClass = "CUP_U_B_GER_Flecktarn_2";
+		//uniformClass = "U_BG_Guerrilla_6_1";
+		weapons[] = {"Throw","Put","CUP_smg_MP5A5"};
+		respawnWeapons[] = {"Throw","Put","CUP_smg_MP5A5"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
+		Items[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
+		RespawnItems[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
+		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class ZSN_GersolWCrew: ZSN_GersolW
+	{
+		scope = 1;
+		displayName = "Crew";
+		icon = "iconManEngineer";
+		backpack = "";
+		uniformClass = "CUP_U_B_GER_Flecktarn_2";
+		//uniformClass = "U_BG_Guerrilla_6_1";
+		weapons[] = {"Throw","Put","CUP_smg_MP5A5"};
+		respawnWeapons[] = {"Throw","Put","CUP_smg_MP5A5"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
+		Items[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		linkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class CUP_B_UH1D_slick_GER_KSK;
+	class ZSN_CUP_B_UH1D_GER: CUP_B_UH1D_slick_GER_KSK
+	{
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWPilot";
+		displayName = "UH-1D Slick";
+		typicalCargo[] = {"ZSN_GersolWPilot"};
+	};
 	class LandVehicle;
 	class StaticWeapon: LandVehicle
 	{
@@ -1353,6 +1406,13 @@ class CfgUnitInsignia
 		displayName = "West Germany";
 		author = "ZluskeN";
 		texture = "\zsn_coldwar_euro\Wgerman.paa";
+		textureVehicle = "";
+	};
+	class ZSN_Skyddsvakt
+	{
+		displayName = "Skyddsvakt";
+		author = "ZluskeN";
+		texture = "\zsn_coldwar_equipment\skyddsvakt.paa";
 		textureVehicle = "";
 	};
 };

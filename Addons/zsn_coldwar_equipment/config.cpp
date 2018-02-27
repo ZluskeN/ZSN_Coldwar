@@ -58,7 +58,7 @@ class CfgWeapons
 	class CUP_arifle_FNFAL;
 	class ZSN_L1A1: CUP_arifle_FNFAL
 	{
-		scope = 1;
+		scope = 2;
 		displayName = "L1A1";
 		modes[] = {"Single"};
 		model = "CUP\Weapons\CUP_Weapons_FNFAL\CUP_fnfal5061.p3d";
@@ -162,14 +162,18 @@ class CfgWeapons
 	class CUP_lmg_minimi;
 	class ZSN_M249_SAW: CUP_lmg_minimi
 	{
-		scope = 1;
+		scope = 2;
 		displayName = "M249 SAW";
 		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","200Rnd_556x45_Box_Tracer_Red_F","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_G36","30Rnd_556x45_STANAG"};
 	};
  	class launch_RPG32_F;
- 	class launch_RPG32_ghex_F : launch_RPG32_F
+ 	class zsn_RPG29: launch_RPG32_F
  	{
- 		magazines[] = {"RPG32_F","RPG32_HE_F","TMR_RPG32_Smoke_F","TMR_RPG32_TB_F"};
+		author = "ZluskeN";
+		displayName = "RPG-29 Vampir";
+		picture = "\A3\Weapons_F_Exp\Launchers\RPG32\Data\UI\launch_RPG32_ghex_F_X_CA.paa";
+		magazines[] = {"RPG32_F","RPG32_HE_F","TMR_RPG32_Smoke_F","TMR_RPG32_TB_F"};
+ 		hiddenSelectionsTextures[] = {"\zsn_coldwar_equipment\launch_RPG29_F_co.paa","\A3\Weapons_F\Launchers\RPG32\data\RPG_32_optics_CO.paa"};
  	};
 	class UniformItem;
 	class VestItem;
@@ -938,6 +942,24 @@ class CfgWeapons
 			mass = 100;
 		};
 	};
+	class CUP_V_PMC_CIRAS_Base;
+	class CUP_V_PMC_CIRAS_Black_Veh: CUP_V_PMC_CIRAS_Base
+	{
+		class ItemInfo;
+	};
+	class ZSN_Black_Op_Vest: CUP_V_PMC_CIRAS_Black_Veh
+	{
+		author = "ZluskeN";
+		scope = 2;
+		displayName = "Vest (Black Op)";
+		class ItemInfo: ItemInfo
+		{
+			containerClass = "Supply120";
+			armor = 0;
+			passThrough = 1;
+			mass = 80;
+		};
+	};
 };
 class CfgMagazines
 {
@@ -967,7 +989,7 @@ class CfgVehicles
 	class usm_pack_m5_medic;
 	class ZSN_bag_m5_medic: usm_pack_m5_medic
 	{
-		scope = 1;
+		scope = 2;
 		displayName = "Bag, M5, Combat Life Saver";
 		allowedSlots[] = {501,601,701,801,901};
 		model = "\us_military_units\usm_pack_m5_medic.p3d";
@@ -998,7 +1020,7 @@ class CfgVehicles
 	class CUP_B_SLA_Medicbag;
 	class ZSN_pack_medic: CUP_B_SLA_Medicbag
 	{
-		scope = 1;
+		scope = 2;
 		displayName = "Medic Bag";
 		maximumLoad = 224;
 		class TransportItems
@@ -1098,8 +1120,8 @@ class CfgVehicles
 	};
 	class ZSN_ALICE_Repair: CUP_B_AlicePack_Khaki
 	{
-		scope = 1;
-		maximumLoad = 210;
+		scope = 2;
+		maximumLoad = 200;
 		class TransportItems
 		{
 			class _xx_ToolKit
@@ -1202,8 +1224,9 @@ class CfgVehicles
 	};
 	class ZSN_RD54_Repair: CUP_B_CivPack_WDL
 	{
-		scope = 1;
+		scope = 2;
 		hiddenSelectionsTextures[] = {"zsn_coldwar_equipment\backpack_vdv_assault.paa"};
+		displayName = "RD54 Pack";
 		maximumLoad = 200;
 		class TransportItems
 		{
