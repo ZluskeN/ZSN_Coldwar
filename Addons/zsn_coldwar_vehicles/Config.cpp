@@ -1752,9 +1752,9 @@ class cfgvehicles
 				magazine = "UGL_FlareWhite_F";
 				count = 100;
 			};
-			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			class _xx_1Rnd_Smoke_Grenade_shell
 			{
-				magazine = "1Rnd_SmokeGreen_Grenade_shell";
+				magazine = "1Rnd_Smoke_Grenade_shell";
 				count = 100;
 			};
 			class _xx_CUP_15Rnd_9x19_M9
@@ -1777,9 +1777,9 @@ class cfgvehicles
 				magazine = "CUP_HandGrenade_M67";
 				count = 100;
 			};
-			class _xx_SmokeShellGreen
+			class _xx_SmokeShell
 			{
-				magazine = "SmokeShellGreen";
+				magazine = "SmokeShell";
 				count = 80;
 			};
 			class _xx_CUP_PipeBomb_M
@@ -1870,9 +1870,9 @@ class cfgvehicles
 				magazine = "UGL_FlareWhite_F";
 				count = 100;
 			};
-			class _xx_1Rnd_SmokeGreen_Grenade_shell
+			class _xx_1Rnd_Smoke_Grenade_shell
 			{
-				magazine = "1Rnd_SmokeGreen_Grenade_shell";
+				magazine = "1Rnd_Smoke_Grenade_shell";
 				count = 100;
 			};
 			class _xx_CUP_7Rnd_45ACP_1911
@@ -1895,9 +1895,9 @@ class cfgvehicles
 				magazine = "CUP_HandGrenade_M67";
 				count = 100;
 			};
-			class _xx_SmokeShellGreen
+			class _xx_SmokeShell
 			{
-				magazine = "SmokeShellGreen";
+				magazine = "SmokeShell";
 				count = 80;
 			};
 			class _xx_CUP_PipeBomb_M
