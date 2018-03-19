@@ -1120,7 +1120,7 @@ class CfgVehicles
 	};
 	class ZSN_ALICE_Repair: CUP_B_AlicePack_Khaki
 	{
-		scope = 2;
+		scope = 1;
 		maximumLoad = 200;
 		class TransportItems
 		{
@@ -1224,7 +1224,7 @@ class CfgVehicles
 	};
 	class ZSN_RD54_Repair: CUP_B_CivPack_WDL
 	{
-		scope = 2;
+		scope = 1;
 		hiddenSelectionsTextures[] = {"zsn_coldwar_equipment\backpack_vdv_assault.paa"};
 		displayName = "RD54 Pack";
 		maximumLoad = 200;
@@ -1389,7 +1389,7 @@ class CfgVehicles
 	};
 	class ZSN_minepack_east: CUP_B_CivPack_WDL
 	{
-		scope = 1;
+		scope = 2;
 		hiddenSelectionsTextures[] = {"zsn_coldwar_equipment\backpack_vdv_assault.paa"};
 		class TransportItems
 		{
@@ -1415,7 +1415,7 @@ class CfgVehicles
 	};
 	class ZSN_minepack_west: CUP_B_AlicePack_Khaki
 	{
-		scope = 1;
+		scope = 2;
 		class TransportItems
 		{
 			class _xx_ACE_DefusalKit
