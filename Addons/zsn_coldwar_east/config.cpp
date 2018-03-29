@@ -596,8 +596,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","CUP_hgun_Makarov","Binocular"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","SmokeShell","SmokeShell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		linkedItems[] = {"H_Bandanna_cbr","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"H_Bandanna_cbr","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"H_Beret_blk","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"H_Beret_blk","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","CUP_H_SLA_Helmet"};
 		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs","CUP_H_SLA_Helmet"};
 	};

@@ -85,10 +85,10 @@ class CfgVehicles
 		allowedSlots[] = {901,801};
 		class TransportMagazines
 		{
-			class _xx_hlc_50Rnd_762x51_M_MG3
+			class _xx_hlc_100Rnd_762x51_M_MG3
 			{
-				magazine = "hlc_50Rnd_762x51_M_MG3";
-				count = 2;
+				magazine = "hlc_100Rnd_762x51_M_MG3";
+				count = 1;
 			};
 			class _xx_ACE_SpareBarrel
 			{

@@ -282,8 +282,7 @@ class CfgVehicles
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
 		icon = "iconMan";
-		hiddenSelections[] = {"2_nametapes","2_unitpatches"};
-		hiddenSelectionsTextures[] = {"us_military_units\nametapes\army_pfc_name_ca.paa","us_military_units\nametapes\patch_101stairborne_f_ca.paa"};
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\army_pvt_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","usm_heads_generic","G_usm_generic"};
 		uniformClass = "usm_bdu_w";
@@ -316,6 +315,7 @@ class CfgVehicles
 		displayName = "Medic";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\army_spl_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "ZSN_bag_m5_medic";
@@ -465,6 +465,7 @@ class CfgVehicles
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\army_1stlt_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManOfficer";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_M9","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_M9","Binocular"};
@@ -481,6 +482,7 @@ class CfgVehicles
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\army_sgt_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
@@ -495,6 +497,7 @@ class CfgVehicles
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\army_cpl_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
@@ -627,8 +630,7 @@ class CfgVehicles
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
 		icon = "iconMan";
-		hiddenSelections[] = {"2_nametapes","2_unitpatches"};
-		hiddenSelectionsTextures[] = {"us_military_units\nametapes\army_pfc_name_ca.paa","us_military_units\nametapes\patch_101stairborne_f_ca.paa"};
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\army_pvt_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","usm_heads_generic","G_usm_generic"};
 		uniformClass = "usm_bdu_d";
@@ -661,6 +663,7 @@ class CfgVehicles
 		displayName = "Medic";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\army_spl_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "ZSN_bag_m5_medic";
@@ -790,6 +793,7 @@ class CfgVehicles
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\army_1stlt_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManOfficer";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_M9","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_M9","Binocular"};
@@ -806,6 +810,7 @@ class CfgVehicles
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\army_sgt_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
@@ -820,6 +825,7 @@ class CfgVehicles
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\army_cpl_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
@@ -932,8 +938,7 @@ class CfgVehicles
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
 		icon = "iconMan";
-		hiddenSelections[] = {"2_nametapes","2_unitpatches"};
-		hiddenSelectionsTextures[] = {"us_military_units\nametapes\army_pfc_name_ca.paa","us_military_units\nametapes\patch_101stairborne_f_ca.paa"};
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\marine_lcpl_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","usm_heads_generic","G_usm_generic"};
 		uniformClass = "usm_bdu_w_m";
@@ -966,6 +971,7 @@ class CfgVehicles
 		displayName = "Corpsman";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_navy.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\navy_hm2_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "ZSN_bag_m5_medic";
@@ -1098,6 +1104,7 @@ class CfgVehicles
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\marine_1stlt_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManOfficer";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_Colt1911","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_Colt1911","Binocular"};
@@ -1114,6 +1121,7 @@ class CfgVehicles
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\marine_sgt_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
@@ -1128,6 +1136,7 @@ class CfgVehicles
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\marine_cpl_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
@@ -1218,8 +1227,7 @@ class CfgVehicles
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
 		icon = "iconMan";
-		hiddenSelections[] = {"2_nametapes","2_unitpatches"};
-		hiddenSelectionsTextures[] = {"us_military_units\nametapes\army_pfc_name_ca.paa","us_military_units\nametapes\patch_101stairborne_f_ca.paa"};
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\marine_lcpl_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","usm_heads_generic","G_usm_generic"};
 		uniformClass = "usm_bdu_d_m";
@@ -1252,6 +1260,7 @@ class CfgVehicles
 		displayName = "Corpsman";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_navy.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\navy_hm2_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "ZSN_bag_m5_medic";
@@ -1384,6 +1393,7 @@ class CfgVehicles
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\marine_1stlt_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManOfficer";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_Colt1911","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_Colt1911","Binocular"};
@@ -1400,6 +1410,7 @@ class CfgVehicles
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\marine_sgt_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
@@ -1414,6 +1425,7 @@ class CfgVehicles
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\nametapes\marine_cpl_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
@@ -1504,8 +1516,7 @@ class CfgVehicles
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
 		icon = "iconMan";
-		hiddenSelections[] = {"2_nametapes","2_unitpatches"};
-		hiddenSelectionsTextures[] = {"us_military_units\nametapes\army_pfc_name_ca.paa"};
+		hiddenSelectionsTextures[] = {"\us_military_units\army_pfc_ranger_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","usm_heads_generic","G_usm_generic"};
 		uniformClass = "usm_bdu_w";
@@ -1538,6 +1549,7 @@ class CfgVehicles
 		displayName = "Medic";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\army_spl_ranger_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "ZSN_bag_m5_medic";
@@ -1670,6 +1682,7 @@ class CfgVehicles
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\army_1stlt_ranger_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManOfficer";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_M9","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_M9","Binocular"};
@@ -1686,6 +1699,7 @@ class CfgVehicles
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\army_sgt_ranger_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
@@ -1700,6 +1714,7 @@ class CfgVehicles
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\army_cpl_ranger_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
@@ -1796,8 +1811,7 @@ class CfgVehicles
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
 		icon = "iconMan";
-		hiddenSelections[] = {"2_nametapes","2_unitpatches"};
-		hiddenSelectionsTextures[] = {"us_military_units\nametapes\army_pfc_name_ca.paa"};
+		hiddenSelectionsTextures[] = {"\us_military_units\army_pfc_ranger_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","usm_heads_generic","G_usm_generic"};
 		uniformClass = "usm_bdu_d";
@@ -1830,6 +1844,7 @@ class CfgVehicles
 		displayName = "Medic";
 		picture = "\us_military_units\icons\i_med_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\army_spl_ranger_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "ZSN_bag_m5_medic";
@@ -1962,6 +1977,7 @@ class CfgVehicles
 		displayName = "Officer";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\army_1stlt_ranger_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManOfficer";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_M9","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_M9","Binocular"};
@@ -1978,6 +1994,7 @@ class CfgVehicles
 		displayName = "Squad Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\army_sgt_ranger_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
@@ -1992,6 +2009,7 @@ class CfgVehicles
 		displayName = "Team Leader";
 		picture = "\us_military_units\icons\pic_nco_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
+		hiddenSelectionsTextures[] = {"\us_military_units\army_cpl_ranger_name_ca.paa","","","\us_military_units\textures\gasmaskcarrier_co.paa"};
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
