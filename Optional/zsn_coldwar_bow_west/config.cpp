@@ -27,6 +27,10 @@ class cfgweapons
 		class GunParticles;
 	};
 	class SMG_02_F;
+	class BOMp5A1: SMG_02_F
+	{
+		magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Red_Mag","30Rnd_9x21_Yellow_Mag","30Rnd_9x21_Green_Mag","CUP_30Rnd_9x19_MP5"};
+	};
 	class BOmp5SD3;
 	class zsn_hk: BOmp5SD3
 	{
@@ -562,6 +566,21 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","bom16a2","CUP_launch_FIM92Stinger"};
 		respawnWeapons[] = {"Throw","Put","bom16a2","CUP_launch_FIM92Stinger"};
+	};
+	class ZSN_GersolW: B_Soldier_base_F {};
+	class ZSN_GersolWPilot: ZSN_GersolW
+	{
+		weapons[] = {"Throw","Put","BOMp5A1"};
+		respawnWeapons[] = {"Throw","Put","BOMp5A1"};
+		magazines[] = {"30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02"};
+		respawnMagazines[] = {"30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02"};
+	};
+	class ZSN_GersolWCrew: ZSN_GersolW
+	{
+		weapons[] = {"Throw","Put","BOMp5A1"};
+		respawnWeapons[] = {"Throw","Put","BOMp5A1"};
+		magazines[] = {"30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02"};
+		respawnMagazines[] = {"30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02"};
 	};
 	class LandVehicle;
 	class Car;

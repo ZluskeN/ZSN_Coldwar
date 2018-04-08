@@ -274,12 +274,16 @@ class CfgVehicles
 		scope = 2;
 		weapons[] = {"Throw","Put","hlc_smg_mp5a3"};
 		respawnWeapons[] = {"Throw","Put","hlc_smg_mp5a3"};
+		magazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5"};
+		respawnMagazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5"};
 	};
 	class ZSN_GersolWCrew: ZSN_GersolW
 	{
 		scope = 2;
 		weapons[] = {"Throw","Put","hlc_smg_mp5a3"};
 		respawnWeapons[] = {"Throw","Put","hlc_smg_mp5a3"};
+		magazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5"};
+		respawnMagazines[] = {"hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5","hlc_30Rnd_9x19_B_MP5"};
 	};
 	class ZSN_SoldierW;
 	class ZSN_SoldierWSaboteur: ZSN_SoldierW

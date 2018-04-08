@@ -995,10 +995,10 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_smg_MP5A5"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
-		Items[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
-		RespawnItems[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
-		linkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		Items[] = {"Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		linkedItems[] = {"H_Beret_02","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_Beret_02","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class CUP_B_UH1D_slick_GER_KSK;
 	class ZSN_CUP_B_UH1D_GER: CUP_B_UH1D_slick_GER_KSK
@@ -1006,6 +1006,13 @@ class CfgVehicles
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWPilot";
 		displayName = "UH-1D Slick";
+		typicalCargo[] = {"ZSN_GersolWPilot"};
+	};
+	class CUP_B_CH53E_GER;
+	class ZSN_CUP_B_CH53E_GER: CUP_B_CH53E_GER
+	{
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWPilot";
 		typicalCargo[] = {"ZSN_GersolWPilot"};
 	};
 	class LandVehicle;
