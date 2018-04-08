@@ -1015,6 +1015,13 @@ class CfgVehicles
 		crew = "ZSN_GersolWPilot";
 		typicalCargo[] = {"ZSN_GersolWPilot"};
 	};
+	class CUP_B_CH53E_VIV_GER;
+	class ZSN_CUP_B_CH53E_VIV_GER: CUP_B_CH53E_VIV_GER
+	{
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWPilot";
+		typicalCargo[] = {"ZSN_GersolWPilot"};
+	};
 	class LandVehicle;
 	class StaticWeapon: LandVehicle
 	{
