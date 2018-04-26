@@ -43,10 +43,11 @@ class cfgweapons
 			};
 		};
 	};
-	class arifle_Mk20_plain_F;
-	class BOM653;
-	class BOm723;
-	class BOm733;
+	class bom16a1cmag;
+	class zsn_bom16a1cmag: bom16a1cmag
+	{
+		magazines[] = {"cmag_556x45","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_green"};
+	};
 	class BOxm177e2;
 	class zsn_xms: BOxm177e2
 	{
@@ -59,8 +60,6 @@ class cfgweapons
 			};
 		};
 	};
-	class Rifle_Long_Base_F;
-	class EBR_base_F;
 	class srifle_EBR_F;
 	class boM14: srifle_EBR_F
 	{
@@ -86,7 +85,6 @@ class cfgweapons
 			};
 		};
 	};
-	class LMG_Zafir_F;
 	class BOm60e3;
 	class ZSN_BOm60e3: BOm60e3
 	{
@@ -97,7 +95,7 @@ class cfgweapons
 	class ZSN_BoM249e1: BoM249e1
 	{
 		scope = 2;
-		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE1_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_G36","30Rnd_556x45_STANAG"};
+		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE1_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_green"};
 	};
 };
 class CfgVehicles
@@ -286,8 +284,10 @@ class CfgVehicles
 	};
 	class ZSN_MarineWAR: ZSN_MarineW
 	{
-		weapons[] = {"Throw","Put","ZSN_BoM249e1"};
-		respawnWeapons[] = {"Throw","Put","ZSN_BoM249e1"};
+		weapons[] = {"Throw","Put","zsn_bom16a1cmag"};
+		respawnWeapons[] = {"Throw","Put","zsn_bom16a1cmag"};
+		magazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 	};
 	class ZSN_MarineWMG: ZSN_MarineW
 	{
@@ -360,8 +360,10 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDAR: ZSN_MarineWD
 	{
-		weapons[] = {"Throw","Put","ZSN_BoM249e1"};
-		respawnWeapons[] = {"Throw","Put","ZSN_BoM249e1"};
+		weapons[] = {"Throw","Put","zsn_bom16a1cmag"};
+		respawnWeapons[] = {"Throw","Put","zsn_bom16a1cmag"};
+		magazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 	};
 	class ZSN_MarineWDMG: ZSN_MarineWD
 	{
@@ -582,6 +584,12 @@ class CfgVehicles
 		magazines[] = {"30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02"};
 		respawnMagazines[] = {"30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02","30Rnd_9x21_Mag_SMG_02"};
 	};
+//	class ZSN_SoldierE;
+//	class ZSN_SoldierESaboteur: ZSN_SoldierE
+//	{
+//		linkedItems[] = {"H_Bandanna_khk_hs","PNW57","CUP_V_RUS_Smersh_1","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+//		respawnLinkedItems[] = {"H_Bandanna_khk_hs","PNW57","CUP_V_RUS_Smersh_1","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+//	};
 	class LandVehicle;
 	class Car;
 	class Car_F;
@@ -599,6 +607,12 @@ class CfgVehicles
 			{
 				magazine = "9Rnd_45ACP_Mag";
 				count = 111;
+			};
+			delete _xx_200Rnd_556x45_Box_Tracer_Red_F;
+			class _xx_cmag_556x45
+			{
+				magazine = "cmag_556x45";
+				count = 40;
 			};
 		};
 	};

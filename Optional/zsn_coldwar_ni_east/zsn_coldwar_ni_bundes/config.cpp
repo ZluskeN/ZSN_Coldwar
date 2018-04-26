@@ -19,19 +19,6 @@ class CfgPatches
 		magazines[] = {};
 	};
 };
-class cfgFactionClasses
-{
-	class ZSN_WGer_ColdWar
-	{
-		displayName = "Cold War FRG";
-		backpack_tf_faction_radio = "ZSN_st138_prc77";
-		personal_tf_faction_radio = "tf_rf7800str";
-		airborne_tf_faction_radio = "tf_anarc210";
-		flag = "\zsn_coldwar_euro\Germany.paa";
-		priority = 1;
-		side = 1;
-	};
-};
 class cfgWeapons
 {
 	class InventoryItem_Base_F;
@@ -43,7 +30,7 @@ class cfgWeapons
 	class ZSN_Feldgrau: ItemCore
 	{
 		author = "ZluskeN";
-		scope = 2;
+		scope = 1;
 		allowedSlots[] = {901};
 		displayName = "German Feldgrau";
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_NAPA\data\ui\icon_u_i_flecktarn2_ca.paa";

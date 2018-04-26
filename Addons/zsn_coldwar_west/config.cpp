@@ -1790,8 +1790,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_M9"};
 		magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
-		Items[] = {"CUP_NVG_PVS7","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"CUP_NVG_PVS7","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
+		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
@@ -2086,8 +2086,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_M9"};
 		magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
-		Items[] = {"CUP_NVG_PVS7","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"CUP_NVG_PVS7","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
+		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"H_PilotHelmetHeli_O","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"H_PilotHelmetHeli_O","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
