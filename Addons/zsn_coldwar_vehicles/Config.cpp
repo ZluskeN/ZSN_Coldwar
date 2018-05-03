@@ -2135,7 +2135,6 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_SoldierECrew"};
 		faction = "ZSN_EArmy_ColdWar";
 		hiddenselectionstextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\data\textures\russia\russia_body_green_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\data\textures\russia\russia_detail_green_co.paa"};
-		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\Data\preview\CUP_O_BTR60_SLA.jpg";
 	};
 	class SUD_BTR60: ZSN_CUP_MSV_BTR60
 	{
@@ -2146,8 +2145,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierEDCrew";
 		typicalCargo[] = {"ZSN_SoldierEDCrew"};
 		faction = "ZSN_EArmyD_ColdWar";
-		hiddenselectionstextures[] = {"\zsn_coldwar_vehicles\btr60_des_1_co.paa","\zsn_coldwar_vehicles\btr60_des_2_co.paa"};
-		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\Data\preview\CUP_O_BTR60_SLA.jpg";
+		hiddenselectionstextures[] = {"\zsn_coldwar_vehicles\russia_body_desert_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\data\textures\russia\russia_detail_green_co.paa"};
 	};
 	class ZSN_CUP_VMF_BTR60: ZSN_CUP_MSV_BTR60
 	{

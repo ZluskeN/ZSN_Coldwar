@@ -96,6 +96,23 @@ class cfgWeapons
 	{
 		type = 801;
 	};
+	class ZSN_Uniform_M88: ItemCore
+	{
+		author = "ZluskeN";
+		dlc = "CUP_Units";
+		scope = 2;
+		allowedSlots[] = {901};
+		displayName = "Soviet M88 Uniform";
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_u_o_rus_flora_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "ZSN_SoldierED";
+			containerClass = "Supply40";
+			mass = 20;
+		};
+	};
 	class ZSN_Uniform_KLMK: ItemCore
 	{
 		author = "ZluskeN";
@@ -746,8 +763,10 @@ class CfgVehicles
 		portrait = "";
 		picture = "";
 		icon = "iconMan";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_crewman.p3d";
-		uniformClass = "CUP_U_O_Partisan_TTsKO";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier1.p3d";
+		hiddenSelections[] = {"Camo","clan","insignia"};
+		uniformClass = "ZSN_Uniform_M88";
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\afganka.paa"};
 		genericNames = "CUP_Names_RussianMen";
 		identityTypes[] = {"Head_Euro","NoGlasses","CUP_D_Language_RU"};
 		cost = 200000;
