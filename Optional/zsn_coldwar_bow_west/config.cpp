@@ -44,8 +44,9 @@ class cfgweapons
 		};
 	};
 	class bom16a1cmag;
-	class zsn_bom16a1cmag: bom16a1cmag
+	class ZSN_M16HBAR: bom16a1cmag
 	{
+		baseWeapon = "ZSN_M16HBAR";
 		magazines[] = {"cmag_556x45","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_green"};
 	};
 	class BOxm177e2;
@@ -92,9 +93,11 @@ class cfgweapons
 		magazines[] = {"hlc_100Rnd_762x51_B_M60E4","hlc_100Rnd_762x51_M_M60E4","hlc_100Rnd_762x51_Barrier_M60E4","hlc_100Rnd_762x51_T_M60E4","100rnd_m60E3","100rnd_m60E3_tracer","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 	};
 	class BoM249e1;
-	class ZSN_BoM249e1: BoM249e1
+	class ZSN_M249_SAW: BoM249e1
 	{
 		scope = 2;
+		displayName = "M249 SAW";
+		baseWeapon = "ZSN_M249_SAW";
 		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE1_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_green"};
 	};
 };
@@ -125,11 +128,6 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","BOM16A1"};
 		respawnWeapons[] = {"Throw","Put","BOM16A1"};
-	};
-	class ZSN_SoldierWAR: ZSN_SoldierW
-	{
-		weapons[] = {"Throw","Put","ZSN_BoM249e1"};
-		respawnWeapons[] = {"Throw","Put","ZSN_BoM249e1"};
 	};
 	class ZSN_SoldierWMG: ZSN_SoldierW
 	{
@@ -197,18 +195,13 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","BO1911","Binocular"};
 		respawnWeapons[] = {"Throw","Put","BO1911","Binocular"};
-		magazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell"};
+		magazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
 	};
 	class ZSN_SoldierWD: usm_base_w
 	{
 		weapons[] = {"Throw","Put","BOM16A1"};
 		respawnWeapons[] = {"Throw","Put","BOM16A1"};
-	};
-	class ZSN_SoldierWDAR: ZSN_SoldierWD
-	{
-		weapons[] = {"Throw","Put","ZSN_BoM249e1"};
-		respawnWeapons[] = {"Throw","Put","ZSN_BoM249e1"};
 	};
 	class ZSN_SoldierWDMG: ZSN_SoldierWD
 	{
@@ -274,8 +267,8 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","BO1911","Binocular"};
 		respawnWeapons[] = {"Throw","Put","BO1911","Binocular"};
-		magazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell"};
+		magazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
 	};
 	class ZSN_marinew: usm_base_w
 	{
@@ -284,10 +277,10 @@ class CfgVehicles
 	};
 	class ZSN_MarineWAR: ZSN_MarineW
 	{
-		weapons[] = {"Throw","Put","zsn_bom16a1cmag"};
-		respawnWeapons[] = {"Throw","Put","zsn_bom16a1cmag"};
-		magazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		weapons[] = {"Throw","Put","ZSN_M16HBAR"};
+		respawnWeapons[] = {"Throw","Put","ZSN_M16HBAR"};
+		magazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 	};
 	class ZSN_MarineWMG: ZSN_MarineW
 	{
@@ -313,8 +306,8 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","bom16a2","BO1911","Binocular"};
 		respawnWeapons[] = {"Throw","Put","bom16a2","BO1911","Binocular"};
-		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		magazines[] = {"30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
 	};
 	class ZSN_MarineWNCO: ZSN_MarineW
 	{
@@ -350,8 +343,8 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","BO1911","Binocular"};
 		respawnWeapons[] = {"Throw","Put","BO1911","Binocular"};
-		magazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell"};
+		magazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
 	};
 	class ZSN_MarineWD: usm_base_w
 	{
@@ -360,10 +353,10 @@ class CfgVehicles
 	};
 	class ZSN_MarineWDAR: ZSN_MarineWD
 	{
-		weapons[] = {"Throw","Put","zsn_bom16a1cmag"};
-		respawnWeapons[] = {"Throw","Put","zsn_bom16a1cmag"};
-		magazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		weapons[] = {"Throw","Put","ZSN_M16HBAR"};
+		respawnWeapons[] = {"Throw","Put","ZSN_M16HBAR"};
+		magazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","cmag_556x45","30Rnd_556x45_Stanag_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 	};
 	class ZSN_MarineWDMG: ZSN_MarineWD
 	{
@@ -389,8 +382,8 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","bom16a2","BO1911","Binocular"};
 		respawnWeapons[] = {"Throw","Put","bom16a2","BO1911","Binocular"};
-		magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		magazines[] = {"30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_red","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
 	};
 	class ZSN_MarineWDNCO: ZSN_MarineWD
 	{
@@ -426,18 +419,13 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","BO1911","Binocular"};
 		respawnWeapons[] = {"Throw","Put","BO1911","Binocular"};
-		magazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell"};
-		respawnMagazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","SmokeShell","SmokeShell"};
+		magazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","9Rnd_45ACP_Mag","zsn_wpshell","zsn_wpshell"};
 	};
 	class ZSN_RangerW: usm_base_w
 	{
 		weapons[] = {"Throw","Put","bom16a2"};
 		respawnWeapons[] = {"Throw","Put","bom16a2"};
-	};
-	class ZSN_RangerWAR: ZSN_RangerW
-	{
-		weapons[] = {"Throw","Put","ZSN_BoM249e1"};
-		respawnWeapons[] = {"Throw","Put","ZSN_BoM249e1"};
 	};
 	class ZSN_RangerWMG: ZSN_RangerW
 	{
@@ -503,11 +491,6 @@ class CfgVehicles
 	{
 		weapons[] = {"Throw","Put","bom16a2"};
 		respawnWeapons[] = {"Throw","Put","bom16a2"};
-	};
-	class ZSN_RangerWDAR: ZSN_RangerWD
-	{
-		weapons[] = {"Throw","Put","ZSN_BoM249e1"};
-		respawnWeapons[] = {"Throw","Put","ZSN_BoM249e1"};
 	};
 	class ZSN_RangerWDMG: ZSN_RangerWD
 	{

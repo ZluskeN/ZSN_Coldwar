@@ -2333,8 +2333,8 @@ class cfgvehicles
 		crew = "ZSN_MarineEDCrew";
 		typicalCargo[] = {"ZSN_MarineEDCrew"};
 		faction = "ZSN_EMarinesD_ColdWar";
-		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_sla_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_sla_co"};
-		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_O_T55_SLA.jpg";
+		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_TKG_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_TKG_co"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_I_T55_TK_GUE.jpg";
 	};
 	class ZSN_CUP_VMF_T55: ZSN_CUP_DVMF_T55
 	{
@@ -2343,8 +2343,8 @@ class cfgvehicles
 		crew = "ZSN_MarineECrew";
 		typicalCargo[] = {"ZSN_MarineECrew"};
 		faction = "ZSN_EMarines_ColdWar";
-		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_TKG_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_TKG_co"};
-		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_I_T55_TK_GUE.jpg";
+		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_olive_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_olive_co"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_O_T55_SLA.jpg";
 	};
 	class CUP_I_T55_TK_GUE;
 	class ZSN_CUP_GUER_T55: CUP_I_T55_TK_GUE

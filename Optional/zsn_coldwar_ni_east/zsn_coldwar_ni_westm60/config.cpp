@@ -31,17 +31,5 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","hlc_lmg_m60"};
 		respawnWeapons[] = {"Throw","Put","hlc_lmg_m60"};
 	};
-	class ZSN_RangerW;
-	class ZSN_RangerWMG: ZSN_RangerW
-	{
-		weapons[] = {"Throw","Put","hlc_lmg_m60"};
-		respawnWeapons[] = {"Throw","Put","hlc_lmg_m60"};
-	};
-	class ZSN_RangerWD;
-	class ZSN_RangerWDMG: ZSN_RangerWD
-	{
-		weapons[] = {"Throw","Put","hlc_lmg_m60"};
-		respawnWeapons[] = {"Throw","Put","hlc_lmg_m60"};
-	};
 };
 //};

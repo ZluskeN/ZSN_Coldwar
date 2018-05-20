@@ -30,9 +30,92 @@ class CfgFactionClasses
 		backpack_tf_faction_radio_api = "ZSN_st138_prc77";
 	};
 };
+class CfgCloudlets
+{
+	class WPCloud;
+	class ZSN_WPCloud: WPCloud
+	{
+		lifeTime = 60;
+	};
+	class WPTrails;
+	class ZSN_WPTrails: WPTrails
+	{
+		damageType="Fire";                      //damage type, only available option is "Fire" so far
+    		coreIntensity = 5;                  	//damage coeficient in the center of fire
+    		coreDistance = 4;                     	//how far can unit get damage
+    		damageTime = 0.1;                       //how often is unit getting damage
+        	lifeTime = 3;
+	};
+};
+class ZSN_WPExplosion 
+{
+    	class LightExp 
+	{
+        	simulation = "light";
+        	type = "ExploLight";
+        	position[] = {0, 0, 0};
+        	intensity = 0.001;
+        	interval = 1;
+        	lifeTime = 1;
+    	};
+    	class Explosion1 
+	{
+        	simulation = "particles";
+        	type = "ZSN_WPCloud";
+        	position[] = {0, 0, 0};
+        	intensity = 1;
+        	interval = 1;
+        	lifeTime = 60;
+    	};
+    	class Trails 
+	{
+        	simulation = "particles";
+        	type = "ZSN_WPTrails";
+        	position[] = {0, 0, 0};
+        	intensity = 1;
+        	interval = 1;
+        	lifeTime = 3;
+    	};
+};
+class CfgAmmo
+{
+	class SmokeShell;
+	class ZSN_WPSmoke: SmokeShell
+	{
+        	grenadeBurningSound[] = {};
+        	aiAmmoUsageFlags = "64 + 4"; // infantry + smoke
+		effectsSmoke = "ZSN_WPExplosion";
+	};
+};
+class CfgMagazines
+{
+	class SmokeShell;
+	class ZSN_WPShell: SmokeShell
+	{
+		author = "ZluskeN";
+		displayName = "White Phosphorous Grenade";
+		value = 2;
+		ammo = "ZSN_WPSmoke";
+		nameSoundWeapon = "smokeshell";
+		nameSound = "smokeshell";
+		descriptionShort = "Type: Smoke Grenade - White Phosphorous";
+		displayNameShort = "White Phosphorous";
+	};
+};
 class CfgWeapons
 {
 	class Default;
+	class GrenadeLauncher;
+	class Throw : GrenadeLauncher
+	{
+        	muzzles[] += {"ZSN_WPMuzzle"};
+        	class ThrowMuzzle;
+      		class ZSN_WPMuzzle: ThrowMuzzle 
+		{
+			displayName = "White Phosphorous Grenade";
+            		magazines[] = {"ZSN_WPShell"};
+      		};
+	};
 	class Binocular;
 	class CUP_SOFLAM;
 	class ZSN_Rangefinder: CUP_SOFLAM
@@ -167,7 +250,7 @@ class CfgWeapons
 		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","200Rnd_556x45_Box_Tracer_Red_F","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_G36","30Rnd_556x45_STANAG"};
 	};
  	class launch_RPG32_F;
- 	class zsn_RPG29: launch_RPG32_F
+ 	class ZSN_RPG29: launch_RPG32_F
  	{
 		author = "ZluskeN";
 		displayName = "RPG-29 Vampir";
@@ -960,10 +1043,6 @@ class CfgWeapons
 			mass = 80;
 		};
 	};
-};
-class CfgMagazines
-{
-	class CA_Magazine;
 };
 class CfgVehicles
 {
