@@ -83,4 +83,12 @@ class CfgVehicles
 		crew = "ZSN_GersolWCrew";
 		typicalCargo[] = {"ZSN_GersolWCrew"};
 	};
+	class Redd_Tank_Gepard_1A2_Flecktarn;
+	class ZSN_Redd_Tank_Gepard_1A2_Flecktarn: Redd_Tank_Gepard_1A2_Flecktarn
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
 };
