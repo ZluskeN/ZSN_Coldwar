@@ -35,7 +35,31 @@ class cfgvehicles
 {
 	class LandVehicle;
 	class Car;
-	class Car_F;
+	class Car_F: Car
+	{
+		class Components;
+		class HitPoints
+		{
+			class HitLFWheel;
+			class HitLF2Wheel;
+			class HitRFWheel;
+			class HitRF2Wheel;
+			class HitGlass1;
+			class HitGlass2;
+			class HitGlass3;
+			class HitGlass4;
+		};
+		class NewTurret;
+		class Turrets
+		{
+			class MainTurret: NewTurret
+			{
+				class HitPoints;
+			};
+		};
+		class ViewPilot;
+		class AnimationSources;
+	};
 	class CUP_V3S_Open_Base;
 	class CUP_O_V3S_Open_TKM;
 	class ZSN_CUP_DCSLA_V3S: CUP_O_V3S_Open_TKM
@@ -528,6 +552,9 @@ class cfgvehicles
 		faction = "ZSN_EArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\Data\preview\CUP_O_UAZ_Unarmed_RU.jpg";
+		transportAmmo = 30000;
+		maximumLoad = 2000;
+    		ace_rearm_defaultSupply = 1000;
 		class TransportMagazines
 		{
 			class _xx_CUP_AT13_M
@@ -860,7 +887,17 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_MarineEDB"};
 		faction = "ZSN_EMarinesD_ColdWar";
 	};
-	class CUP_HMMWV_Base;
+	class CUP_HMMWV_Base: Car_F
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class ViewGunner;
+				class ViewOptics;
+			};
+		};
+	};
 	class CUP_HMMWV_Unarmed_Base;
 	class ZSN_CUP_ARMY_HMMWV_Unarmed: CUP_HMMWV_Unarmed_Base
 	{
@@ -873,6 +910,9 @@ class cfgvehicles
 		faction = "ZSN_WArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\hmmwv_body_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\Data\preview\CUP_B_HMMWV_Unarmed_USMC.jpg";
+		transportAmmo = 30000;
+		maximumLoad = 2000;
+    		ace_rearm_defaultSupply = 1000;
 		class TransportMagazines
 		{
 			class _xx_CUP_Dragon_EP1_M
@@ -908,6 +948,9 @@ class cfgvehicles
 		crew = "ZSN_SoldierWDB";
 		typicalCargo[] = {"ZSN_SoldierWDB"};
 		faction = "ZSN_WArmyD_ColdWar";
+		transportAmmo = 30000;
+		maximumLoad = 2000;
+    		ace_rearm_defaultSupply = 1000;
 		class TransportMagazines
 		{
 			class _xx_CUP_Dragon_EP1_M
@@ -998,7 +1041,16 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_MarineWDB"};
 		faction = "ZSN_WMarinesD_ColdWar";
 	};
-	class CUP_HMMWV_TOW_Base;
+	class CUP_HMMWV_TOW_Base: CUP_HMMWV_Base
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class ViewOptics;
+			};
+		};
+	};
 	class ZSN_CUP_ARMY_HMMWV_TOW: CUP_HMMWV_TOW_Base
 	{
 		scope = 2;
@@ -1010,6 +1062,34 @@ class cfgvehicles
 		faction = "ZSN_WArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\hmmwv_body_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\tow_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\Data\preview\CUP_B_HMMWV_TOW_USMC.jpg";
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				minElev = -10;
+				maxElev = "+20";
+				weapons[] = {"ZSN_Vmlauncher_TOW_single_veh"};
+				magazines[] = {"ZSN_1Rnd_TOW_HMMWV_M","ZSN_1Rnd_TOW_HMMWV_M","ZSN_1Rnd_TOW_HMMWV_M","ZSN_1Rnd_TOW_HMMWV_M","ZSN_1Rnd_TOW_HMMWV_M","ZSN_1Rnd_TOW_HMMWV_M"};
+				soundServo[] = {"A3\sounds_f\dummysound",0.01,1.0,10};
+				gunnerAction = "CUP_HMMWV_Gunner03";
+				gunnerOpticsModel = "\CUP\Weapons\CUP_Weapons_StaticWeapons\optika_TOW.p3d";
+				class ViewOptics
+				{
+					visionMode[] = {"Normal","TI"};
+					thermalMode[] = {2,3};
+					initAngleX = 0;
+					minAngleX = -30;
+					maxAngleX = "+30";
+					initAngleY = 0;
+					minAngleY = -100;
+					maxAngleY = "+100";
+					initFov = 0.2;
+					minFov = 0.058;
+					maxFov = 0.2;
+				};
+				disableSoundAttenuation = 1;
+			};
+		};
 	};
 	class ZSN_CUP_USMC_HMMWV_TOW: ZSN_CUP_ARMY_HMMWV_TOW
 	{
@@ -1328,6 +1408,7 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Reammo_RU.jpg";
 		maximumLoad = 20000;
+    		ace_rearm_defaultSupply = 10000;
 		class Transportweapons
 		{
 			class _xx_CUP_launch_RPG18
@@ -1447,6 +1528,7 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Reammo_RU.jpg";
 		maximumLoad = 20000;
+    		ace_rearm_defaultSupply = 10000;
 		crew = "ZSN_MarineEB";
 		typicalCargo[] = {"ZSN_MarineEB"};
 		faction = "ZSN_EMarines_ColdWar";
@@ -1689,6 +1771,7 @@ class cfgvehicles
 		faction = "ZSN_WArmyD_ColdWar";
 		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\truck_d_01_ext_01_co.paa","zsn_coldwar_vehicles\truck_d_01_ext_02_co.paa","zsn_coldwar_vehicles\truck_d_01_ammo_CO.paa"};
 		maximumLoad = 20000;
+    		ace_rearm_defaultSupply = 10000;
 		class Transportweapons
 		{
 			class _xx_CUP_launch_M72A6
@@ -1802,6 +1885,7 @@ class cfgvehicles
 		faction = "ZSN_WMarinesD_ColdWar";
 		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\truck_d_01_ext_01_co.paa","zsn_coldwar_vehicles\truck_d_01_ext_02_co.paa","zsn_coldwar_vehicles\truck_d_01_ammo_CO.paa"};
 		maximumLoad = 20000;
+    		ace_rearm_defaultSupply = 10000;
 		class Transportweapons
 		{
 			class _xx_CUP_launch_M72A6

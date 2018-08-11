@@ -2230,9 +2230,19 @@ class CfgVehicles
 		crew = "ZSN_RangerWDB";
 		typicalCargo[] = {"ZSN_RangerWDB"};
 	};
-	class StaticATWeapon;
-	class CUP_TOW_TriPod_base;
-	class CUP_B_TOW_TriPod_USMC;
+	class StaticATWeapon: StaticWeapon
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class ViewGunner;
+				class ViewOptics;
+			};
+		};
+	};
+	class CUP_TOW_TriPod_base: StaticATWeapon{};
+	class CUP_B_TOW_TriPod_USMC: CUP_TOW_TriPod_base{};
 	class ZSN_StaticTOW: CUP_B_TOW_TriPod_USMC
 	{
 		scope = 2;
@@ -2243,6 +2253,48 @@ class CfgVehicles
 		crew = "ZSN_SoldierWB";
 		typicalCargo[] = {"ZSN_SoldierWB"};
 		editorPreview = "CUP\Creatures\People\Military\CUP_Creatures_StaticWeapons\Data\preview\CUP_B_TOW_TriPod_USMC.jpg";
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				gunnerOpticsEffect[] = {"TankGunnerOptics2","OpticsBlur1","OpticsCHAbera1"};
+				minElev = -10;
+				minturn = -180;
+				maxturn = 180;
+				weapons[] = {"ZSN_Vmlauncher_TOW_single_veh"};
+				magazines[] = {"ZSN_1Rnd_TOW_HMMWV_M"};
+				gunnerAction = "TOW_Gunner";
+				memoryPointsGetInGunner = "pos_gunner_dir";
+				memoryPointsGetInGunnerDir = "pos_gunner";
+				class ViewGunner
+				{
+					initAngleX = 5;
+					minAngleX = -30;
+					maxAngleX = 30;
+					initAngleY = 0;
+					minAngleY = -100;
+					maxAngleY = 100;
+					initFov = 0.7;
+					minFov = 0.25;
+					maxFov = 1.1;
+				};
+				class ViewOptics
+				{
+					initAngleX = 0;
+					minAngleX = -30;
+					maxAngleX = 30;
+					initAngleY = 0;
+					minAngleY = -100;
+					maxAngleY = 100;
+					initFov = 0.2;
+					minFov = 0.025;
+					maxFov = 0.2;
+					visionMode[] = {"Normal","Ti"};
+					thermalMode[] = {0,1};
+				};
+				gunnerOpticsModel = "\CUP\Weapons\CUP_Weapons_StaticWeapons\TOW_TI.p3d";
+			};
+		};
 	};
 	class ZSN_MStaticTOW: ZSN_StaticTOW
 	{

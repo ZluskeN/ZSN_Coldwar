@@ -101,10 +101,23 @@ class CfgMagazines
 		descriptionShort = "Type: Smoke Grenade - White Phosphorous";
 		displayNameShort = "White Phosphorous";
 	};
+	class CUP_6Rnd_TOW_HMMWV_M;
+	class ZSN_1Rnd_TOW_HMMWV_M: CUP_6Rnd_TOW_HMMWV_M
+	{
+		scope = 1;
+		count = 1;
+	};
 };
 class CfgWeapons
 {
 	class Default;
+	class CUP_Vmlauncher_TOW_veh;
+	class ZSN_Vmlauncher_TOW_single_veh: CUP_Vmlauncher_TOW_veh
+	{
+		magazineReloadTime = 20;
+		reloadTime = 20;
+		magazines[] = {"ZSN_1Rnd_TOW_HMMWV_M"};
+	};
 	class GrenadeLauncher;
 	class Throw : GrenadeLauncher
 	{
