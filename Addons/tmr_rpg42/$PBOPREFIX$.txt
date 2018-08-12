@@ -1,0 +1,6 @@
+///'tmr_rpg42.pbo' from Mikero's dos tools, dll version 5.66///
+prefix=tmr_rpg42
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '41B4B0640BDB7B658FE13E9DCDDBE3123A581E0A'
+//////</HEADER>//////

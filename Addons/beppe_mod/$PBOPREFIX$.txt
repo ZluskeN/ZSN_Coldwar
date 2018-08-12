@@ -1,0 +1,5 @@
+///'beppe_mod.pbo' from Mikero's dos tools, dll version 5.66///
+prefix=beppe_mod
+Pbo Type is: Arma Addon
+Sha: '7C7F6E5474227F93EFA032FD2369921C6E4433A9'
+//////</HEADER>//////

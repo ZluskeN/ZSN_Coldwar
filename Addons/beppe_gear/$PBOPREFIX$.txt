@@ -1,0 +1,5 @@
+///'beppe_gear.pbo' from Mikero's dos tools, dll version 5.66///
+prefix=beppe_gear
+Pbo Type is: Arma Addon
+Sha: 'FCBB75AC5E6705F2416FFA2F246B962B02221B97'
+//////</HEADER>//////
