@@ -2546,23 +2546,30 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWRTO";
+						vehicle = "ZSN_SoldierWNCO";
 						rank = "Sergeant";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWMedic";
-						rank = "CORPORAL";
+						vehicle = "ZSN_SoldierWRTO";
+						rank = "Sergeant";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWSniper";
+						vehicle = "ZSN_SoldierWMedic";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_SoldierWSniper";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WArmy_AASquad
@@ -2573,7 +2580,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWAA";
+						vehicle = "ZSN_SoldierWNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -2597,6 +2604,13 @@ class CfgGroups
 						vehicle = "ZSN_SoldierWAA";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_SoldierWAA";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WArmy_ATSquad
@@ -2607,7 +2621,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWAT";
+						vehicle = "ZSN_SoldierWNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -2621,7 +2635,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWATAss";
+						vehicle = "ZSN_SoldierWAT";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -2631,6 +2645,13 @@ class CfgGroups
 						vehicle = "ZSN_SoldierWATAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_SoldierWATAss";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WArmy_MGSquad
@@ -2641,7 +2662,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWMG";
+						vehicle = "ZSN_SoldierWNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -2655,7 +2676,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWMGAss";
+						vehicle = "ZSN_SoldierWMG";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -2665,6 +2686,13 @@ class CfgGroups
 						vehicle = "ZSN_SoldierWMGAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_SoldierWMGAss";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 			};
@@ -2787,23 +2815,30 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWRTO";
+						vehicle = "ZSN_MarineWNCO";
 						rank = "Sergeant";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWMedic";
-						rank = "CORPORAL";
+						vehicle = "ZSN_MarineWRTO";
+						rank = "Sergeant";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWSniper";
+						vehicle = "ZSN_MarineWMedic";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_MarineWSniper";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WMarine_AASquad
@@ -2814,7 +2849,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAA";
+						vehicle = "ZSN_MarineWNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -2838,6 +2873,13 @@ class CfgGroups
 						vehicle = "ZSN_MarineWAA";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_MarineWAA";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WMarine_ATSquad
@@ -2848,7 +2890,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWAT";
+						vehicle = "ZSN_MarineWNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -2862,7 +2904,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWATAss";
+						vehicle = "ZSN_MarineWAT";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -2872,6 +2914,13 @@ class CfgGroups
 						vehicle = "ZSN_MarineWATAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_MarineWATAss";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WMarine_SMAWSquad
@@ -2882,7 +2931,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWHAT";
+						vehicle = "ZSN_MarineWNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -2896,7 +2945,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWHATAss";
+						vehicle = "ZSN_MarineWHAT";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -2906,6 +2955,13 @@ class CfgGroups
 						vehicle = "ZSN_MarineWHATAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_MarineWHATAss";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 			};
@@ -2993,23 +3049,30 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWRTO";
+						vehicle = "ZSN_RangerWNCO";
 						rank = "Sergeant";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWMedic";
+						vehicle = "ZSN_RangerWRTO";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWSniper";
+						vehicle = "ZSN_RangerWMedic";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWSniper";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WRanger_AASquad
@@ -3020,7 +3083,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWAA";
+						vehicle = "ZSN_RangerWNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -3044,6 +3107,13 @@ class CfgGroups
 						vehicle = "ZSN_RangerWAA";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWAA";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WRanger_ATSquad
@@ -3054,7 +3124,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWAT";
+						vehicle = "ZSN_RangerWNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -3068,7 +3138,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWATAss";
+						vehicle = "ZSN_RangerWAT";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -3078,6 +3148,13 @@ class CfgGroups
 						vehicle = "ZSN_RangerWATAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWATAss";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 			};
@@ -3172,23 +3249,30 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWDRTO";
+						vehicle = "ZSN_SoldierWDNCO";
 						rank = "Sergeant";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWDMedic";
-						rank = "CORPORAL";
+						vehicle = "ZSN_SoldierWDRTO";
+						rank = "Sergeant";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWDSniper";
+						vehicle = "ZSN_SoldierWDMedic";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_SoldierWDSniper";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WArmyD_AASquad
@@ -3199,7 +3283,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWDAA";
+						vehicle = "ZSN_SoldierWDNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -3223,6 +3307,13 @@ class CfgGroups
 						vehicle = "ZSN_SoldierWDAA";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_SoldierWDAA";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WArmyD_ATSquad
@@ -3233,7 +3324,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWDAT";
+						vehicle = "ZSN_SoldierWDNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -3247,7 +3338,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWDATAss";
+						vehicle = "ZSN_SoldierWDAT";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -3257,6 +3348,13 @@ class CfgGroups
 						vehicle = "ZSN_SoldierWDATAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_SoldierWDATAss";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WArmyD_MGSquad
@@ -3267,7 +3365,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWDMG";
+						vehicle = "ZSN_SoldierWDNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -3281,7 +3379,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_SoldierWDMGAss";
+						vehicle = "ZSN_SoldierWDMG";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -3291,6 +3389,13 @@ class CfgGroups
 						vehicle = "ZSN_SoldierWDMGAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_SoldierWDMGAss";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 			};
@@ -3413,23 +3518,30 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDRTO";
+						vehicle = "ZSN_MarineWDNCO";
 						rank = "Sergeant";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDMedic";
+						vehicle = "ZSN_MarineWDRTO";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDSniper";
+						vehicle = "ZSN_MarineWDMedic";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_MarineWDSniper";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WMarineD_AASquad
@@ -3440,7 +3552,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDAA";
+						vehicle = "ZSN_MarineWDNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -3464,6 +3576,13 @@ class CfgGroups
 						vehicle = "ZSN_MarineWDAA";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_MarineWDAA";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WMarineD_ATSquad
@@ -3474,7 +3593,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDAT";
+						vehicle = "ZSN_MarineWDNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -3488,7 +3607,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDATAss";
+						vehicle = "ZSN_MarineWDAT";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -3498,6 +3617,13 @@ class CfgGroups
 						vehicle = "ZSN_MarineWDATAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_MarineWDATAss";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WMarineD_SMAWSquad
@@ -3508,7 +3634,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDHAT";
+						vehicle = "ZSN_MarineWDNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -3522,7 +3648,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDHATAss";
+						vehicle = "ZSN_MarineWDHAT";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -3532,6 +3658,13 @@ class CfgGroups
 						vehicle = "ZSN_MarineWDHATAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_MarineWDHATAss";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 			};
@@ -3619,23 +3752,30 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDRTO";
+						vehicle = "ZSN_RangerWDNCO";
 						rank = "Sergeant";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDMedic";
+						vehicle = "ZSN_RangerWDRTO";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDSniper";
+						vehicle = "ZSN_RangerWDMedic";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWDSniper";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WRangerD_AASquad
@@ -3646,7 +3786,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDAA";
+						vehicle = "ZSN_RangerWDNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -3670,6 +3810,13 @@ class CfgGroups
 						vehicle = "ZSN_RangerWDAA";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWDAA";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 				class ZSN_WRangerD_ATSquad
@@ -3680,7 +3827,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDAT";
+						vehicle = "ZSN_RangerWDNCO";
 						rank = "Sergeant";
 						position[] = {0,5,0};
 					};
@@ -3694,7 +3841,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDATAss";
+						vehicle = "ZSN_RangerWDAT";
 						rank = "CORPORAL";
 						position[] = {5,0,0};
 					};
@@ -3704,6 +3851,13 @@ class CfgGroups
 						vehicle = "ZSN_RangerWDATAss";
 						rank = "CORPORAL";
 						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWDATAss";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
 					};
 				};
 			};
