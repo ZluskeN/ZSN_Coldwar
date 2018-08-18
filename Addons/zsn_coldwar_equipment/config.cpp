@@ -15,7 +15,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {"ZSN_CUP_srifle_M21"};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"TMR_RPG42"};
+		requiredAddons[] = {"TMR_RPG42","CUP_Creatures_Military_USArmy"};
 		magazines[] = {};
 	};
 };
@@ -274,6 +274,10 @@ class CfgWeapons
 	class UniformItem;
 	class VestItem;
 	class Uniform_Base;
+	class CUP_H_USArmy_Helmet_M1_m81: ItemCore
+	{
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_equipment\zsn_merc_g_m81_co.paa"};
+	};
 	class usm_bdu_test: Uniform_Base
 	{
 		hiddenSelections[] = {"camo"};

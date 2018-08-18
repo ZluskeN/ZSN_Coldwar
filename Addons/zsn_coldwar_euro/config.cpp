@@ -980,8 +980,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
 		Items[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
 		RespawnItems[] = {"H_Beret_02","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
-		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class ZSN_GersolWCrew: ZSN_GersolW
 	{
@@ -997,8 +997,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
 		Items[] = {"Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
 		RespawnItems[] = {"Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
-		linkedItems[] = {"H_Beret_02","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"H_Beret_02","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"H_Beret_02","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_Beret_02","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class CUP_B_UH1D_slick_GER_KSK;
 	class ZSN_CUP_B_UH1D_GER: CUP_B_UH1D_slick_GER_KSK

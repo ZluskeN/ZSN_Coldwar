@@ -62,6 +62,7 @@ class CfgVehicles
 	class Redd_Tank_Fuchs_1A4_San_Flecktarn;
 	class ZSN_Redd_Tank_Fuchs_1A4_San_Flecktarn: Redd_Tank_Fuchs_1A4_San_Flecktarn
 	{
+		scope = 1;
 		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWCrew";
@@ -85,6 +86,46 @@ class CfgVehicles
 	};
 	class Redd_Tank_Gepard_1A2_Flecktarn;
 	class ZSN_Redd_Tank_Gepard_1A2_Flecktarn: Redd_Tank_Gepard_1A2_Flecktarn
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu;
+	class ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu: Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser;
+	class ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser: Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San;
+	class ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San: Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class Redd_Milan_Static;
+	class ZSN_Redd_Milan_Static: Redd_Milan_Static
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class Redd_Tank_M120_Tampella;
+	class ZSN_Redd_Tank_M120_Tampella: Redd_Tank_M120_Tampella
 	{
 		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
