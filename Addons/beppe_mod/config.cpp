@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////
 //DeRap: Produced from mikero's Dos Tools Dll version 5.66
-//'now' is Sun Aug 19 13:52:08 2018 : 'file' last modified on Sun Mar 19 18:37:27 2017
+//'now' is Sun Aug 12 13:56:54 2018 : 'file' last modified on Sun Aug 12 13:53:25 2018
 //http://dev-heaven.net/projects/list_files/mikero-pbodll
 ////////////////////////////////////////////////////////////////////
 
@@ -27,8 +27,8 @@ class CfgMods
 		picture = "\beppe_mod\mod\logo.paa";
 		action = "https://forums.bistudio.com/topic/188854-black-ops-weapons-80s-90s/";
 	};
-	author = "76561198006744452";
-	timepacked = "1489948647";
+	author = "ZluskeN";
+	timepacked = "1534082005";
 };
 class Mode_SemiAuto;
 class Mode_Burst;
@@ -445,7 +445,6 @@ class cfgWeapons
 		dlc = "BlackOpsWeapons";
 		baseWeapon = "BOM16A2";
 		displayName = "M16A2";
-		baseWeapon = "BOM16A2";
 		model = "\beppe_mod\M653\M16A2.p3d";
 		picture = "\beppe_mod\m653\ico\m16a2.paa";
 		modes[] = {"Single","Burst"};
@@ -683,7 +682,7 @@ class cfgWeapons
 		displayName = "M16A1 HBAR";
 		picture = "\beppe_mod\m653\ico\m16a1hbar.paa";
 		model = "\beppe_mod\M653\M16A1cmag.p3d";
-		magazines[] = {"cmag_556x45"};
+		magazines[] = {"cmag_556x45","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_green"};
 		inertia = 0.9;
 		dexterity = 1.2;
 		hasBipod = 1;
@@ -757,7 +756,6 @@ class cfgWeapons
 		baseWeapon = "bom727cmag";
 		model = "\beppe_mod\M653\M727cmag.p3d";
 		picture = "\beppe_mod\m653\ico\m727cmag.paa";
-		baseWeapon = "bom727cmag";
 		class WeaponSlotsInfo
 		{
 			mass = 74;
@@ -1824,6 +1822,17 @@ class cfgWeapons
 		model = "\beppe_mod\M653\xm177e2.p3d";
 		picture = "\beppe_mod\m653\ico\xm177e2.paa";
 	};
+	class zsn_xms: BOxm177e2
+	{
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "aimpoint2000";
+			};
+		};
+	};
 	class BOxm177e2grip: BOm733
 	{
 		author = "Black Ops Weapons";
@@ -2219,6 +2228,7 @@ class cfgWeapons
 		reloadAction = "GestureReloadSMG_05";
 		modes[] = {"Single","FullAuto"};
 		reloadMagazineSound[] = {"A3\Sounds_F_Exp\arsenal\weapons\SMGs\Rogue9\Rogue9_Reload",1,1,10};
+		magazines[] = {"30Rnd_9x21_Mag","30Rnd_9x21_Red_Mag","30Rnd_9x21_Yellow_Mag","30Rnd_9x21_Green_Mag","CUP_30Rnd_9x19_MP5"};
 		class Single: Mode_SemiAuto
 		{
 			class BaseSoundModeType
@@ -2718,6 +2728,17 @@ class cfgWeapons
 			class UnderBarrelSlot{};
 		};
 	};
+	class zsn_hk: BOmp5SD3
+	{
+		class LinkedItems
+		{
+			class LinkedItemsPointer
+			{
+				slot = "PointerSlot";
+				item = "mp5irlaser";
+			};
+		};
+	};
 	class srifle_EBR_F;
 	class boM14: srifle_EBR_F
 	{
@@ -2751,6 +2772,20 @@ class cfgWeapons
 			{
 				linkProxy = "\A3\Data_f_Mark\proxies\weapon_slots\UNDERBARREL";
 				compatibleItems[] = {"bipod_02_F_blk","CUP_bipod_Harris_1A2_L"};
+			};
+		};
+	};
+	class ZSN_CUP_srifle_M21: boM14
+	{
+		scope = 2;
+		displayName = "M21";
+		modes[] = {"Single","single_close_optics1","single_medium_optics1","single_far_optics1"};
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "CUP_optic_LeupoldM3LR";
 			};
 		};
 	};
@@ -2841,7 +2876,7 @@ class cfgWeapons
 		AGM_Overheating_allowSwapBarrel = 1;
 		AGM_Overheating_JamChance[] = {0,0.0012,0.0059,0.029};
 		AGM_Bipod = 1;
-		magazines[] = {"100rnd_m60E3","100rnd_m60E3_tracer"};
+		magazines[] = {"100rnd_m60E3","100rnd_m60E3_tracer","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		modes[] = {"FullAuto","close","short","medium"};
 		class FullAuto: Mode_FullAuto
 		{
@@ -3099,14 +3134,10 @@ class cfgWeapons
 	{
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
-<<<<<<< HEAD
-		displayName = "M249E1";
-=======
 		displayName = "M249E1 SAW";
->>>>>>> fd3c9b274450f9f5379d02fda5132ed8dcf430bd
 		baseWeapon = "BOm249e1";
 		model = "\beppe_mod\m249e1\m249e1.p3d";
-		picture = "\beppe_mod\m249e1\data\m249e1.paa";
+		picture = "\beppe_mod\m60e3\data\ico.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\beppe_mod\m60e3\data\M60E4.rtm"};
 		reloadAction = "GestureReloadM200";
 		reloadMagazineTime = 6;
@@ -3114,7 +3145,7 @@ class cfgWeapons
 		hasBipod = 1;
 		soundBipodDown[] = {"A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_down",0.707946,1,20};
 		soundBipodUp[] = {"A3\Sounds_F_Mark\arsenal\sfx\bipods\Bipod_generic_up",0.707946,1,20};
-		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F"};
+		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE1_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","30Rnd_556x45_Stanag_red","30Rnd_556x45_Stanag_green"};
 		htMin = 8;
 		htMax = 920;
 		inertia = 0.7;
@@ -3219,17 +3250,6 @@ class cfgWeapons
 			mass = 188;
 			class MuzzleSlot{};
 			class CowsSlot
-<<<<<<< HEAD
-			{
-				iconPosition[] = {0.5,0.3};
-				iconScale = 0.2;
-				compatibleItems[] = {"aimpoint3000","aimpoint5000","aimpoint2000","CUP_optic_AN_PVS_4"};
-				iconPicture = "\A3\Weapons_F\Data\UI\attachment_top.paa";
-				iconPinpoint = "Bottom";
-				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
-				displayName = "Optics SLOT";
-			};
-=======
                        {
                                iconPosition[] = {0.5,0.3};
                                iconScale = 0.2;
@@ -3239,7 +3259,6 @@ class cfgWeapons
                                linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
                                displayName = "Optics SLOT";
                        };
->>>>>>> fd3c9b274450f9f5379d02fda5132ed8dcf430bd
 			class PointerSlot{};
 			class UnderBarrelSlot{};
 		};
