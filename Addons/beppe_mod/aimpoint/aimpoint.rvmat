@@ -1,6 +1,12 @@
-
+////////////////////////////////////////////////////////////////////
+//DeRap: Produced from mikero's Dos Tools Dll version 5.66
+//'now' is Sun Aug 19 13:52:08 2018 : 'file' last modified on Sun Mar 19 18:38:23 2017
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
+
+//Class beppe_mod : aimpoint\aimpoint.rvmat{
 ambient[] = {0.9999999,0.9999999,0.99999994,1};
 diffuse[] = {0.9999999,0.9999999,0.99999994,1};
 forcedDiffuse[] = {0,0,0,0};
@@ -33,3 +39,4 @@ class Stage2
 		pos[] = {0,0,0};
 	};
 };
+//};
