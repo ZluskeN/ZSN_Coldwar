@@ -3137,7 +3137,7 @@ class cfgWeapons
 		displayName = "M249E1 SAW";
 		baseWeapon = "BOm249e1";
 		model = "\beppe_mod\m249e1\m249e1.p3d";
-		picture = "\beppe_mod\m60e3\data\ico.paa";
+		picture = "\beppe_mod\m249e1\data\m249e1.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\beppe_mod\m60e3\data\M60E4.rtm"};
 		reloadAction = "GestureReloadM200";
 		reloadMagazineTime = 6;
