@@ -208,6 +208,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		reloadAction = "GestureReloadSPAR_01";
+		baseWeapon = "BOM16A1";
 		displayName = "M16A1";
 		model = "\beppe_mod\M653\M16A1.p3d";
 		weaponInfoType = "RscWeaponZeroing";
@@ -442,6 +443,7 @@ class cfgWeapons
 	{
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
+		baseWeapon = "BOM16A2";
 		displayName = "M16A2";
 		model = "\beppe_mod\M653\M16A2.p3d";
 		picture = "\beppe_mod\m653\ico\m16a2.paa";
@@ -708,6 +710,7 @@ class cfgWeapons
 		dlc = "BlackOpsWeapons";
 		picture = "\beppe_mod\m653\ico\m653cmag.paa";
 		displayName = "M653 CMAG";
+		baseWeapon = "bom653cmag";
 		model = "\beppe_mod\M653\M653cmag.p3d";
 		class WeaponSlotsInfo
 		{
@@ -729,6 +732,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M723 CMAG";
+		baseWeapon = "bom723cmag";
 		model = "\beppe_mod\M653\M723cmag.p3d";
 		class WeaponSlotsInfo
 		{
@@ -749,6 +753,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M727 CMAG";
+		baseWeapon = "bom727cmag";
 		model = "\beppe_mod\M653\M727cmag.p3d";
 		picture = "\beppe_mod\m653\ico\m727cmag.paa";
 		class WeaponSlotsInfo
@@ -771,6 +776,7 @@ class cfgWeapons
 		dlc = "BlackOpsWeapons";
 		reloadAction = "GestureReloadSPAR_01";
 		displayName = "M653";
+		baseWeapon = "BOM653";
 		model = "\beppe_mod\M653\M653.p3d";
 		weaponInfoType = "RscWeaponZeroing";
 		picture = "\beppe_mod\m653\ico\m653.paa";
@@ -1005,6 +1011,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M653 QXL Light";
+		baseWeapon = "BOm653qxl";
 		model = "\beppe_mod\M653\M653qxl.p3d";
 		handanim[] = {"OFP2_ManSkeleton","\beppe_mod\m653\data\maggrip.rtm"};
 		class WeaponSlotsInfo
@@ -1056,6 +1063,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M653M203";
+		baseWeapon = "BOM653M203";
 		model = "\beppe_mod\M653\M653M203.p3d";
 		weaponInfoType = "RscWeaponZeroing";
 		picture = "\beppe_mod\m653\ico\m653m203.paa";
@@ -1304,6 +1312,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M723M203";
+		baseWeapon = "BOM723M203";
 		model = "\beppe_mod\M653\M723M203.p3d";
 		class WeaponSlotsInfo
 		{
@@ -1328,6 +1337,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M653 MasterKey";
+		baseWeapon = "BOM653MK";
 		model = "\beppe_mod\M653\M653MK.p3d";
 		weaponInfoType = "RscWeaponZeroing";
 		picture = "\beppe_mod\m653\ico\m653mk.paa";
@@ -1613,6 +1623,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M723 MasterKey";
+		baseWeapon = "BOM723MK";
 		model = "\beppe_mod\M653\M723MK.p3d";
 		picture = "\beppe_mod\m653\ico\m653mk.paa";
 		class WeaponSlotsInfo
@@ -1638,6 +1649,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M727 MasterKey";
+		baseWeapon = "BOM727MK";
 		model = "\beppe_mod\M653\M727MK.p3d";
 		picture = "\beppe_mod\m653\ico\m727mk.paa";
 	};
@@ -1646,6 +1658,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M723";
+		baseWeapon = "BOM723";
 		model = "\beppe_mod\M653\M723.p3d";
 		picture = "\beppe_mod\m653\ico\m653.paa";
 		class WeaponSlotsInfo
@@ -1671,6 +1684,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M733";
+		baseWeapon = "BOM733";
 		model = "\beppe_mod\M653\M733.p3d";
 		picture = "\beppe_mod\m653\ico\m733.paa";
 		class WeaponSlotsInfo
@@ -1700,6 +1714,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M733 A2 Upper";
+		baseWeapon = "BOM723a2";
 		model = "\beppe_mod\M653\M733a2.p3d";
 		picture = "\beppe_mod\m653\ico\m733a2.paa";
 	};
@@ -1708,6 +1723,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M727";
+		baseWeapon = "BOM727";
 		model = "\beppe_mod\M653\m727.p3d";
 		picture = "\beppe_mod\m653\ico\m727.paa";
 		class WeaponSlotsInfo
@@ -1733,6 +1749,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M727 Acog TA01";
+		baseWeapon = "BOM727acog";
 		model = "\beppe_mod\M653\m727acog.p3d";
 		picture = "\beppe_mod\m653\ico\m727acog.paa";
 		modeloptics = "\beppe_mod\acogta01\2Dscope_Acog_4x32.p3d";
@@ -1792,6 +1809,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M727 M203";
+		baseWeapon = "BOM727m203";
 		model = "\beppe_mod\M653\m727m203.p3d";
 		picture = "\beppe_mod\m653\ico\xm177e2m203.paa";
 	};
@@ -1800,6 +1818,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "XM177E2";
+		baseWeapon = "BOxm177e2";
 		model = "\beppe_mod\M653\xm177e2.p3d";
 		picture = "\beppe_mod\m653\ico\xm177e2.paa";
 	};
@@ -1819,6 +1838,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "XM177E2 Grip";
+		baseWeapon = "BOxm177e2grip";
 		model = "\beppe_mod\M653\xm177e2grip.p3d";
 		picture = "\beppe_mod\m653\ico\xm177e2.paa";
 		handanim[] = {"OFP2_ManSkeleton","\A3\Weapons_F\Rifles\MX\data\Anim\MX_dmr.rtm"};
@@ -1828,6 +1848,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "XM177E2 M203";
+		baseWeapon = "BOxm177e2m203";
 		model = "\beppe_mod\M653\xm177e2m203.p3d";
 		picture = "\beppe_mod\m653\ico\xm177e2m203.paa";
 	};
@@ -1836,6 +1857,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M16A1M203";
+		baseWeapon = "BOM16A1M203";
 		model = "\beppe_mod\M653\m16a1m203.p3d";
 		picture = "\beppe_mod\m653\ico\m16a1m203.paa";
 		class WeaponSlotsInfo
@@ -1861,6 +1883,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M16A2M203";
+		baseWeapon = "BOM16A2M203";
 		model = "\beppe_mod\M653\m16a2m203.p3d";
 		picture = "\beppe_mod\m653\ico\m16a2m203.paa";
 		modes[] = {"Single","Burst"};
@@ -2092,6 +2115,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M723 CAMO";
+		baseWeapon = "BOm723camo";
 		model = "\beppe_mod\M653\M723_camo.p3d";
 		picture = "\beppe_mod\m653\ico\m723.paa";
 		class WeaponSlotsInfo
@@ -2118,6 +2142,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "Remington 870";
+		baseWeapon = "BOrem870";
 		model = "\beppe_mod\rem870\rem870.p3d";
 		picture = "\beppe_mod\rem870\ico\rem870.paa";
 		reloadAction = "GestureReloadEBR";
@@ -2177,6 +2202,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "Remington 870 Wood Stock";
+		baseWeapon = "borem870long";
 		model = "\beppe_mod\rem870\rem870long.p3d";
 		picture = "\beppe_mod\rem870\ico\rem870long.paa";
 		reloadAction = "GestureReloadEBR";
@@ -2196,6 +2222,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "MP5A1";
+		baseWeapon = "BOMp5A1";
 		model = "\beppe_mod\MP5A1\mp5a1.p3d";
 		picture = "\beppe_mod\MP5A1\ico\MP5A1.paa";
 		reloadAction = "GestureReloadSMG_05";
@@ -2437,6 +2464,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "Colt SMG";
+		baseWeapon = "BOcoltsmg";
 		model = "\beppe_mod\m653\m635smg.p3d";
 		picture = "\beppe_mod\m653\ico\coltsmg.paa";
 		handAnim[] = {};
@@ -2469,6 +2497,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "MP5SD3";
+		baseWeapon = "BOmp5SD3";
 		model = "\beppe_mod\MP5A1\mp5sd3.p3d";
 		picture = "\beppe_mod\MP5A1\ico\MP5SD3.paa";
 		reloadAction = "GestureReloadSMG_05";
@@ -2716,6 +2745,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M14 Old";
+		baseWeapon = "boM14";
 		model = "\beppe_mod\M14\m14.p3d";
 		picture = "\beppe_mod\M14\m14.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F_mark\LongRangeRifles\DMR_06\data\Anim\dmr_06.rtm"};
@@ -2804,6 +2834,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "Colt 1911";
+		baseWeapon = "BO1911";
 		model = "\beppe_mod\colt1911\bo1911.p3d";
 		picture = "\beppe_mod\colt1911\data\1911ico.paa";
 		UIpicture = "\beppe_mod\colt1911\data\1911ico.paa";
@@ -2826,6 +2857,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M60E3";
+		baseWeapon = "BOm60e3";
 		model = "\beppe_mod\m60e3\m60e3.p3d";
 		picture = "\beppe_mod\m60e3\data\ico.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\beppe_mod\m60e3\data\M60E4.rtm"};
@@ -3103,6 +3135,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M249E1 SAW";
+		baseWeapon = "BOm249e1";
 		model = "\beppe_mod\m249e1\m249e1.p3d";
 		picture = "\beppe_mod\m60e3\data\ico.paa";
 		handAnim[] = {"OFP2_ManSkeleton","\beppe_mod\m60e3\data\M60E4.rtm"};
@@ -3216,7 +3249,16 @@ class cfgWeapons
 		{
 			mass = 188;
 			class MuzzleSlot{};
-			class CowsSlot{};
+			class CowsSlot
+                       {
+                               iconPosition[] = {0.5,0.3};
+                               iconScale = 0.2;
+                               compatibleItems[] = {"aimpoint3000","aimpoint5000","aimpoint2000","CUP_optic_AN_PVS_4"};
+                               iconPicture = "\A3\Weapons_F\Data\UI\attachment_top.paa";
+                               iconPinpoint = "Bottom";
+                               linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
+                               displayName = "Optics SLOT";
+                       };
 			class PointerSlot{};
 			class UnderBarrelSlot{};
 		};
