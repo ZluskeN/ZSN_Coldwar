@@ -443,6 +443,7 @@ class cfgWeapons
 	{
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
+		baseWeapon = "BOM16A2";
 		displayName = "M16A2";
 		baseWeapon = "BOM16A2";
 		model = "\beppe_mod\M653\M16A2.p3d";
@@ -753,6 +754,7 @@ class cfgWeapons
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
 		displayName = "M727 CMAG";
+		baseWeapon = "bom727cmag";
 		model = "\beppe_mod\M653\M727cmag.p3d";
 		picture = "\beppe_mod\m653\ico\m727cmag.paa";
 		baseWeapon = "bom727cmag";
@@ -3097,7 +3099,11 @@ class cfgWeapons
 	{
 		author = "Black Ops Weapons";
 		dlc = "BlackOpsWeapons";
+<<<<<<< HEAD
 		displayName = "M249E1";
+=======
+		displayName = "M249E1 SAW";
+>>>>>>> fd3c9b274450f9f5379d02fda5132ed8dcf430bd
 		baseWeapon = "BOm249e1";
 		model = "\beppe_mod\m249e1\m249e1.p3d";
 		picture = "\beppe_mod\m249e1\data\m249e1.paa";
@@ -3213,6 +3219,7 @@ class cfgWeapons
 			mass = 188;
 			class MuzzleSlot{};
 			class CowsSlot
+<<<<<<< HEAD
 			{
 				iconPosition[] = {0.5,0.3};
 				iconScale = 0.2;
@@ -3222,6 +3229,17 @@ class cfgWeapons
 				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 				displayName = "Optics SLOT";
 			};
+=======
+                       {
+                               iconPosition[] = {0.5,0.3};
+                               iconScale = 0.2;
+                               compatibleItems[] = {"aimpoint3000","aimpoint5000","aimpoint2000","CUP_optic_AN_PVS_4"};
+                               iconPicture = "\A3\Weapons_F\Data\UI\attachment_top.paa";
+                               iconPinpoint = "Bottom";
+                               linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
+                               displayName = "Optics SLOT";
+                       };
+>>>>>>> fd3c9b274450f9f5379d02fda5132ed8dcf430bd
 			class PointerSlot{};
 			class UnderBarrelSlot{};
 		};
