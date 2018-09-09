@@ -3912,7 +3912,7 @@ class Extended_Init_EventHandlers
 	{
 	   	class ZSN_SWE_BMP
            	{
-               		init = "(_this select 0) removeweapon "CUP_Vmlauncher_AT5_single_veh"";
+               		init = "(_this select 0) removeweapon 'CUP_Vmlauncher_AT5_single_veh'";
            	};
 	};
 };

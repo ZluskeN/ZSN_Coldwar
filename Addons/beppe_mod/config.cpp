@@ -13,7 +13,7 @@ class CfgPatches
 	{
 		units[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"CUP_Weapons_WeaponsCore"};
 	};
 };
 class CfgMods
