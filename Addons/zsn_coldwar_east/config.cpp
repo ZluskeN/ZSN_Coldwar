@@ -461,7 +461,7 @@ class CfgVehicles
 	class ZSN_SoldierEAR: ZSN_SoldierE
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		icon = "iconManMG";
 		backpack = "ZSN_45rnd_545x39_bag";
 		weapons[] = {"Throw","Put","CUP_arifle_RPK74_45"};
@@ -789,7 +789,7 @@ class CfgVehicles
 	class ZSN_SoldierEDAR: ZSN_SoldierED
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		icon = "iconManMG";
 		backpack = "ZSN_45rnd_545x39_bag";
 		weapons[] = {"Throw","Put","CUP_arifle_RPK74_45"};
@@ -1087,7 +1087,7 @@ class CfgVehicles
 	class ZSN_MarineEAR: ZSN_MarineE
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		icon = "iconManMG";
 		backpack = "ZSN_45rnd_545x39_bag";
 		weapons[] = {"Throw","Put","CUP_arifle_RPK74_45"};
@@ -1351,7 +1351,7 @@ class CfgVehicles
 	class ZSN_MarineEDAR: ZSN_MarineED
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		icon = "iconManMG";
 		backpack = "ZSN_45rnd_545x39_bag";
 		weapons[] = {"Throw","Put","CUP_arifle_RPK74_45"};
@@ -1625,7 +1625,7 @@ class CfgVehicles
 	class ZSN_RangerEAR: ZSN_RangerE
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		icon = "iconManMG";
 		backpack = "ZSN_45rnd_545x39_bag";
 		weapons[] = {"Throw","Put","CUP_arifle_RPK74_45"};
@@ -1898,7 +1898,7 @@ class CfgVehicles
 	class ZSN_RangerEDAR: ZSN_RangerED
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		icon = "iconManMG";
 		backpack = "ZSN_45rnd_545x39_bag";
 		weapons[] = {"Throw","Put","CUP_arifle_RPK74_45"};
@@ -2750,7 +2750,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEMG";
+						vehicle = "ZSN_MarineEAR";
 						rank = "Private";
 						position[] = {0,-2,0};
 					};
@@ -2785,7 +2785,7 @@ class CfgGroups
 					class Unit9
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEMGAss";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {0,-4,0};
 					};
@@ -3453,7 +3453,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDMG";
+						vehicle = "ZSN_MarineEDAR";
 						rank = "Private";
 						position[] = {0,-2,0};
 					};
@@ -3488,7 +3488,7 @@ class CfgGroups
 					class Unit9
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDMGAss";
+						vehicle = "ZSN_MarineEDLAW";
 						rank = "Private";
 						position[] = {0,-4,0};
 					};

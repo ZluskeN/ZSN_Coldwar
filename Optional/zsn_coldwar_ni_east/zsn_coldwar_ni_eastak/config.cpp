@@ -273,8 +273,8 @@ class CfgVehicles
 	};
 	class ZSN_MarineEDAR: ZSN_MarineED
 	{
-		weapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG18"};
-		respawnWeapons[] = {"Throw","Put","hlc_rifle_ak74","CUP_launch_RPG18"};
+		weapons[] = {"Throw","Put","hlc_rifle_rpk74n","CUP_launch_RPG18"};
+		respawnWeapons[] = {"Throw","Put","hlc_rifle_rpk74n","CUP_launch_RPG18"};
 	};
 	class ZSN_MarineEDMGAss: ZSN_MarineED
 	{

@@ -298,7 +298,7 @@ class CfgVehicles
 	class ZSN_SoldierWAR: ZSN_SoldierW
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
 		icon = "iconManMG";
@@ -646,7 +646,7 @@ class CfgVehicles
 	class ZSN_SoldierWDAR: ZSN_SoldierWD
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
 		icon = "iconManMG";
@@ -954,7 +954,7 @@ class CfgVehicles
 	class ZSN_MarineWAR: ZSN_MarineW
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
 		icon = "iconManMG";
@@ -1243,7 +1243,7 @@ class CfgVehicles
 	class ZSN_MarineWDAR: ZSN_MarineWD
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_marinecorps.paa";
 		icon = "iconManMG";
@@ -1532,7 +1532,7 @@ class CfgVehicles
 	class ZSN_RangerWAR: ZSN_Rangerw
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
 		icon = "iconManMG";
@@ -1792,8 +1792,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_Pilot","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class SUD_NATO_Soldier_Pilot: ZSN_SoldierWPilot
 	{
@@ -1827,7 +1827,7 @@ class CfgVehicles
 	class ZSN_RangerWDAR: ZSN_RangerWD
 	{
 		scope = 2;
-		displayName = "AR Soldier";
+		displayName = "LMG Soldier";
 		picture = "\us_military_units\icons\i_null_ca.paa";
 		portrait = "\us_military_units\icons\p_army.paa";
 		icon = "iconManMG";
@@ -2739,7 +2739,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWMG";
+						vehicle = "ZSN_MarineWAR";
 						rank = "Private";
 						position[] = {0,-2,0};
 					};
@@ -2774,7 +2774,7 @@ class CfgGroups
 					class Unit9
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWMGAss";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {0,-4,0};
 					};
@@ -3442,7 +3442,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDMG";
+						vehicle = "ZSN_MarineWDAR";
 						rank = "Private";
 						position[] = {0,-2,0};
 					};
@@ -3477,7 +3477,7 @@ class CfgGroups
 					class Unit9
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDMGAss";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {0,-4,0};
 					};
