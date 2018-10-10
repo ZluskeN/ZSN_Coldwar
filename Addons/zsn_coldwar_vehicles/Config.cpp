@@ -2449,9 +2449,8 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_co.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_O_T55_TK.jpg";
 	};
-	class CUP_2S6_Base;
-	class CUP_O_2S6_RU;
-	class ZSN_CUP_MSV_ZSU23: CUP_O_2S6_RU
+	class CUP_ZSU23_Base;
+	class ZSN_CUP_MSV_ZSU23: CUP_ZSU23_Base
 	{
 		side = 0;
 		scope = 2;
@@ -2461,10 +2460,9 @@ class cfgvehicles
 		crew = "ZSN_SoldierECrew";
 		typicalCargo[] = {"ZSN_SoldierECrew"};
 		faction = "ZSN_EArmy_ColdWar";
-		hiddenSelectionsTextures[] = {"\cup\trackedvehicles\cup_trackedvehicles_2s6m\data\2s6m_tunguska_hull_and_hatches_vsr_co.paa","\cup\trackedvehicles\cup_trackedvehicles_2s6m\data\2s6m_tunguska_hull_and_tracks_vsr_co.paa","\cup\trackedvehicles\cup_trackedvehicles_2s6m\data\2s6m_tunguska_turret_vsr_co.paa"};
-		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_2S6M\Data\preview\CUP_O_2S6M_RU.jpg";
+		hiddenSelectionsTextures[] = {"ZSN_ColdWar_Vehicles\zsu_01_sov_co.paa","ZSN_ColdWar_Vehicles\zsu_02_sov_co.paa","ZSN_ColdWar_Vehicles\zsu_03_sov_co.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_ZSU23\Data\preview\CUP_O_ZSU23_SLA.jpg";
 	};
-	class CUP_ZSU23_Base;
 	class ZSN_CUP_DMSV_ZSU23: CUP_ZSU23_Base
 	{
 		side = 0;
@@ -2949,8 +2947,8 @@ class cfgvehicles
 		crew = "ZSN_SoldierECrew";
 		typicalCargo[] = {"ZSN_SoldierECrew"};
 		faction = "ZSN_EArmy_ColdWar";
-		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\RU_T72_1_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\RU_T72_2_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\RU_T72_3_co.paa"};
-		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_O_T72_RU.jpg";
+		hiddenSelectionsTextures[] = {"ZSN_ColdWar_Vehicles\SOV_T72_1_co.paa","ZSN_ColdWar_Vehicles\SOV_T72_2_co.paa","ZSN_ColdWar_Vehicles\SOV_T72_3_co.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T72\Data\preview\CUP_I_T72_NAPA.jpg";
 	};
 	class CUP_T72_ACR_Base;
 	class ZSN_CUP_DMSV_T72B: CUP_T72_ACR_Base
