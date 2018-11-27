@@ -15,7 +15,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {"ZSN_CUP_srifle_M21"};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"TMR_RPG42","CUP_Creatures_Military_USArmy"};
+		requiredAddons[] = {"A3_Weapons_F","TMR_RPG42","CUP_Creatures_Military_USArmy"};
 		magazines[] = {};
 	};
 };
@@ -86,6 +86,32 @@ class CfgAmmo
         	aiAmmoUsageFlags = "64 + 4"; // infantry + smoke
 		effectsSmoke = "ZSN_WPExplosion";
 	};
+    	class FlareCore;
+    	class FlareBase;
+    	class Flare_82mm_AMOS_White: FlareCore
+    	{
+    		timeToLive = 80;
+        	brightness = 200;
+        	intensity  = 1000000;
+    	};
+    	class F_40mm_White: FlareBase
+    	{
+        	timeToLive = 80;
+        	brightness = 200;
+        	intensity  = 1000000;
+    	};
+    	class F_20mm_White: FlareBase
+    	{
+        	timeToLive = 80;
+        	brightness = 200;
+        	intensity  = 1000000;
+    	};
+    	class F_Signal_Green: FlareBase
+    	{
+        	timeToLive = 80;
+        	brightness = 200;
+        	intensity  = 1000000;
+    	};
 };
 class CfgMagazines
 {
@@ -260,7 +286,7 @@ class CfgWeapons
 	{
 		scope = 2;
 		displayName = "M249 SAW";
-		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","200Rnd_556x45_Box_Tracer_Red_F","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_G36","30Rnd_556x45_STANAG"};
+		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","200Rnd_556x45_Box_Tracer_Red_F","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_G36","CUP_30Rnd_TE1_Red_Tracer_556x45_G36","CUP_30Rnd_TE1_Green_Tracer_556x45_G36","CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36","CUP_100Rnd_556x45_BetaCMag","CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag","CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag","CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","CUP_20Rnd_556x45_Stanag"};
 	};
  	class launch_RPG32_F;
  	class ZSN_RPG29: launch_RPG32_F
@@ -1436,6 +1462,22 @@ class CfgVehicles
 			{
 				magazine = "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count = 5;
+			};
+		};
+	};
+	class ZSN_762x51_MG3_ammobelts: usm_pack_762x51_bandoliers
+	{
+		scope = 1;
+		displayName = "Linked 7.62x51, 480 rnd";
+		maximumLoad = 330;
+		mass = 0;
+		allowedSlots[] = {901};
+		class TransportMagazines
+		{
+			class _xx_CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine = "CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count = 4;
 			};
 		};
 	};

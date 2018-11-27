@@ -716,7 +716,7 @@ class CfgVehicles
 		icon = "iconManExplosive";
 		backpack = "ZSN_Demopack_khk";
 		uniformClass = "ZSN_Uniform_TTsko_FST";
-		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\spetsnaz1.paa"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\sov_uniform_ttsko_fst_co.paa"};
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier2.p3d";
 		weapons[] = {"Throw","Put","CUP_hgun_SA61","CUP_smg_bizon_snds","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_SA61","CUP_smg_bizon_snds","Binocular"};
@@ -1006,7 +1006,7 @@ class CfgVehicles
 		uniformClass = "ZSN_Uniform_TTsko_MNT";
 		hiddenSelections[] = {"Camo","clan","insignia"};
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier2.p3d";
-		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\spetsnaz2.paa"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\sov_uniform_ttsko_mnt_co.paa"};
 		weapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","CUP_arifle_AK107","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","CUP_arifle_AK107","Binocular"};
 		magazines[] = {"CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_8Rnd_9x18_Makarov_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -2750,42 +2750,42 @@ class CfgGroups
 					class Unit4
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEAR";
+						vehicle = "ZSN_MarineEMG";
 						rank = "Private";
 						position[] = {0,-2,0};
 					};
 					class Unit5
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEMG";
+						vehicle = "ZSN_MarineEAR";
 						rank = "Private";
 						position[] = {5,-2,0};
 					};
 					class Unit6
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEMG";
+						vehicle = "ZSN_MarineEAR";
 						rank = "Private";
 						position[] = {-5,-2,0};
 					};
 					class Unit7
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEMGAss";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {5,-4,0};
 					};
 					class Unit8
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEMGAss";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {-5,-4,0};
 					};
 					class Unit9
 					{
 						side = 0;
-						vehicle = "ZSN_MarineELAW";
+						vehicle = "ZSN_MarineEMGAss";
 						rank = "Private";
 						position[] = {0,-4,0};
 					};
@@ -2806,7 +2806,7 @@ class CfgGroups
 					class Unit12
 					{
 						side = 0;
-						vehicle = "ZSN_MarineELAW";
+						vehicle = "ZSN_MarineEMGAss";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -3453,42 +3453,42 @@ class CfgGroups
 					class Unit4
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDAR";
+						vehicle = "ZSN_MarineEDMG";
 						rank = "Private";
 						position[] = {0,-2,0};
 					};
 					class Unit5
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDMG";
+						vehicle = "ZSN_MarineEDAR";
 						rank = "Private";
 						position[] = {5,-2,0};
 					};
 					class Unit6
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDMG";
+						vehicle = "ZSN_MarineEDAR";
 						rank = "Private";
 						position[] = {-5,-2,0};
 					};
 					class Unit7
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDMGAss";
+						vehicle = "ZSN_MarineEDLAW";
 						rank = "Private";
 						position[] = {5,-4,0};
 					};
 					class Unit8
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDMGAss";
+						vehicle = "ZSN_MarineEDLAW";
 						rank = "Private";
 						position[] = {-5,-4,0};
 					};
 					class Unit9
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDLAW";
+						vehicle = "ZSN_MarineEDMGAss";
 						rank = "Private";
 						position[] = {0,-4,0};
 					};
@@ -3509,7 +3509,7 @@ class CfgGroups
 					class Unit12
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDLAW";
+						vehicle = "ZSN_MarineEDMGAss";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
