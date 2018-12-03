@@ -23,8 +23,8 @@ class CfgVehicles
 	class ZSN_SoldierWD;
 	class ZSN_SoldierWDSaboteur: ZSN_SoldierWD
 	{
-		weapons[] = {"Throw","Put","CUP_hgun_glock17_snds","hlc_rifle_Colt727","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_hgun_glock17_snds","hlc_rifle_Colt727","Binocular"};
+		weapons[] = {"Throw","Put","CUP_hgun_glock17_blk_snds","hlc_rifle_Colt727","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_hgun_glock17_blk_snds","hlc_rifle_Colt727","Binocular"};
 	};
 };
 //};
