@@ -4644,14 +4644,14 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWMG";
+						vehicle = "ZSN_MarineWG";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWMGAss";
+						vehicle = "ZSN_MarineWAR";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -4665,7 +4665,7 @@ class CfgGroups
 					class Unit5
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWG";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {11,0,0};
 					};
@@ -5102,14 +5102,14 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDMG";
+						vehicle = "ZSN_MarineWDG";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDMGAss";
+						vehicle = "ZSN_MarineWDAR";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -5123,7 +5123,7 @@ class CfgGroups
 					class Unit5
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDG";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {11,0,0};
 					};
@@ -5262,7 +5262,7 @@ class CfgGroups
 				};
 				class ZSN_EArmy_BTRInfantry
 				{
-					name = "BTR Infantry Squad";
+					name = "MT-LB Infantry Squad";
 					faction = "ZSN_EArmy_ColdWar";
 					side = 0;
 					class Unit0
@@ -5331,7 +5331,7 @@ class CfgGroups
 					class Unit9
 					{
 						side = 0;
-						vehicle = "ZSN_CUP_MSV_BTR60";
+						vehicle = "ZSN_CUP_MSV_MTLB_pk";
 						rank = "Sergeant";
 						position[] = {0,-5,0};
 					};
@@ -5640,7 +5640,7 @@ class CfgGroups
 					class Unit13
 					{
 						side = 0;
-						vehicle = "ZSN_CUP_VMF_BTR60";
+						vehicle = "ZSN_CUP_MSV_BTR60";
 						rank = "CORPORAL";
 						position[] = {0,15,0};
 					};
@@ -5681,14 +5681,14 @@ class CfgGroups
 					class Unit4
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEMGAss";
+						vehicle = "ZSN_MarineEAR";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
 					class Unit5
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEMG";
+						vehicle = "ZSN_MarineELAW";
 						rank = "Private";
 						position[] = {9,0,0};
 					};
@@ -5831,7 +5831,7 @@ class CfgGroups
 				};
 				class ZSN_EArmyD_BTRInfantry
 				{
-					name = "BTR Infantry Squad";
+					name = "MT-LB Infantry Squad";
 					faction = "ZSN_EArmyD_ColdWar";
 					side = 0;
 					class Unit0
@@ -5900,7 +5900,7 @@ class CfgGroups
 					class Unit9
 					{
 						side = 0;
-						vehicle = "ZSN_CUP_DMSV_BTR60";
+						vehicle = "ZSN_CUP_DMSV_MTLB_pk";
 						rank = "Sergeant";
 						position[] = {0,-5,0};
 					};
@@ -6146,14 +6146,14 @@ class CfgGroups
 					class Unit4
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDMGAss";
+						vehicle = "ZSN_MarineEDAR";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
 					class Unit5
 					{
 						side = 0;
-						vehicle = "ZSN_MarineEDMG";
+						vehicle = "ZSN_MarineEDLAW";
 						rank = "Private";
 						position[] = {9,0,0};
 					};

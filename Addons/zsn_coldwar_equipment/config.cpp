@@ -19,17 +19,6 @@ class CfgPatches
 		magazines[] = {};
 	};
 };
-class CfgFactionClasses
-{
-	class sfp_un_congo
-	{
-		backpack_tf_faction_radio_api = "ZSN_st138_prc77";
-	};
-	class sfp_swe_1981
-	{
-		backpack_tf_faction_radio_api = "ZSN_st138_prc77";
-	};
-};
 class CfgCloudlets
 {
 	class WPCloud;
@@ -304,770 +293,6 @@ class CfgWeapons
 	{
 		hiddenSelectionsTextures[] = {"\zsn_coldwar_equipment\zsn_merc_g_m81_co.paa"};
 	};
-	class usm_bdu_test: Uniform_Base
-	{
-		hiddenSelections[] = {"camo"};
-	};
-	class usm_bdu_w: Uniform_Base
-	{
-		hiddenSelections[] = {"camo"};
-		class ItemInfo: UniformItem
-		{
-			containerClass = "Supply40";
-		};
-	};
-	class usm_vest_LBE_rm: ItemCore
-	{
-		class ItemInfo: VestItem
-		{
-			containerClass = "Supply80";
-			mass = 30;
-			class HitpointsProtectionInfo
-			{
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 4;
-					passThrough = 0.5;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					armor = 0;
-					passThrough = 1;
-				};
-			};
-		};
-	};
-	class usm_vest_LBE_rmp: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 40;
-		};
-	};
-	class usm_vest_LBE_gr: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 40;
-		};
-	};
-	class usm_vest_LBE_mg: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 30;
-		};
-	};
-	class usm_vest_lbv_rm: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 40;
-		};
-	};
-	class usm_vest_lbv_rmp: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 40;
-		};
-	};
-	class usm_vest_lbv_gr: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 40;
-		};
-	};
-	class usm_vest_lbv_mg: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 40;
-		};
-	};
-	class usm_vest_LBE_rm_m: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 40;
-		};
-	};
-	class usm_vest_LBE_rmp_m: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 40;
-		};
-	};
-	class usm_vest_LBE_gr_m: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 40;
-		};
-	};
-	class usm_vest_LBE_mg_m: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 40;
-		};
-	};
-	class usm_vest_lbv_rm_m: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 40;
-		};
-	};
-	class usm_vest_lbv_rmp_m: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 40;
-		};
-	};
-	class usm_vest_lbv_gr_m: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 40;
-		};
-	};
-	class usm_vest_lbv_mg_m: usm_vest_LBE_rm
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 40;
-		};
-	};
-	class usm_vest_pasgt: ItemCore
-	{
-		descriptionShort = "Armor Level III";
-		class ItemInfo: VestItem
-		{
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName = "HitChest";
-					armor = 16;
-					PassThrough = 0.3;
-				};
-				class Diaphragm
-				{
-					HitpointName = "HitDiaphragm";
-					armor = 16;
-					PassThrough = 0.3;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 16;
-					passThrough = 0.3;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.3;
-				};
-				class Pelvis
-				{
-					hitpointName = "HitPelvis";
-					armor = 16;
-					passThrough = 0.3;
-				};
-			};
-		};
-	};
-	class usm_vest_pasgt_lbe_rm: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgt_lbe_rmp: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgt_lbe_gr: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgt_lbe_mg: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgt_lbv_rm: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgt_lbv_rmp: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgt_lbv_gr: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgt_lbv_mg: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgt_lbe_rm_m: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgt_lbe_rmp_m: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgt_lbe_gr_m: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgt_lbe_mg_m: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgt_lbv_rm_m: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgt_lbv_rmp_m: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgt_lbv_gr_m: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgt_lbv_mg_m: usm_vest_pasgt
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgtdes: ItemCore
-	{
-		descriptionShort = "Armor Level III";
-		class ItemInfo: VestItem
-		{
-			containerClass = "Supply20";
-			mass = 60;
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName = "HitChest";
-					armor = 16;
-					PassThrough = 0.3;
-				};
-				class Diaphragm
-				{
-					HitpointName = "HitDiaphragm";
-					armor = 16;
-					PassThrough = 0.3;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 16;
-					passThrough = 0.3;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.3;
-				};
-				class Pelvis
-				{
-					hitpointName = "HitPelvis";
-					armor = 16;
-					passThrough = 0.3;
-				};
-			};
-		};
-	};
-	class usm_vest_pasgtdes_lbe_rm: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgtdes_lbe_rmp: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgtdes_lbe_gr: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdes_lbe_mg: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdes_lbv_rm: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdes_lbv_rmp: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdes_lbv_gr: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgtdes_lbv_mg: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgtdes_lbe_rm_m: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgtdes_lbe_rmp_m: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgtdes_lbe_gr_m: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdes_lbe_mg_m: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdes_lbv_rm_m: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdes_lbv_rmp_m: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdes_lbv_gr_m: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgtdes_lbv_mg_m: usm_vest_pasgtdes
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgtdcu: ItemCore
-	{
-		descriptionShort = "Armor Level III";
-		class ItemInfo: VestItem
-		{
-			containerClass = "Supply20";
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName = "HitChest";
-					armor = 16;
-					PassThrough = 0.3;
-				};
-				class Diaphragm
-				{
-					HitpointName = "HitDiaphragm";
-					armor = 16;
-					PassThrough = 0.3;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 16;
-					passThrough = 0.3;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.3;
-				};
-				class Pelvis
-				{
-					hitpointName = "HitPelvis";
-					armor = 16;
-					passThrough = 0.3;
-				};
-			};
-		};
-	};
-	class usm_vest_pasgtdcu_lbe_rm: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply60";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgtdcu_lbe_rmp: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply60";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgtdcu_lbe_gr: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdcu_lbe_mg: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdcu_lbv_rm: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdcu_lbv_rmp: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdcu_lbv_gr: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgtdcu_lbv_mg: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgtdcu_lbe_rm_m: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply60";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgtdcu_lbe_rmp_m: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply60";
-			mass = 70;
-		};
-	};
-	class usm_vest_pasgtdcu_lbe_gr_m: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdcu_lbe_mg_m: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdcu_lbv_rm_m: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdcu_lbv_rmp_m: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 80;
-		};
-	};
-	class usm_vest_pasgtdcu_lbv_gr_m: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_pasgtdcu_lbv_mg_m: usm_vest_pasgtdcu
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 90;
-		};
-	};
-	class usm_vest_rba: ItemCore
-	{
-		descriptionShort = "Armor Level IV";
-		class ItemInfo: VestItem
-		{
-			containerClass = "Supply20";
-			mass = 70;
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName = "HitChest";
-					armor = 22;
-					PassThrough = 0.2;
-				};
-				class Diaphragm
-				{
-					HitpointName = "HitDiaphragm";
-					armor = 22;
-					PassThrough = 0.2;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 22;
-					passThrough = 0.2;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.2;
-				};
-				class Pelvis
-				{
-					hitpointName = "HitPelvis";
-					armor = 22;
-					passThrough = 0.2;
-				};
-			};
-		};
-	};
-	class usm_vest_rba_lbe_rm: usm_vest_rba
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply60";
-			mass = 80;
-		};
-	};
-	class usm_vest_rba_lbe_rmp: usm_vest_rba
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply60";
-			mass = 80;
-		};
-	};
-	class usm_vest_rba_lbe_gr: usm_vest_rba
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 90;
-		};
-	};
-	class usm_vest_rba_lbe_mg: usm_vest_rba
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 90;
-		};
-	};
-	class usm_vest_rba_lbv_rm: usm_vest_rba
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 90;
-		};
-	};
-	class usm_vest_rba_lbv_rmp: usm_vest_rba
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply80";
-			mass = 90;
-		};
-	};
-	class usm_vest_rba_lbv_gr: usm_vest_rba
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 100;
-		};
-	};
-	class usm_vest_rba_lbv_mg: usm_vest_rba
-	{
-		class ItemInfo: ItemInfo
-		{
-			containerClass = "Supply100";
-			mass = 100;
-		};
-	};
 	class CUP_V_PMC_CIRAS_Base;
 	class CUP_V_PMC_CIRAS_Black_Veh: CUP_V_PMC_CIRAS_Base
 	{
@@ -1091,54 +316,6 @@ class CfgVehicles
 {
 	class ReammoBox;
 	class Bag_Base;
-	class ZSN_st138_prc77: Bag_Base
-	{
-    		author = "ZluskeN";
-		displayName = "Radio 145";
-    		descriptionShort = "ST-138, AN/PRC-77";
-		picture = "\us_military_units\icons\pack_st138_prc77_icon_ca.paa";
-		scope = 2;
-    		scopeCurator = 2;
-		maximumLoad = 0;
-		mass = 20;
-		model = "\us_military_units\usm_pack_st138_prc77.p3d";
-    		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-    		tf_hasLRradio = 1;
-		tf_encryptionCode = "tf_west_radio_code";
-    		tf_dialog = "anprc155_radio_dialog";
-    		tf_subtype = "digital_lr";
-  	};
-	class usm_pack_m5_medic;
-	class ZSN_bag_m5_medic: usm_pack_m5_medic
-	{
-		scope = 2;
-		displayName = "Bag, M5, Combat Life Saver";
-		allowedSlots[] = {501,601,701,801,901};
-		model = "\us_military_units\usm_pack_m5_medic.p3d";
-		picture = "\us_military_units\icons\pack_m5_medic_icon_ca.paa";
-		maximumLoad = 224;
-		icon = "iconBackpack";
-		mass = 40;
-		mapSize = 2;
-		class TransportMagazines
-		{
-			delete _xx_SmokeShellPurple;
-			delete _xx_SmokeShellYellow;
-		};
-		class TransportItems
-		{
-			class _xx_usm_fielddressing
-			{
-				name = "FirstAidKit";
-				count = 8;
-			};
-			class _xx_usm_medikit
-			{
-				name = "medikit";
-				count = 2;
-			};
-		};
-	};
 	class CUP_B_SLA_Medicbag;
 	class ZSN_pack_medic: CUP_B_SLA_Medicbag
 	{
@@ -1147,12 +324,12 @@ class CfgVehicles
 		maximumLoad = 224;
 		class TransportItems
 		{
-			class _xx_usm_fielddressing
+			class _xx_FirstAidKit
 			{
 				name = "FirstAidKit";
 				count = 8;
 			};
-			class _xx_usm_medikit
+			class _xx_medikit
 			{
 				name = "medikit";
 				count = 2;
@@ -1222,6 +399,25 @@ class CfgVehicles
 			};
 		};
 	};
+	class CUP_B_AlicePack_OD;
+	class ZSN_alice_smaw_OD: CUP_B_AlicePack_OD
+	{
+		author = "ZluskeN";
+		scope = 1;
+		allowedSlots[] = {501,601,701,801,901};
+		displayName = "Alice Pack, SMAW";
+		mapSize = 2;
+		maximumLoad = 210;
+		mass = 60;
+		class TransportMagazines
+		{
+			class _xx_CUP_SMAW_HEAA_M
+			{
+				magazine = "CUP_SMAW_HEAA_M";
+				count = 2;
+			};
+		};
+	};
 	class ZSN_alice_Gustav: CUP_B_AlicePack_Khaki
 	{
 		author = "ZluskeN";
@@ -1240,7 +436,38 @@ class CfgVehicles
 			};
 		};
 	};
-	class ZSN_ALICE_Repair: CUP_B_AlicePack_Khaki
+	class ZSN_alice_Gustav_OD: CUP_B_AlicePack_OD
+	{
+		author = "ZluskeN";
+		scope = 1;
+		allowedSlots[] = {501,601,701,801,901};
+		displayName = "Alice Pack, Gustav";
+		mapSize = 2;
+		maximumLoad = 210;
+		mass = 60;
+		class TransportMagazines
+		{
+			class _xx_CUP_MAAWS_HEAT_M
+			{
+				magazine = "CUP_MAAWS_HEAT_M";
+				count = 3;
+			};
+		};
+	};
+	class ZSN_ALICE_Repair: CUP_B_AlicePack_OD
+	{
+		scope = 1;
+		maximumLoad = 200;
+		class TransportItems
+		{
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 1;
+			};
+		};
+	};
+	class ZSN_ALICE_Repair_Khaki: CUP_B_AlicePack_Khaki
 	{
 		scope = 1;
 		maximumLoad = 200;
@@ -1382,12 +609,32 @@ class CfgVehicles
 			};
 		};
 	};
-	class ZSN_200rnd_762x51_bandoliers: Bag_Base
+	class ZSN_200rnd_762x51_bandoliers: CUP_B_AlicePack_Khaki
 	{
 		scope = 1;
 		displayName = "MG Bag";
-		model = "\us_military_units\usm_pack_abag.p3d";
-		picture = "\us_military_units\icons\pack_abag_icon_ca.paa";
+		icon = "iconBackpack";
+		mapSize = 2;
+		maximumLoad = 132;
+		allowedSlots[] = {901,801};
+		class TransportMagazines
+		{
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine = "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count = 1;
+			};
+			class _xx_ACE_SpareBarrel
+			{
+				magazine = "ACE_SpareBarrel";
+				count = 1;
+			};
+		};
+	};
+	class ZSN_200rnd_762x51_bandoliers_OD: CUP_B_AlicePack_OD
+	{
+		scope = 1;
+		displayName = "MG Bag";
 		icon = "iconBackpack";
 		mapSize = 2;
 		maximumLoad = 132;
@@ -1448,8 +695,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class usm_pack_762x51_bandoliers;
-	class ZSN_762x51_ammobelts: usm_pack_762x51_bandoliers
+	class ZSN_762x51_ammobelts: CUP_B_AlicePack_Khaki
 	{
 		scope = 1;
 		displayName = "Linked 7.62x51, 500 rnd";
@@ -1465,7 +711,24 @@ class CfgVehicles
 			};
 		};
 	};
-	class ZSN_762x51_MG3_ammobelts: usm_pack_762x51_bandoliers
+	class ZSN_762x51_ammobelts_OD: CUP_B_AlicePack_OD
+	{
+		scope = 1;
+		displayName = "Linked 7.62x51, 500 rnd";
+		maximumLoad = 330;
+		mass = 0;
+		allowedSlots[] = {901};
+		class TransportMagazines
+		{
+			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine = "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count = 5;
+			};
+		};
+	};
+	class CUP_B_RUS_Backpack;
+	class ZSN_762x51_MG3_ammobelts: CUP_B_RUS_Backpack
 	{
 		scope = 1;
 		displayName = "Linked 7.62x51, 480 rnd";
@@ -1552,6 +815,31 @@ class CfgVehicles
 		};
 	};
 	class ZSN_minepack_west: CUP_B_AlicePack_Khaki
+	{
+		scope = 2;
+		class TransportItems
+		{
+			class _xx_ACE_DefusalKit
+			{
+				name = "ACE_DefusalKit";
+				count = 1;
+			};
+			class _xx_MineDetector
+			{
+				name = "MineDetector";
+				count = 1;
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_CUP_Mine_M
+			{
+				magazine = "CUP_Mine_M";
+				count = 2;
+			};
+		};
+	};
+	class ZSN_minepack_west_OD: CUP_B_AlicePack_OD
 	{
 		scope = 2;
 		class TransportItems
@@ -1685,7 +973,5 @@ class CfgVehicles
 			};
 		};
 	};
-	class usm_pack_alice;
-	class CUP_B_RUS_Backpack;
 };
 //};
