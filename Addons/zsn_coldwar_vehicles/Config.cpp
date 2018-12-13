@@ -269,6 +269,7 @@ class cfgvehicles
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
+		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",1,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
 		hiddenselectionstextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\civ_r_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Special_Des_CZ_D.jpg";
 	};
@@ -279,6 +280,7 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",1,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\tk_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_Transport_TKM.jpg";
 	};
@@ -293,6 +295,7 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_EurosolWB"};
 		displayname = "Land Rover (Transport)";
 		attendant = 1;
+		animationList[] = {"selection_jerry",1,"selection_box",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_doors",0.5,"selection_bar",0.5};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Transport_CZ_W.jpg";
 		class Transportweapons
@@ -327,6 +330,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolWDB";
 		faction = "ZSN_WEuroD_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolWDB"};
+		animationList[] = {"selection_jerry",1,"selection_box",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_doors",0.5,"selection_bar",0.5};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Transport_GB_D.jpg";
 	};
@@ -341,6 +345,7 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_RangerWB"};
 		displayname = "Land Rover (Transport)";
 		faction = "ZSN_WRangers_ColdWar";
+		animationList[] = {"selection_box",1,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		attendant = 1;
 		class TransportItems
@@ -372,6 +377,7 @@ class cfgvehicles
 		crew = "ZSN_RangerWDB";
 		typicalCargo[] = {"ZSN_RangerWDB"};
 		faction = "ZSN_WRangersD_ColdWar";
+		animationList[] = {"selection_box",1,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_special_acr_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Transport_CZ_D.jpg";
 	};
@@ -385,6 +391,7 @@ class cfgvehicles
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
+		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",1,"selection_bar",0.5,"selection_antenna",1};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Special_Des_CZ_D.jpg";
 	};
@@ -395,6 +402,7 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",1,"selection_bar",0.5,"selection_antenna",1};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\tk_lr_base_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_SPG9_TKM.jpg";
 	};
@@ -411,6 +419,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolWB";
 		faction = "ZSN_WEuro_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolWB"};
+		animationList[] = {"selection_jerry",1,"selection_tool",0.5,"selection_steps",0.5,"selection_doors",0.5,"selection_bar",0.5};
 		hiddenSelectionsTextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_base_co.paa","zsn_coldwar_vehicles\lr_sup_ext_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Ambulance_CZ_W.jpg";
 		class TransportItems
@@ -454,6 +463,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolWDB";
 		faction = "ZSN_WEuroD_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolWDB"};
+		animationList[] = {"selection_jerry",1,"selection_tool",0.5,"selection_steps",0.5,"selection_doors",0.5,"selection_bar",0.5};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\gb_d_lr_base_co.paa","zsn_coldwar_vehicles\lr_sup_ext_desert_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\gb_d_lr_special_co.paa"};
 		class TransportItems
 		{
@@ -495,6 +505,7 @@ class cfgvehicles
 		crew = "ZSN_RangerWB";
 		typicalCargo[] = {"ZSN_RangerWB"};
 		faction = "ZSN_WRangers_ColdWar";
+		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5,};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_GB_W.jpg";
 		class Transportweapons
@@ -534,6 +545,7 @@ class cfgvehicles
 		crew = "ZSN_RangerWDB";
 		typicalCargo[] = {"ZSN_RangerWDB"};
 		faction = "ZSN_WRangersD_ColdWar";
+		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5,};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_CZ_W.jpg";
 	};
@@ -2450,17 +2462,15 @@ class cfgvehicles
 		hiddenselectionstextures[] = {"\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Body01_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Body02_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Turret_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Wheels_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Body03_IND_CO.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T34\Data\preview\CUP_O_T34_TKA.jpg";
 	};
-	class CUP_T55_Base;
-	class CUP_O_T55_TK;
-	class ZSN_CUP_DVMF_T55: CUP_O_T55_TK
+	class CUP_I_T55_NAPA;
+	class ZSN_CUP_DVMF_T55: CUP_I_T55_NAPA
 	{
+		side = 0;
 		scope = 2;
 		scopeCurator = 2;
 		crew = "ZSN_MarineEDCrew";
 		typicalCargo[] = {"ZSN_MarineEDCrew"};
 		faction = "ZSN_EMarinesD_ColdWar";
-		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_TKG_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_TKG_co"};
-		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_I_T55_TK_GUE.jpg";
 	};
 	class ZSN_CUP_VMF_T55: ZSN_CUP_DVMF_T55
 	{
@@ -2469,10 +2479,22 @@ class cfgvehicles
 		crew = "ZSN_MarineECrew";
 		typicalCargo[] = {"ZSN_MarineECrew"};
 		faction = "ZSN_EMarines_ColdWar";
+	};
+	class ZSN_CUP_DMSV_T55: ZSN_CUP_DVMF_T55
+	{
+		crew = "ZSN_SoldierEDCrew";
+		typicalCargo[] = {"ZSN_SoldierEDCrew"};
+		faction = "ZSN_EArmyD_ColdWar";
+		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_olive_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_olive_co"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_O_T55_SLA.jpg";
+	};
+	class ZSN_CUP_MSV_T55: ZSN_CUP_VMF_T55
+	{
+		crew = "ZSN_SoldierECrew";
+		typicalCargo[] = {"ZSN_SoldierECrew"};
+		faction = "ZSN_EArmy_ColdWar";
 		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_TKG_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_TKG_co"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_I_T55_TK_GUE.jpg";
-		//hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_olive_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_olive_co"};
-		//editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_O_T55_SLA.jpg";
 	};
 	class CUP_I_T55_TK_GUE;
 	class ZSN_CUP_GUER_T55: CUP_I_T55_TK_GUE
@@ -2497,9 +2519,9 @@ class cfgvehicles
 	class ZSN_CUP_MSV_ZSU23: CUP_ZSU23_Base
 	{
 		side = 0;
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		tf_hasLRradio = 1;
 		crew = "ZSN_SoldierECrew";
 		typicalCargo[] = {"ZSN_SoldierECrew"};
@@ -2523,6 +2545,18 @@ class cfgvehicles
 	class SUD_ZSU: ZSN_CUP_DMSV_ZSU23
 	{
 		scope = 1;
+	};
+	class CUP_O_2S6_RU;
+	class ZSN_MSV_2S6: CUP_O_2S6_RU
+	{
+		side = 0;
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		crew = "ZSN_SoldierECrew";
+		typicalCargo[] = {"ZSN_SoldierECrew"};
+		faction = "ZSN_EArmy_ColdWar";
 	};
 	class CUP_M270_HE_Base;
 	class ZSN_CUP_Army_M270: CUP_M270_HE_Base
@@ -2975,7 +3009,7 @@ class cfgvehicles
 	class ZSN_CUP_DMSV_T72: CUP_T72_Base
 	{
 		side = 0;
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;

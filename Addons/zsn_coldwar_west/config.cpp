@@ -867,10 +867,10 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2"};
 		magazines[] = {};
 		respawnMagazines[] = {};
-		Items[] = {"CUP_H_US_patrol_cap_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		RespawnItems[] = {"CUP_H_US_patrol_cap_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"CUP_H_US_patrol_cap_WDL","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_patrol_cap_WDL","ItemMap","ItemCompass","ItemWatch"};
+		Items[] = {"CUP_H_USMC_CAP_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
+		RespawnItems[] = {"CUP_H_USMC_CAP_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"CUP_H_USMC_CAP_WDL","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USMC_CAP_WDL","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWAR: ZSN_MarineW
 	{
@@ -893,8 +893,6 @@ class CfgVehicles
 		backpack = "ZSN_pack_medic";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		Items[] = {"CUP_H_US_patrol_cap_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		RespawnItems[] = {"CUP_H_US_patrol_cap_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
 		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1007,8 +1005,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_Colt1911","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_US_patrol_cap_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_US_patrol_cap_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USMC_CAP_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USMC_CAP_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_US_H_PASGT_WDL"};
 		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_US_H_PASGT_WDL"};
 	};
@@ -1092,8 +1090,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_Colt1911","Binocular"};
 		magazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
-		Items[] = {"CUP_H_US_patrol_cap_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
-		RespawnItems[] = {"CUP_H_US_patrol_cap_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
+		Items[] = {"CUP_H_USMC_CAP_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
+		RespawnItems[] = {"CUP_H_USMC_CAP_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1117,10 +1115,10 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2"};
 		magazines[] = {};
 		respawnMagazines[] = {};
-		Items[] = {"CUP_H_US_patrol_cap_desert","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		RespawnItems[] = {"CUP_H_US_patrol_cap_desert","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		linkedItems[] = {"CUP_H_US_patrol_cap_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_patrol_cap_desert","ItemMap","ItemCompass","ItemWatch"};
+		Items[] = {"CUP_H_USMC_CAP_DES","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
+		RespawnItems[] = {"CUP_H_USMC_CAP_DES","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"CUP_H_USMC_CAP_DES","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USMC_CAP_DES","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDAR: ZSN_MarineWD
 	{
@@ -1143,8 +1141,6 @@ class CfgVehicles
 		backpack = "ZSN_pack_medic";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		Items[] = {"CUP_H_US_patrol_cap_desert","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
-		RespawnItems[] = {"CUP_H_US_patrol_cap_desert","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_EntrenchingTool"};
 		linkedItems[] = {"CUP_H_US_H_PASGT_desert","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1257,8 +1253,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_Colt1911","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_US_patrol_cap_desert","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_US_patrol_cap_desert","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USMC_CAP_DES","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USMC_CAP_DES","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_US_H_PASGT_desert"};
 		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_US_H_PASGT_desert"};
 	};
@@ -1342,8 +1338,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_Colt1911","Binocular"};
 		magazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
-		Items[] = {"CUP_H_US_patrol_cap_desert","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
-		RespawnItems[] = {"CUP_H_US_patrol_cap_desert","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
+		Items[] = {"CUP_H_USMC_CAP_DES","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
+		RespawnItems[] = {"CUP_H_USMC_CAP_DES","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_desert","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_desert","ItemMap","ItemCompass","ItemWatch"};
 	};
