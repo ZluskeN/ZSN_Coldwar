@@ -258,9 +258,12 @@ class cfgvehicles
 			};
 		};
 	};
-	class CUP_LR_Base;
 	class CUP_LR_Transport_Base;
-	class CUP_C_LR_Transport_CTK;
+	class CUP_LR_Base;
+	class CUP_C_LR_Transport_CTK: CUP_LR_Transport_Base
+	{
+		class EventHandlers;
+	};
 	class ZSN_CUP_GUER_LR: CUP_C_LR_Transport_CTK
 	{
 		side = 2;
@@ -269,9 +272,13 @@ class cfgvehicles
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
-		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",1,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
+		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",1,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",1,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
 		hiddenselectionstextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\civ_r_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Special_Des_CZ_D.jpg";
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
 	class ZSN_CUP_DGUER_LR: ZSN_CUP_GUER_LR
 	{
@@ -280,11 +287,18 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
-		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",1,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
+		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",1,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",1,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\tk_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_Transport_TKM.jpg";
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
-	class CUP_B_LR_Transport_GB_W;
+	class CUP_B_LR_Transport_GB_W: CUP_LR_Transport_Base
+	{
+		class EventHandlers;
+	};
 	class ZSN_CUP_BAF_LR: CUP_B_LR_Transport_GB_W
 	{
 		scope = 2;
@@ -324,6 +338,10 @@ class cfgvehicles
 				count = 4;
 			};
 		};
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
 	class ZSN_CUP_DBAF_LR: ZSN_CUP_BAF_LR
 	{
@@ -333,8 +351,15 @@ class cfgvehicles
 		animationList[] = {"selection_jerry",1,"selection_box",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_doors",0.5,"selection_bar",0.5};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Transport_GB_D.jpg";
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
-	class CUP_B_LR_Transport_CZ_W;
+	class CUP_B_LR_Transport_CZ_W: CUP_LR_Transport_Base
+	{
+		class EventHandlers;
+	};
 	class ZSN_CUP_USR_LR: CUP_B_LR_Transport_CZ_W
 	{
 		scope = 2;
@@ -345,7 +370,7 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_RangerWB"};
 		displayname = "Land Rover (Transport)";
 		faction = "ZSN_WRangers_ColdWar";
-		animationList[] = {"selection_box",1,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
+		animationList[] = {"selection_box",0.5,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		attendant = 1;
 		class TransportItems
@@ -371,18 +396,29 @@ class cfgvehicles
 				count = 3;
 			};
 		};
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
 	class ZSN_CUP_DUSR_LR: ZSN_CUP_USR_LR
 	{
 		crew = "ZSN_RangerWDB";
 		typicalCargo[] = {"ZSN_RangerWDB"};
 		faction = "ZSN_WRangersD_ColdWar";
-		animationList[] = {"selection_box",1,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
+		animationList[] = {"selection_box",0.5,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_special_acr_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Transport_CZ_D.jpg";
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
 	class CUP_LR_SPG9_Base;
-	class CUP_O_LR_SPG9_TKA;
+	class CUP_O_LR_SPG9_TKA: CUP_LR_SPG9_Base
+	{
+		class EventHandlers;
+	};
 	class ZSN_CUP_GUER_LR_SPG9: CUP_O_LR_SPG9_TKA
 	{
 		side = 2;
@@ -394,6 +430,10 @@ class cfgvehicles
 		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",1,"selection_bar",0.5,"selection_antenna",1};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Special_Des_CZ_D.jpg";
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
 	class ZSN_CUP_DGUER_LR_SPG9: ZSN_CUP_GUER_LR_SPG9
 	{
@@ -405,9 +445,16 @@ class cfgvehicles
 		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",1,"selection_bar",0.5,"selection_antenna",1};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\tk_lr_base_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_SPG9_TKM.jpg";
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
 	class CUP_LR_Ambulance_Base;
-	class CUP_B_LR_Ambulance_GB_W;
+	class CUP_B_LR_Ambulance_GB_W: CUP_LR_Ambulance_Base
+	{
+		class EventHandlers;
+	};
 	class ZSN_CUP_BAF_LR_Sup: CUP_B_LR_Ambulance_GB_W
 	{
 		side = 1;
@@ -450,8 +497,15 @@ class cfgvehicles
 				count = 3;
 			};
 		};
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
-	class CUP_B_LR_Ambulance_GB_D;
+	class CUP_B_LR_Ambulance_GB_D: CUP_LR_Ambulance_Base
+	{
+		class EventHandlers;
+	};
 	class ZSN_CUP_DBAF_LR_Sup: CUP_B_LR_Ambulance_GB_D
 	{
 		side = 1;
@@ -493,8 +547,15 @@ class cfgvehicles
 				count = 3;
 			};
 		};
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
-	class CUP_LR_MG_Base;
+	class CUP_LR_MG_Base: CUP_LR_Base
+	{
+		class EventHandlers;
+	};
 	class ZSN_CUP_USR_LR_MG: CUP_LR_MG_Base
 	{
 		scope = 2;
@@ -505,7 +566,7 @@ class cfgvehicles
 		crew = "ZSN_RangerWB";
 		typicalCargo[] = {"ZSN_RangerWB"};
 		faction = "ZSN_WRangers_ColdWar";
-		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5,};
+		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_GB_W.jpg";
 		class Transportweapons
@@ -539,15 +600,23 @@ class cfgvehicles
 				count = 5;
 			};
 		};
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
 	class ZSN_CUP_DUSR_LR_MG: ZSN_CUP_USR_LR_MG
 	{
 		crew = "ZSN_RangerWDB";
 		typicalCargo[] = {"ZSN_RangerWDB"};
 		faction = "ZSN_WRangersD_ColdWar";
-		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5,};
+		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_CZ_W.jpg";
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
 	};
 	class Offroad_01_base_F;
 	class CUP_UAZ_Base;
