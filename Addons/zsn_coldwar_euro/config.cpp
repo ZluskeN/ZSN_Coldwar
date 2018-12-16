@@ -1007,6 +1007,17 @@ class CfgVehicles
 	{
 		class Turrets;
 	};
+	class CUP_B_Leopard2A6_GER;
+	class ZSN_Leopard2: CUP_B_Leopard2A6_GER
+	{
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		displayName = "Leopard 2";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
 	class CUP_M113_Base: Tank_F
 	{
 		class Turrets: Turrets

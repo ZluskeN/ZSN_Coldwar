@@ -3012,7 +3012,7 @@ class cfgvehicles
 		faction = "ZSN_WArmy_ColdWar";
 		crew = "ZSN_SoldierWCrew";
 		typicalCargo[] = {"ZSN_SoldierWCrew"};
-		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_01_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_02_co.paa"};
+		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_01_green_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_02_green_co.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M163_USA.jpg";
 	};
 	class SUD_M163: ZSN_CUP_ARMY_M163
@@ -3024,7 +3024,7 @@ class cfgvehicles
 		faction = "ZSN_WArmyD_ColdWar";
 		crew = "ZSN_SoldierWDCrew";
 		typicalCargo[] = {"ZSN_SoldierWDCrew"};
-		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_desert_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcansp_02_co.paa"};
+		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_01_desert_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_02_desert_co.paa"};
 	};
 	class MBT_02_base_F;
 	class CUP_B_M60A3_USMC;
