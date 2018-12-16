@@ -654,7 +654,7 @@ class CfgVehicles
 		icon = "iconManEngineer";
 		picture = "pictureRepair";
 		displayName = "$STR_B_soldier_repair_F0";
-		backPack = "ZSN_ALICE_Repair";
+		backPack = "ZSN_ALICE_Repair_khaki";
 	};
 	class ZSN_SoldierWDMG: ZSN_SoldierWD
 	{

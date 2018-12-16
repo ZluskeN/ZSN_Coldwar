@@ -454,7 +454,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class ZSN_ALICE_Repair: CUP_B_AlicePack_OD
+	class ZSN_ALICE_Repair_OD: CUP_B_AlicePack_OD
 	{
 		scope = 1;
 		maximumLoad = 200;
