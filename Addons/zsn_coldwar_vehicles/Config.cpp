@@ -3341,9 +3341,11 @@ class cfgvehicles
 	{
 		scope = 1;
 	};
-	class ZSN_CUP_VMF_Mi8: ZSN_CUP_MSV_Mi8
+	class ZSN_CUP_VMF_Mi8: ZSN_CSLA_Mi17
 	{
 		faction = "ZSN_EMarines_ColdWar";
+		crew = "ZSN_SoldierEPilot";
+		typicalCargo[] = {"ZSN_SoldierEPilot"};
 		hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_1_co.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_2_co.paa","a3\data_f\clear_empty.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_Mi8\Data\preview\CUP_O_Mi8_SLA_1.jpg";
 	};
@@ -4100,6 +4102,140 @@ class CfgGroups
 			class Motorized
 			{
 				name = "Motorized Infantry";
+				class ZSN_GEuro_LRInfantry
+				{
+					name = "Resistance Cell (Land Rover)";
+					faction = "ZSN_GEuro_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAW";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGSniper";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAWAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGMG";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_LR";
+						rank = "Private";
+						position[] = {0,5,0};
+					};
+				};
+				class ZSN_GEuro_DatsunInfantry
+				{
+					name = "Resistance Cell (Datsun)";
+					faction = "ZSN_GEuro_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAW";
+						rank = "Private";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAWAss";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGMG";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_Datsun";
+						rank = "Private";
+						position[] = {0,5,0};
+					};
+				};
+				class ZSN_GEuro_MotorVehicles
+				{
+					name = "Resistance Cell (Technical)";
+					faction = "ZSN_GEuro_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_LR_SPG9";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_LR_SPG9";
+						rank = "CORPORAL";
+						position[] = {-4,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_Datsun_PK";
+						rank = "Private";
+						position[] = {8,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_Datsun_PK";
+						rank = "Private";
+						position[] = {-8,0,0};
+					};
+				};
+			};
+			class Mechanised
+			{
+				name = "Mechanised Infantry";
 				class ZSN_GEuro_MotorInfantry
 				{
 					name = "Resistance Cell (BTR-40)";
@@ -4155,6 +4291,144 @@ class CfgGroups
 						position[] = {0,5,0};
 					};
 				};
+				class ZSN_GEuro_MechInfantry
+				{
+					name = "Resistance Cell (T-34)";
+					faction = "ZSN_GEuro_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAW";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGSniper";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAWAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGMG";
+						rank = "Private";
+						position[] = {-7,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGSniper";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "Private";
+						position[] = {-9,0,0};
+					};
+					class Unit8
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_T34";
+						rank = "Private";
+						position[] = {0,5,0};
+					};
+				};
+				class ZSN_GEuro_AAVehicles
+				{
+					name = "Resistance Cell (ZSU)";
+					faction = "ZSN_GEuro_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAW";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGSniper";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAWAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGMG";
+						rank = "Private";
+						position[] = {-7,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_BTR40";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_Ural_ZU23";
+						rank = "Private";
+						position[] = {-6,-6,0};
+					};
+					class Unit8
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_Ural_ZU23";
+						rank = "Private";
+						position[] = {6,-6,0};
+					};
+				};
 			};
 		};
 		class ZSN_GEuroD_ColdWar
@@ -4163,6 +4437,140 @@ class CfgGroups
 			class Motorized
 			{
 				name = "Motorized Infantry";
+				class ZSN_GEuroD_LRInfantry
+				{
+					name = "Resistance Cell (Land Rover)";
+					faction = "ZSN_GEuroD_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLAW";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDSniper";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLAWAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDMG";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_LR";
+						rank = "Private";
+						position[] = {0,5,0};
+					};
+				};
+				class ZSN_GEuroD_DatsunInfantry
+				{
+					name = "Resistance Cell (Datsun)";
+					faction = "ZSN_GEuroD_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLAW";
+						rank = "Private";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLAWAss";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDMG";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_Datsun";
+						rank = "Private";
+						position[] = {0,5,0};
+					};
+				};
+				class ZSN_GEuroD_MotorVehicles
+				{
+					name = "Resistance Cell (Technical)";
+					faction = "ZSN_GEuroD_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_LR_SPG9";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_LR_SPG9";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_Datsun_PK";
+						rank = "Private";
+						position[] = {6,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_Datsun_PK";
+						rank = "Private";
+						position[] = {-6,0,0};
+					};
+				};
+			};
+			class Mechanised
+			{
+				name = "Mechanised Infantry";
 				class ZSN_GEuroD_MotorInfantry
 				{
 					name = "Resistance Cell (BTR-40)";
@@ -4218,65 +4626,6 @@ class CfgGroups
 						position[] = {0,5,0};
 					};
 				};
-			};
-			class Mechanised
-			{
-				name = "Mechanised Infantry";
-				class ZSN_GEuro_MechInfantry
-				{
-					name = "Resistance Cell (T-34)";
-					faction = "ZSN_GEuro_ColdWar";
-					side = 2;
-					class Unit0
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLeader";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
-					};
-					class Unit1
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLeader";
-						rank = "CORPORAL";
-						position[] = {-3,0,0};
-					};
-					class Unit2
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLAW";
-						rank = "Private";
-						position[] = {5,0,0};
-					};
-					class Unit3
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGSniper";
-						rank = "Private";
-						position[] = {-5,0,0};
-					};
-					class Unit4
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLAWAss";
-						rank = "Private";
-						position[] = {7,0,0};
-					};
-					class Unit5
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGMG";
-						rank = "Private";
-						position[] = {9,0,0};
-					};
-					class Unit6
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_GUER_T34";
-						rank = "Private";
-						position[] = {0,5,0};
-					};
-				};
 				class ZSN_GEuroD_MechInfantry
 				{
 					name = "Resistance Cell (T-34)";
@@ -4322,14 +4671,97 @@ class CfgGroups
 						side = 2;
 						vehicle = "ZSN_EurosolGDMG";
 						rank = "Private";
-						position[] = {9,0,0};
+						position[] = {-7,0,0};
 					};
 					class Unit6
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDSniper";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLeader";
+						rank = "Private";
+						position[] = {-9,0,0};
+					};
+					class Unit8
 					{
 						side = 2;
 						vehicle = "ZSN_CUP_DGUER_T34";
 						rank = "Private";
 						position[] = {0,5,0};
+					};
+				};
+				class ZSN_GEuroD_AAVehicles
+				{
+					name = "Resistance Cell (ZSU)";
+					faction = "ZSN_GEuroD_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLAW";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDSniper";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLAWAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDMG";
+						rank = "Private";
+						position[] = {-7,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_BTR40";
+						rank = "CORPORAL";
+						position[] = {0,0,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_Ural_ZU23";
+						rank = "Private";
+						position[] = {-6,-6,0};
+					};
+					class Unit8
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_Ural_ZU23";
+						rank = "Private";
+						position[] = {6,-6,0};
 					};
 				};
 			};
