@@ -5084,6 +5084,65 @@ class CfgGroups
 					};
 				};
 			};
+			class Motorized
+			{
+				name = "Motorized Infantry";
+				class ZSN_WEuro_MotInfantry
+				{
+					name = "Motorized Infantry Section";
+					faction = "ZSN_WEuro_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWLeader";
+						rank = "Sergeant";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_BAF_LR";
+						rank = "CORPORAL";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWMG";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWLAW";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWLAWAss";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWMGAss";
+						rank = "Private";
+						position[] = {11,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWMedic";
+						rank = "Private";
+						position[] = {13,0,0};
+					};
+				};
+			};
 		};
 		class ZSN_WEuroD_ColdWar
 		{
@@ -5108,6 +5167,65 @@ class CfgGroups
 						side = 1;
 						vehicle = "ZSN_CUP_DBAF_MCV80";
 						rank = "Sergeant";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWDMG";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWDLAW";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWDLAWAss";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWDMGAss";
+						rank = "Private";
+						position[] = {11,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWDMedic";
+						rank = "Private";
+						position[] = {13,0,0};
+					};
+				};
+			};
+			class Motorized
+			{
+				name = "Motorized Infantry";
+				class ZSN_WEuroD_MotInfantry
+				{
+					name = "Motorized Infantry Section";
+					faction = "ZSN_WEuroD_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolWDLeader";
+						rank = "Sergeant";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DBAF_LR";
+						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
 					class Unit2
@@ -7014,6 +7132,65 @@ class CfgGroups
 					};
 				};
 			};
+			class Motorized
+			{
+				name = "Motorized Infantry";
+				class ZSN_EEuro_MotInfantry
+				{
+					name = "Motorized Infantry Section";
+					faction = "ZSN_EEuro_ColdWar";
+					side = 0;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolELeader";
+						rank = "Sergeant";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_CSLA_V3S";
+						rank = "CORPORAL";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolEMG";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolELAW";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolELAWAss";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolEMGAss";
+						rank = "Private";
+						position[] = {11,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolEMedic";
+						rank = "Private";
+						position[] = {13,0,0};
+					};
+				};
+			};
 		};
 		class ZSN_EEuroD_ColdWar
 		{
@@ -7071,6 +7248,65 @@ class CfgGroups
 					class Unit6
 					{
 						side = 0;
+						vehicle = "ZSN_EurosolEDMedic";
+						rank = "Private";
+						position[] = {13,0,0};
+					};
+				};
+			};
+			class Motorized
+			{
+				name = "Motorized Infantry";
+				class ZSN_EEuroD_MotInfantry
+				{
+					name = "Motorized Infantry Section";
+					faction = "ZSN_EEuroD_ColdWar";
+					side = 0;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolEDLeader";
+						rank = "Sergeant";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DCSLA_V3S";
+						rank = "CORPORAL";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolEDMG";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolEDLAW";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolEDLAWAss";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "ZSN_EurosolEDMGAss";
+						rank = "Private";
+						position[] = {11,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
 						vehicle = "ZSN_EurosolEDMedic";
 						rank = "Private";
 						position[] = {13,0,0};
