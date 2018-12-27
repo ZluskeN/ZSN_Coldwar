@@ -18,7 +18,6 @@ class CfgPatches
 };
 class CfgVehicles
 {
-	class B_soldier_base_F;
 	class ZSN_SoldierW;
 	class ZSN_SoldierWMG: ZSN_SoldierW
 	{
@@ -27,6 +26,18 @@ class CfgVehicles
 	};
 	class ZSN_SoldierWD;
 	class ZSN_SoldierWDMG: ZSN_SoldierWD
+	{
+		weapons[] = {"Throw","Put","hlc_lmg_m60"};
+		respawnWeapons[] = {"Throw","Put","hlc_lmg_m60"};
+	};
+	class ZSN_RangerW;
+	class ZSN_RangerWMG: ZSN_RangerW
+	{
+		weapons[] = {"Throw","Put","hlc_lmg_m60"};
+		respawnWeapons[] = {"Throw","Put","hlc_lmg_m60"};
+	};
+	class ZSN_RangerWD;
+	class ZSN_RangerWDMG: ZSN_RangerWD
 	{
 		weapons[] = {"Throw","Put","hlc_lmg_m60"};
 		respawnWeapons[] = {"Throw","Put","hlc_lmg_m60"};

@@ -2590,7 +2590,10 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"\cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody_desert_co.paa","\cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lavbody2_desert_co.paa","\cup\wheeledvehicles\cup_wheeledvehicles_lav25\data\lav_hq_desert_co.paa"};
 	};
 	class Tank;
-	class Tank_F;
+	class Tank_F: Tank
+	{
+		class Turrets;
+	};
 	class CUP_MCV80_Base;
 	class CUP_B_MCV80_GB_D_SLAT;
 	class CUP_B_MCV80_GB_D;
@@ -3063,7 +3066,13 @@ class cfgvehicles
 		faction = "ZSN_EArmyD_ColdWar";
 		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_BMP\bmp2\data\bmp2_01_sla_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_BMP\bmp2\data\bmp2_02_sla_co.paa"};
 	};
-	class CUP_M113_Base;
+	class CUP_M113_Base: Tank_F
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret;
+		};
+	};
 	class ZSN_CUP_Army_M113: CUP_M113_Base
 	{
 		scope = 2;
@@ -3169,6 +3178,91 @@ class cfgvehicles
 		crew = "ZSN_SoldierWDCrew";
 		typicalCargo[] = {"ZSN_SoldierWDCrew"};
 		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_desert_co.paa",""};
+	};
+	class ZSN_CUP_BW_M113: CUP_M113_Base
+	{
+		scope = 2;
+		side = 1;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+		hiddenSelectionsTextures[] = {"zsn_coldwar_euro\m113a3_bw_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_co.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M113_USA.jpg";
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				weapons[] = {"CUP_Vlmg_MG3_veh_noeject","SmokeLauncher"};
+				magazines[] = {"CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","SmokeLauncherMag"};
+			};
+		};
+	};
+	class ZSN_CUP_BW_M113_HQ: CUP_M113_Med_Base
+	{
+		side = 1;
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		transportSoldier = 0;
+		displayName = "M113A3 (HQ)";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+		hiddenSelectionsTextures[] = {"zsn_coldwar_euro\m113a3_bw_co.paa",""};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M113_USA.jpg";
+		class TransportWeapons
+		{
+			class _xx_CUP_lmg_MG3
+			{
+				weapon = "CUP_lmg_MG3";
+				count = 1;
+			};
+		};
+		class TransportBackpacks
+		{
+			class _xx_ZSN_762x51_MG3_ammobelts
+			{
+				backpack = "ZSN_762x51_MG3_ammobelts";
+				count = 2;
+			};
+		};
+	};
+	class CUP_B_UH1D_slick_GER_KSK;
+	class ZSN_CUP_B_UH1D_GER: CUP_B_UH1D_slick_GER_KSK
+	{
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWPilot";
+		displayName = "UH-1D Slick";
+		typicalCargo[] = {"ZSN_GersolWPilot"};
+	};
+	class CUP_B_CH53E_GER;
+	class ZSN_CUP_B_CH53E_GER: CUP_B_CH53E_GER
+	{
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWPilot";
+		typicalCargo[] = {"ZSN_GersolWPilot"};
+	};
+	class CUP_B_CH53E_VIV_GER;
+	class ZSN_CUP_B_CH53E_VIV_GER: CUP_B_CH53E_VIV_GER
+	{
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWPilot";
+		typicalCargo[] = {"ZSN_GersolWPilot"};
+	};
+	class CUP_B_Leopard2A6_GER;
+	class ZSN_Leopard2: CUP_B_Leopard2A6_GER
+	{
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		displayName = "Leopard 2";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
 	};
 	class CUP_M163_Base;
 	class ZSN_CUP_ARMY_M163: CUP_M163_Base
@@ -4268,6 +4362,44 @@ class CfgGroups
 		class ZSN_GEuro_ColdWar
 		{
 			name = "Cold War Guerilla";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_GEuro_Tankplatoon
+				{
+					name = "T-34 Platoon";
+					faction = "ZSN_GEuro_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_T34";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_T34";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_T34";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_T34";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
 			class Motorized
 			{
 				name = "Motorized Infantry";
@@ -4638,6 +4770,44 @@ class CfgGroups
 		class ZSN_GEuroD_ColdWar
 		{
 			name = "Cold War Guerilla (Desert)";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_GEuroD_Tankplatoon
+				{
+					name = "T-34 Platoon";
+					faction = "ZSN_GEuroD_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_T34";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_T34";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_T34";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_T34";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
 			class Motorized
 			{
 				name = "Motorized Infantry";
@@ -5261,9 +5431,89 @@ class CfgGroups
 				};
 			};
 		};
+		class ZSN_WGer_ColdWar
+		{
+			name = "Cold War FRG";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_WGer_Tankplatoon
+				{
+					name = "Leopard Platoon";
+					faction = "ZSN_WGer_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_Leopard2";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_Leopard2";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_Leopard2";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_Leopard2";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
+		};
 		class ZSN_WEuro_ColdWar
 		{
 			name = "Cold War NATO";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_WEuro_Tankplatoon
+				{
+					name = "Challenger Platoon";
+					faction = "ZSN_WEuro_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_BAF_Challenger2";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_BAF_Challenger2";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_BAF_Challenger2";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_BAF_Challenger2";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
 			class Mechanised
 			{
 				name = "Mechanised Infantry";
@@ -5406,6 +5656,44 @@ class CfgGroups
 		class ZSN_WEuroD_ColdWar
 		{
 			name = "Cold War NATO (Desert)";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_WEuroD_Tankplatoon
+				{
+					name = "Challenger Platoon";
+					faction = "ZSN_WEuroD_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DBAF_Challenger2";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DBAF_Challenger2";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DBAF_Challenger2";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DBAF_Challenger2";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
 			class Mechanised
 			{
 				name = "Mechanised Infantry";
@@ -7352,6 +7640,44 @@ class CfgGroups
 		class ZSN_EEuro_ColdWar
 		{
 			name = "Cold War PACT";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_EEuro_Tankplatoon
+				{
+					name = "T-72 Platoon";
+					faction = "ZSN_EEuro_ColdWar";
+					side = 0;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_CSLA_T72";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_CSLA_T72";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_CSLA_T72";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_CSLA_T72";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
 			class Mechanised
 			{
 				name = "Mechanised Infantry";
@@ -7494,6 +7820,44 @@ class CfgGroups
 		class ZSN_EEuroD_ColdWar
 		{
 			name = "Cold War PACT (Desert)";
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_EEuroD_Tankplatoon
+				{
+					name = "T-72 Platoon";
+					faction = "ZSN_EEuroD_ColdWar";
+					side = 0;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_DCSLA_T72";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_DCSLA_T72";
+						rank = "Lieutnant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_DCSLA_T72";
+						rank = "Lieutnant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_DCSLA_T72";
+						rank = "Lieutnant";
+						position[] = {40,0,0};
+					};
+				};
+			};
 			class Mechanised
 			{
 				name = "Mechanised Infantry";

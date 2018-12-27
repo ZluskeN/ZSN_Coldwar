@@ -1592,7 +1592,7 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		linkedItems[] = {"CUP_H_CZ_Helmet06""ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_CZ_Helmet06","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"CUP_H_CZ_Helmet06","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class SUD_NATO_Soldier_Pilot: ZSN_SoldierWPilot

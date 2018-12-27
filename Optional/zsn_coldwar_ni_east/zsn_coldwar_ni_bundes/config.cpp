@@ -354,9 +354,9 @@ class CfgGroups
 						position[] = {11,0,0};
 					};
 				};
-				class ZSN_WGer_UH1Infantry
+				class ZSN_WGer_M113Infantry
 				{
-					name = "UH-1 Infantry Section";
+					name = "M113 Infantry Section";
 					faction = "ZSN_WGer_ColdWar";
 					side = 1;
 					class Unit0
@@ -418,7 +418,7 @@ class CfgGroups
 					class Unit8
 					{
 						side = 1;
-						vehicle = "ZSN_CUP_B_UH1D_GER";
+						vehicle = "ZSN_CUP_BW_M113";
 						rank = "CORPORAL";
 						position[] = {2,-10,0};
 					};
