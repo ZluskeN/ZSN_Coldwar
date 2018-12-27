@@ -65,74 +65,22 @@ class cfgvehicles
 	class ZSN_CUP_DCSLA_V3S: CUP_O_V3S_Open_TKM
 	{
 		side = 0;
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		faction = "ZSN_EEuroD_ColdWar";
 		crew = "ZSN_EurosolEDB";
 		typicalCargo[] = {"ZSN_EurosolEDB"};
-		class Transportweapons
-		{
-			class _xx_CUP_arifle_Sa58P_des
-			{
-				weapon = "CUP_arifle_Sa58P_des";
-				count = 1;
-			};
-		};
-		class TransportMagazines
-		{
-			class _xx_CUP_10Rnd_762x54_SVD_M
-			{
-				magazine = "CUP_10Rnd_762x54_SVD_M";
-				count = 25;
-			};
-			class _xx_CUP_30Rnd_Sa58_M
-			{
-				magazine = "CUP_30Rnd_Sa58_M";
-				count = 25;
-			};
-			class _xx_CUP_Strela_2_M
-			{
-				magazine = "CUP_Strela_2_M";
-				count = 4;
-			};
-		};
 	};
 	class CUP_V3S_Open_NAPA;
 	class ZSN_CUP_CSLA_V3S: CUP_V3S_Open_NAPA
 	{
 		side = 0;
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		faction = "ZSN_EEuro_ColdWar";
 		crew = "ZSN_EurosolEB";
 		typicalCargo[] = {"ZSN_EurosolEB"};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_co"};
-		class Transportweapons
-		{
-			class _xx_CUP_arifle_Sa58P
-			{
-				weapon = "CUP_arifle_Sa58P";
-				count = 1;
-			};
-		};
-		class TransportMagazines
-		{
-			class _xx_CUP_10Rnd_762x54_SVD_M
-			{
-				magazine = "CUP_10Rnd_762x54_SVD_M";
-				count = 25;
-			};
-			class _xx_CUP_30Rnd_Sa58_M
-			{
-				magazine = "CUP_30Rnd_Sa58_M";
-				count = 25;
-			};
-			class _xx_CUP_Strela_2_M
-			{
-				magazine = "CUP_Strela_2_M";
-				count = 4;
-			};
-		};
 	};
 	class CUP_V3S_Covered_Base;
 	class CUP_I_V3S_Covered_TKG;
@@ -178,11 +126,20 @@ class cfgvehicles
 	};
 	class CUP_V3S_Repair_Base;
 	class CUP_O_V3S_Repair_TKA;
+	class ZSN_CUP_DGUER_V3S_Sup: CUP_O_V3S_Repair_TKA
+	{
+		side = 2;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "ZSN_GEuroD_ColdWar";
+		crew = "ZSN_EurosolGDB";
+		typicalCargo[] = {"ZSN_EurosolGDB"};
+	};
 	class ZSN_CUP_DCSLA_V3S_Sup: CUP_O_V3S_Repair_TKA
 	{
 		side = 0;
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		attendant = 1;
 		DisplayName = "Praga V3S (Support)";
 		faction = "ZSN_EEuroD_ColdWar";
@@ -218,11 +175,21 @@ class cfgvehicles
 		};
 	};
 	class CUP_I_V3S_Repair_TKG;
+	class ZSN_CUP_GUER_V3S_Sup: CUP_I_V3S_Repair_TKG
+	{
+		side = 2;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "ZSN_GEuro_ColdWar";
+		crew = "ZSN_EurosolGB";
+		typicalCargo[] = {"ZSN_EurosolGB"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_repair_egue_co"};
+	};
 	class ZSN_CUP_CSLA_V3S_Sup: CUP_I_V3S_Repair_TKG
 	{
 		side = 0;
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		attendant = 1;
 		DisplayName = "Praga V3S (Support)";
 		faction = "ZSN_EEuro_ColdWar";
@@ -267,12 +234,12 @@ class cfgvehicles
 	class ZSN_CUP_GUER_LR: CUP_C_LR_Transport_CTK
 	{
 		side = 2;
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
-		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",1,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",1,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
+		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",1,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
 		hiddenselectionstextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\civ_r_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Special_Des_CZ_D.jpg";
 		class EventHandlers: EventHandlers
@@ -283,11 +250,11 @@ class cfgvehicles
 	class ZSN_CUP_DGUER_LR: ZSN_CUP_GUER_LR
 	{
 		scope = 2;
-		scopeCurator = 2;
+		scopeCurator = 1;
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
-		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",1,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",1,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
+		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",1,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\tk_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_Transport_TKM.jpg";
 		class EventHandlers: EventHandlers
@@ -308,7 +275,6 @@ class cfgvehicles
 		faction = "ZSN_WEuro_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolWB"};
 		displayname = "Land Rover (Transport)";
-		attendant = 1;
 		animationList[] = {"selection_jerry",1,"selection_box",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_doors",0.5,"selection_bar",0.5};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Transport_CZ_W.jpg";
@@ -442,7 +408,7 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
-		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",1,"selection_bar",0.5,"selection_antenna",1};
+		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",1,"selection_bar",0.5};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\tk_lr_base_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_SPG9_TKM.jpg";
 		class EventHandlers: EventHandlers
@@ -455,11 +421,55 @@ class cfgvehicles
 	{
 		class EventHandlers;
 	};
+	class ZSN_CUP_GUER_LR_Sup: CUP_B_LR_Ambulance_GB_W
+	{
+		side = 2;
+		scope = 2;
+		scopeCurator = 2;
+		crew = "ZSN_EurosolGB";
+		faction = "ZSN_GEuro_ColdWar";
+		typicalCargo[] = {"ZSN_EurosolGB"};
+		animationList[] = {"selection_jerry",0.5,"selection_tool",0.5,"selection_steps",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1,"selection_wheelfront",0.5};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_amb_ext_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Ambulance_CZ_W.jpg";
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name = "FirstAidKit";
+				count = 48;
+			};
+			class _xx_medikit
+			{
+				name = "medikit";
+				count = 12;
+			};
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 2;
+			};
+			class _xx_ACE_bodyBag
+			{
+				name = "ACE_bodyBag";
+				count = 12;
+			};
+			class _xx_ACE_personalAidKit
+			{
+				name = "ACE_personalAidKit";
+				count = 3;
+			};
+		};
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
+	};
 	class ZSN_CUP_BAF_LR_Sup: CUP_B_LR_Ambulance_GB_W
 	{
 		side = 1;
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		transportRepair = 200000000;
 		supplyRadius = 7.5;
 		displayName = "Land Rover (Support)";
@@ -506,11 +516,54 @@ class cfgvehicles
 	{
 		class EventHandlers;
 	};
+	class ZSN_CUP_DGUER_LR_Sup: CUP_B_LR_Ambulance_GB_D
+	{
+		side = 2;
+		scope = 2;
+		scopeCurator = 2;
+		crew = "ZSN_EurosolGDB";
+		faction = "ZSN_GEuroD_ColdWar";
+		typicalCargo[] = {"ZSN_EurosolGDB"};
+		animationList[] = {"selection_jerry",0.5,"selection_tool",0.5,"selection_steps",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1,"selection_wheelfront",0.5};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\tk_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_amb_ext_desert_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
+		class TransportItems
+		{
+			class _xx_FirstAidKit
+			{
+				name = "FirstAidKit";
+				count = 48;
+			};
+			class _xx_medikit
+			{
+				name = "medikit";
+				count = 12;
+			};
+			class _xx_ToolKit
+			{
+				name = "ToolKit";
+				count = 2;
+			};
+			class _xx_ACE_bodyBag
+			{
+				name = "ACE_bodyBag";
+				count = 12;
+			};
+			class _xx_ACE_personalAidKit
+			{
+				name = "ACE_personalAidKit";
+				count = 3;
+			};
+		};
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
+	};
 	class ZSN_CUP_DBAF_LR_Sup: CUP_B_LR_Ambulance_GB_D
 	{
 		side = 1;
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		transportRepair = 200000000;
 		supplyRadius = 7.5;
 		displayName = "Land Rover (Support)";
@@ -566,7 +619,7 @@ class cfgvehicles
 		crew = "ZSN_RangerWB";
 		typicalCargo[] = {"ZSN_RangerWB"};
 		faction = "ZSN_WRangers_ColdWar";
-		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5};
+		animationList[] = {"selection_bar",0.5,"selection_steps",0.5,"selection_jerry",0.5,"selection_antenna_rear",0,"selection_antenna",1,"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_GB_W.jpg";
 		class Transportweapons
@@ -610,9 +663,35 @@ class cfgvehicles
 		crew = "ZSN_RangerWDB";
 		typicalCargo[] = {"ZSN_RangerWDB"};
 		faction = "ZSN_WRangersD_ColdWar";
-		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5};
+		animationList[] = {"selection_bar",0.5,"selection_steps",0.5,"selection_jerry",0.5,"selection_antenna_rear",0,"selection_antenna",1,"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_CZ_W.jpg";
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
+	};
+	class CUP_B_LR_MG_GB_W: CUP_LR_MG_Base {};
+	class ZSN_CUP_BAF_LR_MG: CUP_B_LR_MG_GB_W
+	{
+		crew = "ZSN_EurosolWB";
+		faction = "ZSN_WEuro_ColdWar";
+		typicalCargo[] = {"ZSN_EurosolWB"};
+		animationList[] = {"selection_wheels",1,"selection_antenna",0,"selection_jerry",1,"selection_box",1,"selection_wheelfront",0,"selection_tarp",0,"selection_wind",0,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_doors",0.5,"selection_bar",0.5};
+		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa"};
+		class EventHandlers: EventHandlers
+		{
+			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
+		};
+	};
+	class ZSN_CUP_DBAF_LR_MG: ZSN_CUP_BAF_LR_MG
+	{
+		crew = "ZSN_EurosolWDB";
+		faction = "ZSN_WEuroD_ColdWar";
+		typicalCargo[] = {"ZSN_EurosolWDB"};
+		animationList[] = {"selection_wheels",1,"selection_antenna",1,"selection_jerry",1,"selection_box",1,"selection_wheelfront",0,"selection_tarp",0,"selection_wind",0,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_doors",0.5,"selection_bar",0.5};
+		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_special_co.paa"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_GB_D.jpg";
 		class EventHandlers: EventHandlers
 		{
 			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
@@ -2183,19 +2262,38 @@ class cfgvehicles
 	class ZSN_CUP_GUER_BTR40_MG: CUP_I_BTR40_MG_TKG
 	{
 		side = 2;
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
 	};
 	class ZSN_CUP_DGUER_BTR40_MG: ZSN_CUP_GUER_BTR40_MG
 	{
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\data\btr40extcamo_co.paa"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\Data\preview\CUP_O_BTR40_MG_TKM.jpg";
+	};
+	class ZSN_CUP_CSLA_BTR40_MG: CUP_I_BTR40_MG_TKG
+	{
+		side = 0;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "ZSN_EEuro_ColdWar";
+		crew = "ZSN_EurosolEB";
+		typicalCargo[] = {"ZSN_EurosolEB"};
+	};
+	class ZSN_CUP_DCSLA_BTR40_MG: ZSN_CUP_CSLA_BTR40_MG
+	{
+		scope = 2;
+		scopeCurator = 2;
+		faction = "ZSN_EEuroD_ColdWar";
+		crew = "ZSN_EurosolEDB";
+		typicalCargo[] = {"ZSN_EurosolEDB"};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\data\btr40extcamo_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\Data\preview\CUP_O_BTR40_MG_TKM.jpg";
 	};
@@ -2204,21 +2302,92 @@ class cfgvehicles
 	class ZSN_CUP_GUER_BTR40: CUP_I_BTR40_TKG
 	{
 		side = 2;
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
 	};
 	class ZSN_CUP_DGUER_BTR40: ZSN_CUP_GUER_BTR40
 	{
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\data\btr40extcamo_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\Data\preview\CUP_O_BTR40_TKM.jpg";
+	};
+	class ZSN_CUP_CSLA_BTR40: CUP_I_BTR40_TKG
+	{
+		side = 0;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "ZSN_EEuro_ColdWar";
+		crew = "ZSN_EurosolEB";
+		typicalCargo[] = {"ZSN_EurosolEB"};
+		class Transportweapons
+		{
+			class _xx_CUP_arifle_Sa58P
+			{
+				weapon = "CUP_arifle_Sa58P";
+				count = 1;
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_CUP_10Rnd_762x54_SVD_M
+			{
+				magazine = "CUP_10Rnd_762x54_SVD_M";
+				count = 25;
+			};
+			class _xx_CUP_30Rnd_Sa58_M
+			{
+				magazine = "CUP_30Rnd_Sa58_M";
+				count = 25;
+			};
+			class _xx_CUP_Strela_2_M
+			{
+				magazine = "CUP_Strela_2_M";
+				count = 4;
+			};
+		};
+	};
+	class ZSN_CUP_DCSLA_BTR40: ZSN_CUP_CSLA_BTR40
+	{
+		scope = 2;
+		scopeCurator = 2;
+		faction = "ZSN_EEuroD_ColdWar";
+		crew = "ZSN_EurosolEDB";
+		typicalCargo[] = {"ZSN_EurosolEDB"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\data\btr40extcamo_co.paa"};
+		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR40\Data\preview\CUP_O_BTR40_TKM.jpg";
+		class Transportweapons
+		{
+			class _xx_CUP_arifle_Sa58P_des
+			{
+				weapon = "CUP_arifle_Sa58P_des";
+				count = 1;
+			};
+		};
+		class TransportMagazines
+		{
+			class _xx_CUP_10Rnd_762x54_SVD_M
+			{
+				magazine = "CUP_10Rnd_762x54_SVD_M";
+				count = 25;
+			};
+			class _xx_CUP_30Rnd_Sa58_M
+			{
+				magazine = "CUP_30Rnd_Sa58_M";
+				count = 25;
+			};
+			class _xx_CUP_Strela_2_M
+			{
+				magazine = "CUP_Strela_2_M";
+				count = 4;
+			};
+		};
 	};
 	class CUP_BRDM2_Base;
 	class ZSN_CUP_VMF_BRDM2: CUP_BRDM2_Base
@@ -2518,16 +2687,16 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		faction = "ZSN_GEuro_ColdWar";
-		crew = "ZSN_EurosolGCrew";
-		typicalCargo[] = {"ZSN_EurosolGCrew"};
+		crew = "ZSN_EurosolGB";
+		typicalCargo[] = {"ZSN_EurosolGB"};
 	};
 	class ZSN_CUP_DGUER_T34: ZSN_CUP_GUER_T34
 	{
 		scope = 2;
 		scopeCurator = 2;
 		faction = "ZSN_GEuroD_ColdWar";
-		crew = "ZSN_EurosolGDCrew";
-		typicalCargo[] = {"ZSN_EurosolGDCrew"};
+		crew = "ZSN_EurosolGDB";
+		typicalCargo[] = {"ZSN_EurosolGDB"};
 		hiddenselectionstextures[] = {"\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Body01_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Body02_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Turret_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Wheels_IND_CO.paa","\cup\trackedvehicles\CUP_TrackedVehicles_T34\Data\T34_Body03_IND_CO.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T34\Data\preview\CUP_O_T34_TKA.jpg";
 	};
@@ -4102,6 +4271,103 @@ class CfgGroups
 			class Motorized
 			{
 				name = "Motorized Infantry";
+				class ZSN_GEuro_V3SInfantry
+				{
+					name = "Resistance Cell (Praga)";
+					faction = "ZSN_GEuro_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAW";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGSniper";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAWAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGMG";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {3,-2,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLeader";
+						rank = "CORPORAL";
+						position[] = {-3,-2,0};
+					};
+					class Unit8
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAW";
+						rank = "Private";
+						position[] = {5,-2,0};
+					};
+					class Unit9
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGSniper";
+						rank = "Private";
+						position[] = {-5,-2,0};
+					};
+					class Unit10
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGLAWAss";
+						rank = "Private";
+						position[] = {7,-2,0};
+					};
+					class Unit11
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGMG";
+						rank = "Private";
+						position[] = {9,-2,0};
+					};
+					class Unit12
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_V3S";
+						rank = "Private";
+						position[] = {0,5,0};
+					};
+				};
 				class ZSN_GEuro_LRInfantry
 				{
 					name = "Resistance Cell (Land Rover)";
@@ -4232,13 +4498,9 @@ class CfgGroups
 						position[] = {-8,0,0};
 					};
 				};
-			};
-			class Mechanised
-			{
-				name = "Mechanised Infantry";
-				class ZSN_GEuro_MotorInfantry
+				class ZSN_GEuro_AAVehicles
 				{
-					name = "Resistance Cell (BTR-40)";
+					name = "Resistance Cell (ZSU)";
 					faction = "ZSN_GEuro_ColdWar";
 					side = 2;
 					class Unit0
@@ -4281,16 +4543,27 @@ class CfgGroups
 						side = 2;
 						vehicle = "ZSN_EurosolGMG";
 						rank = "Private";
-						position[] = {9,0,0};
+						position[] = {-7,0,0};
 					};
 					class Unit6
 					{
 						side = 2;
-						vehicle = "ZSN_CUP_GUER_BTR40_MG";
+						vehicle = "ZSN_CUP_GUER_Ural_ZU23";
 						rank = "Private";
-						position[] = {0,5,0};
+						position[] = {-6,-6,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_Ural_ZU23";
+						rank = "Private";
+						position[] = {6,-6,0};
 					};
 				};
+			};
+			class Mechanised
+			{
+				name = "Mechanised Infantry";
 				class ZSN_GEuro_MechInfantry
 				{
 					name = "Resistance Cell (T-34)";
@@ -4360,75 +4633,6 @@ class CfgGroups
 						position[] = {0,5,0};
 					};
 				};
-				class ZSN_GEuro_AAVehicles
-				{
-					name = "Resistance Cell (ZSU)";
-					faction = "ZSN_GEuro_ColdWar";
-					side = 2;
-					class Unit0
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLeader";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
-					};
-					class Unit1
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLeader";
-						rank = "CORPORAL";
-						position[] = {-3,0,0};
-					};
-					class Unit2
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLAW";
-						rank = "Private";
-						position[] = {5,0,0};
-					};
-					class Unit3
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGSniper";
-						rank = "Private";
-						position[] = {-5,0,0};
-					};
-					class Unit4
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLAWAss";
-						rank = "Private";
-						position[] = {7,0,0};
-					};
-					class Unit5
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGMG";
-						rank = "Private";
-						position[] = {-7,0,0};
-					};
-					class Unit6
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_GUER_BTR40";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit7
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_GUER_Ural_ZU23";
-						rank = "Private";
-						position[] = {-6,-6,0};
-					};
-					class Unit8
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_GUER_Ural_ZU23";
-						rank = "Private";
-						position[] = {6,-6,0};
-					};
-				};
 			};
 		};
 		class ZSN_GEuroD_ColdWar
@@ -4437,6 +4641,103 @@ class CfgGroups
 			class Motorized
 			{
 				name = "Motorized Infantry";
+				class ZSN_GEuroD_V3SInfantry
+				{
+					name = "Resistance Cell (Praga)";
+					faction = "ZSN_GEuroD_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLAW";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDSniper";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLAWAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDMG";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLeader";
+						rank = "CORPORAL";
+						position[] = {3,-2,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLeader";
+						rank = "CORPORAL";
+						position[] = {-3,-2,0};
+					};
+					class Unit8
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLAW";
+						rank = "Private";
+						position[] = {5,-2,0};
+					};
+					class Unit9
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDSniper";
+						rank = "Private";
+						position[] = {-5,-2,0};
+					};
+					class Unit10
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDLAWAss";
+						rank = "Private";
+						position[] = {7,-2,0};
+					};
+					class Unit11
+					{
+						side = 2;
+						vehicle = "ZSN_EurosolGDMG";
+						rank = "Private";
+						position[] = {9,-2,0};
+					};
+					class Unit12
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_V3S";
+						rank = "Private";
+						position[] = {0,5,0};
+					};
+				};
 				class ZSN_GEuroD_LRInfantry
 				{
 					name = "Resistance Cell (Land Rover)";
@@ -4567,13 +4868,9 @@ class CfgGroups
 						position[] = {-6,0,0};
 					};
 				};
-			};
-			class Mechanised
-			{
-				name = "Mechanised Infantry";
-				class ZSN_GEuroD_MotorInfantry
+				class ZSN_GEuroD_AAVehicles
 				{
-					name = "Resistance Cell (BTR-40)";
+					name = "Resistance Cell (ZSU)";
 					faction = "ZSN_GEuroD_ColdWar";
 					side = 2;
 					class Unit0
@@ -4616,16 +4913,27 @@ class CfgGroups
 						side = 2;
 						vehicle = "ZSN_EurosolGDMG";
 						rank = "Private";
-						position[] = {9,0,0};
+						position[] = {-7,0,0};
 					};
 					class Unit6
 					{
 						side = 2;
-						vehicle = "ZSN_CUP_DGUER_BTR40_MG";
+						vehicle = "ZSN_CUP_DGUER_Ural_ZU23";
 						rank = "Private";
-						position[] = {0,5,0};
+						position[] = {-6,-6,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_Ural_ZU23";
+						rank = "Private";
+						position[] = {6,-6,0};
 					};
 				};
+			};
+			class Mechanised
+			{
+				name = "Mechanised Infantry";
 				class ZSN_GEuroD_MechInfantry
 				{
 					name = "Resistance Cell (T-34)";
@@ -4693,75 +5001,6 @@ class CfgGroups
 						vehicle = "ZSN_CUP_DGUER_T34";
 						rank = "Private";
 						position[] = {0,5,0};
-					};
-				};
-				class ZSN_GEuroD_AAVehicles
-				{
-					name = "Resistance Cell (ZSU)";
-					faction = "ZSN_GEuroD_ColdWar";
-					side = 2;
-					class Unit0
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGDLeader";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
-					};
-					class Unit1
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGDLeader";
-						rank = "CORPORAL";
-						position[] = {-3,0,0};
-					};
-					class Unit2
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGDLAW";
-						rank = "Private";
-						position[] = {5,0,0};
-					};
-					class Unit3
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGDSniper";
-						rank = "Private";
-						position[] = {-5,0,0};
-					};
-					class Unit4
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGDLAWAss";
-						rank = "Private";
-						position[] = {7,0,0};
-					};
-					class Unit5
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGDMG";
-						rank = "Private";
-						position[] = {-7,0,0};
-					};
-					class Unit6
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_DGUER_BTR40";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit7
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_DGUER_Ural_ZU23";
-						rank = "Private";
-						position[] = {-6,-6,0};
-					};
-					class Unit8
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_DGUER_Ural_ZU23";
-						rank = "Private";
-						position[] = {6,-6,0};
 					};
 				};
 			};
@@ -5142,6 +5381,26 @@ class CfgGroups
 						position[] = {13,0,0};
 					};
 				};
+				class ZSN_WEuro_MotorVehicles
+				{
+					name = "Land Rover Section";
+					faction = "ZSN_WEuro_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_BAF_LR_MG";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_BAF_LR_MG";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+				};
 			};
 		};
 		class ZSN_WEuroD_ColdWar
@@ -5262,6 +5521,26 @@ class CfgGroups
 						vehicle = "ZSN_EurosolWDMedic";
 						rank = "Private";
 						position[] = {13,0,0};
+					};
+				};
+				class ZSN_WEuroD_MotorVehicles
+				{
+					name = "Land Rover Section";
+					faction = "ZSN_WEuroD_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DBAF_LR_MG";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DBAF_LR_MG";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
 					};
 				};
 			};
@@ -7150,7 +7429,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_CUP_CSLA_V3S";
+						vehicle = "ZSN_CUP_CSLA_BTR40";
 						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
@@ -7188,6 +7467,26 @@ class CfgGroups
 						vehicle = "ZSN_EurosolEMedic";
 						rank = "Private";
 						position[] = {13,0,0};
+					};
+				};
+				class ZSN_EEuro_MotorVehicles
+				{
+					name = "BTR-40 Section";
+					faction = "ZSN_EEuro_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_CSLA_BTR40_MG";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_CSLA_BTR40_MG";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
 					};
 				};
 			};
@@ -7272,7 +7571,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_CUP_DCSLA_V3S";
+						vehicle = "ZSN_CUP_DCSLA_BTR40";
 						rank = "CORPORAL";
 						position[] = {-5,0,0};
 					};
@@ -7310,6 +7609,26 @@ class CfgGroups
 						vehicle = "ZSN_EurosolEDMedic";
 						rank = "Private";
 						position[] = {13,0,0};
+					};
+				};
+				class ZSN_EEuroD_MotorVehicles
+				{
+					name = "BTR-40 Section";
+					faction = "ZSN_EEuroD_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DCSLA_BTR40_MG";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DCSLA_BTR40_MG";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
 					};
 				};
 			};

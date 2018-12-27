@@ -296,10 +296,10 @@ class CfgVehicles
 	{
 		displayName = "Pilot";
 		icon = "iconManEngineer";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_BAF_Soldier_Light.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_uniforms\pcs_ubacs\pcs_ubacs_tshirt.p3d";
 		uniformClass = "CUP_U_B_BAF_DPM_Tshirt";
 		hiddenSelections[] = {"Camo","Camo2","camo3","insignia"};
-		hiddenSelectionsTextures[] = {"cup\creatures\people\military\cup_creatures_people_military_baf\data\DPM\camo_DPM_co.paa","cup\creatures\people\military\cup_creatures_people_military_baf\data\DPM\armour_DPM_co.paa","cup\creatures\people\military\cup_creatures_people_military_baf\data\dpm\top3_dpm_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_uniforms\pcs_ubacs\data\DPM\body_co.paa","","CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_uniforms\pcs_ubacs\data\DPM\top3_co.paa"};
 		weapons[] = {"Throw","Put","CUP_arifle_FNFAL_OSW"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_FNFAL_OSW"};
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
@@ -454,10 +454,10 @@ class CfgVehicles
 	{
 		displayName = "Pilot";
 		icon = "iconManEngineer";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_BAF_Soldier_Light.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_uniforms\pcs_ubacs\pcs_ubacs_tshirtknee.p3d";
 		uniformClass = "CUP_U_B_BAF_DDPM_Tshirt";
 		hiddenSelections[] = {"Camo","Camo2","camo3","insignia"};
-		hiddenSelectionsTextures[] = {"cup\creatures\people\military\cup_creatures_people_military_baf\data\ddpm\camo_ddpm_co.paa","cup\creatures\people\military\cup_creatures_people_military_baf\data\ddpm\armour_ddpm_co.paa","cup\creatures\people\military\cup_creatures_people_military_baf\data\ddpm\top3_ddpm_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_uniforms\pcs_ubacs\data\DDPM\body_co.paa","","CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_uniforms\pcs_ubacs\data\DDPM\top3_co.paa"};
 		weapons[] = {"Throw","Put","CUP_arifle_FNFAL_OSW"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_FNFAL_OSW"};
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
@@ -756,8 +756,8 @@ class CfgVehicles
 	class ZSN_EurosolG: I_G_Soldier_base_F
 	{
 		author = "ZluskeN";
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		faction = "ZSN_GEuro_ColdWar";
 		displayName = "Soldier (Camp)";
 		icon = "iconMan";
@@ -837,6 +837,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGCrew: ZSN_EurosolG
 	{
+		scope = 1;
+		scopeCurator = 1;
 		displayName = "Crew";
 		icon = "iconManEngineer";
 		weapons[] = {"Throw","Put","CUP_arifle_AKS","Binocular"};
@@ -849,6 +851,7 @@ class CfgVehicles
 	class ZSN_EurosolGPilot: ZSN_EurosolG
 	{
 		scope = 1;
+		scopeCurator = 1;
 		displayName = "Pilot";
 		icon = "iconManEngineer";
 		weapons[] = {"Throw","Put","CUP_arifle_AKS","Binocular"};
@@ -944,6 +947,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGDCrew: ZSN_EurosolGD
 	{
+		scope = 1;
+		scopeCurator = 1;
 		displayName = "Crew";
 		icon = "iconManEngineer";
 		weapons[] = {"Throw","Put","CUP_arifle_AKS","Binocular"};
@@ -956,6 +961,7 @@ class CfgVehicles
 	class ZSN_EurosolGDPilot: ZSN_EurosolGD
 	{
 		scope = 1;
+		scopeCurator = 1;
 		displayName = "Pilot";
 		icon = "iconManEngineer";
 		weapons[] = {"Throw","Put","CUP_arifle_AKS","Binocular"};
@@ -968,13 +974,13 @@ class CfgVehicles
 	class ZSN_GersolW: B_Soldier_base_F {};
 	class ZSN_GersolWPilot: ZSN_GersolW
 	{
-		scope = 1;
+		scope = 2;
 		displayName = "Pilot";
 		icon = "iconManEngineer";
 		backpack = "";
-		uniformClass = "CUP_U_B_GER_Flecktarn_2";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_Euro","CUP_G_ARMY"};
-		//uniformClass = "U_BG_Guerrilla_6_1";
+		uniformClass = "CUP_U_I_RACS_PilotOverall";
+		//uniformClass = "CUP_U_B_GER_Flecktarn_2";
 		weapons[] = {"Throw","Put","CUP_smg_MP5A5"};
 		respawnWeapons[] = {"Throw","Put","CUP_smg_MP5A5"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
@@ -986,13 +992,13 @@ class CfgVehicles
 	};
 	class ZSN_GersolWCrew: ZSN_GersolW
 	{
-		scope = 1;
+		scope = 2;
 		displayName = "Crew";
 		icon = "iconManEngineer";
 		backpack = "";
-		uniformClass = "CUP_U_B_GER_Flecktarn_2";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_Euro","CUP_G_ARMY"};
-		//uniformClass = "U_BG_Guerrilla_6_1";
+		uniformClass = "CUP_U_I_RACS_PilotOverall";
+		//uniformClass = "CUP_U_B_GER_Flecktarn_2";
 		weapons[] = {"Throw","Put","CUP_smg_MP5A5"};
 		respawnWeapons[] = {"Throw","Put","CUP_smg_MP5A5"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};

@@ -132,4 +132,12 @@ class CfgVehicles
 		crew = "ZSN_GersolWCrew";
 		typicalCargo[] = {"ZSN_GersolWCrew"};
 	};
+	class rnt_sppz_2a2_luchs_flecktarn;
+	class ZSN_rnt_sppz_2a2_luchs_flecktarn: rnt_sppz_2a2_luchs_flecktarn
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
 };

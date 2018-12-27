@@ -130,7 +130,8 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "CUP_Names_GermanMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_Euro","G_GUERIL_default"};
-		uniformClass = "CUP_U_B_GER_Flecktarn_1";
+		uniformClass = "CUP_U_B_US_BDU_OD";
+		//uniformClass = "CUP_U_B_GER_Flecktarn_1";
 		canCarryBackPack = 1;
 		weapons[] = {"Throw","Put","hlc_rifle_g3a3"};
 		respawnWeapons[] = {"Throw","Put","hlc_rifle_g3a3"};

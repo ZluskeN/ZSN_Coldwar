@@ -817,8 +817,8 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Black Op (Day)";
 		icon = "iconManExplosive";
-		uniformClass = "CUP_U_B_US_BDU_OD";
 		backpack = "ZSN_demopack_oli";
+		uniformClass = "CUP_U_B_US_BDU";
 		weapons[] = {"Throw","Put","CUP_hgun_glock17_blk_snds","CUP_arifle_M4A1","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_glock17_blk_snds","CUP_arifle_M4A1","Binocular"};
 		magazines[] = {"CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
@@ -1584,15 +1584,16 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Pilot (Helicopter)";
 		icon = "iconManEngineer";
-		uniformClass = "U_B_HeliPilotCoveralls";
+		//uniformClass = "U_B_HeliPilotCoveralls";
+		uniformClass = "CUP_U_B_CZ_Pilot_WDL";
 		weapons[] = {"Throw","Put","CUP_hgun_M9"};
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_M9"};
 		magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		linkedItems[] = {"CUP_H_CZ_Helmet06","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_CZ_Helmet06","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_CZ_Helmet06""ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_CZ_Helmet06","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class SUD_NATO_Soldier_Pilot: ZSN_SoldierWPilot
 	{
@@ -1841,15 +1842,16 @@ class CfgVehicles
 		displayName = "Pilot (Plane)";
 		icon = "iconManEngineer";
 		backpack = "B_Parachute";
-		uniformClass = "U_B_HeliPilotCoveralls";
+		uniformClass = "CUP_U_B_CZ_Pilot_WDL";
+		//uniformClass = "U_B_HeliPilotCoveralls";
 		weapons[] = {"Throw","Put","CUP_hgun_M9"};
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_M9"};
 		magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 		respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		linkedItems[] = {"H_PilotHelmetHeli_O","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"H_PilotHelmetHeli_O","V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"H_PilotHelmetHeli_O","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"H_PilotHelmetHeli_O","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class LandVehicle;
 	class StaticWeapon: LandVehicle
