@@ -60,7 +60,6 @@ class cfgvehicles
 		class ViewPilot;
 		class AnimationSources;
 	};
-	class CUP_V3S_Open_Base;
 	class CUP_O_V3S_Open_TKM;
 	class ZSN_CUP_DCSLA_V3S: CUP_O_V3S_Open_TKM
 	{
@@ -71,8 +70,8 @@ class cfgvehicles
 		crew = "ZSN_EurosolEDB";
 		typicalCargo[] = {"ZSN_EurosolEDB"};
 	};
-	class CUP_V3S_Open_NAPA;
-	class ZSN_CUP_CSLA_V3S: CUP_V3S_Open_NAPA
+	class CUP_I_V3S_Open_TKG;
+	class ZSN_CUP_CSLA_V3S: CUP_I_V3S_Open_TKG
 	{
 		side = 0;
 		scope = 1;
@@ -82,28 +81,24 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_EurosolEB"};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_co"};
 	};
-	class CUP_V3S_Covered_Base;
-	class CUP_I_V3S_Covered_TKG;
-	class ZSN_CUP_GUER_V3S: CUP_I_V3S_Covered_TKG
+	class ZSN_CUP_DGUER_V3S: CUP_O_V3S_Open_TKM
 	{
+		side = 2;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "ZSN_GEuroD_ColdWar";
+		crew = "ZSN_EurosolGDB";
+		typicalCargo[] = {"ZSN_EurosolGDB"};
+	};
+	class ZSN_CUP_GUER_V3S: CUP_I_V3S_Open_TKG
+	{
+		side = 2;
 		scope = 2;
 		scopeCurator = 2;
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
 	};
-	class ZSN_CUP_DGUER_V3S: ZSN_CUP_GUER_V3S
-	{
-		scope = 2;
-		scopeCurator = 2;
-		faction = "ZSN_GEuroD_ColdWar";
-		crew = "ZSN_EurosolGDB";
-		typicalCargo[] = {"ZSN_EurosolGDB"};
-		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_ind_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_ind_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_reammo_ind_co"};
-		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Covered_TKA.jpg";
-	};
-	class CUP_V3S_Refuel_Base;
 	class CUP_I_V3S_Refuel_TKG;
 	class ZSN_CUP_GUER_V3S_Refuel: CUP_I_V3S_Refuel_TKG
 	{
@@ -113,20 +108,8 @@ class cfgvehicles
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
 	};
-	class ZSN_CUP_DGUER_V3S_Refuel: ZSN_CUP_GUER_V3S_Refuel
-	{
-		scope = 2;
-		scopeCurator = 2;
-		faction = "ZSN_GEuroD_ColdWar";
-		crew = "ZSN_EurosolGDB";
-		typicalCargo[] = {"ZSN_EurosolGDB"};
-		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_ind_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_ind_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_refuel_co"};
-		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_V3S\Data\preview\CUP_V3S_Refuel_TKA.jpg";
-	};
-	class CUP_V3S_Repair_Base;
-	class CUP_O_V3S_Repair_TKA;
-	class ZSN_CUP_DGUER_V3S_Sup: CUP_O_V3S_Repair_TKA
+	class CUP_O_V3S_Refuel_TKM;
+	class ZSN_CUP_DGUER_V3S_Refuel: CUP_O_V3S_Refuel_TKM
 	{
 		side = 2;
 		scope = 2;
@@ -135,7 +118,27 @@ class cfgvehicles
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
 	};
-	class ZSN_CUP_DCSLA_V3S_Sup: CUP_O_V3S_Repair_TKA
+	class CUP_O_V3S_Repair_TKM;
+	class ZSN_CUP_DGUER_V3S_Sup: CUP_O_V3S_Repair_TKM
+	{
+		side = 2;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "ZSN_GEuroD_ColdWar";
+		crew = "ZSN_EurosolGDB";
+		typicalCargo[] = {"ZSN_EurosolGDB"};
+	};
+	class CUP_I_V3S_Repair_TKG;
+	class ZSN_CUP_GUER_V3S_Sup: CUP_I_V3S_Repair_TKG
+	{
+		side = 2;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "ZSN_GEuro_ColdWar";
+		crew = "ZSN_EurosolGB";
+		typicalCargo[] = {"ZSN_EurosolGB"};
+	};
+	class ZSN_CUP_DCSLA_V3S_Sup: CUP_O_V3S_Repair_TKM
 	{
 		side = 0;
 		scope = 1;
@@ -173,17 +176,6 @@ class cfgvehicles
 				count = 3;
 			};
 		};
-	};
-	class CUP_I_V3S_Repair_TKG;
-	class ZSN_CUP_GUER_V3S_Sup: CUP_I_V3S_Repair_TKG
-	{
-		side = 2;
-		scope = 2;
-		scopeCurator = 2;
-		faction = "ZSN_GEuro_ColdWar";
-		crew = "ZSN_EurosolGB";
-		typicalCargo[] = {"ZSN_EurosolGB"};
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_kabpar_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_intkor_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_koloint02_co","CUP\WheeledVehicles\CUP_WheeledVehicles_v3s\Data\v3s_repair_egue_co"};
 	};
 	class ZSN_CUP_CSLA_V3S_Sup: CUP_I_V3S_Repair_TKG
 	{
