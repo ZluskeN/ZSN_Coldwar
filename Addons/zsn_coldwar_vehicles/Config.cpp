@@ -4373,21 +4373,21 @@ class CfgGroups
 					{
 						side = 2;
 						vehicle = "ZSN_CUP_GUER_T34";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
 						vehicle = "ZSN_CUP_GUER_T34";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 2;
 						vehicle = "ZSN_CUP_GUER_T34";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -4781,21 +4781,21 @@ class CfgGroups
 					{
 						side = 2;
 						vehicle = "ZSN_CUP_DGUER_T34";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
 						vehicle = "ZSN_CUP_DGUER_T34";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 2;
 						vehicle = "ZSN_CUP_DGUER_T34";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -5192,21 +5192,21 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_ARMY_M1A1";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_ARMY_M1A1";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_ARMY_M1A1";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -5445,21 +5445,21 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_Leopard2";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "ZSN_Leopard2";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_Leopard2";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -5487,21 +5487,21 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_BAF_Challenger2";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_BAF_Challenger2";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_BAF_Challenger2";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -5667,21 +5667,21 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_DBAF_Challenger2";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_DBAF_Challenger2";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_DBAF_Challenger2";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -5847,21 +5847,21 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_USMC_M60A3";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_USMC_M60A3";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_USMC_M60A3";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -6156,21 +6156,21 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_DARMY_M1A1";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_DARMY_M1A1";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_DARMY_M1A1";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -6409,21 +6409,21 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_DUSMC_M60A3";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_DUSMC_M60A3";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_DUSMC_M60A3";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -6617,21 +6617,21 @@ class CfgGroups
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_MSV_T72B";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_MSV_T72B";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_MSV_T72B";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -6870,21 +6870,21 @@ class CfgGroups
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_VMF_T55";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_VMF_T55";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_VMF_T55";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -7186,21 +7186,21 @@ class CfgGroups
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_DMSV_T72B";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_DMSV_T72B";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_DMSV_T72B";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -7439,21 +7439,21 @@ class CfgGroups
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_DVMF_T55";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_DVMF_T55";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_DVMF_T55";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -7651,21 +7651,21 @@ class CfgGroups
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_CSLA_T72";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_CSLA_T72";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_CSLA_T72";
-						rank = "Lieutnant";
+						rank = "lieutenant";
 						position[] = {40,0,0};
 					};
 				};
@@ -7831,21 +7831,21 @@ class CfgGroups
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_DCSLA_T72";
-						rank = "Lieutnant";
+						rank = "Lieutenant";
 						position[] = {-20,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_DCSLA_T72";
-						rank = "Lieutnant";
+						rank = "Lieutenant";
 						position[] = {20,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_DCSLA_T72";
-						rank = "Lieutnant";
+						rank = "Lieutenant";
 						position[] = {40,0,0};
 					};
 				};

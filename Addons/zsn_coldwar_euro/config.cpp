@@ -777,6 +777,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGB: ZSN_EurosolG
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Soldier";
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -785,6 +787,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGSniper: ZSN_EurosolG
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Sniper";
 		weapons[] = {"Throw","Put","CUP_srifle_LeeEnfield"};
 		respawnWeapons[] = {"Throw","Put","CUP_srifle_LeeEnfield"};
@@ -795,6 +799,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGMG: ZSN_EurosolG
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		weapons[] = {"Throw","Put","CUP_arifle_RPK74"};
@@ -806,6 +812,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGLAW: ZSN_EurosolG
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "RPG-7 Soldier";
 		icon = "iconManAT";
 		weapons[] = {"Throw","Put","CUP_arifle_AK47","CUP_launch_RPG7V"};
@@ -817,6 +825,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGLAWAss: ZSN_EurosolG
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "RPG-7 Assistant";
 		backpack = "ZSN_csla_rpg_pack_rpg7";
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -826,6 +836,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGLeader: ZSN_EurosolG
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Cell Leader";
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_AK47","hgun_Pistol_Signal_F","Binocular"};
@@ -864,15 +876,15 @@ class CfgVehicles
 	class ZSN_EurosolGD: I_G_Soldier_base_F
 	{
 		author = "ZluskeN";
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeCurator = 1;
 		faction = "ZSN_GEuroD_ColdWar";
 		displayName = "Soldier (Camp)";
 		icon = "iconMan";
 		genericNames = "TakistaniMen";
 		identityTypes[] = {"Head_TK","NoGlasses","LanguagePER_F","G_IRAN_default"};
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_crewman.p3d";
-		uniformClass = "CUP_U_O_TK_MixedCamo";
+		uniformClass = "ZSN_U_I_TK_MixedCamo";
 		hiddenSelectionsTextures[] = {"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier_mixed_co.paa"};
 		canCarryBackPack = 1;
 		backpack = "";
@@ -887,6 +899,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGDB: ZSN_EurosolGD
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Soldier";
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
@@ -895,6 +909,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGDSniper: ZSN_EurosolGD
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Sniper";
 		weapons[] = {"Throw","Put","CUP_srifle_LeeEnfield"};
 		respawnWeapons[] = {"Throw","Put","CUP_srifle_LeeEnfield"};
@@ -905,6 +921,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGDMG: ZSN_EurosolGD
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		weapons[] = {"Throw","Put","CUP_arifle_RPK74"};
@@ -916,6 +934,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGDLAW: ZSN_EurosolGD
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Gustav Soldier";
 		icon = "iconManAT";
 		weapons[] = {"Throw","Put","CUP_arifle_AK47","CUP_launch_MAAWS"};
@@ -927,6 +947,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGDLAWAss: ZSN_EurosolGD
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Gustav Assistant";
 		backpack = "ZSN_baf_alice_Gustav";
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
@@ -936,6 +958,8 @@ class CfgVehicles
 	};
 	class ZSN_EurosolGDLeader: ZSN_EurosolGD
 	{
+		scope = 2;
+		scopeCurator = 2;
 		displayName = "Cell Leader";
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","CUP_arifle_AK47","hgun_Pistol_Signal_F","Binocular"};
