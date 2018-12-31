@@ -367,8 +367,8 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers_OD";
-		weapons[] = {"Throw","Put","CUP_M60E4_base"};
-		respawnWeapons[] = {"Throw","Put","CUP_M60E4_base"};
+		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
@@ -662,8 +662,8 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers";
-		weapons[] = {"Throw","Put","CUP_M60E4_base"};
-		respawnWeapons[] = {"Throw","Put","CUP_M60E4_base"};
+		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
@@ -922,8 +922,8 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers_OD";
-		weapons[] = {"Throw","Put","CUP_M60E4_base"};
-		respawnWeapons[] = {"Throw","Put","CUP_M60E4_base"};
+		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
@@ -1170,8 +1170,8 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers";
-		weapons[] = {"Throw","Put","CUP_M60E4_base"};
-		respawnWeapons[] = {"Throw","Put","CUP_M60E4_base"};
+		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"CUP_H_US_H_PASGT_desert","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
@@ -1418,8 +1418,8 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers_OD";
-		weapons[] = {"Throw","Put","CUP_M60E4_base"};
-		respawnWeapons[] = {"Throw","Put","CUP_M60E4_base"};
+		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
@@ -1675,8 +1675,8 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers";
-		weapons[] = {"Throw","Put","CUP_M60E4_base"};
-		respawnWeapons[] = {"Throw","Put","CUP_M60E4_base"};
+		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};

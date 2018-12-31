@@ -226,8 +226,8 @@ class cfgvehicles
 	class ZSN_CUP_GUER_LR: CUP_C_LR_Transport_CTK
 	{
 		side = 2;
-		scope = 1;
-		scopeCurator = 1;
+		scope = 2;
+		scopeCurator = 2;
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
@@ -702,7 +702,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierEB";
 		typicalCargo[] = {"ZSN_SoldierEB"};
 		faction = "ZSN_EArmy_ColdWar";
-		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\uaz_sov_main_co.paa"};
+		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\uaz_sov_main_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\Data\preview\CUP_O_UAZ_Unarmed_RU.jpg";
 		transportAmmo = 30000;
 		maximumLoad = 2000;
@@ -730,7 +730,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierEDB";
 		typicalCargo[] = {"ZSN_SoldierEDB"};
 		faction = "ZSN_EArmyD_ColdWar";
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_SLA_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_SLA_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\Data\preview\CUP_O_UAZ_Unarmed_SLA.jpg";
 	};
 	class ZSN_CUP_VMF_UAZ_Unarmed: ZSN_CUP_MSV_UAZ_Unarmed
@@ -738,7 +738,7 @@ class cfgvehicles
 		crew = "ZSN_MarineEB";
 		typicalCargo[] = {"ZSN_MarineEB"};
 		faction = "ZSN_EMarines_ColdWar";
-		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\uaz_sov_main_co.paa"};
+		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\uaz_sov_main_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\Data\preview\CUP_O_UAZ_Unarmed_RU.jpg";
 	};
 	class ZSN_CUP_DVMF_UAZ_Unarmed: ZSN_CUP_MSV_UAZ_Unarmed
@@ -746,7 +746,7 @@ class cfgvehicles
 		crew = "ZSN_MarineEDB";
 		typicalCargo[] = {"ZSN_MarineEDB"};
 		faction = "ZSN_EMarinesD_ColdWar";
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_SLA_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_SLA_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\Data\preview\CUP_O_UAZ_Unarmed_SLA.jpg";
 	};
 	class CUP_UAZ_Open_Base;
@@ -994,7 +994,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierEB";
 		typicalCargo[] = {"ZSN_SoldierEB"};
 		faction = "ZSN_EArmy_ColdWar";
-		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\uaz_med_sov_co.paa"};
+		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\uaz_med_sov_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\Data\preview\CUP_O_UAZ_AMB_RU.jpg";
 		class TransportItems
 		{
@@ -1031,7 +1031,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierEDB";
 		typicalCargo[] = {"ZSN_SoldierEDB"};
 		faction = "ZSN_EArmyD_ColdWar";
-		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\uaz_med_SLA_co.paa"};
+		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\uaz_med_SLA_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\Data\preview\CUP_O_UAZ_Unarmed_SLA.jpg";
 	};
 	class ZSN_CUP_DVMF_UAZ_Amb: ZSN_CUP_DMSV_UAZ_Amb
