@@ -54,6 +54,7 @@ class CfgVehicles
 	class Redd_Tank_Fuchs_1A4_Pi_Flecktarn;
 	class ZSN_Redd_Tank_Fuchs_1A4_Pi_Flecktarn: Redd_Tank_Fuchs_1A4_Pi_Flecktarn
 	{
+		scope = 1;
 		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWCrew";

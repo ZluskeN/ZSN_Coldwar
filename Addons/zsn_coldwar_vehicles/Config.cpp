@@ -231,7 +231,7 @@ class cfgvehicles
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
-		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",1,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
+		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",1,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",0.5,"selection_antenna",1};
 		hiddenselectionstextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\civ_r_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Special_Des_CZ_D.jpg";
 		class EventHandlers: EventHandlers
@@ -246,7 +246,7 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
-		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",1,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1};
+		animationList[] = {"selection_wind",0.5,"selection_tool",0.5,"selection_tarp",1,"selection_steps",0.5,"selection_roll",1,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",0.5,"selection_antenna",1};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\tk_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_Transport_TKM.jpg";
 		class EventHandlers: EventHandlers
@@ -328,7 +328,7 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_RangerWB"};
 		displayname = "Land Rover (Transport)";
 		faction = "ZSN_WRangers_ColdWar";
-		animationList[] = {"selection_box",0.5,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
+		animationList[] = {"selection_jerry",0.5,"selection_box",0.5,"selection_steps",0.5,"selection_box",0.5,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		attendant = 1;
 		class TransportItems
@@ -364,7 +364,7 @@ class cfgvehicles
 		crew = "ZSN_RangerWDB";
 		typicalCargo[] = {"ZSN_RangerWDB"};
 		faction = "ZSN_WRangersD_ColdWar";
-		animationList[] = {"selection_box",0.5,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
+		animationList[] = {"selection_jerry",0.5,"selection_box",0.5,"selection_steps",0.5,"selection_box",0.5,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_special_acr_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Transport_CZ_D.jpg";
 		class EventHandlers: EventHandlers
@@ -385,7 +385,7 @@ class cfgvehicles
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
-		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",1,"selection_bar",0.5,"selection_antenna",1};
+		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",1,"selection_antenna",1};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Special_Des_CZ_D.jpg";
 		class EventHandlers: EventHandlers
@@ -400,7 +400,7 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
-		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",1,"selection_bar",0.5};
+		animationList[] = {"selection_wind",1,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_box",0.5,"selection_jerry",0.5,"selection_wheelfront",1,"selection_doors",1,"selection_antenna",1};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\tk_lr_base_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_O_LR_SPG9_TKM.jpg";
 		class EventHandlers: EventHandlers
@@ -421,7 +421,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolGB";
 		faction = "ZSN_GEuro_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolGB"};
-		animationList[] = {"selection_jerry",0.5,"selection_tool",0.5,"selection_steps",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1,"selection_wheelfront",0.5};
+		animationList[] = {"selection_jerry",0.5,"selection_tool",0.5,"selection_steps",0.5,"selection_doors",0.5,"selection_antenna",1,"selection_wheelfront",0.5};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_amb_ext_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Ambulance_CZ_W.jpg";
 		class TransportItems
@@ -516,7 +516,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolGDB";
 		faction = "ZSN_GEuroD_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
-		animationList[] = {"selection_jerry",0.5,"selection_tool",0.5,"selection_steps",1,"selection_doors",0.5,"selection_bar",0.5,"selection_antenna",1,"selection_wheelfront",0.5};
+		animationList[] = {"selection_jerry",0.5,"selection_tool",0.5,"selection_steps",0.5,"selection_doors",0.5,"selection_antenna",1,"selection_wheelfront",0.5};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\tk_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_amb_ext_desert_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		class TransportItems
 		{
@@ -611,7 +611,7 @@ class cfgvehicles
 		crew = "ZSN_RangerWB";
 		typicalCargo[] = {"ZSN_RangerWB"};
 		faction = "ZSN_WRangers_ColdWar";
-		animationList[] = {"selection_bar",0.5,"selection_steps",0.5,"selection_jerry",0.5,"selection_antenna_rear",0,"selection_antenna",1,"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5};
+		animationList[] = {"selection_steps",0.5,"selection_jerry",0.5,"selection_antenna_rear",0,"selection_antenna",1,"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_GB_W.jpg";
 		class Transportweapons
@@ -655,7 +655,7 @@ class cfgvehicles
 		crew = "ZSN_RangerWDB";
 		typicalCargo[] = {"ZSN_RangerWDB"};
 		faction = "ZSN_WRangersD_ColdWar";
-		animationList[] = {"selection_bar",0.5,"selection_steps",0.5,"selection_jerry",0.5,"selection_antenna_rear",0,"selection_antenna",1,"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5};
+		animationList[] = {"selection_steps",0.5,"selection_jerry",0.5,"selection_antenna_rear",0,"selection_antenna",1,"selection_wind",1,"selection_tool",0.5,"selection_tarp",1,"selection_rear",0.5,"selection_box",0.5,"selection_wheelfront",1,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_CZ_W.jpg";
 		class EventHandlers: EventHandlers
