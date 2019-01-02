@@ -2718,7 +2718,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierEDCrew";
 		typicalCargo[] = {"ZSN_SoldierEDCrew"};
 		faction = "ZSN_EArmyD_ColdWar";
-		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_olive_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_olive_co"};
+		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_sla_co","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_sla_co"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_T55\Data\preview\CUP_O_T55_SLA.jpg";
 	};
 	class ZSN_CUP_MSV_T55: ZSN_CUP_VMF_T55
