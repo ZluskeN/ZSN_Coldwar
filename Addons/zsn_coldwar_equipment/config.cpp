@@ -1,22 +1,23 @@
 ////////////////////////////////////////////////////////////////////
-//DeRap: Produced from mikero's Dos Tools Dll version 5.24
-//Produced on Wed Aug 03 11:31:57 2016 : Created on Wed Aug 03 11:31:57 2016
+//DeRap: zsn_coldwar_equipment\config.bin
+//Produced from mikero's Dos Tools Dll version 6.44
+//'now' is Wed Jan 16 22:21:22 2019 : 'file' last modified on Wed Jan 16 22:17:26 2019
 //http://dev-heaven.net/projects/list_files/mikero-pbodll
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
 
-//Class zsn_coldwar_units : config.bin{
 class CfgPatches
 {
 	class ZSN_ColdWarUnits
 	{
 		author = "ZluskeN";
-		units[] = {};
-		weapons[] = {"ZSN_CUP_srifle_M21"};
+		units[] = {"ZSN_pack_medic","ZSN_minepack_east","ZSN_minepack_west","ZSN_minepack_west_OD"};
+		weapons[] = {"ZSN_CUP_srifle_M21","ZSN_Rangefinder","ZSN_L1A1","ZSN_M249_SAW","ZSN_Black_Op_Vest"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Weapons_F","TMR_RPG42","CUP_Creatures_Military_USArmy"};
 		magazines[] = {};
+		ammo[] = {"ZSN_WPSmoke","Flare_82mm_AMOS_White","F_40mm_White","F_20mm_White","F_Signal_Green"};
 	};
 };
 class CfgCloudlets
@@ -24,83 +25,84 @@ class CfgCloudlets
 	class WPCloud;
 	class ZSN_WPCloud: WPCloud
 	{
-		lifeTime = 60;
+		lifeTime = 30;
+		blockAIVisibility = 1;
 	};
 	class WPTrails;
 	class ZSN_WPTrails: WPTrails
 	{
-		damageType="Fire";                      //damage type, only available option is "Fire" so far
-    		coreIntensity = 5;                  	//damage coeficient in the center of fire
-    		coreDistance = 4;                     	//how far can unit get damage
-    		damageTime = 0.1;                       //how often is unit getting damage
-        	lifeTime = 3;
+		damageType = "Fire";
+		coreIntensity = 5;
+		coreDistance = 4;
+		damageTime = 0.1;
+		lifeTime = 3;
 	};
 };
-class ZSN_WPExplosion 
+class ZSN_WPExplosion
 {
-    	class LightExp 
+	class LightExp
 	{
-        	simulation = "light";
-        	type = "ExploLight";
-        	position[] = {0, 0, 0};
-        	intensity = 0.001;
-        	interval = 1;
-        	lifeTime = 1;
-    	};
-    	class Explosion1 
+		simulation = "light";
+		type = "ExploLight";
+		position[] = {0,0,0};
+		intensity = 0.001;
+		interval = 1;
+		lifeTime = 1;
+	};
+	class Explosion1
 	{
-        	simulation = "particles";
-        	type = "ZSN_WPCloud";
-        	position[] = {0, 0, 0};
-        	intensity = 1;
-        	interval = 1;
-        	lifeTime = 60;
-    	};
-    	class Trails 
+		simulation = "particles";
+		type = "ZSN_WPCloud";
+		position[] = {0,0,0};
+		intensity = 1;
+		interval = 1;
+		lifeTime = 30;
+	};
+	class Trails
 	{
-        	simulation = "particles";
-        	type = "ZSN_WPTrails";
-        	position[] = {0, 0, 0};
-        	intensity = 1;
-        	interval = 1;
-        	lifeTime = 3;
-    	};
+		simulation = "particles";
+		type = "ZSN_WPTrails";
+		position[] = {0,0,0};
+		intensity = 1;
+		interval = 1;
+		lifeTime = 3;
+	};
 };
 class CfgAmmo
 {
 	class SmokeShell;
 	class ZSN_WPSmoke: SmokeShell
 	{
-        	grenadeBurningSound[] = {};
-        	aiAmmoUsageFlags = "64 + 4"; // infantry + smoke
+		grenadeBurningSound[] = {};
+		aiAmmoUsageFlags = "64 + 4";
 		effectsSmoke = "ZSN_WPExplosion";
 	};
-    	class FlareCore;
-    	class FlareBase;
-    	class Flare_82mm_AMOS_White: FlareCore
-    	{
-    		timeToLive = 80;
-        	brightness = 200;
-        	intensity  = 1000000;
-    	};
-    	class F_40mm_White: FlareBase
-    	{
-        	timeToLive = 80;
-        	brightness = 200;
-        	intensity  = 1000000;
-    	};
-    	class F_20mm_White: FlareBase
-    	{
-        	timeToLive = 80;
-        	brightness = 200;
-        	intensity  = 1000000;
-    	};
-    	class F_Signal_Green: FlareBase
-    	{
-        	timeToLive = 80;
-        	brightness = 200;
-        	intensity  = 1000000;
-    	};
+	class FlareCore;
+	class FlareBase;
+	class Flare_82mm_AMOS_White: FlareCore
+	{
+		timeToLive = 80;
+		brightness = 200;
+		intensity = 1000000;
+	};
+	class F_40mm_White: FlareBase
+	{
+		timeToLive = 80;
+		brightness = 200;
+		intensity = 1000000;
+	};
+	class F_20mm_White: FlareBase
+	{
+		timeToLive = 80;
+		brightness = 200;
+		intensity = 1000000;
+	};
+	class F_Signal_Green: FlareBase
+	{
+		timeToLive = 80;
+		brightness = 200;
+		intensity = 1000000;
+	};
 };
 class CfgMagazines
 {
@@ -134,15 +136,15 @@ class CfgWeapons
 		magazines[] = {"ZSN_1Rnd_TOW_HMMWV_M"};
 	};
 	class GrenadeLauncher;
-	class Throw : GrenadeLauncher
+	class Throw: GrenadeLauncher
 	{
-        	muzzles[] += {"ZSN_WPMuzzle"};
-        	class ThrowMuzzle;
-      		class ZSN_WPMuzzle: ThrowMuzzle 
+		muzzles[] += {"ZSN_WPMuzzle"};
+		class ThrowMuzzle;
+		class ZSN_WPMuzzle: ThrowMuzzle
 		{
 			displayName = "White Phosphorous Grenade";
-            		magazines[] = {"ZSN_WPShell"};
-      		};
+			magazines[] = {"ZSN_WPShell"};
+		};
 	};
 	class Binocular;
 	class CUP_SOFLAM;
@@ -244,11 +246,11 @@ class CfgWeapons
 				slot = "CUP_DovetailMount_SVD";
 				item = "CUP_optic_PSO_3";
 			};
- 			class LinkedItemsAcc
- 			{
- 				slot = "PointerSlot";
- 				item = "CUP_SVD_camo_d";
- 			};
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "CUP_SVD_camo_d";
+			};
 		};
 	};
 	class ZSN_SVD_wdl: CUP_srifle_SVD
@@ -261,11 +263,69 @@ class CfgWeapons
 				slot = "CUP_DovetailMount_SVD";
 				item = "CUP_optic_PSO_3";
 			};
- 			class LinkedItemsAcc
- 			{
- 				slot = "PointerSlot";
- 				item = "CUP_SVD_camo_g";
- 			};
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "CUP_SVD_camo_g";
+			};
+		};
+	};
+	class CUP_srifle_M24_des: Rifle_Base_F
+	{
+		class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class CUP_PicatinnyTopMountM24;
+			class CUP_PicatinnyUnderMountM24;
+			class PointerSlot{};
+			class MuzzleSlot{};
+		};
+	};
+	class ZSN_M24_des: CUP_srifle_M24_des
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM24";
+				item = "CUP_optic_LeupoldMk4_10x40_LRT_Desert";
+			};
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "CUP_Mxx_camo_half";
+			};
+		};
+	};
+	class CUP_srifle_M24_wdl: CUP_srifle_M24_des{};
+	class ZSN_M24_wdl: CUP_srifle_M24_wdl
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM24";
+				item = "CUP_optic_LeupoldMk4_10x40_LRT_Woodland";
+			};
+			class LinkedItemsAcc
+			{
+				slot = "PointerSlot";
+				item = "CUP_Mxx_camo_half";
+			};
+		};
+	};
+	class CUP_srifle_M40A3: CUP_srifle_M24_des{};
+	class ZSN_M40: CUP_srifle_M40A3
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM24";
+				item = "CUP_optic_LeupoldMk4";
+			};
 		};
 	};
 	class CUP_saw_base;
@@ -277,15 +337,15 @@ class CfgWeapons
 		displayName = "M249 SAW";
 		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","200Rnd_556x45_Box_Tracer_Red_F","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_G36","CUP_30Rnd_TE1_Red_Tracer_556x45_G36","CUP_30Rnd_TE1_Green_Tracer_556x45_G36","CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36","CUP_100Rnd_556x45_BetaCMag","CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag","CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag","CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","CUP_20Rnd_556x45_Stanag"};
 	};
- 	class launch_RPG32_F;
- 	class ZSN_RPG29: launch_RPG32_F
- 	{
+	class launch_RPG32_F;
+	class ZSN_RPG29: launch_RPG32_F
+	{
 		author = "ZluskeN";
 		displayName = "RPG-29 Vampir";
 		picture = "\A3\Weapons_F_Exp\Launchers\RPG32\Data\UI\launch_RPG32_ghex_F_X_CA.paa";
 		magazines[] = {"RPG32_F","RPG32_HE_F","TMR_RPG32_Smoke_F","TMR_RPG32_TB_F"};
- 		hiddenSelectionsTextures[] = {"\zsn_coldwar_equipment\launch_RPG29_F_co.paa","\A3\Weapons_F\Launchers\RPG32\data\RPG_32_optics_CO.paa"};
- 	};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_equipment\launch_RPG29_F_co.paa","\A3\Weapons_F\Launchers\RPG32\data\RPG_32_optics_CO.paa"};
+	};
 	class UniformItem;
 	class VestItem;
 	class Uniform_Base;
@@ -747,7 +807,7 @@ class CfgVehicles
 	class ZSN_762x54_ammobelts: CUP_B_CivPack_WDL
 	{
 		scope = 1;
-        	scopeArsenal = 0;
+		scopeArsenal = 0;
 		hiddenSelectionsTextures[] = {"zsn_coldwar_equipment\backpack_vdv_assault.paa"};
 		displayName = "Linked 7.62x54, 500 rnd";
 		maximumLoad = 340;
@@ -974,4 +1034,3 @@ class CfgVehicles
 		};
 	};
 };
-//};

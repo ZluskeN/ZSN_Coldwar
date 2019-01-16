@@ -2780,7 +2780,7 @@ class cfgvehicles
 		scope = 1;
 	};
 	class CUP_O_2S6_RU;
-	class ZSN_MSV_2S6: CUP_O_2S6_RU
+	class ZSN_CUP_MSV_2S6: CUP_O_2S6_RU
 	{
 		side = 0;
 		scope = 2;

@@ -32,6 +32,18 @@ class CfgVehicles
 		weapons[] = {"Throw","Put","hlc_lmg_M249E1"};
 		respawnWeapons[] = {"Throw","Put","hlc_lmg_M249E1"};
 	};
+	class ZSN_MarineW;
+	class ZSN_MarineWAR: ZSN_MarineW
+	{
+		weapons[] = {"Throw","Put","hlc_lmg_M249E1"};
+		respawnWeapons[] = {"Throw","Put","hlc_lmg_M249E1"};
+	};
+	class ZSN_MarineWD;
+	class ZSN_MarineWDAR: ZSN_MarineWD
+	{
+		weapons[] = {"Throw","Put","hlc_lmg_M249E1"};
+		respawnWeapons[] = {"Throw","Put","hlc_lmg_M249E1"};
+	};
 	class ZSN_RangerW;
 	class ZSN_RangerWAR: ZSN_RangerW
 	{
