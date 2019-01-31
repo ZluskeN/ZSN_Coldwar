@@ -421,6 +421,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolGB";
 		faction = "ZSN_GEuro_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolGB"};
+		displayName = "Land Rover 110 (Ambulance)";
 		animationList[] = {"selection_jerry",0.5,"selection_tool",0.5,"selection_steps",0.5,"selection_doors",0.5,"selection_antenna",1,"selection_wheelfront",0.5};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_base_acrs_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_amb_ext_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Ambulance_CZ_W.jpg";
@@ -516,6 +517,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolGDB";
 		faction = "ZSN_GEuroD_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		displayName = "Land Rover 110 (Ambulance)";
 		animationList[] = {"selection_jerry",0.5,"selection_tool",0.5,"selection_steps",0.5,"selection_doors",0.5,"selection_antenna",1,"selection_wheelfront",0.5};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\tk_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_amb_ext_desert_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
 		class TransportItems
@@ -669,6 +671,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolWB";
 		faction = "ZSN_WEuro_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolWB"};
+		displayName = "Lamd Rover 110 (M2)";
 		animationList[] = {"selection_wheels",1,"selection_antenna",0,"selection_jerry",1,"selection_box",1,"selection_wheelfront",0,"selection_tarp",0,"selection_wind",0,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_doors",0.5,"selection_bar",0.5};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa"};
 		class EventHandlers: EventHandlers
@@ -681,6 +684,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolWDB";
 		faction = "ZSN_WEuroD_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolWDB"};
+		displayName = "Lamd Rover 110 (M2)";
 		animationList[] = {"selection_wheels",1,"selection_antenna",1,"selection_jerry",1,"selection_box",1,"selection_wheelfront",0,"selection_tarp",0,"selection_wind",0,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_doors",0.5,"selection_bar",0.5};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_GB_D.jpg";
@@ -706,7 +710,7 @@ class cfgvehicles
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\Data\preview\CUP_O_UAZ_Unarmed_RU.jpg";
 		transportAmmo = 30000;
 		maximumLoad = 2000;
-    		ace_rearm_defaultSupply = 1000;
+    	ace_rearm_defaultSupply = 1000;
 		class TransportMagazines
 		{
 			class _xx_CUP_AT13_M
@@ -1441,8 +1445,17 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_MarineEDB"};
 		faction = "ZSN_EMarinesD_ColdWar";
 	};
-	class CUP_BM21_Base;
-	class CUP_O_BM21_RU;
+	class CUP_BM21_Base: CUP_Ural_BaseTurret
+	{
+		class Turrets;
+	};
+	class CUP_O_BM21_RU: CUP_BM21_Base
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret;
+		};
+	};
 	class ZSN_CUP_DMSV_BM21: CUP_O_BM21_RU
 	{
 		side = 0;
@@ -1455,6 +1468,14 @@ class cfgvehicles
 		faction = "ZSN_EArmyD_ColdWar";
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_bm21_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_bm21_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_BM21_SLA.jpg";
+		//class Turrets: Turrets
+		//{
+		//	class MainTurret: MainTurret
+		//	{
+		//		maxElev = 55;
+		//		class ViewOptics;
+		//	};
+		//};
 	};
 	class ZSN_CUP_MSV_BM21: ZSN_CUP_DMSV_BM21
 	{
@@ -2211,6 +2232,7 @@ class cfgvehicles
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
+		displayName = "Datsun 620 Pickup (PK)";
 		animationList[] = {"hideGrille",0.5,"hideRearDoor",0.5};
 		textureList[] = {"blueRed",1,"greenBlackBeigeDesert",1,"greenBlackBeigeDesertDot",1,"greenBeigeDesert",1,"desert",1,"greenBeigeWoodland",1,"greenBrownBeigeWoodland",1,"redStarWoodland",1};
 	};
@@ -2222,6 +2244,7 @@ class cfgvehicles
 		faction = "ZSN_GEuroD_ColdWar";
 		crew = "ZSN_EurosolGDB";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
+		displayName = "Datsun 620 Pickup (PK)";
 		animationList[] = {"hideGrille",0.5,"hideRearDoor",0.5};
 		textureList[] = {"blueRed",1,"greenBlackBeigeDesert",1,"greenBlackBeigeDesertDot",1,"greenBeigeDesert",1,"desert",1,"greenBeigeWoodland",1,"greenBrownBeigeWoodland",1,"redStarWoodland",1};
 	};
@@ -2492,6 +2515,28 @@ class cfgvehicles
 		hiddenselectionstextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\data\textures\russia\russia_body_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BTR60\data\textures\russia\russia_detail_co.paa"};
 	};
 	class CUP_MTLB_Base;
+	class ZSN_CUP_SWE_MTLB_pk: CUP_MTLB_Base
+	{
+		side = 1;
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		faction = "sfp_swe_1990";
+		displayName = "Pbv 401";
+		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\body_new_swe_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_MTLB\data\textures\russia\pk_mod_new_ru_green_co.paa"};
+	};
+	class ZSN_CUP_WSWE_MTLB_pk: CUP_MTLB_Base
+	{
+		side = 1;
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		faction = "sfp_swe_1990s";
+		displayName = "Pbv 401";
+		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\body_new_wswe_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_MTLB\data\textures\russia\pk_mod_new_ru_green_co.paa"};
+	};
 	class CUP_I_MTLB_pk_NAPA;
 	class ZSN_CUP_MSV_MTLB_pk: CUP_I_MTLB_pk_NAPA
 	{
@@ -3506,7 +3551,6 @@ class cfgvehicles
 		hiddenSelectionsTextures[] = {"\cup\airvehicles\cup_airvehicles_ka50\data\ka50_01_co.paa","\cup\airvehicles\cup_airvehicles_ka50\data\ka50_02_co.paa","\cup\airvehicles\cup_airvehicles_ka50\data\ka50_03_co.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_KA50\Data\preview\CUP_O_Ka50_SLA.jpg";
 	};
-	class CUP_AH1Z_Base;
 	class CUP_B_AH1Z_NOAA_USMC;
 	class ZSN_CUP_USMC_AH1: CUP_B_AH1Z_NOAA_USMC
 	{
@@ -3519,9 +3563,8 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_SoldierWPilot"};
 		faction = "ZSN_WMarines_ColdWar";
 	};
-	class CUP_AH64D_Base;
-	class CUP_B_AH64D_USA;
-	class ZSN_CUP_ARMY_AH64: CUP_B_AH64D_USA
+	class CUP_B_AH64_DL_USA;
+	class ZSN_CUP_ARMY_AH64: CUP_B_AH64_DL_USA
 	{
 		scope = 2;
 		scopeCurator = 2;
