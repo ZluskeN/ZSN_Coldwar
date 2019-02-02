@@ -328,7 +328,7 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_RangerWB"};
 		displayname = "Land Rover (Transport)";
 		faction = "ZSN_WRangers_ColdWar";
-		animationList[] = {"selection_jerry",0.5,"selection_box",0.5,"selection_steps",0.5,"selection_box",0.5,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
+		animationList[] = {"selection_jerry",0.5,"selection_box",0.5,"selection_antenna_rear",0,"selection_antenna",1,"selection_steps",0.5,"selection_box",0.5,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
 		attendant = 1;
 		class TransportItems
@@ -364,7 +364,7 @@ class cfgvehicles
 		crew = "ZSN_RangerWDB";
 		typicalCargo[] = {"ZSN_RangerWDB"};
 		faction = "ZSN_WRangersD_ColdWar";
-		animationList[] = {"selection_jerry",0.5,"selection_box",0.5,"selection_steps",0.5,"selection_box",0.5,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
+		animationList[] = {"selection_jerry",0.5,"selection_box",0.5,"selection_antenna_rear",0,"selection_antenna",1,"selection_steps",0.5,"selection_box",0.5,"selection_tarp",1,"selection_tool",0.5,"selection_rear",0.5,"selection_doors",0.5};
 		hiddenselectionstextures[] = {"zsn_coldwar_vehicles\rsov_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_special_acr_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_Transport_CZ_D.jpg";
 		class EventHandlers: EventHandlers
@@ -409,13 +409,12 @@ class cfgvehicles
 		};
 	};
 	class CUP_LR_Ambulance_Base;
-	class CUP_B_LR_Ambulance_GB_W: CUP_LR_Ambulance_Base
+	class CUP_I_LR_Ambulance_AAF: CUP_LR_Ambulance_Base
 	{
 		class EventHandlers;
 	};
-	class ZSN_CUP_GUER_LR_Sup: CUP_B_LR_Ambulance_GB_W
+	class ZSN_CUP_GUER_LR_Sup: CUP_I_LR_Ambulance_AAF
 	{
-		side = 2;
 		scope = 2;
 		scopeCurator = 2;
 		crew = "ZSN_EurosolGB";
@@ -457,6 +456,10 @@ class cfgvehicles
 		{
 			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
 		};
+	};
+	class CUP_B_LR_Ambulance_GB_W: CUP_LR_Ambulance_Base
+	{
+		class EventHandlers;
 	};
 	class ZSN_CUP_BAF_LR_Sup: CUP_B_LR_Ambulance_GB_W
 	{
@@ -509,45 +512,12 @@ class cfgvehicles
 	{
 		class EventHandlers;
 	};
-	class ZSN_CUP_DGUER_LR_Sup: CUP_B_LR_Ambulance_GB_D
+	class ZSN_CUP_DGUER_LR_Sup: ZSN_CUP_GUER_LR_Sup
 	{
-		side = 2;
-		scope = 2;
-		scopeCurator = 2;
 		crew = "ZSN_EurosolGDB";
 		faction = "ZSN_GEuroD_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolGDB"};
-		displayName = "Land Rover 110 (Ambulance)";
-		animationList[] = {"selection_jerry",0.5,"selection_tool",0.5,"selection_steps",0.5,"selection_doors",0.5,"selection_antenna",1,"selection_wheelfront",0.5};
 		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\tk_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_amb_ext_desert_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_acr_spec_co.paa"};
-		class TransportItems
-		{
-			class _xx_FirstAidKit
-			{
-				name = "FirstAidKit";
-				count = 48;
-			};
-			class _xx_medikit
-			{
-				name = "medikit";
-				count = 12;
-			};
-			class _xx_ToolKit
-			{
-				name = "ToolKit";
-				count = 2;
-			};
-			class _xx_ACE_bodyBag
-			{
-				name = "ACE_bodyBag";
-				count = 12;
-			};
-			class _xx_ACE_personalAidKit
-			{
-				name = "ACE_personalAidKit";
-				count = 3;
-			};
-		};
 		class EventHandlers: EventHandlers
 		{
 			init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;};";
@@ -1347,27 +1317,25 @@ class cfgvehicles
 	};
 	class Truck_F;
 	class CUP_Ural_BaseTurret;
-	class CUP_Ural_ZU23_Base;
-	class CUP_I_Ural_ZU23_TK_Gue;
-	class ZSN_CUP_GUER_Ural_ZU23: CUP_I_Ural_ZU23_TK_Gue
+	class CUP_O_Ural_ZU23_TKM;
+	class ZSN_CUP_DGUER_Ural_ZU23: CUP_O_Ural_ZU23_TKM
+	{
+		side = 2;
+		scope = 2;
+		scopeCurator = 2;
+		faction = "ZSN_GEuroD_ColdWar";
+		crew = "ZSN_EurosolGDB";
+		typicalCargo[] = {"ZSN_EurosolGDB"};
+	};
+	class ZSN_CUP_GUER_Ural_ZU23: ZSN_CUP_DGUER_Ural_ZU23
 	{
 		scope = 2;
 		scopeCurator = 2;
 		faction = "ZSN_GEuro_ColdWar";
 		crew = "ZSN_EurosolGB";
 		typicalCargo[] = {"ZSN_EurosolGB"};
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_rus_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_sla_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_rus_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_ZU23_SLA.jpg";
-	};
-	class ZSN_CUP_DGUER_Ural_ZU23: ZSN_CUP_GUER_Ural_ZU23
-	{
-		scope = 2;
-		scopeCurator = 2;
-		faction = "ZSN_GEuroD_ColdWar";
-		crew = "ZSN_EurosolGDB";
-		typicalCargo[] = {"ZSN_EurosolGDB"};
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_tka_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_tka_co.paa"};
-		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_ZU23_TKM.jpg";
 	};
 	class CUP_Ural_Base;
 	class ZSN_CUP_MSV_Ural: CUP_Ural_Base
@@ -5466,6 +5434,76 @@ class CfgGroups
 				};
 			};
 		};
+		class ZSN_WRangers_ColdWar
+		{
+			name = "Cold War U.S. Rangers";
+			class Motorized
+			{
+				name = "Motorized Infantry";
+				class ZSN_WRanger_BasicInfantry
+				{
+					name = "Support Squad";
+					faction = "ZSN_WRangers_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWNCO";
+						rank = "Sergeant";
+						position[] = {-3,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWAR";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWHAT";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWLAW";
+						rank = "Private";
+						position[] = {-7,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWHATAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_USR_LR";
+						rank = "Private";
+						position[] = {-9,0,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_USR_LR_MG";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+				};
+			};
+		};
 		class ZSN_WGer_ColdWar
 		{
 			name = "Cold War FRG";
@@ -6430,6 +6468,76 @@ class CfgGroups
 				};
 			};
 		};
+		class ZSN_WRangersD_ColdWar
+		{
+			name = "Cold War U.S. Rangers (Desert)";
+			class Motorized
+			{
+				name = "Motorized Infantry";
+				class ZSN_WRangerD_BasicInfantry
+				{
+					name = "Support Squad";
+					faction = "ZSN_WRangersD_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWDNCO";
+						rank = "Sergeant";
+						position[] = {-3,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWDLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWDAR";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWDHAT";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWDLAW";
+						rank = "Private";
+						position[] = {-7,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "ZSN_RangerWDHATAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DUSR_LR";
+						rank = "Private";
+						position[] = {-9,0,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_DUSR_LR_MG";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+				};
+			};
+		};
 		class ZSN_WMarinesD_ColdWar
 		{
 			name = "Cold War U.S. Marines (Desert)";
@@ -6887,6 +6995,76 @@ class CfgGroups
 						vehicle = "ZSN_SoldierEMedic";
 						rank = "Private";
 						position[] = {13,0,0};
+					};
+				};
+			};
+		};
+		class ZSN_ERangers_ColdWar
+		{
+			name = "Cold War USSR Airborne";
+			class Motorized
+			{
+				name = "Motorized Infantry";
+				class ZSN_ERanger_MotorInfantry
+				{
+					name = "Support Squad";
+					faction = "ZSN_ERangers_ColdWar";
+					side = 0;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "ZSN_RangerENCO";
+						rank = "Sergeant";
+						position[] = {-3,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "ZSN_RangerELeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "ZSN_RangerEMG";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "ZSN_RangerEAR";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "ZSN_RangerEMGAss";
+						rank = "Private";
+						position[] = {-7,0,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "ZSN_RangerELAW";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_VDV_UAZ_SPG9";
+						rank = "Private";
+						position[] = {-9,0,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_VDV_UAZ_Open";
+						rank = "Private";
+						position[] = {9,0,0};
 					};
 				};
 			};
@@ -7456,6 +7634,76 @@ class CfgGroups
 						vehicle = "ZSN_SoldierEDMedic";
 						rank = "Private";
 						position[] = {13,0,0};
+					};
+				};
+			};
+		};
+		class ZSN_ERangersD_ColdWar
+		{
+			name = "Cold War USSR Airborne (Desert)";
+			class Motorized
+			{
+				name = "Motorized Infantry";
+				class ZSN_ERangerD_MotorInfantry
+				{
+					name = "Support Squad";
+					faction = "ZSN_ERangersD_ColdWar";
+					side = 0;
+					class Unit0
+					{
+						side = 0;
+						vehicle = "ZSN_RangerEDNCO";
+						rank = "Sergeant";
+						position[] = {-3,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "ZSN_RangerEDLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "ZSN_RangerEDMG";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "ZSN_RangerEDAR";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "ZSN_RangerEDMGAss";
+						rank = "Private";
+						position[] = {-7,0,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "ZSN_RangerEDLAW";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_DVDV_UAZ_SPG9";
+						rank = "Private";
+						position[] = {-9,0,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "ZSN_CUP_DVDV_UAZ_Open";
+						rank = "Private";
+						position[] = {9,0,0};
 					};
 				};
 			};
