@@ -215,8 +215,10 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_BAF_200rnd_762x51_bandoliers";
-		weapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
+//		weapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
+//		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
+		weapons[] = {"Throw","Put","CUP_lmg_L7A2"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
@@ -373,8 +375,10 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_BAF_200rnd_762x51_bandoliers";
-		weapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
+//		weapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
+//		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
+		weapons[] = {"Throw","Put","CUP_lmg_L7A2"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
