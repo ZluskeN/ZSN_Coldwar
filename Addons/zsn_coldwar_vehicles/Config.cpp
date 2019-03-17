@@ -263,6 +263,7 @@ class cfgvehicles
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
+		tf_hasLRradio = 1;
 		crew = "ZSN_EurosolWB";
 		faction = "ZSN_WEuro_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolWB"};
@@ -638,6 +639,7 @@ class cfgvehicles
 	class CUP_B_LR_MG_GB_W: CUP_LR_MG_Base {};
 	class ZSN_CUP_BAF_LR_MG: CUP_B_LR_MG_GB_W
 	{
+		tf_hasLRradio = 1;
 		crew = "ZSN_EurosolWB";
 		faction = "ZSN_WEuro_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolWB"};

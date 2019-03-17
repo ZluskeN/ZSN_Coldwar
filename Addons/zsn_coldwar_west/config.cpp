@@ -480,8 +480,10 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Team Leader";
 		icon = "iconManLeader";
-		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
+//		weapons[] = {"Throw","Put","ZSN_M16A1_GL","Binocular"};
+//		respawnWeapons[] = {"Throw","Put","ZSN_M16A1_GL","Binocular"};
+		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
@@ -496,6 +498,8 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Grenadier";
+//		weapons[] = {"Throw","Put","ZSN_M16A1_GL"};
+//		respawnWeapons[] = {"Throw","Put","ZSN_M16A1_GL"};
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
@@ -788,8 +792,10 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Team Leader";
 		icon = "iconManLeader";
-		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
+//		weapons[] = {"Throw","Put","ZSN_M16A1_GL","Binocular"};
+//		respawnWeapons[] = {"Throw","Put","ZSN_M16A1_GL","Binocular"};
+		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
@@ -799,6 +805,8 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Grenadier";
+//		weapons[] = {"Throw","Put","ZSN_M16A1_GL"};
+//		respawnWeapons[] = {"Throw","Put","ZSN_M16A1_GL"};
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
