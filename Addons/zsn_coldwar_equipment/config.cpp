@@ -278,7 +278,8 @@ class CfgWeapons
 			};
 		};
 	};
-	class ZSN_SVD_des: CUP_srifle_SVD
+	class CUP_srifle_SVD_des;
+	class ZSN_SVD_des: CUP_srifle_SVD_des
 	{
 		scope = 1;
 		class LinkedItems
@@ -295,6 +296,8 @@ class CfgWeapons
 			};
 		};
 	};
+//	class CUP_srifle_SVD_wdl;
+//	class ZSN_SVD_wdl: CUP_srifle_SVD_wdl
 	class ZSN_SVD_wdl: CUP_srifle_SVD
 	{
 		scope = 1;
