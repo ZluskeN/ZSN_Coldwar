@@ -718,8 +718,9 @@ class CfgVehicles
 		icon = "iconManExplosive";
 		backpack = "ZSN_Demopack_khk";
 		uniformClass = "ZSN_Uniform_KLMK_3";
-		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\sov_uniform_ttsko_fst_co.paa"};
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier2.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_Uniform1.p3d";
+		hiddenSelections[] = {"camo","camo2","clan","insignia"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\kam_jacket_klmk.paa","\zsn_coldwar_east\lifcik_body_klmk.paa"};
 		weapons[] = {"Throw","Put","CUP_hgun_SA61","CUP_arifle_AS_VAL","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_SA61","CUP_arifle_AS_VAL","Binocular"};
 		magazines[] = {"CUP_20Rnd_B_765x17_Ball_M","CUP_20Rnd_B_765x17_Ball_M","CUP_20Rnd_B_765x17_Ball_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_20Rnd_9x39_SP5_VSS_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -2138,9 +2139,8 @@ class CfgVehicles
 	class ZSN_RangerEP: ZSN_RangerED
 	{
 		uniformClass = "ZSN_Uniform_TTsko_FST";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\CUP_Ins_Uniform1.p3d";
-		hiddenSelections[] = {"camo","camo2","clan","insignia"};
-		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\kam_jacket_klmk.paa","\zsn_coldwar_east\lifcik_body_klmk.paa"};
+		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\sov_uniform_ttsko_fst_co.paa"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier2.p3d";
 	};
 	class LandVehicle;
 	class StaticWeapon: LandVehicle
