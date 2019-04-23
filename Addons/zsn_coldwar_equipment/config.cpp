@@ -168,48 +168,29 @@ class CfgWeapons
 		class WeaponSlotsInfo;
 		class GunParticles;
 	};
-//	class CUP_arifle_M16A1;
-//	class ZSN_M16A1_GL: CUP_arifle_M16A1
-//	{
-//		author = "ZluskeN";
-//		model = "\CUP\Weapons\CUP_Weapons_M16\CUP_M16A2GL.p3d";
-//		picture = "\CUP\Weapons\CUP_Weapons_M16\data\ui\gear_M16A2GL_X_ca.paa";
-//		handAnim[] = {"OFP2_ManSkeleton","CUP\Weapons\CUP_Weapons_M16\data\anim\M16GL.rtm"};
-//		muzzles[] = {"this","M203"};
-//		inertia = 0.6;
-//		dexterity = 1.4;
-//		aimTransitionSpeed = 0.8;
-//		cameraDir = "eye_look";
-//		discreteDistanceCameraPoint[] = {"eye_100","eye","eye_300","eye_400","eye_500","eye_600"};
-//		displayName = "$STR_CUP_dn_m16a2_gl";
-//		class Library
-//		{
-//			libTextDesc = "$STR_CUP_lib_m16a2_gl";
-//		};
-//		descriptionShort = "$STR_CUP_dss_m16a2_gl";
-//		dispersion = 0.00102;
-//		hiddenSelections[] = {"camo","camo_gl"};
-//		hiddenSelectionsTextures[] = {"CUP\Weapons\CUP_Weapons_M16\data\m16a2_co.paa","CUP\Weapons\CUP_Weapons_M16\data\tigg_m203_co.paa"};
-//		class WeaponSlotsInfo: WeaponSlotsInfo
-//		{
-//			mass = 107.8;
-//			class CUP_PicatinnyTopMountM16: CUP_PicatinnyTopMount
-//			{
-//				iconPosition[] = {0.62,0.39};
-//				iconScale = 0.12;
-//				iconPicture = "\A3\Weapons_F\Data\UI\attachment_top.paa";
-//				iconPinPoint = "Bottom";
-//			};
-//			class MuzzleSlot: asdg_MuzzleSlot_556
-//			{
-//				iconPosition[] = {0.18,0.48};
-//				iconScale = 0.2;
-//				iconPicture = "\A3\Weapons_F\Data\UI\attachment_muzzle.paa";
-//				iconPinPoint = "Right";
-//			};
-//			allowedslots[] = {901};
-//		};
-//	};
+	class CUP_arifle_M16A1;
+	class ZSN_M16A1_GL: CUP_arifle_M16A1
+	{
+		author = "ZluskeN";
+		model = "\CUP\Weapons\CUP_Weapons_M16\CUP_M16A2GL.p3d";
+		picture = "\CUP\Weapons\CUP_Weapons_M16\data\ui\gear_M16A2GL_X_ca.paa";
+		handAnim[] = {"OFP2_ManSkeleton","CUP\Weapons\CUP_Weapons_M16\data\anim\M16GL.rtm"};
+		muzzles[] = {"this","M203"};
+		inertia = 0.6;
+		dexterity = 1.4;
+		aimTransitionSpeed = 0.8;
+		cameraDir = "eye_look";
+		discreteDistanceCameraPoint[] = {"eye_100","eye","eye_300","eye_400","eye_500","eye_600"};
+		displayName = "M16A1 M203";
+		class Library
+		{
+			libTextDesc = "$STR_CUP_lib_m16a2_gl";
+		};
+		descriptionShort = "$STR_CUP_dss_m16a2_gl";
+		dispersion = 0.00102;
+		hiddenSelections[] = {"camo","camo_gl"};
+		hiddenSelectionsTextures[] = {"CUP\Weapons\CUP_Weapons_M16\data\m16a2_co.paa","CUP\Weapons\CUP_Weapons_M16\data\tigg_m203_co.paa"};
+	};
 	class CUP_arifle_FNFAL;
 	class ZSN_L1A1: CUP_arifle_FNFAL
 	{
@@ -296,9 +277,8 @@ class CfgWeapons
 			};
 		};
 	};
-//	class CUP_srifle_SVD_wdl;
-//	class ZSN_SVD_wdl: CUP_srifle_SVD_wdl
-	class ZSN_SVD_wdl: CUP_srifle_SVD
+	class CUP_srifle_SVD_wdl;
+	class ZSN_SVD_wdl: CUP_srifle_SVD_wdl
 	{
 		scope = 1;
 		class LinkedItems

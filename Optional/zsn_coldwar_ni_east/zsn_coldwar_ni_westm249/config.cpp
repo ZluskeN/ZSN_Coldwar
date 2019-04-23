@@ -17,6 +17,14 @@ class CfgPatches
 		requiredAddons[] = {"ZSN_ColdWarWest","HLC_COMPAT_CUP_SAW"};
 	};
 };
+class CfgWeapons
+{
+	class CUP_lmg_minimi;
+	class ZSN_M249_SAW: CUP_lmg_minimi
+	{
+		scope = 1;
+	};
+};
 class CfgVehicles
 {
 	class B_soldier_base_F;

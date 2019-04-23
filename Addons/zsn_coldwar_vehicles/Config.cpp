@@ -3533,10 +3533,8 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_SoldierWPilot"};
 		faction = "ZSN_WMarines_ColdWar";
 	};
-//	class CUP_B_AH64_DL_USA;
-//	class ZSN_CUP_ARMY_AH64: CUP_B_AH64_DL_USA
-	class CUP_B_AH64D_DL_USA;
-	class ZSN_CUP_ARMY_AH64: CUP_B_AH64D_DL_USA
+	class CUP_B_AH64_DL_USA;
+	class ZSN_CUP_ARMY_AH64: CUP_B_AH64_DL_USA
 	{
 		scope = 2;
 		scopeCurator = 2;

@@ -187,7 +187,7 @@ class CfgVehicles
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "ZSN_pack_medic";
-//		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
+		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
@@ -196,7 +196,7 @@ class CfgVehicles
 	class ZSN_EurosolWB: ZSN_EurosolW
 	{
 		displayName = "Soldier";
-//		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
+		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
@@ -205,7 +205,7 @@ class CfgVehicles
 	class ZSN_EurosolWSniper: ZSN_EurosolW
 	{
 		displayName = "Sniper";
-//		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
+		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
 		weapons[] = {"Throw","Put","ZSN_L42A1"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L42A1"};
 		magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","zsn_wpshell","zsn_wpshell"};
@@ -218,11 +218,9 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_BAF_200rnd_762x51_bandoliers";
-//		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
-//		weapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
-//		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
-		weapons[] = {"Throw","Put","CUP_lmg_L7A2"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2"};
+		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
+		weapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
@@ -232,7 +230,7 @@ class CfgVehicles
 	{
 		displayName = "MG Assistant";
 		backpack = "ZSN_BAF_762x51_ammobelts";
-//		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
+		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
 		weapons[] = {"Throw","Put","ZSN_L1A1","Binocular"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","Binocular"};
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
@@ -244,7 +242,7 @@ class CfgVehicles
 	{
 		displayName = "AA Soldier";
 		icon = "iconManAT";
-//		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
+		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
 		weapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_FIM92Stinger"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_FIM92Stinger"};
 		magazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
@@ -256,7 +254,7 @@ class CfgVehicles
 	{
 		displayName = "Gustav Soldier";
 		icon = "iconManAT";
-//		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
+		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
 		weapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_MAAWS"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_MAAWS"};
 		magazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
@@ -268,7 +266,7 @@ class CfgVehicles
 	{
 		displayName = "Gustav Assistant";
 		backpack = "ZSN_baf_alice_Gustav";
-//		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
+		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
 		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
@@ -278,7 +276,7 @@ class CfgVehicles
 	{
 		displayName = "Section Leader";
 		icon = "iconManLeader";
-//		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
+		uniformClass = "CUP_U_B_BAF_BDU_DPM_ODBottom";
 		weapons[] = {"Throw","Put","ZSN_L1A1","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","hgun_Pistol_Signal_F","Binocular"};
 		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
@@ -384,10 +382,8 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_BAF_200rnd_762x51_bandoliers";
-//		weapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
-//		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
-		weapons[] = {"Throw","Put","CUP_lmg_L7A2"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2"};
+		weapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_L7A2_flat"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
@@ -490,8 +486,7 @@ class CfgVehicles
 		displayName = "Soldier (Garrison)";
 		genericNames = "CUP_Names_CzechMen";
 		identityTypes[] = {"Head_Euro","NoGlasses","CUP_D_Language_CZ_ACR"};
-		uniformClass = "CUP_U_O_SLA_MixedCamo";
-//		uniformClass = "CUP_U_O_SLA_Green";
+		uniformClass = "CUP_U_O_SLA_Green";
 		icon = "iconMan";
 		canCarryBackPack = 1;
 		backpack = "";

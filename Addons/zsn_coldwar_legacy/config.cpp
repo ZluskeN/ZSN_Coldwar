@@ -1,5 +1,12 @@
 class CfgPatches
 {
+	class zsn_squat
+	{
+		author = "ZluskeN";
+		units[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = {};
+	};
 	class ZSN_ColdWarWest_Plus
 	{
 		author = "ZluskeN";

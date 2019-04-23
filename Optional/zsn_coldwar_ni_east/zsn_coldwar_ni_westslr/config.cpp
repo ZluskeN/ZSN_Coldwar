@@ -17,6 +17,14 @@ class CfgPatches
 		requiredAddons[] = {"ZSN_ColdWarEuro","HLC_COMPAT_CUP_FAL"};
 	};
 };
+class CfgWeapons
+{
+	class CUP_arifle_FNFAL;
+	class ZSN_L1A1: CUP_arifle_FNFAL
+	{
+		scope = 1;
+	};
+};
 class CfgVehicles
 {
 	class B_Soldier_base_F;
