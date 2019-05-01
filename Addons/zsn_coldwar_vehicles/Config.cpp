@@ -1467,7 +1467,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierEB";
 		typicalCargo[] = {"ZSN_SoldierEB"};
 		faction = "ZSN_EArmy_ColdWar";
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_fuel_chdkz_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_fuel_chdkz_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Refuel_RU.jpg";
 	};
 	class SUD_Ural_Refuel: ZSN_CUP_MSV_Ural_Refuel
@@ -1485,7 +1485,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierEDB";
 		typicalCargo[] = {"ZSN_SoldierEDB"};
 		faction = "ZSN_EArmyD_ColdWar";
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_fuel_chdkz_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_fuel_chdkz_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Refuel_SLA.jpg";
 	};
 	class ZSN_CUP_DVMF_Ural_Refuel: ZSN_CUP_DMSV_Ural_Refuel
@@ -1505,7 +1505,7 @@ class cfgvehicles
 		crew = "SUD_USSR_Soldier_Repair";
 		typicalCargo[] = {"SUD_USSR_Soldier_Repair"};
 		faction = "ZSN_EArmy_ColdWar";
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Repair_RU.jpg";
 		class TransportItems
 		{
@@ -1531,7 +1531,7 @@ class cfgvehicles
 		crew = "SUD_DUSSR_Soldier_Repair";
 		typicalCargo[] = {"SUD_DUSSR_Soldier_Repair"};
 		faction = "ZSN_EArmyD_ColdWar";
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Repair_SLA.jpg";
 	};
 	class ZSN_CUP_DVMF_Ural_Repair: ZSN_CUP_DMSV_Ural_Repair
@@ -1551,7 +1551,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierEB";
 		typicalCargo[] = {"ZSN_SoldierEB"};
 		faction = "ZSN_EArmy_ColdWar";
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Reammo_RU.jpg";
 		maximumLoad = 20000;
     		ace_rearm_defaultSupply = 10000;
@@ -1671,7 +1671,7 @@ class cfgvehicles
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Reammo_RU.jpg";
 		maximumLoad = 20000;
     		ace_rearm_defaultSupply = 10000;
@@ -1793,7 +1793,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierEDB";
 		typicalCargo[] = {"ZSN_SoldierEDB"};
 		faction = "ZSN_EArmyD_ColdWar";
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Reammo_SLA.jpg";
 	};
 	class ZSN_CUP_DVMF_Ural_Reammo: ZSN_CUP_VMF_Ural_Reammo
@@ -1801,7 +1801,7 @@ class cfgvehicles
 		crew = "ZSN_MarineEDB";
 		typicalCargo[] = {"ZSN_MarineEDB"};
 		faction = "ZSN_EMarinesD_ColdWar";
-		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_O_Ural_Reammo_SLA.jpg";
 	};
 	class B_Truck_01_transport_F;
