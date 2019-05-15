@@ -2,7 +2,7 @@
 
 This is a Cold War era compilation mod, which introduces Soviet and US factions from the late 80's.
 
-It also includes a bunch of optional configs for RH M16 pack, NI Arms AK pack and RHS mod
+It also includes a bunch of optional configs for NI Arms AK pack and RHS mod
 
 ## Build locally
 
