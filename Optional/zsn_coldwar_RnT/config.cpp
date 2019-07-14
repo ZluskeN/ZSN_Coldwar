@@ -141,4 +141,44 @@ class CfgVehicles
 		crew = "ZSN_GersolWCrew";
 		typicalCargo[] = {"ZSN_GersolWCrew"};
 	};
+	class rnt_lkw_10t_mil_gl_kat_i_repair_fleck;
+	class ZSN_rnt_lkw_10t_mil_gl_kat_i_repair_fleck: rnt_lkw_10t_mil_gl_kat_i_repair_fleck
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class rnt_lkw_5t_mil_gl_kat_i_fuel_fleck;
+	class ZSN_rnt_lkw_5t_mil_gl_kat_i_fuel_fleck: rnt_lkw_5t_mil_gl_kat_i_fuel_fleck
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class rnt_lkw_5t_mil_gl_kat_i_transport_fleck;
+	class ZSN_rnt_lkw_5t_mil_gl_kat_i_transport_fleck: rnt_lkw_5t_mil_gl_kat_i_transport_fleck
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class rnt_lkw_7t_mil_gl_kat_i_mun_fleck;
+	class ZSN_rnt_lkw_7t_mil_gl_kat_i_mun_fleck: rnt_lkw_7t_mil_gl_kat_i_mun_fleck
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class rnt_lkw_7t_mil_gl_kat_i_transport_fleck;
+	class ZSN_rnt_lkw_7t_mil_gl_kat_i_transport_fleck: rnt_lkw_7t_mil_gl_kat_i_transport_fleck
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
 };

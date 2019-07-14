@@ -892,7 +892,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "TakistaniMen";
 		identityTypes[] = {"Head_TK","NoGlasses","LanguagePER_F","G_IRAN_default"};
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_crewman.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier2.p3d";
 		uniformClass = "ZSN_U_I_TK_MixedCamo";
 		hiddenSelectionsTextures[] = {"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\data\tak_soldier_mixed_co.paa"};
 		canCarryBackPack = 1;
@@ -1007,7 +1007,7 @@ class CfgVehicles
 	class ZSN_GersolW: B_Soldier_base_F {};
 	class ZSN_GersolWPilot: ZSN_GersolW
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "Pilot";
 		icon = "iconManEngineer";
 		backpack = "";
@@ -1025,7 +1025,7 @@ class CfgVehicles
 	};
 	class ZSN_GersolWCrew: ZSN_GersolW
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "Crew";
 		icon = "iconManEngineer";
 		backpack = "";
