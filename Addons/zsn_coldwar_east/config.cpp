@@ -1010,7 +1010,7 @@ class CfgVehicles
 		backpack = "ZSN_DemoPack_cbr";
 		uniformClass = "CUP_U_O_RUS_Flora_3";
 		hiddenSelections[] = {"Camo","clan","insignia"};
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier2.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier3.p3d";
 		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\sov_uniform_ttsko_mnt_co.paa"};
 		weapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","CUP_arifle_AK107","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_PB6P9_snds","CUP_arifle_AK107","Binocular"};
@@ -1601,7 +1601,7 @@ class CfgVehicles
 		picture = "";
 		icon = "iconMan";
 		//model = "DiscloseAfghanData\Berezka.p3d";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier1.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier2.p3d";
 		uniformClass = "CUP_U_O_RUS_Flora_2_VDV";
 		hiddenSelections[] = {"Camo","clan","insignia"};
 		hiddenSelectionsTextures[] = {"\zsn_coldwar_east\uniform_vdv.paa"};

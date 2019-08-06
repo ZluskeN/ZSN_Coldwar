@@ -370,6 +370,7 @@ class CfgWeapons
 		picture = "\A3\Weapons_F_Exp\Launchers\RPG32\Data\UI\launch_RPG32_ghex_F_X_CA.paa";
 		magazines[] = {"RPG32_F","RPG32_HE_F","TMR_RPG32_Smoke_F","TMR_RPG32_TB_F"};
 		hiddenSelectionsTextures[] = {"\zsn_coldwar_equipment\launch_RPG29_F_co.paa","\A3\Weapons_F\Launchers\RPG32\data\RPG_32_optics_CO.paa"};
+		//hiddenSelectionsTextures[] = {"\A3\Weapons_F_Enoch\Launchers\RPG32\Data\RPG_32_body_RUgrn_CO.paa","\A3\Weapons_F\Launchers\RPG32\data\RPG_32_optics_CO.paa"};
 	};
 	class UniformItem;
 	class VestItem;

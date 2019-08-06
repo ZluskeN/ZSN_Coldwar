@@ -1011,6 +1011,7 @@ class CfgVehicles
 		displayName = "Pilot";
 		icon = "iconManEngineer";
 		backpack = "";
+		faction = "ZSN_WGer_ColdWar";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_Euro","CUP_G_ARMY"};
 		uniformClass = "CUP_U_I_RACS_PilotOverall";
 		//uniformClass = "CUP_U_B_GER_Flecktarn_2";
@@ -1029,6 +1030,7 @@ class CfgVehicles
 		displayName = "Crew";
 		icon = "iconManEngineer";
 		backpack = "";
+		faction = "ZSN_WGer_ColdWar";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_Euro","CUP_G_ARMY"};
 		uniformClass = "CUP_U_I_RACS_PilotOverall";
 		//uniformClass = "CUP_U_B_GER_Flecktarn_2";

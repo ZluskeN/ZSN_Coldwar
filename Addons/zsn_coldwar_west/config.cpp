@@ -713,8 +713,8 @@ class CfgVehicles
 		icon = "iconManRecon";
 		weapons[] = {"Throw","Put","ZSN_CUP_srifle_M21"};
 		respawnWeapons[] = {"Throw","Put","ZSN_CUP_srifle_M21"};
-		magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","zsn_wpshell","zsn_wpshell"};
-		respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","zsn_wpshell","zsn_wpshell"};
+		magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","zsn_wpshell","zsn_wpshell"};
 		linkedItems[] = {"V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Ghillie_Top.p3d";

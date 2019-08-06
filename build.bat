@@ -79,3 +79,4 @@ for /D %%s in (Optional\*) do (
 
 REM Remove drive mapping
 subst p: /d
+pause
