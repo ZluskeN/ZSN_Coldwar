@@ -485,11 +485,6 @@ class CfgVehicles
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class SUD_USSR_Soldier_Medic: ZSN_SoldierEMedic
-	{
-		scope = 1;
-		displayName = "$STR_B_medic_F0";
-	};
 	class ZSN_SoldierEDriver: ZSN_SoldierE
 	{
 		scope = 2;
@@ -501,21 +496,6 @@ class CfgVehicles
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_CDF_6B3_4_FST","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_CDF_6B3_4_FST","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class SUD_USSR_Soldier_Sapper: ZSN_SoldierEDriver
-	{
-		scope = 1;
-		displayName = "$STR_B_soldier_exp_F0";
-	};
-	class SUD_USSR_Soldier_Repair: ZSN_SoldierEDriver
-	{
-		scope = 2;
-		displayName = "$STR_B_soldier_repair_F0";
-		engineer = 1;
-		detectSkill = 40;
-		icon = "iconManEngineer";
-		picture = "pictureRepair";
-		backpack = "ZSN_RD54_Repair";
-	};
 	class ZSN_SoldierEB: ZSN_SoldierE
 	{
 		scope = 2;
@@ -524,11 +504,6 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
-	};
-	class SUD_USSR_Soldier: ZSN_SoldierEB
-	{
-		scope = 1;
-		displayName = "$STR_A3_CfgVehicles_B_Soldier_F0";
 	};
 	class ZSN_SoldierEMG: ZSN_SoldierE
 	{
@@ -542,11 +517,6 @@ class CfgVehicles
 		respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch"};
-	};
-	class SUD_USSR_Soldier_AR: ZSN_SoldierEMG
-	{
-		scope = 1;
-		displayName = "$STR_B_Soldier_AR_F0";
 	};
 	class ZSN_SoldierEMGAss: ZSN_SoldierE
 	{
@@ -571,19 +541,6 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_RPG18_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
-	};
-	class SUD_USSR_Soldier_AT: ZSN_SoldierE
-	{
-		scope = 1;
-		displayName = "$STR_B_Soldier_LAT_F0";
-		icon = "iconManAT";
-		backpack = "ZSN_csla_rpg_pack_rpg7";
-		weapons[] = {"Throw","Put","CUP_arifle_AK74","CUP_launch_RPG7V"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_AK74","CUP_launch_RPG7V"};
-		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt02","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierESniper: ZSN_SoldierE
 	{
@@ -644,11 +601,6 @@ class CfgVehicles
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt03","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt03","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
-	class SUD_USSR_Soldier_TL: ZSN_SoldierELeader
-	{
-		scope = 1;
-		displayName = "$STR_B_Soldier_TL_F0";
-	};
 	class ZSN_SoldierEG: ZSN_SoldierE
 	{
 		scope = 2;
@@ -659,11 +611,6 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_FlareWhite_GP25_M","CUP_FlareWhite_GP25_M"};
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
-	};
-	class SUD_USSR_Soldier_GL: ZSN_SoldierEG
-	{
-		scope = 1;
-		displayName = "$STR_B_Soldier_GL_F0";
 	};
 	class ZSN_SoldierEAT: ZSN_SoldierE
 	{
@@ -676,11 +623,6 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_AT13_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
-	};
-	class SUD_USSR_Soldier_HAT: ZSN_SoldierEAT
-	{
-		scope = 1;
-		displayName = "$STR_B_Soldier_AT_F0";
 	};
 	class ZSN_SoldierEATAss: ZSN_SoldierE
 	{
@@ -705,11 +647,6 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_Igla_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
-	};
-	class SUD_USSR_Soldier_AA: ZSN_SoldierEAA
-	{
-		scope = 1;
-		displayName = "$STR_B_soldier_AA_F0";
 	};
 	class ZSN_SoldierESaboteur: ZSN_SoldierE
 	{
@@ -749,11 +686,6 @@ class CfgVehicles
 		RespawnItems[] = {"H_Bandanna_cbr","Firstaidkit","Firstaidkit","ACE_Flashlight_KSF1","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_CDF_OfficerBelt2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_TankerHelmet","CUP_V_CDF_OfficerBelt2","ItemMap","ItemCompass","ItemWatch"};
-	};
-	class SUD_USSR_Soldier_Crew: ZSN_SoldierECrew
-	{
-		scope = 1;
-		displayName = "$STR_B_crew_F0";
 	};
 	class ZSN_SoldierED: O_Soldier_base_F
 	{
@@ -835,16 +767,6 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		linkedItems[] = {"CUP_H_SLA_Helmet_DES","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_SLA_Helmet_DES","CUP_V_O_SLA_Carrier_Belt","ItemMap","ItemCompass","ItemWatch"};
-	};
-	class SUD_DUSSR_Soldier_Repair: ZSN_SoldierEDB
-	{
-		scope = 2;
-		displayName = "$STR_B_soldier_repair_F0";
-		engineer = 1;
-		detectSkill = 40;
-		icon = "iconManEngineer";
-		picture = "pictureRepair";
-		backpack = "ZSN_RD54_Repair";
 	};
 	class ZSN_SoldierEDMG: ZSN_SoldierED
 	{
@@ -1025,11 +947,6 @@ class CfgVehicles
 			tex[] = {};
 			mat[] = {"A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
 		};
-	};
-	class SUD_USSR_Soldier_Specop: ZSN_SoldierEDSaboteur
-	{
-		scope = 1;
-		displayName = "$STR_B_recon_F0";
 	};
 	class ZSN_SoldierEDCrew: ZSN_SoldierED
 	{
@@ -1860,11 +1777,6 @@ class CfgVehicles
 		linkedItems[] = {"CUP_H_RUS_ZSH_Shield_Up","CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"CUP_H_RUS_ZSH_Shield_Up","CUP_V_I_Carrier_Belt","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
-	class SUD_USSR_Soldier_Pilot: ZSN_SoldierEPilot
-	{
-		scope = 1;
-		displayName = "Pilot";
-	};
 	class ZSN_RangerED: O_Soldier_base_F
 	{
 		author = "ZluskeN";
@@ -2151,14 +2063,16 @@ class CfgVehicles
 		};
 	};
 	class StaticMGWeapon;
-	class CUP_DSHKM_base;
-	class CUP_I_DSHKM_TK_GUE;
-	class ZSN_M2StaticMGE: CUP_I_DSHKM_TK_GUE
+	class CUP_KORD_Base;
+	class CUP_KORD_High_Base;
+	class CUP_O_KORD_high_TK;
+	class ZSN_M2StaticMGE: CUP_O_KORD_high_TK
 	{
 		scopeArsenal = 2;
 		scope = 2;
 		scopeCurator = 2;
 		side = 0;
+		displayname = "NSV";
 		faction = "ZSN_EArmy_ColdWar";
 		crew = "ZSN_SoldierEB";
 		typicalCargo[] = {"ZSN_SoldierEB"};
@@ -2194,14 +2108,15 @@ class CfgVehicles
 		crew = "ZSN_RangerEDB";
 		typicalCargo[] = {"ZSN_RangerEDB"};
 	};
-	class CUP_DSHKM_MiniTripod_base;
-	class CUP_I_DSHkM_MiniTriPod_TK_GUE;
-	class ZSN_M2LowMGE: CUP_I_DSHkM_MiniTriPod_TK_GUE
+	class CUP_KORD_MiniTripod_Base;
+	class CUP_O_KORD_TK;
+	class ZSN_M2LowMGE: CUP_O_KORD_TK
 	{
 		scopeArsenal = 2;
 		scope = 2;
 		scopeCurator = 2;
 		side = 0;
+		displayname = "NSV Minitripod";
 		faction = "ZSN_EArmy_ColdWar";
 		crew = "ZSN_SoldierEB";
 		typicalCargo[] = {"ZSN_SoldierEB"};

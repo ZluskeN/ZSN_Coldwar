@@ -199,6 +199,24 @@ class CfgWeapons
 		modes[] = {"Single"};
 		model = "CUP\Weapons\CUP_Weapons_FNFAL\CUP_fnfal5061.p3d";
 	};
+	class CUP_arifle_G3A3_modern_ris_black;
+	class zsn_G3SG1: CUP_arifle_G3A3_modern_ris_black
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CowsSlot";
+				item = "cup_optic_leupoldm3lr_pip";
+			};
+			class LinkedItemsUnder
+			{
+				slot = "UnderBarrelSlot";
+				item = "CUP_bipod_G3SG1";
+			};
+		};
+	};
 	class CUP_srifle_LeeEnfield;
 	class CUP_srifle_LeeEnfield_rail;
 	class ZSN_L42A1: CUP_srifle_LeeEnfield_rail
@@ -814,7 +832,25 @@ class CfgVehicles
 		};
 	};
 	class CUP_B_RUS_Backpack;
-	class ZSN_762x51_MG3_ammobelts: CUP_B_RUS_Backpack
+	class ZSN_ger_alice_Gustav: CUP_B_RUS_Backpack
+	{
+		author = "ZluskeN";
+		scope = 1;
+		allowedSlots[] = {501,601,701,801,901};
+		displayName = "Alice Pack, Gustav";
+		mapSize = 2;
+		maximumLoad = 210;
+		mass = 60;
+		class TransportMagazines
+		{
+			class _xx_CUP_MAAWS_HEAT_M
+			{
+				magazine = "CUP_MAAWS_HEAT_M";
+				count = 3;
+			};
+		};
+	};
+	class ZSN_GER_MG3_ammobelts: CUP_B_RUS_Backpack
 	{
 		scope = 1;
 		displayName = "Linked 7.62x51, 480 rnd";
@@ -827,6 +863,28 @@ class CfgVehicles
 			{
 				magazine = "CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count = 4;
+			};
+		};
+	};
+	class ZSN_GER_250rnd_MG3_bandoliers: CUP_B_RUS_Backpack
+	{
+		scope = 1;
+		displayName = "MG Bag";
+		icon = "iconBackpack";
+		mapSize = 2;
+		maximumLoad = 108;
+		allowedSlots[] = {901,801};
+		class TransportMagazines
+		{
+			class _xx_CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
+			{
+				magazine = "CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
+				count = 1;
+			};
+			class _xx_ACE_SpareBarrel
+			{
+				magazine = "ACE_SpareBarrel";
+				count = 1;
 			};
 		};
 	};
