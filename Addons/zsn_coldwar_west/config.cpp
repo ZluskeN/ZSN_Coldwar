@@ -188,9 +188,9 @@ class CfgVehicles
 				magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 				count = 48;
 			};
-			class _xx_200Rnd_556x45_Box_Tracer_Red_F
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
 			{
-				magazine = "200Rnd_556x45_Box_Tracer_Red_F";
+				magazine = "CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
 				count = 20;
 			};
 			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
@@ -280,7 +280,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_NATO"};
-		uniformClass = "CUP_U_B_US_BDU";
+		uniformClass = "CUP_U_B_BDUv2_M81";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A1"};
@@ -297,14 +297,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "LMG Soldier";
 		icon = "iconManMG";
+		backpack = "ZSN_200rnd_556x45_bag_OD";
 		weapons[] = {"Throw","Put","ZSN_M249_SAW"};
 		respawnWeapons[] = {"Throw","Put","ZSN_M249_SAW"};
-		magazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		magazines[] = {"30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWMedic: ZSN_SoldierW
 	{
@@ -315,10 +314,8 @@ class CfgVehicles
 		backpack = "ZSN_pack_medic";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWRTO: ZSN_SoldierW
 	{
@@ -328,10 +325,8 @@ class CfgVehicles
 		backpack = "ZSN_minepack_west_OD";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWB: ZSN_SoldierW
 	{
@@ -339,10 +334,18 @@ class CfgVehicles
 		displayName = "Soldier";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_SoldierWR: ZSN_SoldierWB
+	{
+		scope = 2;
+		engineer = 1;
+		detectSkill = 40;
+		icon = "iconManEngineer";
+		picture = "pictureRepair";
+		displayName = "$STR_B_soldier_repair_F0";
+		backPack = "ZSN_ALICE_Repair_OD";
 	};
 	class ZSN_SoldierWMG: ZSN_SoldierW
 	{
@@ -350,16 +353,12 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers_OD";
-		//weapons[] = {"Throw","Put","CUP_lmg_M60"};
-		//respawnWeapons[] = {"Throw","Put","CUP_lmg_M60"};
-		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		weapons[] = {"Throw","Put","CUP_lmg_M60"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWMGAss: ZSN_SoldierW
 	{
@@ -370,10 +369,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWLAW: ZSN_SoldierW
 	{
@@ -384,10 +381,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","CUP_launch_M72A6"};
 		magazines[] = {"CUP_M72A6_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_M72A6_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWSniper: ZSN_SoldierW
 	{
@@ -421,10 +416,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","zsn_wpshell","zsn_wpshell"};
 		linkedItems[] = {"CUP_H_US_patrol_cap_WDL","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"CUP_H_US_patrol_cap_WDL","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};	
-		//Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_plain_M81"};
-		//RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_plain_M81"};
-		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_m81"};
-		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_m81"};
+		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_plain_M81"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_plain_M81"};
 	};
 	class ZSN_SoldierWNCO: ZSN_SoldierW
 	{
@@ -435,41 +428,31 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","hgun_Pistol_Signal_F","Binocular"};
 		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_SoldierWLeader: ZSN_SoldierW
 	{
 		scope = 2;
 		displayName = "Team Leader";
 		icon = "iconManLeader";
-		//weapons[] = {"Throw","Put","CUP_arifle_M16A1GL","Binocular"};
-		//respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1GL","Binocular"};
-		weapons[] = {"Throw","Put","ZSN_M16A1_GL","Binocular"};
-		respawnWeapons[] = {"Throw","Put","ZSN_M16A1_GL","Binocular"};
+		weapons[] = {"Throw","Put","CUP_arifle_M16A1GL","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1GL","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_SoldierWG: ZSN_SoldierW
 	{
 		scope = 2;
 		displayName = "Grenadier";
-		//weapons[] = {"Throw","Put","CUP_arifle_M16A1GL"};
-		//respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1GL"};
-		weapons[] = {"Throw","Put","ZSN_M16A1_GL"};
-		respawnWeapons[] = {"Throw","Put","ZSN_M16A1_GL"};
+		weapons[] = {"Throw","Put","CUP_arifle_M16A1GL"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1GL"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWAT: ZSN_SoldierW
 	{
@@ -480,10 +463,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","CUP_launch_M47"};
 		magazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWATAss: ZSN_SoldierW
 	{
@@ -494,10 +475,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","ZSN_Rangefinder"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWAA: ZSN_SoldierW
 	{
@@ -508,10 +487,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","CUP_launch_FIM92Stinger"};
 		magazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_M81","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWSaboteur: ZSN_Soldierw
 	{
@@ -520,10 +497,10 @@ class CfgVehicles
 		icon = "iconManExplosive";
 		uniformClass = "CUP_I_B_PMC_Unit_24";
 		backpack = "ZSN_demopack_blk";
-		weapons[] = {"Throw","Put","CUP_hgun_MicroUzi","CUP_smg_MP5SD6","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_hgun_MicroUzi","CUP_smg_MP5SD6","Binocular"};
-		magazines[] = {"CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		weapons[] = {"Throw","Put","zsn_glocks","CUP_smg_MP5SD6","Binocular"};
+		respawnWeapons[] = {"Throw","Put","zsn_glocks","CUP_smg_MP5SD6","Binocular"};
+		magazines[] = {"CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		Items[] = {"CUP_RUS_Balaclava_blk","Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		RespawnItems[] = {"CUP_RUS_Balaclava_blk","Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"H_Watchcap_blk","CUP_NVG_PVS7","ZSN_Black_Op_Vest","ItemMap","ItemCompass","ItemWatch","Itemradio"};
@@ -540,8 +517,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
 		Items[] = {"CUP_H_US_patrol_cap_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
 		RespawnItems[] = {"CUP_H_US_patrol_cap_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
-		linkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWD: B_Soldier_base_F
 	{
@@ -556,7 +533,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_NATO"};
-		uniformClass = "CUP_U_B_US_BDU_desert";
+		uniformClass = "CUP_U_B_BDUv2_desert";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A1"};
@@ -573,14 +550,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "LMG Soldier";
 		icon = "iconManMG";
+		backpack = "ZSN_200rnd_556x45_bag_khaki";
 		weapons[] = {"Throw","Put","ZSN_M249_SAW"};
 		respawnWeapons[] = {"Throw","Put","ZSN_M249_SAW"};
-		magazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		magazines[] = {"30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDMedic: ZSN_SoldierWD
 	{
@@ -591,10 +567,8 @@ class CfgVehicles
 		backpack = "ZSN_pack_medic";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDRTO: ZSN_SoldierWD
 	{
@@ -604,10 +578,8 @@ class CfgVehicles
 		backpack = "ZSN_minepack_west";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDB: ZSN_SoldierWD
 	{
@@ -615,10 +587,18 @@ class CfgVehicles
 		displayName = "Soldier";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_SoldierWDR: ZSN_SoldierWDB
+	{
+		scope = 2;
+		engineer = 1;
+		detectSkill = 40;
+		icon = "iconManEngineer";
+		picture = "pictureRepair";
+		displayName = "$STR_B_soldier_repair_F0";
+		backPack = "ZSN_ALICE_Repair_khaki";
 	};
 	class ZSN_SoldierWDMG: ZSN_SoldierWD
 	{
@@ -626,16 +606,12 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers";
-		//weapons[] = {"Throw","Put","CUP_lmg_M60"};
-		//respawnWeapons[] = {"Throw","Put","CUP_lmg_M60"};
-		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		weapons[] = {"Throw","Put","CUP_lmg_M60"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDMGAss: ZSN_SoldierWD
 	{
@@ -646,10 +622,8 @@ class CfgVehicles
 		backpack = "ZSN_762x51_ammobelts";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDLAW: ZSN_SoldierWD
 	{
@@ -660,10 +634,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","CUP_launch_M72A6"};
 		magazines[] = {"CUP_M72A6_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_M72A6_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDHAT: ZSN_SoldierWD
 	{
@@ -675,10 +647,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","CUP_launch_MAAWS"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDSniper: ZSN_SoldierWD
 	{
@@ -712,10 +682,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","zsn_wpshell","zsn_wpshell"};
 		linkedItems[] = {"CUP_H_US_patrol_cap_desert","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"CUP_H_US_patrol_cap_desert","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		//Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_plain_Vine"};
-		//RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_plain_Vine"};
-		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_Vine"};
-		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_Vine"};
+		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_plain_Vine"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_plain_Vine"};
 	};
 	class ZSN_SoldierWDNCO: ZSN_SoldierWD
 	{
@@ -726,41 +694,31 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","hgun_Pistol_Signal_F","Binocular"};
 		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_SoldierWDLeader: ZSN_SoldierWD
 	{
 		scope = 2;
 		displayName = "Team Leader";
 		icon = "iconManLeader";
-		//weapons[] = {"Throw","Put","CUP_arifle_M16A1GL","Binocular"};
-		//respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1GL","Binocular"};
-		weapons[] = {"Throw","Put","ZSN_M16A1_GL","Binocular"};
-		respawnWeapons[] = {"Throw","Put","ZSN_M16A1_GL","Binocular"};
+		weapons[] = {"Throw","Put","CUP_arifle_M16A1GL","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1GL","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_SoldierWDG: ZSN_SoldierWD
 	{
 		scope = 2;
 		displayName = "Grenadier";
-		//weapons[] = {"Throw","Put","CUP_arifle_M16A1GL"};
-		//respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1GL"};
-		weapons[] = {"Throw","Put","ZSN_M16A1_GL"};
-		respawnWeapons[] = {"Throw","Put","ZSN_M16A1_GL"};
+		weapons[] = {"Throw","Put","CUP_arifle_M16A1GL"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1GL"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDAT: ZSN_SoldierWD
 	{
@@ -771,10 +729,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","CUP_launch_M47"};
 		magazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDATAss: ZSN_SoldierWD
 	{
@@ -785,10 +741,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","ZSN_Rangefinder"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDAA: ZSN_SoldierWD
 	{
@@ -799,10 +753,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A1","CUP_launch_FIM92Stinger"};
 		magazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		//linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		//respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Vine","CUP_V_B_ALICE","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDSaboteur: ZSN_SoldierWD
 	{
@@ -810,13 +762,13 @@ class CfgVehicles
 		displayName = "Black Op (Day)";
 		icon = "iconManExplosive";
 		backpack = "ZSN_demopack_oli";
-		uniformClass = "CUP_U_B_US_BDU_Roll_Glove";
-		weapons[] = {"Throw","Put","CUP_hgun_glock17_blk_snds","CUP_arifle_Colt727","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_hgun_glock17_blk_snds","CUP_arifle_Colt727","Binocular"};
-		magazines[] = {"CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		Items[] = {"Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR"};
+		uniformClass = "CUP_U_B_BDUv2_gloves_dirty_M81";
+		weapons[] = {"Throw","Put","CUP_hgun_Mac10","CUP_arifle_Colt727","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_hgun_Mac10","CUP_arifle_Colt727","Binocular"};
+		magazines[] = {"CUP_30Rnd_45ACP_MAC10_M","CUP_30Rnd_45ACP_MAC10_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_30Rnd_45ACP_MAC10_M","CUP_30Rnd_45ACP_MAC10_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		Items[] = {"Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR","cup_muzzle_mfsup_suppressor_mac10"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR","cup_muzzle_mfsup_suppressor_mac10"};
 		linkedItems[] = {"H_Helmet_skate","V_TacVest_oli","CUP_PMC_Facewrap_Black","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"H_Helmet_skate","V_TacVest_oli","CUP_PMC_Facewrap_Black","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
@@ -831,8 +783,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
 		Items[] = {"CUP_H_US_patrol_cap_desert","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
 		RespawnItems[] = {"CUP_H_US_patrol_cap_desert","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
-		linkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineW: B_Soldier_base_F
 	{
@@ -847,7 +799,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_NATO"};
-		uniformClass = "CUP_U_B_US_BDU";
+		uniformClass = "CUP_U_B_BDUv2_roll_dirty_M81";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2"};
@@ -864,12 +816,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "LMG Soldier";
 		icon = "iconManMG";
+		backpack = "ZSN_200rnd_556x45_bag_OD";
 		weapons[] = {"Throw","Put","ZSN_M249_SAW"};
 		respawnWeapons[] = {"Throw","Put","ZSN_M249_SAW"};
-		magazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWMedic: ZSN_MarineW
 	{
@@ -880,8 +833,8 @@ class CfgVehicles
 		backpack = "ZSN_pack_medic";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWRTO: ZSN_MarineW
 	{
@@ -891,8 +844,8 @@ class CfgVehicles
 		backpack = "ZSN_minepack_west_OD";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWB: ZSN_MarineW
 	{
@@ -900,8 +853,8 @@ class CfgVehicles
 		displayName = "Soldier";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWMG: ZSN_MarineW
 	{
@@ -909,12 +862,12 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers_OD";
-		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		weapons[] = {"Throw","Put","CUP_lmg_FNMAG"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_FNMAG"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWMGAss: ZSN_MarineW
 	{
@@ -925,8 +878,8 @@ class CfgVehicles
 		backpack = "ZSN_762x51_ammobelts_OD";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWLAW: ZSN_MarineW
 	{
@@ -937,8 +890,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M72A6_Special"};
 		magazines[] = {"CUP_M72A6_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_M72A6_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWHAT: ZSN_MarineW
 	{
@@ -949,8 +902,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_Mk153Mod0_SMAWOptics"};
 		magazines[] = {"CUP_SMAW_Spotting","CUP_SMAW_HEAA_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_SMAW_Spotting","CUP_SMAW_HEAA_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWHATAss: ZSN_MarineW
 	{
@@ -959,8 +912,8 @@ class CfgVehicles
 		backpack = "ZSN_alice_smaw_OD";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWSniper: ZSN_MarineW
 	{
@@ -992,8 +945,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_Colt1911","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_USMC_CAP_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_USMC_CAP_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USMC_CAP_WDL","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USMC_CAP_WDL","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_m81"};
 		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_m81"};
 	};
@@ -1006,8 +959,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
 		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_MarineWLeader: ZSN_MarineW
 	{
@@ -1018,8 +971,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_MarineWG: ZSN_MarineW
 	{
@@ -1029,8 +982,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWAT: ZSN_MarineW
 	{
@@ -1041,8 +994,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M47"};
 		magazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWATAss: ZSN_MarineW
 	{
@@ -1053,8 +1006,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","ZSN_Rangefinder"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWAA: ZSN_MarineW
 	{
@@ -1065,8 +1018,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_FIM92Stinger"};
 		magazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_m81","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWCrew: ZSN_MarineW
 	{
@@ -1095,7 +1048,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_NATO"};
-		uniformClass = "CUP_U_B_US_BDU_desert";
+		uniformClass = "CUP_U_B_BDUv2_roll_dirty_desert";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2"};
@@ -1112,12 +1065,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "LMG Soldier";
 		icon = "iconManMG";
+		backpack = "ZSN_200rnd_556x45_bag_khaki";
 		weapons[] = {"Throw","Put","ZSN_M249_SAW"};
 		respawnWeapons[] = {"Throw","Put","ZSN_M249_SAW"};
-		magazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDMedic: ZSN_MarineWD
 	{
@@ -1128,8 +1082,8 @@ class CfgVehicles
 		backpack = "ZSN_pack_medic";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDRTO: ZSN_MarineWD
 	{
@@ -1139,8 +1093,8 @@ class CfgVehicles
 		backpack = "ZSN_minepack_west";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDB: ZSN_MarineWD
 	{
@@ -1148,8 +1102,8 @@ class CfgVehicles
 		displayName = "Soldier";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDMG: ZSN_MarineWD
 	{
@@ -1157,12 +1111,12 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers";
-		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		weapons[] = {"Throw","Put","CUP_lmg_FNMAG"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_FNMAG"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDMGAss: ZSN_MarineWD
 	{
@@ -1173,8 +1127,8 @@ class CfgVehicles
 		backpack = "ZSN_762x51_ammobelts";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDLAW: ZSN_MarineWD
 	{
@@ -1185,8 +1139,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M72A6_Special"};
 		magazines[] = {"CUP_M72A6_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_M72A6_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDHAT: ZSN_MarineWD
 	{
@@ -1197,8 +1151,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_Mk153Mod0_SMAWOptics"};
 		magazines[] = {"CUP_SMAW_Spotting","CUP_SMAW_HEAA_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_SMAW_Spotting","CUP_SMAW_HEAA_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDHATAss: ZSN_MarineWD
 	{
@@ -1207,8 +1161,8 @@ class CfgVehicles
 		backpack = "ZSN_alice_smaw";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDSniper: ZSN_MarineWD
 	{
@@ -1240,8 +1194,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_hgun_Colt1911","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_USMC_CAP_DES","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_USMC_CAP_DES","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USMC_CAP_DES","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USMC_CAP_DES","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_Vine"};
 		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_USArmy_Helmet_M1_Vine"};
 	};
@@ -1254,8 +1208,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
 		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_MarineWDLeader: ZSN_MarineWD
 	{
@@ -1266,8 +1220,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_MarineWDG: ZSN_MarineWD
 	{
@@ -1277,8 +1231,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDAT: ZSN_MarineWD
 	{
@@ -1289,8 +1243,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M47"};
 		magazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDATAss: ZSN_MarineWD
 	{
@@ -1301,8 +1255,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","ZSN_Rangefinder"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDAA: ZSN_MarineWD
 	{
@@ -1313,8 +1267,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_FIM92Stinger"};
 		magazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_Vine","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineWDCrew: ZSN_MarineWD
 	{
@@ -1330,7 +1284,7 @@ class CfgVehicles
 		linkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_desert","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_desert","ItemMap","ItemCompass","ItemWatch"};
 	};
-	class ZSN_Rangerw: B_Soldier_base_F
+	class ZSN_RangerW: B_Soldier_base_F
 	{
 		author = "ZluskeN";
 		scope = 1;
@@ -1343,7 +1297,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_NATO"};
-		uniformClass = "CUP_U_B_US_BDU";
+		uniformClass = "CUP_U_B_BDUv2_roll2_M81";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2"};
@@ -1360,12 +1314,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "LMG Soldier";
 		icon = "iconManMG";
+		backpack = "ZSN_200rnd_556x45_bag_OD";
 		weapons[] = {"Throw","Put","ZSN_M249_SAW"};
 		respawnWeapons[] = {"Throw","Put","ZSN_M249_SAW"};
-		magazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		magazines[] = {"CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWMedic: ZSN_Rangerw
 	{
@@ -1376,8 +1331,8 @@ class CfgVehicles
 		backpack = "ZSN_pack_medic";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWRTO: ZSN_Rangerw
 	{
@@ -1387,8 +1342,8 @@ class CfgVehicles
 		backpack = "ZSN_minepack_west_OD";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","CUP_V_B_PASGT","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWB: ZSN_Rangerw
 	{
@@ -1396,8 +1351,8 @@ class CfgVehicles
 		displayName = "Soldier";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWMG: ZSN_Rangerw
 	{
@@ -1405,14 +1360,12 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers_OD";
-		//weapons[] = {"Throw","Put","CUP_lmg_M60"};
-		//respawnWeapons[] = {"Throw","Put","CUP_lmg_M60"};
-		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		weapons[] = {"Throw","Put","CUP_lmg_M60"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWMGAss: ZSN_Rangerw
 	{
@@ -1423,8 +1376,8 @@ class CfgVehicles
 		backpack = "ZSN_762x51_ammobelts_OD";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWLAW: ZSN_Rangerw
 	{
@@ -1435,8 +1388,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M136"};
 		magazines[] = {"CUP_M136_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_M136_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWHAT: ZSN_Rangerw
 	{
@@ -1447,8 +1400,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_MAAWS_Scope"};
 		magazines[] = {"CUP_MAAWS_HEAT_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_MAAWS_HEAT_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWHATAss: ZSN_Rangerw
 	{
@@ -1459,8 +1412,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","ZSN_Rangefinder"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWSniper: ZSN_Rangerw
 	{
@@ -1494,8 +1447,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","zsn_wpshell","zsn_wpshell"};
 		linkedItems[] = {"H_Booniehat_khk","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"H_Booniehat_khk","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_US_H_PASGT_WDL"};
-		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_US_H_PASGT_WDL"};
+		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_PASGTv2_WDL"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_PASGTv2_WDL"};
 	};
 	class ZSN_RangerWNCO: ZSN_Rangerw
 	{
@@ -1506,8 +1459,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
 		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_RangerWLeader: ZSN_Rangerw
 	{
@@ -1518,8 +1471,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessOGL_ghex_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessOGL_ghex_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessOGL_ghex_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessOGL_ghex_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_RangerWG: ZSN_Rangerw
 	{
@@ -1529,8 +1482,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessOGL_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessOGL_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessOGL_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessOGL_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerwAT: ZSN_Rangerw
 	{
@@ -1541,8 +1494,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M47"};
 		magazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerwATAss: ZSN_Rangerw
 	{
@@ -1553,8 +1506,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","ZSN_Rangefinder"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWAA: ZSN_Rangerw
 	{
@@ -1565,8 +1518,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_FIM92Stinger"};
 		magazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_WDL","V_HarnessO_ghex_F","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWPilot: ZSN_RangerW
 	{
@@ -1597,7 +1550,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_NATO"};
-		uniformClass = "CUP_U_B_US_BDU_desert";
+		uniformClass = "CUP_U_B_BDUv2_roll2_desert";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2"};
@@ -1614,12 +1567,13 @@ class CfgVehicles
 		scope = 2;
 		displayName = "LMG Soldier";
 		icon = "iconManMG";
+		backpack = "ZSN_200rnd_556x45_bag_OD";
 		weapons[] = {"Throw","Put","ZSN_M249_SAW"};
 		respawnWeapons[] = {"Throw","Put","ZSN_M249_SAW"};
-		magazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		respawnMagazines[] = {"200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","200Rnd_556x45_Box_Tracer_Red_F","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		magazines[] = {"CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDMedic: ZSN_RangerWD
 	{
@@ -1630,8 +1584,8 @@ class CfgVehicles
 		backpack = "ZSN_pack_medic";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDRTO: ZSN_RangerWD
 	{
@@ -1641,8 +1595,8 @@ class CfgVehicles
 		backpack = "ZSN_minepack_west";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","zsn_wpshell","zsn_wpshell"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","CUP_V_B_PASGT_OD","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","CUP_V_B_PASGT_desert","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDB: ZSN_RangerWD
 	{
@@ -1650,8 +1604,8 @@ class CfgVehicles
 		displayName = "Soldier";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDMG: ZSN_RangerWD
 	{
@@ -1659,14 +1613,12 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_200rnd_762x51_bandoliers";
-		//weapons[] = {"Throw","Put","CUP_lmg_M60"};
-		//respawnWeapons[] = {"Throw","Put","CUP_lmg_M60"};
-		weapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60E4_norail"};
+		weapons[] = {"Throw","Put","CUP_lmg_M60"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_M60"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 		respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDMGAss: ZSN_RangerWD
 	{
@@ -1677,8 +1629,8 @@ class CfgVehicles
 		backpack = "ZSN_762x51_ammobelts";
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDLAW: ZSN_RangerWD
 	{
@@ -1689,8 +1641,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M136"};
 		magazines[] = {"CUP_M136_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_M136_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDHAT: ZSN_RangerWD
 	{
@@ -1701,8 +1653,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_MAAWS_Scope"};
 		magazines[] = {"CUP_MAAWS_HEAT_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_MAAWS_HEAT_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDHATass: ZSN_RangerWD
 	{
@@ -1713,8 +1665,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","ZSN_Rangefinder"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDSniper: ZSN_RangerWD
 	{
@@ -1748,8 +1700,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","zsn_wpshell","zsn_wpshell"};
 		linkedItems[] = {"H_Booniehat_tan","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 		respawnLinkedItems[] = {"H_Booniehat_tan","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_US_H_PASGT_desert"};
-		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_US_H_PASGT_desert"};
+		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_PASGTv2_desert"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","CUP_H_PASGTv2_desert"};
 	};
 	class ZSN_RangerWDNCO: ZSN_RangerWD
 	{
@@ -1760,8 +1712,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","hgun_Pistol_Signal_F","Binocular"};
 		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_RangerWDLeader: ZSN_RangerWD
 	{
@@ -1772,8 +1724,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL","Binocular"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F","1Rnd_Smoke_Grenade_shell","1Rnd_Smoke_Grenade_shell"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessOGL_brn","ItemMap","ItemCompass","ItemWatch","Itemradio"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessOGL_brn","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessOGL_brn","ItemMap","ItemCompass","ItemWatch","Itemradio"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessOGL_brn","ItemMap","ItemCompass","ItemWatch","Itemradio"};
 	};
 	class ZSN_RangerWDG: ZSN_RangerWD
 	{
@@ -1783,8 +1735,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2_GL"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","UGL_FlareWhite_F","UGL_FlareWhite_F"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessOGL_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessOGL_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessOGL_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessOGL_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDAT: ZSN_RangerWD
 	{
@@ -1795,8 +1747,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_M47"};
 		magazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDATAss: ZSN_RangerWD
 	{
@@ -1807,8 +1759,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","ZSN_Rangefinder"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_RangerWDAA: ZSN_RangerWD
 	{
@@ -1819,8 +1771,8 @@ class CfgVehicles
 		respawnWeapons[] = {"Throw","Put","CUP_arifle_M16A2","CUP_launch_FIM92Stinger"};
 		magazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		respawnMagazines[] = {"CUP_Stinger_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
-		linkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_US_H_PASGT_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_PASGTv2_desert","V_HarnessO_brn","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWDPilot: ZSN_RangerWD
 	{
@@ -2487,7 +2439,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWMG";
+						vehicle = "ZSN_MarineWAR";
 						rank = "Private";
 						position[] = {0,-2,0};
 					};
@@ -2522,7 +2474,7 @@ class CfgGroups
 					class Unit9
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWMGAss";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {0,-4,0};
 					};
@@ -2543,7 +2495,7 @@ class CfgGroups
 					class Unit12
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWMGAss";
+						vehicle = "ZSN_MarineWLAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};
@@ -3190,7 +3142,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDMG";
+						vehicle = "ZSN_MarineWDAR";
 						rank = "Private";
 						position[] = {0,-2,0};
 					};
@@ -3225,7 +3177,7 @@ class CfgGroups
 					class Unit9
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDMGAss";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {0,-4,0};
 					};
@@ -3246,7 +3198,7 @@ class CfgGroups
 					class Unit12
 					{
 						side = 1;
-						vehicle = "ZSN_MarineWDMGAss";
+						vehicle = "ZSN_MarineWDLAW";
 						rank = "Private";
 						position[] = {0,-6,0};
 					};

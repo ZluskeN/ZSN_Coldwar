@@ -162,6 +162,19 @@ class CfgWeapons
 		thermalMode[] = {};
 	};
 	class ItemCore;
+	class CUP_hgun_glock17_blk_snds;
+	class zsn_glocks: CUP_hgun_glock17_blk_snds
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "MuzzleSlot";
+				item = "CUP_muzzle_snds_M9";
+			};
+		};
+	};
 	class Rifle;
 	class Rifle_Base_F: Rifle
 	{
@@ -171,6 +184,7 @@ class CfgWeapons
 	class CUP_arifle_M16A1;
 	class ZSN_M16A1_GL: CUP_arifle_M16A1
 	{
+		scope = 1;
 		author = "ZluskeN";
 		model = "\CUP\Weapons\CUP_Weapons_M16\CUP_M16A2GL.p3d";
 		picture = "\CUP\Weapons\CUP_Weapons_M16\data\ui\gear_M16A2GL_X_ca.paa";
@@ -558,6 +572,36 @@ class CfgVehicles
 			};
 		};
 	};
+	class ZSN_200rnd_556x45_bag_khaki: CUP_B_AlicePack_khaki
+	{
+		author = "ZluskeN";
+		scope = 1;
+		displayName = "Backpack, 5.56x45mm, 200 rnd x 2";
+		maximumLoad = 200;
+		class TransportMagazines
+		{
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			{
+				magazine = "CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+				count = 2;
+			};
+		};
+	};
+	class ZSN_200rnd_556x45_bag_OD: CUP_B_AlicePack_OD
+	{
+		author = "ZluskeN";
+		scope = 1;
+		displayName = "Backpack, 5.56x45mm, 200 rnd x 2";
+		maximumLoad = 200;
+		class TransportMagazines
+		{
+			class _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249
+			{
+				magazine = "CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+				count = 2;
+			};
+		};
+	};
 	class ZSN_ALICE_Repair_OD: CUP_B_AlicePack_OD
 	{
 		scope = 1;
@@ -659,19 +703,19 @@ class CfgVehicles
 		};
 	};
 	class CUP_B_CivPack_WDL;
-	class ZSN_45rnd_545x39_bag: CUP_B_CivPack_WDL
+	class ZSN_75rnd_545x39_bag: CUP_B_CivPack_WDL
 	{
 		author = "ZluskeN";
 		scope = 1;
 		hiddenSelectionsTextures[] = {"zsn_coldwar_equipment\backpack_vdv_assault.paa"};
-		displayName = "Backpack, 5.45x39mm, 45 rnd x 9";
+		displayName = "Backpack, 5.45x39mm, 75 rnd x 6";
 		maximumLoad = 200;
 		class TransportMagazines
 		{
 			class _xx_CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M
 			{
-				magazine = "CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
-				count = 9;
+				magazine = "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M";
+				count = 6;
 			};
 		};
 	};
