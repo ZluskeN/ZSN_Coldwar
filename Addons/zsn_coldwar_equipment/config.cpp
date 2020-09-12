@@ -205,13 +205,12 @@ class CfgWeapons
 		hiddenSelections[] = {"camo","camo_gl"};
 		hiddenSelectionsTextures[] = {"CUP\Weapons\CUP_Weapons_M16\data\m16a2_co.paa","CUP\Weapons\CUP_Weapons_M16\data\tigg_m203_co.paa"};
 	};
-	class CUP_arifle_FNFAL;
-	class ZSN_L1A1: CUP_arifle_FNFAL
+	class CUP_arifle_FNFAL5060;
+	class ZSN_L1A1: CUP_arifle_FNFAL5060
 	{
 		scope = 2;
 		displayName = "L1A1";
 		modes[] = {"Single"};
-		model = "CUP\Weapons\CUP_Weapons_FNFAL\CUP_fnfal5061.p3d";
 	};
 	class CUP_arifle_G3A3_modern_ris_black;
 	class zsn_G3SG1: CUP_arifle_G3A3_modern_ris_black
@@ -258,7 +257,7 @@ class CfgWeapons
 	};
 	class ZSN_CUP_srifle_M21: CUP_srifle_M14
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "M21";
 		modes[] = {"Single","single_close_optics1","single_medium_optics1","single_far_optics1"};
 		class LinkedItems
@@ -305,7 +304,7 @@ class CfgWeapons
 			class LinkedItemsAcc
 			{
 				slot = "PointerSlot";
-				item = "CUP_SVD_camo_d";
+				item = "CUP_SVD_camo_d_half";
 			};
 		};
 	};
@@ -323,7 +322,7 @@ class CfgWeapons
 			class LinkedItemsAcc
 			{
 				slot = "PointerSlot";
-				item = "CUP_SVD_camo_g";
+				item = "CUP_SVD_camo_g_half";
 			};
 		};
 	};
@@ -390,7 +389,7 @@ class CfgWeapons
 	class CUP_lmg_minimi;
 	class ZSN_M249_SAW: CUP_lmg_minimi
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "M249 SAW";
 		magazines[] = {"200Rnd_556x45_Box_F","200Rnd_556x45_Box_Red_F","200Rnd_556x45_Box_Tracer_F","200Rnd_556x45_Box_Tracer_Red_F","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","200Rnd_556x45_Box_Tracer_Red_F","CUP_100Rnd_TE4_Green_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1","CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_G36","CUP_30Rnd_TE1_Red_Tracer_556x45_G36","CUP_30Rnd_TE1_Green_Tracer_556x45_G36","CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36","CUP_100Rnd_556x45_BetaCMag","CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag","CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag","CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Green","30Rnd_556x45_Stanag_Tracer_Yellow","CUP_20Rnd_556x45_Stanag"};
 	};
@@ -698,6 +697,18 @@ class CfgVehicles
 			class _xx_CUP_PG7VL_M
 			{
 				magazine = "CUP_PG7VL_M";
+				count = 3;
+			};
+		};
+	};
+	class ZSN_guer_rpg_pack_rpg7: ZSN_csla_rpg_pack_rpg7
+	{
+		class TransportMagazines
+		{
+			delete _xx_CUP_PG7VL_M;
+			class _xx_CUP_PG7V_M
+			{
+				magazine = "CUP_PG7V_M";
 				count = 3;
 			};
 		};
