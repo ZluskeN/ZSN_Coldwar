@@ -238,4 +238,29 @@ class CfgPatches
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
 	};
+	class tmr_core
+	{
+		author[] = {"Taosenai"};
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.6;
+		requiredAddons[] = {};
+	};
+	class tmr_language
+	{
+		author[] = {"Taosenai"};
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.6;
+		requiredAddons[] = {};
+	};
+	class tmr_rpg42
+	{
+		author = "Taosenai";
+		units[] = {};
+		weapons[] = {};
+		magazines[] = {};
+		requiredVersion = 0.6;
+		requiredAddons[] = {};
+	};
 };

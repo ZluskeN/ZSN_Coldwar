@@ -15,7 +15,7 @@ class CfgPatches
 		units[] = {"ZSN_pack_medic","ZSN_minepack_east","ZSN_minepack_west","ZSN_minepack_west_OD"};
 		weapons[] = {"ZSN_CUP_srifle_M21","ZSN_Rangefinder","ZSN_L1A1","ZSN_M249_SAW","ZSN_Black_Op_Vest"};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_Weapons_F","TMR_RPG42","CUP_Creatures_Military_USArmy"};
+		requiredAddons[] = {"A3_Weapons_F","CUP_Creatures_Military_USArmy"};
 		magazines[] = {};
 		ammo[] = {"ZSN_WPSmoke","Flare_82mm_AMOS_White","F_40mm_White","F_20mm_White","F_Signal_Green"};
 	};
@@ -399,7 +399,7 @@ class CfgWeapons
 		author = "ZluskeN";
 		displayName = "RPG-29 Vampir";
 		picture = "\A3\Weapons_F_Exp\Launchers\RPG32\Data\UI\launch_RPG32_ghex_F_X_CA.paa";
-		magazines[] = {"RPG32_F","RPG32_HE_F","TMR_RPG32_Smoke_F","TMR_RPG32_TB_F"};
+		magazines[] = {"RPG32_F","RPG32_HE_F"};
 		hiddenSelectionsTextures[] = {"\zsn_coldwar_equipment\launch_RPG29_F_co.paa","\A3\Weapons_F\Launchers\RPG32\data\RPG_32_optics_CO.paa"};
 		//hiddenSelectionsTextures[] = {"\A3\Weapons_F_Enoch\Launchers\RPG32\Data\RPG_32_body_RUgrn_CO.paa","\A3\Weapons_F\Launchers\RPG32\data\RPG_32_optics_CO.paa"};
 	};

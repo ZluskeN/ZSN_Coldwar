@@ -1,4 +1,4 @@
-////////////////////////////////////////////////////////////////////
+﻿////////////////////////////////////////////////////////////////////
 //DeRap: Produced from mikero's Dos Tools Dll version 5.24
 //Produced on Wed Aug 03 00:08:48 2016 : Created on Wed Aug 03 00:08:48 2016
 //http://dev-heaven.net/projects/list_files/mikero-pbodll
@@ -2572,19 +2572,19 @@ class cfgvehicles
 	class CUP_B_MTLB_pk_CDF;
 	class ZSN_CUP_CSLA_MTLB_pk: CUP_B_MTLB_pk_CDF
 	{
-		side = 2;
+		side = 0;
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
-		faction = "ZSN_GEuro_ColdWar";
+		faction = "ZSN_EEuro_ColdWar";
 		crew = "ZSN_EurosolECrew";
 		typicalCargo[] = {"ZSN_EurosolECrew"};
 	};
 	class CUP_O_MTLB_pk_TKA;
 	class ZSN_CUP_DCSLA_MTLB_pk: CUP_O_MTLB_pk_TKA
 	{
-		side = 2;
+		side = 0;
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
@@ -2596,7 +2596,7 @@ class cfgvehicles
 	class CUP_B_FV432_GB_GPMG;
 	class ZSN_CUP_BAF_FV432: CUP_B_FV432_GB_GPMG
 	{
-		side = 2;
+		side = 1;
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
@@ -2611,6 +2611,51 @@ class cfgvehicles
 		crew = "ZSN_EurosolWDCrew";
 		typicalCargo[] = {"ZSN_EurosolWDCrew"};
 		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_02d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_03d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_04d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\bulldog_05w_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\turretbar_co.paa"};
+	};
+	class CUP_B_FV432_GB_Ambulance;
+	class ZSN_CUP_BAF_FV432_AMB: CUP_B_FV432_GB_Ambulance
+	{
+		side = 1;
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		faction = "ZSN_WEuro_ColdWar";
+		crew = "ZSN_EurosolWCrew";
+		typicalCargo[] = {"ZSN_EurosolWCrew"};
+	};
+	class ZSN_CUP_DBAF_FV432_AMB: CUP_B_FV432_GB_Ambulance
+	{
+		faction = "ZSN_WEuroD_ColdWar";
+		crew = "ZSN_EurosolWDCrew";
+		typicalCargo[] = {"ZSN_EurosolWDCrew"};
+		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_02d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_03d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_04d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\bulldog_05w_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\turretbar_co.paa"};
+	};
+	class CUP_S1203_Ambulance_Base;
+	class ZSN_CUP_CSLA_S1203_Amb: CUP_S1203_Ambulance_Base
+	{
+		side = 0;
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		faction = "ZSN_EEuro_ColdWar";
+		crew = "ZSN_EurosolECrew";
+		typicalCargo[] = {"ZSN_EurosolECrew"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_S1203\data\s1203_cdf_amb_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_S1203\data\s1203_glass_cwr_ca.paa"};
+	};
+	class ZSN_CUP_DCSLA_S1203_Amb: CUP_S1203_Ambulance_Base
+	{
+		side = 0;
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		displayName = "Skoda S1203 Ambulance";
+		faction = "ZSN_EEuroD_ColdWar";
+		crew = "ZSN_EurosolEDCrew";
+		typicalCargo[] = {"ZSN_EurosolEDCrew"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_S1203\data\s1203_ambulance_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_S1203\data\s1203_glass3_ca.paa"};
 	};
 	class CUP_O_BTR80_SLA;
 	class ZSN_CUP_MSV_BTR80: CUP_O_BTR80_SLA
