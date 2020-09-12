@@ -2631,6 +2631,25 @@ class cfgvehicles
 		typicalCargo[] = {"ZSN_EurosolWDCrew"};
 		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_02d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_03d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_04d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\bulldog_05w_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\turretbar_co.paa"};
 	};
+	class CUP_B_FV432_Mortar;
+	class ZSN_CUP_BAF_FV432_Mortar: CUP_B_FV432_Mortar
+	{
+		side = 1;
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		faction = "ZSN_WEuro_ColdWar";
+		crew = "ZSN_EurosolWCrew";
+		typicalCargo[] = {"ZSN_EurosolWCrew"};
+	};
+	class ZSN_CUP_DBAF_FV432_Mortar: CUP_B_FV432_Mortar
+	{
+		faction = "ZSN_WEuroD_ColdWar";
+		crew = "ZSN_EurosolWDCrew";
+		typicalCargo[] = {"ZSN_EurosolWDCrew"};
+		hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_02d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_03d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\fv432_04d_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\bulldog_05w_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_Bulldog\data\turretbar_co.paa"};
+	};
 	class CUP_S1203_Ambulance_Base;
 	class ZSN_CUP_CSLA_S1203_Amb: CUP_S1203_Ambulance_Base
 	{
@@ -2639,6 +2658,7 @@ class cfgvehicles
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
+		displayName = "Skoda S1203 Ambulance";
 		faction = "ZSN_EEuro_ColdWar";
 		crew = "ZSN_EurosolECrew";
 		typicalCargo[] = {"ZSN_EurosolECrew"};
@@ -2963,6 +2983,7 @@ class cfgvehicles
 	};
 	class ZSN_CUP_BAF_M270: ZSN_CUP_Army_M270
 	{
+		scope = 1;
 		crew = "ZSN_EurosolWcrew";
 		typicalCargo[] = {"ZSN_EurosolWcrew"};
 		faction = "ZSN_WEuro_ColdWar";
@@ -2971,6 +2992,7 @@ class cfgvehicles
 	};
 	class ZSN_CUP_DBAF_M270: ZSN_CUP_BAF_M270
 	{
+		scope = 1;
 		crew = "ZSN_EurosolWDcrew";
 		typicalCargo[] = {"ZSN_EurosolWDcrew"};
 		faction = "ZSN_WEuroD_ColdWar";
