@@ -278,7 +278,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_NATO"};
-		uniformClass = "CUP_U_B_BDUv2_M81";
+		uniformClass = "CUP_U_B_BDUv2_dirty_M81_US";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A1"};
@@ -515,8 +515,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_45ACP_M3A1_M","CUP_30Rnd_45ACP_M3A1_M","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
 		Items[] = {"CUP_H_US_patrol_cap_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
 		RespawnItems[] = {"CUP_H_US_patrol_cap_WDL","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
-		linkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_CVC","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_CVC","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_SoldierWD: B_Soldier_base_F
 	{
@@ -531,7 +531,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_NATO"};
-		uniformClass = "CUP_U_B_BDUv2_desert";
+		uniformClass = "CUP_U_B_BDUv2_dirty_desert_US";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A1"};
@@ -781,8 +781,8 @@ class CfgVehicles
 		respawnMagazines[] = {"CUP_30Rnd_45ACP_M3A1_M","CUP_30Rnd_45ACP_M3A1_M","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","zsn_wpshell","zsn_wpshell"};
 		Items[] = {"CUP_H_US_patrol_cap_desert","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
 		RespawnItems[] = {"CUP_H_US_patrol_cap_desert","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs"};
-		linkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"CUP_H_USMC_Crew_Helmet","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
+		linkedItems[] = {"CUP_H_CVCH_des","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_CVCH_des","CUP_V_B_PASGT_no_bags_OD","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_MarineW: B_Soldier_base_F
 	{
@@ -1295,7 +1295,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_NATO"};
-		uniformClass = "CUP_U_B_BDUv2_roll2_M81";
+		uniformClass = "CUP_U_B_BDUv2_roll2_M81_US";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2"};
@@ -1548,7 +1548,7 @@ class CfgVehicles
 		icon = "iconMan";
 		genericNames = "EnglishMen";
 		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_NATO"};
-		uniformClass = "CUP_U_B_BDUv2_roll2_desert";
+		uniformClass = "CUP_U_B_BDUv2_roll2_desert_US";
 		canCarryBackPack = 1;
 		backpack = "";
 		weapons[] = {"Throw","Put","CUP_arifle_M16A2"};

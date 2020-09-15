@@ -3010,6 +3010,7 @@ class cfgvehicles
 		faction = "ZSN_EEuro_ColdWar";
 		crew = "ZSN_EurosolECrew";
 		typicalCargo[] = {"ZSN_EurosolECrew"};
+		hiddenSelectionsTextures[] = {"CUP\WheeledVehicles\CUP_WheeledVehicles_RM70\data\RM70body1_co","CUP\WheeledVehicles\CUP_WheeledVehicles_RM70\data\RM70body2_co","CUP\WheeledVehicles\CUP_WheeledVehicles_RM70\data\RM70body3_co","CUP\WheeledVehicles\CUP_WheeledVehicles_RM70\data\RM70uc_co.paa",""};
 	};
 	class ZSN_CUP_DCSLA_RM70: ZSN_CUP_CSLA_RM70
 	{
