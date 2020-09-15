@@ -411,6 +411,20 @@ class cfgvehicles
 		faction = "ZSN_WRangersD_ColdWar";
 		hiddenSelectionsTextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_M151\data\m151_hull_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_M151\data\m151_canvas_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_M151\data\m151_detail_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_M151\data\m151_underbody_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_M151\data\m151_wheel_co.paa"};
 	};
+	class ZSN_CUP_ARMY_JEEP_HQ: ZSN_CUP_USR_JEEP
+	{
+		crew = "ZSN_SoldierWB";
+		typicalCargo[] = {"ZSN_SoldierWB"};
+		faction = "ZSN_WArmy_ColdWar";
+		displayName = "TACOM Jeep";
+	};
+	class ZSN_CUP_DARMY_JEEP_HQ: ZSN_CUP_ARMY_JEEP_HQ
+	{
+		crew = "ZSN_SoldierWDB";
+		typicalCargo[] = {"ZSN_SoldierWDB"};
+		faction = "ZSN_WArmyD_ColdWar";
+		hiddenSelectionsTextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_M151\data\m151_hull_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_M151\data\m151_canvas_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_M151\data\m151_detail_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_M151\data\m151_underbody_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_M151\data\m151_wheel_co.paa"};
+	};
 	class CUP_LR_SPG9_Base;
 	class CUP_O_LR_SPG9_TKA: CUP_LR_SPG9_Base
 	{
@@ -3350,7 +3364,7 @@ class cfgvehicles
 	class ZSN_CUP_ARMY_M113_HQ: CUP_M113_Med_Base
 	{
 		side = 1;
-		scope = 2;
+		scope = 1;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
