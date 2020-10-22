@@ -160,7 +160,6 @@ class CfgVehicles
 	class rnt_lkw_5t_mil_gl_kat_i_transport_fleck;
 	class ZSN_rnt_lkw_5t_mil_gl_kat_i_transport_fleck: rnt_lkw_5t_mil_gl_kat_i_transport_fleck
 	{
-		scope = 1;
 		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWCrew";
@@ -176,6 +175,23 @@ class CfgVehicles
 	};
 	class rnt_lkw_7t_mil_gl_kat_i_transport_fleck;
 	class ZSN_rnt_lkw_7t_mil_gl_kat_i_transport_fleck: rnt_lkw_7t_mil_gl_kat_i_transport_fleck
+	{
+		scope = 1;
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class rnt_mg3_static;
+	class ZSN_rnt_mg3_static: rnt_mg3_static
+	{
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGer_ColdWar";
+		crew = "ZSN_GersolWCrew";
+		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class rnt_mg3_static_ai;
+	class ZSN_rnt_mg3_static_ai: rnt_mg3_static_ai
 	{
 		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
