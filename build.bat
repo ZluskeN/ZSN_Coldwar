@@ -19,12 +19,12 @@ mkdir @zsn_coldwar\Keys > nul 2> nul
 
 REM Build pbo files using pboproject and check for errors
 for /D %%s in (Addons\*) do (
-	if %%~nxs NEQ temp (
+	if %%~nxs NEQ a3 ( if %%~nxs NEQ CUP ( if %%~nxs NEQ temp (
 		echo Building Addons\%%~nxs to @zsn_coldwar\Addons
-		pboproject +Clean -Engine=Arma3 -Key -Workspace=P:\ -Noisy -P -X +Mod="%modpath%\@zsn_coldwar" -R -Z P:\%%~nxs
+		pboproject +Clean -Engine=Arma3 -Key -Noisy -P +Mod="%modpath%\@zsn_coldwar" -Z P:\%%~nxs
 		if !errorlevel! neq 0 (
 			@echo Error encountered while building %%~nxs
-			exit /b !errorlevel!
+			exit /b 1
 		)
 
 		if defined DSSIGNFILEPATH (
@@ -33,7 +33,7 @@ for /D %%s in (Addons\*) do (
 				"%DSSIGNFILEPATH%\DSSignFile.exe" "%%k" "@zsn_coldwar\Addons\%%~nxs.pbo"
 			)
 		)
-	)
+	)))
 )
 
 if defined DSSIGNFILEPATH (
@@ -51,14 +51,14 @@ subst p: "%modpath%\Optional"
 
 REM Build pbo files using pboproject and check for errors
 for /D %%s in (Optional\*) do (
-	if %%~nxs NEQ temp (
+	if %%~nxs NEQ a3 ( if %%~nxs NEQ CUP ( if %%~nxs NEQ rhsafrf ( if %%~nxs NEQ temp (
 		@echo Building Optional\%%~nxs to @%%~nxs\Addons
 		mkdir @%%~nxs > nul 2> nul
 		mkdir @%%~nxs\Keys > nul 2> nul
-		pboproject +Clean -Engine=Arma3 -Key -Workspace=P:\ -Noisy -P -X +Mod="%modpath%\@%%~nxs" -R -Z P:\%%~nxs
+		pboproject +Clean -Engine=Arma3 -Key -Noisy -P +Mod="%modpath%\@%%~nxs" -Z P:\%%~nxs
 		if !errorlevel! neq 0 (
 			@echo Error encountered while building %%~nxs
-			exit /b !errorlevel!
+			exit /b 1
 		)
 
 		if defined DSSIGNFILEPATH (
@@ -74,7 +74,7 @@ for /D %%s in (Optional\*) do (
 				)
 			)
 		)
-	)
+	))))
 )
 
 REM Remove drive mapping

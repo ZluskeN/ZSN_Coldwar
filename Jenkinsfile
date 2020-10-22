@@ -31,11 +31,38 @@ pipeline {
                     bat 'copy %ZLUSKEN_PUBLIC_KEY% Keys'
                 }
 
+                bat '''
+                mklink /J Addons\\a3 %A3_DATA%\\a3
+                mklink /J Optional\\a3 %A3_DATA%\\a3
+
+                mkdir Addons\\CUP
+                mkdir Optional\\CUP
+                for /D %%s in (..\\cup_units\\CUP\\*) do (
+                    mklink /J Addons\\CUP\\%%~ns %%s
+                    mklink /J Optional\\CUP\\%%~ns %%s
+                )
+                for /D %%s in (..\\cup_vehicles\\CUP\\*) do (
+                    mklink /J Addons\\CUP\\%%~ns %%s
+                    mklink /J Optional\\CUP\\%%~ns %%s
+                )
+                for /D %%s in (..\\cup_weapons\\CUP\\*) do (
+                    mklink /J Addons\\CUP\\%%~ns %%s
+                    mklink /J Optional\\CUP\\%%~ns %%s
+                )
+
+                mklink /J Optional\\rhsafrf ..\\rhs\\rhsafrf
+                '''
                 bat 'build.bat'
                 archiveArtifacts artifacts: '@*/**/*'
+                archiveArtifacts artifacts: '**/temp/*.log'
             }
             post {
                 always {
+                    bat 'rmdir /S /Q Addons\\a3 > nul || exit /b 0'
+                    bat 'rmdir /S /Q Optional\\a3 > nul || exit /b 0'
+                    bat 'rmdir /S /Q Addons\\CUP > nul || exit /b 0'
+                    bat 'rmdir /S /Q Optional\\CUP > nul || exit /b 0'
+                    bat 'rmdir /S /Q Optional\\rhsafrf > nul || exit /b 0'
                     bat 'subst p: /d > nul || exit /b 0'
                     sendNotificationToDiscord()
                 }
