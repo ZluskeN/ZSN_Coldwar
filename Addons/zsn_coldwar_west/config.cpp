@@ -765,8 +765,8 @@ class CfgVehicles
 		uniformClass = "CUP_U_B_BDUv2_gloves_dirty_M81";
 		weapons[] = {"Throw","Put","CUP_hgun_Mac10","CUP_arifle_Colt727","Binocular"};
 		respawnWeapons[] = {"Throw","Put","CUP_hgun_Mac10","CUP_arifle_Colt727","Binocular"};
-		magazines[] = {"CUP_30Rnd_45ACP_MAC10_M","CUP_30Rnd_45ACP_MAC10_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67","zsn_wpshell","zsn_wpshell"};
-		respawnMagazines[] = {"CUP_30Rnd_45ACP_MAC10_M","CUP_30Rnd_45ACP_MAC10_M","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67","zsn_wpshell","zsn_wpshell"};
+		magazines[] = {"CUP_30Rnd_45ACP_MAC10_M","CUP_30Rnd_45ACP_MAC10_M","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"CUP_30Rnd_45ACP_MAC10_M","CUP_30Rnd_45ACP_MAC10_M","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_20Rnd_556x45_Stanag","CUP_HandGrenade_M67","CUP_HandGrenade_M67","zsn_wpshell","zsn_wpshell"};
 		Items[] = {"Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR","cup_muzzle_mfsup_suppressor_mac10"};
 		RespawnItems[] = {"Firstaidkit","Firstaidkit","Firstaidkit","ACE_Flashlight_MX991","ACE_EarPlugs","ACE_DAGR","cup_muzzle_mfsup_suppressor_mac10"};
 		linkedItems[] = {"H_Helmet_skate","V_TacVest_oli","G_Balaclava_TI_blk_F","ItemMap","ItemCompass","ItemWatch","Itemradio"};
@@ -1780,6 +1780,7 @@ class CfgVehicles
 		displayName = "Pilot (Plane)";
 		icon = "iconManEngineer";
 		backpack = "B_Parachute";
+		faction = "ZSN_WArmy_ColdWar";
 		uniformClass = "CUP_U_B_CZ_Pilot_WDL";
 		//uniformClass = "U_B_HeliPilotCoveralls";
 		weapons[] = {"Throw","Put","CUP_hgun_M9"};

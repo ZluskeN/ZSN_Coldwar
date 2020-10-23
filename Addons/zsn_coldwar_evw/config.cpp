@@ -266,7 +266,7 @@ class cfgvehicles
 	class ZSN_SoldierWDB;
 	class SUD_DNATO_Soldier_Repair: ZSN_SoldierWDB
 	{
-		scope = 2;
+		scope = 1;
 		engineer = 1;
 		detectSkill = 40;
 		icon = "iconManEngineer";
@@ -367,7 +367,7 @@ class cfgvehicles
 	class ZSN_SoldierEDB;
 	class SUD_DUSSR_Soldier_Repair: ZSN_SoldierEDB
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "$STR_B_soldier_repair_F0";
 		engineer = 1;
 		detectSkill = 40;
