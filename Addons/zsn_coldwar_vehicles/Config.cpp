@@ -4613,14 +4613,14 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGSniper";
+						vehicle = "ZSN_EurosolGR";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -4655,14 +4655,14 @@ class CfgGroups
 					class Unit9
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGSniper";
+						vehicle = "ZSN_EurosolGR";
 						rank = "Private";
 						position[] = {-5,-2,0};
 					};
 					class Unit10
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {7,-2,0};
 					};
@@ -4710,14 +4710,14 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGSniper";
+						vehicle = "ZSN_EurosolGR";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -4758,7 +4758,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
@@ -4840,14 +4840,14 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGSniper";
+						vehicle = "ZSN_EurosolGR";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -4906,14 +4906,14 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGSniper";
+						vehicle = "ZSN_EurosolGR";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -5007,14 +5007,14 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDSniper";
+						vehicle = "ZSN_EurosolGDR";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -5049,14 +5049,14 @@ class CfgGroups
 					class Unit9
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDSniper";
+						vehicle = "ZSN_EurosolGDR";
 						rank = "Private";
 						position[] = {-5,-2,0};
 					};
 					class Unit10
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {7,-2,0};
 					};
@@ -5104,14 +5104,14 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDSniper";
+						vehicle = "ZSN_EurosolGDR";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -5152,7 +5152,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
@@ -5234,14 +5234,14 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDSniper";
+						vehicle = "ZSN_EurosolGDR";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -5300,14 +5300,14 @@ class CfgGroups
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDSniper";
+						vehicle = "ZSN_EurosolGDR";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDLAWAss";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
