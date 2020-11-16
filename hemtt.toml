@@ -1,0 +1,13 @@
+name = "ZluskeN Cold War Units"
+prefix = "zsn_coldwar"
+version = "0.0.0"
+author = "ZluskeN"
+files = [
+	"cold-war-flags.paa",
+    "meta.cpp",
+    "mod.cpp",
+]
+key_name = "bsl"
+reuse_private_key = true
+authority = "bsl"
+sig_version = 3
