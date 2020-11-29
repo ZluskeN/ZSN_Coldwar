@@ -757,11 +757,6 @@ class CfgVehicles
 				magazine = "CUP_50Rnd_UK59_762x54R_Tracer";
 				count = 2;
 			};
-			class _xx_ACE_SpareBarrel
-			{
-				magazine = "ACE_SpareBarrel";
-				count = 1;
-			};
 		};
 	};
 	class ZSN_200rnd_762x51_bandoliers: CUP_B_AlicePack_Khaki
@@ -777,11 +772,6 @@ class CfgVehicles
 			class _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
 				magazine = "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
-				count = 1;
-			};
-			class _xx_ACE_SpareBarrel
-			{
-				magazine = "ACE_SpareBarrel";
 				count = 1;
 			};
 		};
@@ -801,11 +791,6 @@ class CfgVehicles
 				magazine = "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count = 1;
 			};
-			class _xx_ACE_SpareBarrel
-			{
-				magazine = "ACE_SpareBarrel";
-				count = 1;
-			};
 		};
 	};
 	class ZSN_200rnd_762x54_bandoliers: CUP_B_CivPack_WDL
@@ -819,11 +804,6 @@ class CfgVehicles
 			class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
 			{
 				magazine = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
-				count = 1;
-			};
-			class _xx_ACE_SpareBarrel
-			{
-				magazine = "ACE_SpareBarrel";
 				count = 1;
 			};
 		};
@@ -843,11 +823,6 @@ class CfgVehicles
 				magazine = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
 				count = 1;
 			};
-			class _xx_ACE_SpareBarrel
-			{
-				magazine = "ACE_SpareBarrel";
-				count = 1;
-			};
 		};
 	};
 	class ZSN_762x51_ammobelts: CUP_B_AlicePack_Khaki
@@ -864,6 +839,11 @@ class CfgVehicles
 				magazine = "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count = 5;
 			};
+			class _xx_ACE_SpareBarrel
+			{
+				magazine = "ACE_SpareBarrel";
+				count = 1;
+			};
 		};
 	};
 	class ZSN_762x51_ammobelts_OD: CUP_B_AlicePack_OD
@@ -879,6 +859,11 @@ class CfgVehicles
 			{
 				magazine = "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count = 5;
+			};
+			class _xx_ACE_SpareBarrel
+			{
+				magazine = "ACE_SpareBarrel";
+				count = 1;
 			};
 		};
 	};
@@ -915,6 +900,11 @@ class CfgVehicles
 				magazine = "CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
 				count = 4;
 			};
+			class _xx_ACE_SpareBarrel
+			{
+				magazine = "ACE_SpareBarrel";
+				count = 1;
+			};
 		};
 	};
 	class ZSN_GER_250rnd_MG3_bandoliers: CUP_B_RUS_Backpack
@@ -930,11 +920,6 @@ class CfgVehicles
 			class _xx_CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
 				magazine = "CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
-				count = 1;
-			};
-			class _xx_ACE_SpareBarrel
-			{
-				magazine = "ACE_SpareBarrel";
 				count = 1;
 			};
 		};
@@ -954,6 +939,11 @@ class CfgVehicles
 				magazine = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
 				count = 5;
 			};
+			class _xx_ACE_SpareBarrel
+			{
+				magazine = "ACE_SpareBarrel";
+				count = 1;
+			};
 		};
 	};
 	class ZSN_BAF_762x51_ammobelts: ZSN_762x51_ammobelts
@@ -965,6 +955,11 @@ class CfgVehicles
 			{
 				magazine = "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M";
 				count = 5;
+			};
+			class _xx_ACE_SpareBarrel
+			{
+				magazine = "ACE_SpareBarrel";
+				count = 1;
 			};
 		};
 	};
@@ -980,6 +975,11 @@ class CfgVehicles
 			{
 				magazine = "CUP_50Rnd_UK59_762x54R_Tracer";
 				count = 10;
+			};
+			class _xx_ACE_SpareBarrel
+			{
+				magazine = "ACE_SpareBarrel";
+				count = 1;
 			};
 		};
 	};
