@@ -948,6 +948,7 @@ class CfgVehicles
 	};
 	class ZSN_BAF_762x51_ammobelts: ZSN_762x51_ammobelts
 	{
+		model = "\CUP\Weapons\CUP_Weapons_Backpacks\CUP_AlicePack_Bedroll.p3d";
 		class TransportMagazines
 		{
 			delete _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M;
