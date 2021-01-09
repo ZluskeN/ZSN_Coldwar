@@ -10,6 +10,13 @@ class CfgPatches
 		magazines[] = {};
 	};
 };
+class CfgEditorCategories
+{
+	class ZSN_FGB
+	{
+		displayName = "Cold War FGB";
+	};
+};
 class cfgFactionClasses
 {
 	class ZSN_WEuro_ColdWar
@@ -70,11 +77,21 @@ class cfgFactionClasses
 	};
 	class ZSN_WGer_ColdWar
 	{
-		displayName = "Cold War FRG";
+		displayName = "Cold War FGB";
 		backpack_tf_faction_radio = "tf_rt1523g_bwmod";
 		personal_tf_faction_radio = "tf_rf7800str";
 		airborne_tf_faction_radio = "tf_anarc210";
-		flag = "\zsn_coldwar_euro\Germany.paa";
+		flag = "\zsn_coldwar_euro\EU.paa";
+		priority = 1;
+		side = 1;
+	};
+	class ZSN_WGerD_ColdWar
+	{
+		displayName = "Cold War FGB (Desert)";
+		backpack_tf_faction_radio = "tf_rt1523g_bwmod";
+		personal_tf_faction_radio = "tf_rf7800str";
+		airborne_tf_faction_radio = "tf_anarc210";
+		flag = "\zsn_coldwar_euro\EU.paa";
 		priority = 1;
 		side = 1;
 	};
@@ -201,8 +218,8 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Soldier";
-		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -240,8 +257,8 @@ class CfgVehicles
 		backpack = "ZSN_BAF_762x51_ammobelts";
 		weapons[] = {"Throw","Put","ZSN_L1A1","Binocular"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","Binocular"};
-		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -253,8 +270,8 @@ class CfgVehicles
 		icon = "iconManAT";
 		weapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_FIM92Stinger"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_FIM92Stinger"};
-		magazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -266,8 +283,8 @@ class CfgVehicles
 		icon = "iconManAT";
 		weapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_MAAWS"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_MAAWS"};
-		magazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -277,8 +294,8 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Gustav Assistant";
 		backpack = "ZSN_baf_alice_Gustav";
-		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_2_Brown","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -290,8 +307,8 @@ class CfgVehicles
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","ZSN_L1A1","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","hgun_Pistol_Signal_F","Binocular"};
-		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_3_Brown","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_B","CUP_V_B_GER_Carrier_Rig_3_Brown","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
@@ -325,7 +342,7 @@ class CfgVehicles
 		hiddenSelections[] = {"Camo","Camo2","camo3","insignia"};
 		hiddenSelectionsTextures[] = {"CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_uniforms\pcs_ubacs\data\DPM\body_co.paa","","CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_uniforms\pcs_ubacs\data\DPM\top3_co.paa"};
 		weapons[] = {"Throw","Put","CUP_hgun_Browning_HP"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_L85A2"};
+		respawnWeapons[] = {"Throw","Put","CUP_hgun_Browning_HP"};
 		magazines[] = {"CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP"};
 		respawnMagazines[] = {"CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP"};
 		Items[] = {"CUP_H_BAF_Officer_Beret","Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
@@ -392,8 +409,8 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Soldier";
-		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -431,8 +448,8 @@ class CfgVehicles
 		backpack = "ZSN_BAF_762x51_ammobelts";
 		weapons[] = {"Throw","Put","ZSN_L1A1","Binocular"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","Binocular"};
-		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -444,8 +461,8 @@ class CfgVehicles
 		icon = "iconManAT";
 		weapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_FIM92Stinger"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_FIM92Stinger"};
-		magazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -457,8 +474,8 @@ class CfgVehicles
 		icon = "iconManAT";
 		weapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_MAAWS"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","CUP_launch_MAAWS"};
-		magazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -468,8 +485,8 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Gustav Assistant";
 		backpack = "ZSN_baf_alice_Gustav";
-		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -481,8 +498,8 @@ class CfgVehicles
 		icon = "iconManLeader";
 		weapons[] = {"Throw","Put","ZSN_L1A1","hgun_Pistol_Signal_F","Binocular"};
 		respawnWeapons[] = {"Throw","Put","ZSN_L1A1","hgun_Pistol_Signal_F","Binocular"};
-		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_H_BAF_MTP_Mk7_PRR_SCRIM_A","CUP_V_I_RACS_Carrier_Rig_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
@@ -1228,21 +1245,21 @@ class CfgVehicles
 	{
 		author = "ZluskeN";
 		scope = 1;
-		scopeCurator = 2;
+		scopeCurator = 1;
+		editorCategory = "ZSN_FGB";
 		faction = "ZSN_WGer_ColdWar";
 		displayName = "Soldier (Garrison)";
 		icon = "iconMan";
 		genericNames = "CUP_Names_GermanMen";
-		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_Euro","G_GUERIL_default"};
-		uniformClass = "CUP_U_B_BDUv2_OD";
-		//uniformClass = "CUP_U_B_GER_Flecktarn_1";
+		identityTypes[] = {"LanguageENGFRE_F","NoGlasses","Head_Euro","G_GUERIL_default"};
+		uniformClass = "CUP_U_B_GER_Flecktarn_5";
 		canCarryBackPack = 1;
-		weapons[] = {"Throw","Put","CUP_arifle_G3A3_ris"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_G3A3_ris"};
+		weapons[] = {"Throw","Put","CUP_Famas_F1"};
+		respawnWeapons[] = {"Throw","Put","CUP_Famas_F1"};
 		magazines[] = {};
 		respawnMagazines[] = {};
-		Items[] = {"CUP_H_Ger_Beret_INF_Grn","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
-		RespawnItems[] = {"CUP_H_Ger_Beret_INF_Grn","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
+		Items[] = {"CUP_H_Ger_Beret_INF_Grn","Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
+		RespawnItems[] = {"CUP_H_Ger_Beret_INF_Grn","Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
 		linkedItems[] = {"CUP_H_Ger_Beret_INF_Grn","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_Ger_Beret_INF_Grn","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1253,8 +1270,8 @@ class CfgVehicles
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "ZSN_pack_medic";
-		magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","zsn_wpshell","zsn_wpshell"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1262,8 +1279,10 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "Soldier";
-		magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		weapons[] = {"Throw","Put","CUP_arifle_G3A3_ris"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_G3A3_ris"};
+		magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1273,8 +1292,8 @@ class CfgVehicles
 		displayName = "Sniper";
 		weapons[] = {"Throw","Put","zsn_G3SG1"};
 		respawnWeapons[] = {"Throw","Put","zsn_G3SG1"};
-		magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","zsn_wpshell","zsn_wpshell"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1284,10 +1303,10 @@ class CfgVehicles
 		displayName = "Machine Gunner";
 		icon = "iconManMG";
 		backpack = "ZSN_GER_250rnd_MG3_bandoliers";
-		weapons[] = {"Throw","Put","CUP_lmg_MG3"};
-		respawnWeapons[] = {"Throw","Put","CUP_lmg_MG3"};
-		magazines[] = {"CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		weapons[] = {"Throw","Put","CUP_lmg_MG3","CUP_hgun_Browning_HP"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_MG3","CUP_hgun_Browning_HP"};
+		magazines[] = {"CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP"};
+		respawnMagazines[] = {"CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1296,10 +1315,10 @@ class CfgVehicles
 		scope = 2;
 		displayName = "MG Assistant";
 		backpack = "ZSN_GER_MG3_ammobelts";
-		weapons[] = {"Throw","Put","CUP_arifle_G3A3_ris","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_G3A3_ris","Binocular"};
-		magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		weapons[] = {"Throw","Put","CUP_Famas_F1","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_Famas_F1","Binocular"};
+		magazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1308,32 +1327,32 @@ class CfgVehicles
 		scope = 2;
 		displayName = "AA Soldier";
 		icon = "iconManAT";
-		weapons[] = {"Throw","Put","CUP_arifle_G3A3_ris","CUP_launch_FIM92Stinger"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_G3A3_ris","CUP_launch_FIM92Stinger"};
-		magazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_Stinger_M","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		weapons[] = {"Throw","Put","CUP_Famas_F1","CUP_launch_FIM92Stinger"};
+		respawnWeapons[] = {"Throw","Put","CUP_Famas_F1","CUP_launch_FIM92Stinger"};
+		magazines[] = {"CUP_Stinger_M","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_Stinger_M","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_GersolWLAW: ZSN_GersolW
 	{
 		scope = 2;
-		displayName = "Gustav Soldier";
+		displayName = "AT Soldier";
 		icon = "iconManAT";
-		weapons[] = {"Throw","Put","CUP_arifle_G3A3_ris","CUP_launch_MAAWS"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_G3A3_ris","CUP_launch_MAAWS"};
-		magazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_MAAWS_HEAT_M","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		weapons[] = {"Throw","Put","CUP_Famas_F1","CUP_launch_HCPF3"};
+		respawnWeapons[] = {"Throw","Put","CUP_Famas_F1","CUP_launch_HCPF3"};
+		magazines[] = {"CUP_PTFHC_M","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_PTFHC_M","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
 	class ZSN_GersolWLAWAss: ZSN_Gersolw
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "Gustav Assistant";
 		backpack = "ZSN_ger_alice_Gustav";
-		magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		magazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1342,29 +1361,27 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Section Leader";
 		icon = "iconManLeader";
-		weapons[] = {"Throw","Put","CUP_arifle_G3A3_ris","hgun_Pistol_Signal_F","Binocular"};
-		respawnWeapons[] = {"Throw","Put","CUP_arifle_G3A3_ris","hgun_Pistol_Signal_F","Binocular"};
-		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","Smokeshell","Smokeshell","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		weapons[] = {"Throw","Put","CUP_Famas_F1","hgun_Pistol_Signal_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_Famas_F1","hgun_Pistol_Signal_F","Binocular"};
+		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
 		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	class ZSN_GersolWPilot: ZSN_GersolW
 	{
-		scope = 2;
+		scope = 1;
 		displayName = "Pilot";
 		icon = "iconManEngineer";
 		backpack = "";
-		faction = "ZSN_WGer_ColdWar";
-		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_Euro","CUP_G_ARMY"};
-		uniformClass = "CUP_U_B_GER_Fleck_Overalls_Pilot";
+		uniformClass = "CUP_U_B_GER_Fleck_Overalls_Tank";
 		//uniformClass = "CUP_U_B_GER_Flecktarn_2";
 		weapons[] = {"Throw","Put","CUP_smg_MP5A5"};
 		respawnWeapons[] = {"Throw","Put","CUP_smg_MP5A5"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
-		Items[] = {"CUP_H_Ger_Beret_INF_Grn","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
-		RespawnItems[] = {"CUP_H_Ger_Beret_INF_Grn","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
+		Items[] = {"CUP_H_Ger_Beret_INF_Grn","Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
+		RespawnItems[] = {"CUP_H_Ger_Beret_INF_Grn","Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_DAGR"};
 		linkedItems[] = {"CUP_H_BAF_Helmet_Pilot","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"CUP_H_BAF_Helmet_Pilot","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
@@ -1374,16 +1391,159 @@ class CfgVehicles
 		displayName = "Crew";
 		icon = "iconManEngineer";
 		backpack = "";
-		faction = "ZSN_WGer_ColdWar";
-		identityTypes[] = {"LanguageENG_F","NoGlasses","Head_Euro","CUP_G_ARMY"};
 		uniformClass = "CUP_U_B_GER_Fleck_Overalls_Pilot";
 		//uniformClass = "CUP_U_B_GER_Flecktarn_2";
-		weapons[] = {"Throw","Put","CUP_smg_MP5A5"};
-		respawnWeapons[] = {"Throw","Put","CUP_smg_MP5A5"};
+		weapons[] = {"Throw","Put","CUP_smg_MP5A5","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_smg_MP5A5","Binocular"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
 		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
-		Items[] = {"Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
-		RespawnItems[] = {"Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		linkedItems[] = {"CUP_H_Ger_Beret_TankCommander_Blk","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_Ger_Beret_TankCommander_Blk","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_GersolWD: B_Soldier_base_F
+	{
+		author = "ZluskeN";
+		scope = 1;
+		scopeCurator = 1;
+		editorCategory = "ZSN_FGB";
+		editorSubcategory = "EdSubcat_Personnel_Camo_Desert";
+		faction = "ZSN_WGerD_ColdWar";
+		displayName = "Soldier (Garrison)";
+		icon = "iconMan";
+		genericNames = "CUP_Names_GermanMen";
+		identityTypes[] = {"LanguageENGFRE_F","NoGlasses","Head_Euro","G_GUERIL_default"};
+		uniformClass = "CUP_U_B_GER_Tropentarn_8";
+		canCarryBackPack = 1;
+		weapons[] = {"Throw","Put","CUP_Famas_F1"};
+		respawnWeapons[] = {"Throw","Put","CUP_Famas_F1"};
+		magazines[] = {};
+		respawnMagazines[] = {};
+		Items[] = {"CUP_H_Ger_Beret_INF_Grn","Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
+		RespawnItems[] = {"CUP_H_Ger_Beret_INF_Grn","Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs","ACE_EntrenchingTool"};
+		linkedItems[] = {"CUP_H_Ger_Beret_INF_Grn","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_Ger_Beret_INF_Grn","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_GersolWDMedic: ZSN_GersolWD
+	{
+		scope = 2;
+		displayName = "Medic";
+		icon = "iconManMedic";
+		attendant = 1;
+		backpack = "ZSN_pack_medic";
+		magazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","zsn_wpshell","zsn_wpshell"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_GersolWDB: ZSN_GersolWD
+	{
+		scope = 2;
+		displayName = "Soldier";
+		weapons[] = {"Throw","Put","CUP_arifle_G3A3_ris"};
+		respawnWeapons[] = {"Throw","Put","CUP_arifle_G3A3_ris"};
+		magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_GersolWDSniper: ZSN_GersolWD
+	{
+		scope = 2;
+		displayName = "Sniper";
+		weapons[] = {"Throw","Put","zsn_G3SG1"};
+		respawnWeapons[] = {"Throw","Put","zsn_G3SG1"};
+		magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","zsn_wpshell","zsn_wpshell"};
+		respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3","zsn_wpshell","zsn_wpshell"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_GersolWDMG: ZSN_GersolWD
+	{
+		scope = 2;
+		displayName = "Machine Gunner";
+		icon = "iconManMG";
+		backpack = "ZSN_GER_250rnd_MG3_bandoliers";
+		weapons[] = {"Throw","Put","CUP_lmg_MG3","CUP_hgun_Browning_HP"};
+		respawnWeapons[] = {"Throw","Put","CUP_lmg_MG3","CUP_hgun_Browning_HP"};
+		magazines[] = {"CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP"};
+		respawnMagazines[] = {"CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP","CUP_13Rnd_9x19_Browning_HP"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_GersolWDMGAss: ZSN_GersolWD
+	{
+		scope = 2;
+		displayName = "MG Assistant";
+		backpack = "ZSN_GER_MG3_ammobelts";
+		weapons[] = {"Throw","Put","CUP_Famas_F1","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_Famas_F1","Binocular"};
+		magazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_GersolWDAA: ZSN_GersolWD
+	{
+		scope = 2;
+		displayName = "AA Soldier";
+		icon = "iconManAT";
+		weapons[] = {"Throw","Put","CUP_Famas_F1","CUP_launch_FIM92Stinger"};
+		respawnWeapons[] = {"Throw","Put","CUP_Famas_F1","CUP_launch_FIM92Stinger"};
+		magazines[] = {"CUP_Stinger_M","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_Stinger_M","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_GersolWDLAW: ZSN_GersolWD
+	{
+		scope = 2;
+		displayName = "AT Soldier";
+		icon = "iconManAT";
+		weapons[] = {"Throw","Put","CUP_Famas_F1","CUP_launch_HCPF3"};
+		respawnWeapons[] = {"Throw","Put","CUP_Famas_F1","CUP_launch_HCPF3"};
+		magazines[] = {"CUP_PTFHC_M","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_PTFHC_M","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_GersolWDLAWAss: ZSN_GersolWD
+	{
+		scope = 1;
+		displayName = "Gustav Assistant";
+		backpack = "ZSN_ger_alice_Gustav";
+		magazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_2","ItemMap","ItemCompass","ItemWatch"};
+	};
+	class ZSN_GersolWDLeader: ZSN_GersolWD
+	{
+		scope = 2;
+		displayName = "Section Leader";
+		icon = "iconManLeader";
+		weapons[] = {"Throw","Put","CUP_Famas_F1","hgun_Pistol_Signal_F","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_Famas_F1","hgun_Pistol_Signal_F","Binocular"};
+		magazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		respawnMagazines[] = {"6Rnd_GreenSignal_F","6Rnd_RedSignal_F","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","CUP_25Rnd_556x45_Famas","zsn_wpshell","zsn_wpshell","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
+		linkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"CUP_H_USArmy_Helmet_M1_plain_Olive","CUP_V_I_RACS_Carrier_Rig_wdl_3","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	class ZSN_GersolWDCrew: ZSN_GersolWD
+	{
+		scope = 2;
+		displayName = "Crew";
+		icon = "iconManEngineer";
+		backpack = "";
+		uniformClass = "CUP_U_B_GER_Overalls_Tank";
+		//uniformClass = "CUP_U_B_GER_Flecktarn_2";
+		weapons[] = {"Throw","Put","CUP_smg_MP5A5","Binocular"};
+		respawnWeapons[] = {"Throw","Put","CUP_smg_MP5A5","Binocular"};
+		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
+		respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
+		Items[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
+		RespawnItems[] = {"Firstaidkit","Firstaidkit","ACE_Flashlight_XL50","ACE_EarPlugs"};
 		linkedItems[] = {"CUP_H_Ger_Beret_TankCommander_Blk","ItemMap","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"CUP_H_Ger_Beret_TankCommander_Blk","ItemMap","ItemCompass","ItemWatch"};
 	};
@@ -1794,7 +1954,7 @@ class CfgGroups
 	{
 		class ZSN_WGer_ColdWar
 		{
-			name = "Cold War FRG";
+			name = "Cold War FGB";
 			class Infantry
 			{
 				name = "Infantry";
@@ -1820,21 +1980,21 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWLAW";
+						vehicle = "ZSN_GersolWMedic";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWMG";
+						vehicle = "ZSN_GersolWLAW";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWLAWAss";
+						vehicle = "ZSN_GersolWMG";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -1843,124 +2003,63 @@ class CfgGroups
 						side = 1;
 						vehicle = "ZSN_GersolWMGAss";
 						rank = "Private";
-						position[] = {-7,0,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWMedic";
-						rank = "Private";
 						position[] = {9,0,0};
 					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWSniper";
-						rank = "Private";
-						position[] = {11,0,0};
-					};
 				};
-				class ZSN_WGer_M113Infantry
+			};
+		};
+		class ZSN_WGerD_ColdWar
+		{
+			name = "Cold War FGB (Desert)";
+			class Infantry
+			{
+				name = "Infantry";
+				class ZSN_WGerD_BasicInfantry
 				{
-					name = "M113 Infantry Section";
-					faction = "ZSN_WGer_ColdWar";
+					name = "Infantry Section";
+					faction = "ZSN_WGerD_ColdWar";
 					side = 1;
 					class Unit0
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWLeader";
+						vehicle = "ZSN_GersolWDLeader";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWLeader";
+						vehicle = "ZSN_GersolWDLeader";
 						rank = "CORPORAL";
 						position[] = {-3,0,0};
 					};
 					class Unit2
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWLAW";
+						vehicle = "ZSN_GersolWDMedic";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWMG";
+						vehicle = "ZSN_GersolWDLAW";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWLAWAss";
+						vehicle = "ZSN_GersolWDMG";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWMGAss";
-						rank = "Private";
-						position[] = {-7,0,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWMedic";
+						vehicle = "ZSN_GersolWDMGAss";
 						rank = "Private";
 						position[] = {9,0,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWSniper";
-						rank = "Private";
-						position[] = {11,0,0};
-					};
-					class Unit8
-					{
-						side = 1;
-						vehicle = "ZSN_CUP_BW_M113";
-						rank = "CORPORAL";
-						position[] = {2,-10,0};
-					};
-				};
-				class ZSN_WGer_AASquad
-				{
-					name = "AA Group";
-					faction = "ZSN_WGer_ColdWar";
-					side = 1;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWAA";
-						rank = "Sergeant";
-						position[] = {0,5,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWAA";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWAA";
-						rank = "CORPORAL";
-						position[] = {5,0,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWAA";
-						rank = "CORPORAL";
-						position[] = {7,0,0};
 					};
 				};
 			};
@@ -2031,40 +2130,6 @@ class CfgGroups
 						vehicle = "ZSN_EurosolWSniper";
 						rank = "Private";
 						position[] = {11,0,0};
-					};
-				};
-				class ZSN_WEuro_AASquad
-				{
-					name = "AA Group";
-					faction = "ZSN_WEuro_ColdWar";
-					side = 1;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "ZSN_EurosolWAA";
-						rank = "Sergeant";
-						position[] = {0,5,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "ZSN_EurosolWAA";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "ZSN_EurosolWAA";
-						rank = "CORPORAL";
-						position[] = {5,0,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "ZSN_EurosolWAA";
-						rank = "CORPORAL";
-						position[] = {7,0,0};
 					};
 				};
 			};

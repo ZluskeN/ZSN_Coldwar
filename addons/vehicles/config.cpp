@@ -9,6 +9,13 @@
 		requiredAddons[] = {"ZSN_ColdWarEast","ZSN_ColdWarWest","ZSN_ColdWarEuro"};
 	};
 };
+class CfgEditorCategories
+{
+	class ZSN_FRG
+	{
+		displayName = "Cold War FRG Vehicles";
+	};
+};
 class CfgFactionClasses
 {
 	class sfp_swe_1990
@@ -2041,10 +2048,10 @@ class cfgvehicles
 				magazine = "1Rnd_Smoke_Grenade_shell";
 				count = 100;
 			};
-			class _xx_CUP_15Rnd_9x19_M9
+			class _xx_CUP_7Rnd_45ACP_1911
 			{
-				magazine = "CUP_15Rnd_9x19_M9";
-				count = 66;
+				magazine = "CUP_7Rnd_45ACP_1911";
+				count = 33;
 			};
 			class _xx_6Rnd_GreenSignal_F
 			{
@@ -3307,6 +3314,7 @@ class cfgvehicles
 		crew = "ZSN_SoldierWCrew";
 		typicalCargo[] = {"ZSN_SoldierWCrew"};
 		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_desert_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_desert_co.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M113_desert_USA.jpg";
 	};
 	class CUP_M113_Med_Base;
 	class ZSN_CUP_ARMY_M113_Med: CUP_M113_Med_Base
@@ -3397,6 +3405,8 @@ class cfgvehicles
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
+		displayName = "M113 (Woodland)";
+		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWCrew";
 		typicalCargo[] = {"ZSN_GersolWCrew"};
@@ -3411,6 +3421,15 @@ class cfgvehicles
 			};
 		};
 	};
+	class ZSN_CUP_BW_M113_Des: ZSN_CUP_BW_M113
+	{
+		displayName = "M113 (Desert)";
+		faction = "ZSN_WGerD_ColdWar";
+		crew = "ZSN_GersolWDCrew";
+		typicalCargo[] = {"ZSN_GersolWDCrew"};
+		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_desert_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_desert_co.paa"};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M113_desert_USA.jpg";
+	};
 	class ZSN_CUP_BW_M113_HQ: CUP_M113_Med_Base
 	{
 		side = 1;
@@ -3419,7 +3438,8 @@ class cfgvehicles
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
 		transportSoldier = 0;
-		displayName = "M113A3 (HQ)";
+		displayName = "M113 HQ (Woodland)";
+		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWCrew";
 		typicalCargo[] = {"ZSN_GersolWCrew"};
@@ -3442,9 +3462,19 @@ class cfgvehicles
 			};
 		};
 	};
+	class ZSN_CUP_BW_M113_HQ_Des: ZSN_CUP_BW_M113_HQ
+	{
+		displayName = "M113 HQ (Desert)";
+		faction = "ZSN_WGerD_ColdWar";
+		crew = "ZSN_GersolWDCrew";
+		typicalCargo[] = {"ZSN_GersolWDCrew"};
+		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_desert_co.paa",""};
+		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M113_desert_USA.jpg";
+	};
 	class CUP_B_UH1D_slick_GER_KSK;
 	class ZSN_CUP_B_UH1D_GER: CUP_B_UH1D_slick_GER_KSK
 	{
+		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWPilot";
 		displayName = "UH-1D Slick";
@@ -3453,6 +3483,7 @@ class cfgvehicles
 	class CUP_B_CH53E_GER;
 	class ZSN_CUP_B_CH53E_GER: CUP_B_CH53E_GER
 	{
+		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWPilot";
 		typicalCargo[] = {"ZSN_GersolWPilot"};
@@ -3460,6 +3491,7 @@ class cfgvehicles
 	class CUP_B_CH53E_VIV_GER;
 	class ZSN_CUP_B_CH53E_VIV_GER: CUP_B_CH53E_VIV_GER
 	{
+		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWPilot";
 		typicalCargo[] = {"ZSN_GersolWPilot"};
@@ -3470,10 +3502,23 @@ class cfgvehicles
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
-		displayName = "Leopard 2";
+		displayName = "Leopard 2 (Woodland)";
+		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWCrew";
 		typicalCargo[] = {"ZSN_GersolWCrew"};
+	};
+	class CUP_B_Leopard2A6DST_GER;
+	class ZSN_Leopard2Desert: CUP_B_Leopard2A6DST_GER
+	{
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		tf_hasLRradio = 1;
+		displayName = "Leopard 2 (Desert)";
+		editorCategory = "ZSN_FRG";
+		faction = "ZSN_WGerD_ColdWar";
+		crew = "ZSN_GersolWDCrew";
+		typicalCargo[] = {"ZSN_GersolWDCrew"};
 	};
 	class CUP_M163_Base;
 	class ZSN_CUP_ARMY_M163: CUP_M163_Base
@@ -4776,30 +4821,58 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "ZSN_CUP_GUER_LR_SPG9";
+						vehicle = "ZSN_EurosolGLeader";
 						rank = "CORPORAL";
-						position[] = {4,0,0};
+						position[] = {3,0,0};
 					};
 					class Unit1
 					{
 						side = 2;
-						vehicle = "ZSN_CUP_GUER_LR_SPG9";
-						rank = "CORPORAL";
-						position[] = {-4,0,0};
+						vehicle = "ZSN_EurosolGLAW";
+						rank = "Private";
+						position[] = {-3,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
-						vehicle = "ZSN_CUP_GUER_Datsun_PK";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
-						position[] = {8,0,0};
+						position[] = {6,0,0};
 					};
 					class Unit3
 					{
 						side = 2;
+						vehicle = "ZSN_EurosolGMG";
+						rank = "Private";
+						position[] = {-6,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_LR_SPG9";
+						rank = "CORPORAL";
+						position[] = {3,-6,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_LR_SPG9";
+						rank = "CORPORAL";
+						position[] = {-3,-6,0};
+					};
+					class Unit6
+					{
+						side = 2;
 						vehicle = "ZSN_CUP_GUER_Datsun_PK";
 						rank = "Private";
-						position[] = {-8,0,0};
+						position[] = {6,-6,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_Datsun_PK";
+						rank = "Private";
+						position[] = {-6,-6,0};
 					};
 				};
 				class ZSN_GEuro_AAVehicles
@@ -5143,7 +5216,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGHunter";
+						vehicle = "ZSN_EurosolGDHunter";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
@@ -5170,30 +5243,58 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "ZSN_CUP_DGUER_LR_SPG9";
+						vehicle = "ZSN_EurosolGDLeader";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
 					class Unit1
 					{
 						side = 2;
-						vehicle = "ZSN_CUP_DGUER_LR_SPG9";
-						rank = "CORPORAL";
+						vehicle = "ZSN_EurosolGDLAW";
+						rank = "Private";
 						position[] = {-3,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
-						vehicle = "ZSN_CUP_DGUER_Datsun_PK";
+						vehicle = "ZSN_EurosolGHunter";
 						rank = "Private";
 						position[] = {6,0,0};
 					};
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_CUP_DGUER_Datsun_PK";
+						vehicle = "ZSN_EurosolGDMG";
 						rank = "Private";
 						position[] = {-6,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_LR_SPG9";
+						rank = "CORPORAL";
+						position[] = {3,-6,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_LR_SPG9";
+						rank = "CORPORAL";
+						position[] = {-3,-6,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_Datsun_PK";
+						rank = "Private";
+						position[] = {6,-6,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_DGUER_Datsun_PK";
+						rank = "Private";
+						position[] = {-6,-6,0};
 					};
 				};
 				class ZSN_GEuroD_AAVehicles
@@ -5232,7 +5333,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGHunter";
+						vehicle = "ZSN_EurosolGDHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -5648,7 +5749,94 @@ class CfgGroups
 		};
 		class ZSN_WGer_ColdWar
 		{
-			name = "Cold War FRG";
+			name = "Cold War FGB";
+			class Mechanised
+			{
+				name = "Mechanised Infantry";
+				class ZSN_WGer_M113Infantry
+				{
+					name = "Infantry unit (M113)";
+					faction = "ZSN_WGer_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWLAW";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWMedic";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWMGAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWMG";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWLeader";
+						rank = "CORPORAL";
+						position[] = {3,2,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWLAW";
+						rank = "Private";
+						position[] = {-3,2,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWMGAss";
+						rank = "Private";
+						position[] = {5,2,0};
+					};
+					class Unit9
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWMG";
+						rank = "Private";
+						position[] = {-5,2,0};
+					};
+					class Unit10
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_BW_M113";
+						rank = "Private";
+						position[] = {0,5,0};
+					};
+				};
+			};
 			class Armored
 			{
 				name = "Armored";
@@ -5682,6 +5870,135 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_Leopard2";
+						rank = "lieutenant";
+						position[] = {40,0,0};
+					};
+				};
+			};
+		};
+		class ZSN_WGerD_ColdWar
+		{
+			name = "Cold War FGB (Desert)";
+			class Mechanised
+			{
+				name = "Mechanised Infantry";
+				class ZSN_WGerD_M113Infantry
+				{
+					name = "Infantry unit (M113)";
+					faction = "ZSN_WGerD_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDLeader";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDLAW";
+						rank = "Private";
+						position[] = {5,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDMedic";
+						rank = "Private";
+						position[] = {-5,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDMGAss";
+						rank = "Private";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDMG";
+						rank = "Private";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDLeader";
+						rank = "CORPORAL";
+						position[] = {3,2,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDLAW";
+						rank = "Private";
+						position[] = {-3,2,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDMGAss";
+						rank = "Private";
+						position[] = {5,2,0};
+					};
+					class Unit9
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDMG";
+						rank = "Private";
+						position[] = {-5,2,0};
+					};
+					class Unit10
+					{
+						side = 1;
+						vehicle = "ZSN_CUP_BW_M113_Des";
+						rank = "Private";
+						position[] = {0,5,0};
+					};
+				};
+			};
+			class Armored
+			{
+				name = "Armored";
+				class ZSN_WGerD_Tankplatoon
+				{
+					name = "Leopard Platoon";
+					faction = "ZSN_WGerD_ColdWar";
+					side = 1;
+					class Unit0
+					{
+						side = 1;
+						vehicle = "ZSN_Leopard2Desert";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "ZSN_Leopard2Desert";
+						rank = "lieutenant";
+						position[] = {-20,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_Leopard2Desert";
+						rank = "lieutenant";
+						position[] = {20,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "ZSN_Leopard2Desert";
 						rank = "lieutenant";
 						position[] = {40,0,0};
 					};

@@ -212,7 +212,7 @@ class CfgWeapons
 			class LinkedItemsOptic
 			{
 				slot = "CowsSlot";
-				item = "cup_optic_leupoldm3lr_pip";
+				item = "cup_optic_sb_11_4x20_pm";
 			};
 			class LinkedItemsUnder
 			{
@@ -889,7 +889,7 @@ class CfgVehicles
 	class ZSN_GER_MG3_ammobelts: CUP_B_RUS_Backpack
 	{
 		scope = 1;
-		displayName = "Linked 7.62x51, 480 rnd";
+		displayName = "Linked 7.62x51, 600 rnd";
 		maximumLoad = 330;
 		mass = 0;
 		allowedSlots[] = {901};
@@ -898,7 +898,7 @@ class CfgVehicles
 			class _xx_CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M
 			{
 				magazine = "CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M";
-				count = 4;
+				count = 5;
 			};
 			class _xx_ACE_SpareBarrel
 			{

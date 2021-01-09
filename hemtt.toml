@@ -7,7 +7,7 @@ files = [
     "meta.cpp",
     "mod.cpp",
 ]
-key_name = "bsl"
+key_name = "zsn"
 reuse_private_key = true
-authority = "bsl"
+authority = "zsn"
 sig_version = 3
