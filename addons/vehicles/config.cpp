@@ -3,7 +3,7 @@
 	class ZSN_ColdWarVehicles
 	{
 		author = "ZluskeN";
-		Units[] = {};
+		Units[] = {"ZSN_GUER_TT650","ZSN_DGUER_TT650","ZSN_CUP_DGUER_V3S","ZSN_CUP_GUER_V3S","ZSN_CUP_GUER_V3S_Refuel","ZSN_CUP_DGUER_V3S_Refuel","ZSN_CUP_DGUER_V3S_Sup","ZSN_CUP_GUER_V3S_Sup","ZSN_CUP_GUER_LR","ZSN_CUP_DGUER_LR","ZSN_CUP_BAF_LR","ZSN_CUP_DBAF_LR","ZSN_CUP_BAF_LR_MG","ZSN_CUP_DBAF_LR_MG","ZSN_CUP_USR_JEEP","ZSN_CUP_DUSR_JEEP","ZSN_CUP_USR_Jeep_MG","ZSN_CUP_DUSR_Jeep_MG","ZSN_CUP_GUER_LR_SPG9","ZSN_CUP_DGUER_LR_SPG9","ZSN_CUP_GUER_LR_Sup","ZSN_CUP_DGUER_LR_Sup","ZSN_CUP_MSV_UAZ_Unarmed","ZSN_CUP_DMSV_UAZ_Unarmed","ZSN_CUP_VMF_UAZ_Unarmed","ZSN_CUP_DVMF_UAZ_Unarmed","ZSN_CUP_VDV_UAZ_Open","ZSN_CUP_DVDV_UAZ_Open","ZSN_CUP_VDV_UAZ_SPG9","ZSN_CUP_DVDV_UAZ_SPG9","ZSN_CUP_MSV_UAZ_MG","ZSN_CUP_DMSV_UAZ_MG","ZSN_CUP_VMF_UAZ_MG","ZSN_CUP_DVMF_UAZ_MG","ZSN_CUP_MSV_UAZ_AGS30","ZSN_CUP_VMF_UAZ_AGS30","ZSN_CUP_DMSV_UAZ_AGS30","ZSN_CUP_DVMF_UAZ_AGS30","ZSN_CUP_MSV_UAZ_METIS","ZSN_CUP_VMF_UAZ_METIS","ZSN_CUP_DMSV_UAZ_METIS","ZSN_CUP_DVMF_UAZ_METIS","ZSN_CUP_VMF_UAZ_AA","ZSN_CUP_DVMF_UAZ_AA","ZSN_CUP_MSV_UAZ_Amb","ZSN_CUP_VMF_UAZ_Amb","ZSN_CUP_DMSV_UAZ_Amb","ZSN_CUP_DVMF_UAZ_Amb","ZSN_CUP_ARMY_HMMWV_Unarmed","ZSN_CUP_USMC_HMMWV_Unarmed","ZSN_CUP_DARMY_HMMWV_Unarmed","ZSN_CUP_DUSMC_HMMWV_Unarmed","ZSN_CUP_ARMY_HMMWV_M2","ZSN_CUP_USMC_HMMWV_M2","ZSN_CUP_DARMY_HMMWV_M2","ZSN_CUP_DUSMC_HMMWV_M2","ZSN_CUP_ARMY_HMMWV_MK19","ZSN_CUP_USMC_HMMWV_MK19","ZSN_CUP_DARMY_HMMWV_MK19","ZSN_CUP_DUSMC_HMMWV_MK19","ZSN_CUP_ARMY_HMMWV_TOW","ZSN_CUP_USMC_HMMWV_TOW","ZSN_CUP_DARMY_HMMWV_TOW","ZSN_CUP_DUSMC_HMMWV_TOW","ZSN_CUP_USMC_HMMWV_Avenger","ZSN_CUP_DARMY_HMMWV_Avenger","ZSN_CUP_ARMY_HMMWV_Ambulance","ZSN_CUP_USMC_HMMWV_Ambulance","ZSN_CUP_DARMY_HMMWV_Ambulance","ZSN_CUP_DUSMC_HMMWV_Ambulance","ZSN_CUP_DGUER_Ural_ZU23","ZSN_CUP_GUER_Ural_ZU23","ZSN_CUP_MSV_Ural","ZSN_CUP_VMF_Ural","ZSN_CUP_DMSV_Ural","ZSN_CUP_DVMF_Ural","ZSN_CUP_MSV_Ural_Open","ZSN_CUP_VMF_Ural_Open","ZSN_CUP_DMSV_Ural_Open","ZSN_CUP_DVMF_Ural_Open","ZSN_CUP_DMSV_BM21","ZSN_CUP_MSV_BM21","ZSN_CUP_MSV_Ural_Refuel","ZSN_CUP_VMF_Ural_Refuel","ZSN_CUP_DMSV_Ural_Refuel","ZSN_CUP_DVMF_Ural_Refuel","ZSN_CUP_MSV_Ural_Repair","ZSN_CUP_VMF_Ural_Repair","ZSN_CUP_DMSV_Ural_Repair","ZSN_CUP_DVMF_Ural_Repair","ZSN_CUP_MSV_Ural_Reammo","ZSN_CUP_VMF_Ural_Reammo","ZSN_CUP_DMSV_Ural_Reammo","ZSN_CUP_DVMF_Ural_Reammo","ZSN_DArmy_Truck_transport","ZSN_DUSMC_Truck_transport","ZSN_Army_Truck_transport","ZSN_USMC_Truck_transport","ZSN_DArmy_Truck_covered","ZSN_DUSMC_Truck_covered","ZSN_Army_Truck_covered","ZSN_USMC_Truck_covered","ZSN_DArmy_Truck_Repair","ZSN_DUSMC_Truck_Repair","ZSN_Army_Truck_Repair","ZSN_USMC_Truck_Repair","ZSN_DArmy_Truck_ammo","ZSN_DUSMC_Truck_ammo","ZSN_Army_Truck_ammo","ZSN_USMC_Truck_ammo","ZSN_DArmy_Truck_fuel","ZSN_DUSMC_Truck_fuel","ZSN_Army_Truck_fuel","ZSN_USMC_Truck_fuel","ZSN_CUP_GUER_Datsun_PK","ZSN_CUP_DGUER_Datsun_PK","ZSN_CUP_GUER_Datsun","ZSN_CUP_DGUER_Datsun","ZSN_CUP_CSLA_BTR40_MG","ZSN_CUP_DCSLA_BTR40_MG","ZSN_CUP_CSLA_BTR40","ZSN_CUP_DCSLA_BTR40","ZSN_CUP_VMF_BRDM2","ZSN_CUP_DVMF_BRDM2","ZSN_CUP_VMF_BRDM2_HQ","ZSN_CUP_DVMF_BRDM2_HQ","ZSN_CUP_MSV_BTR60","ZSN_CUP_SWE_MTLB_pk","ZSN_CUP_WSWE_MTLB_pk","ZSN_CUP_CSLA_MTLB_pk","ZSN_CUP_DCSLA_MTLB_pk","ZSN_CUP_BAF_FV432","ZSN_CUP_DBAF_FV432","ZSN_CUP_BAF_FV432_AMB","ZSN_CUP_DBAF_FV432_AMB","ZSN_CUP_BAF_FV432_Mortar","ZSN_CUP_DBAF_FV432_Mortar","ZSN_CUP_CSLA_S1203_Amb","ZSN_CUP_DCSLA_S1203_Amb","ZSN_CUP_MSV_BTR80","ZSN_CUP_DMSV_BTR80","ZSN_CUP_USMC_LAV25","ZSN_CUP_DUSMC_LAV25","ZSN_CUP_USMC_LAV25_HQ","ZSN_CUP_DUSMC_LAV25_HQ","ZSN_CUP_DBAF_MCV80","ZSN_CUP_BAF_MCV80","ZSN_CUP_BAF_Challenger2","ZSN_CUP_DBAF_Challenger2","ZSN_CUP_GUER_T34","ZSN_CUP_DGUER_T34","ZSN_CUP_DVMF_T55","ZSN_CUP_VMF_T55","ZSN_CUP_DMSV_T55","ZSN_CUP_MSV_T55","ZSN_CUP_DMSV_ZSU23","ZSN_CUP_MSV_2S6","ZSN_CUP_Army_M270","ZSN_CUP_DArmy_M270","ZSN_CUP_CSLA_RM70","ZSN_CUP_DCSLA_RM70","ZSN_CUP_USMC_AAV","ZSN_CUP_DARMY_M2Bradley","ZSN_CUP_ARMY_M2Bradley","ZSN_CUP_DCSLA_BMP1","ZSN_CUP_CSLA_BMP1","ZSN_CUP_SWE_501","ZSN_CUP_WSWE_501","ZSN_CUP_MSV_BMP2","ZSN_CUP_DMSV_BMP2","ZSN_CUP_GUER_BMP2_ZU","ZSN_CUP_DGUER_BMP2_ZU","ZSN_CUP_MSV_BMP_HQ","ZSN_CUP_DMSV_BMP_HQ","ZSN_CUP_MSV_BMP2_AMB","ZSN_CUP_DMSV_BMP2_AMB","ZSN_CUP_Army_M113","ZSN_CUP_DArmy_M113","ZSN_CUP_ARMY_M113_Med","ZSN_CUP_DARMY_M113_Med","ZSN_CUP_ARMY_M113_HQ","ZSN_CUP_DARMY_M113_HQ","ZSN_CUP_BW_M113","ZSN_CUP_BW_M113_Des","ZSN_CUP_B_UH1D_GER","ZSN_CUP_B_CH53E_GER","ZSN_CUP_B_CH53E_VIV_GER","ZSN_Leopard2","ZSN_Leopard2Desert","ZSN_CUP_ARMY_M163","ZSN_CUP_DARMY_M163","ZSN_CUP_USMC_M60A3","ZSN_CUP_DUSMC_M60A3","ZSN_CUP_ARMY_M60A3","ZSN_CUP_DARMY_M60A3","ZSN_CUP_DCSLA_T72","ZSN_CUP_CSLA_T72","ZSN_CUP_MSV_T72B","ZSN_CUP_DMSV_T72B","ZSN_CUP_ARMY_M1A1","ZSN_CUP_DARMY_M1A1","ZSN_CUP_VMF_Su25","ZSN_CUP_MSV_Su25","ZSN_CUP_Army_A10","ZSN_CUP_USMC_AV8B","ZSN_BAF_AV8","ZSN_DBAF_AV8","ZSN_CUP_VMF_Ka50","ZSN_CUP_USMC_AH1","ZSN_CUP_ARMY_AH64","ZSN_CSLA_Mi17","ZSN_DCSLA_Mi17","ZSN_CUP_MSV_Mi8","ZSN_CUP_VMF_Mi8","ZSN_CUP_VDV_Mi8","ZSN_CUP_MSV_Mi8_medevac","ZSN_CUP_VMF_Mi8_medevac","ZSN_CUP_VDV_Mi8_medevac","ZSN_CUP_VDV_Mi8_VIV","ZSN_CUP_ARMY_UH1","ZSN_CUP_ARMY_UH1_Gunship","ZSN_CUP_USR_UH60","ZSN_CUP_USR_UH60_MEV","ZSN_CUP_USMC_UH1_GUNSHIP","ZSN_CUP_USMC_UH1_MEV","ZSN_CSLA_Mi24","ZSN_DCSLA_Mi24","ZSN_CUP_VDV_Mi24_P","ZSN_BAF_Lynx","ZSN_DBAF_Lynx","ZSN_BAF_Lynx_TOW","ZSN_DBAF_Lynx_TOW","ZSN_CSLA_L39","ZSN_DCSLA_L39","ZSN_CSLA_L39_RKT","ZSN_DCSLA_L39_RKT","ZSN_CUP_USR_C130","ZSN_CUP_USR_C130_Cargo","ZSN_BAF_C130","ZSN_DBAF_C130","ZSN_CUP_VDV_AN2","ZSN_CUP_MSV_MI6A","ZSN_CUP_VMF_MI6A","ZSN_CUP_MSV_MI6T","ZSN_CUP_VMF_MI6T","ZSN_CSLA_Mi6","ZSN_DCSLA_Mi6","ZSN_BAF_SA330","ZSN_DBAF_SA330","ZSN_CUP_MSV_D30","ZSN_CUP_DMSV_D30","ZSN_CUP_VMF_D30","ZSN_CUP_DVMF_D30","ZSN_CUP_ARMY_CH47F","ZSN_CUP_ARMY_CH47F_VIV","ZSN_CUP_USMC_M119","ZSN_CUP_DUSMC_M119","ZSN_CUP_ARMY_M119","ZSN_CUP_DArmy_M119","ZSN_CUP_USMC_CH53E","ZSN_CUP_USMC_CH53E_VIV"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"ZSN_ColdWarEast","ZSN_ColdWarWest","ZSN_ColdWarEuro"};
@@ -13,7 +13,7 @@ class CfgEditorCategories
 {
 	class ZSN_FRG
 	{
-		displayName = "Cold War FRG Vehicles";
+		displayName = "Cold War FGB Vehicles";
 	};
 };
 class CfgFactionClasses
@@ -411,10 +411,27 @@ class cfgvehicles
 	};
 	class ZSN_CUP_ARMY_JEEP_HQ: ZSN_CUP_USR_JEEP
 	{
+		scope = 1;
 		crew = "ZSN_SoldierWB";
 		typicalCargo[] = {"ZSN_SoldierWB"};
 		faction = "ZSN_WArmy_ColdWar";
 		displayName = "TACOM Jeep";
+		class TransportWeapons
+		{
+			class _xx_CUP_lmg_M60
+			{
+				weapon = "CUP_lmg_M60";
+				count = 1;
+			};
+		};
+		class TransportBackpacks
+		{
+			class _xx_ZSN_762x51_ammobelts_OD
+			{
+				backpack = "ZSN_762x51_ammobelts_OD";
+				count = 2;
+			};
+		};
 	};
 	class ZSN_CUP_DARMY_JEEP_HQ: ZSN_CUP_ARMY_JEEP_HQ
 	{
@@ -693,6 +710,7 @@ class cfgvehicles
 	class ZSN_CUP_USR_Jeep_MG: CUP_I_M151_M2_SYND
 	{
 		side = 1;
+		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
@@ -735,6 +753,7 @@ class cfgvehicles
 	};
 	class ZSN_CUP_DUSR_Jeep_MG: ZSN_CUP_USR_Jeep_MG
 	{
+		scope = 2;
 		crew = "ZSN_RangerWDB";
 		typicalCargo[] = {"ZSN_RangerWDB"};
 		faction = "ZSN_WRangersD_ColdWar";
@@ -744,10 +763,11 @@ class cfgvehicles
 	class ZSN_CUP_BAF_LR_MG: CUP_B_LR_MG_GB_W
 	{
 		tf_hasLRradio = 1;
+		scopeCurator = 2;
 		crew = "ZSN_EurosolWB";
 		faction = "ZSN_WEuro_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolWB"};
-		displayName = "Lamd Rover 110 (M2)";
+		displayName = "Land Rover 110 (M2)";
 		animationList[] = {"selection_wheels",1,"selection_antenna",0,"selection_jerry",1,"selection_box",1,"selection_wheelfront",0,"selection_tarp",0,"selection_wind",0,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_doors",0.5,"selection_bar",0.5};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa"};
 		class EventHandlers: EventHandlers
@@ -760,7 +780,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolWDB";
 		faction = "ZSN_WEuroD_ColdWar";
 		typicalCargo[] = {"ZSN_EurosolWDB"};
-		displayName = "Lamd Rover 110 (M2)";
+		displayName = "Land Rover 110 (M2)";
 		animationList[] = {"selection_wheels",1,"selection_antenna",1,"selection_jerry",1,"selection_box",1,"selection_wheelfront",0,"selection_tarp",0,"selection_wind",0,"selection_tool",0.5,"selection_steps",0.5,"selection_rear",0.5,"selection_doors",0.5,"selection_bar",0.5};
 		hiddenselectionstextures[] = {"cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_base_co.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_d_lr_special_co.paa"};
 		editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LR\Data\preview\CUP_B_LR_MG_GB_D.jpg";
@@ -1338,8 +1358,8 @@ class cfgvehicles
 	class ZSN_CUP_USMC_HMMWV_Avenger: CUP_HMMWV_Avenger_Base
 	{
 		scope = 2;
-		scopeCurator = 1;
-		scopeArsenal = 1;
+		scopeCurator = 2;
+		scopeArsenal = 2;
 		tf_hasLRradio = 1;
 		crew = "ZSN_MarineWB";
 		typicalCargo[] = {"ZSN_MarineWB"};
@@ -1881,6 +1901,8 @@ class cfgvehicles
 	class B_Truck_01_transport_F;
 	class ZSN_DArmy_Truck_transport: B_Truck_01_transport_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		tf_hasLRradio = 1;
 		crew = "ZSN_SoldierWDB";
 		typicalCargo[] = {"ZSN_SoldierWDB"};
@@ -1889,12 +1911,16 @@ class cfgvehicles
 	};
 	class ZSN_DUSMC_Truck_transport: ZSN_DArmy_Truck_transport
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_MarineWDB";
 		typicalCargo[] = {"ZSN_MarineWDB"};
 		faction = "ZSN_WMarinesD_ColdWar";
 	};
 	class ZSN_Army_Truck_transport: ZSN_DArmy_Truck_transport
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_SoldierWB";
 		typicalCargo[] = {"ZSN_SoldierWB"};
 		faction = "ZSN_WArmy_ColdWar";
@@ -1902,6 +1928,8 @@ class cfgvehicles
 	};
 	class ZSN_USMC_Truck_transport: ZSN_Army_Truck_transport
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_MarineWB";
 		typicalCargo[] = {"ZSN_MarineWB"};
 		faction = "ZSN_WMarines_ColdWar";
@@ -1909,6 +1937,8 @@ class cfgvehicles
 	class B_Truck_01_covered_F;
 	class ZSN_DArmy_Truck_covered: B_Truck_01_covered_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		tf_hasLRradio = 1;
 		crew = "ZSN_SoldierWDB";
 		typicalCargo[] = {"ZSN_SoldierWDB"};
@@ -1917,12 +1947,16 @@ class cfgvehicles
 	};
 	class ZSN_DUSMC_Truck_covered: ZSN_DArmy_Truck_covered
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_MarineWDB";
 		typicalCargo[] = {"ZSN_MarineWDB"};
 		faction = "ZSN_WMarinesD_ColdWar";
 	};
 	class ZSN_Army_Truck_covered: ZSN_DArmy_Truck_covered
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_SoldierWB";
 		typicalCargo[] = {"ZSN_SoldierWB"};
 		faction = "ZSN_WArmy_ColdWar";
@@ -1930,6 +1964,8 @@ class cfgvehicles
 	};
 	class ZSN_USMC_Truck_covered: ZSN_Army_Truck_covered
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_MarineWB";
 		typicalCargo[] = {"ZSN_MarineWB"};
 		faction = "ZSN_WMarines_ColdWar";
@@ -1937,6 +1973,8 @@ class cfgvehicles
 	class B_Truck_01_Repair_F;
 	class ZSN_DArmy_Truck_Repair: B_Truck_01_Repair_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		tf_hasLRradio = 1;
 		crew = "ZSN_SoldierWDB";
 		typicalCargo[] = {"ZSN_SoldierWDB"};
@@ -1953,12 +1991,16 @@ class cfgvehicles
 	};
 	class ZSN_DUSMC_Truck_Repair: ZSN_DArmy_Truck_Repair
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_MarineWDB";
 		typicalCargo[] = {"ZSN_MarineWDB"};
 		faction = "ZSN_WMarinesD_ColdWar";
 	};
 	class ZSN_Army_Truck_Repair: ZSN_DArmy_Truck_Repair
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_SoldierWB";
 		typicalCargo[] = {"ZSN_SoldierWB"};
 		faction = "ZSN_WArmy_ColdWar";
@@ -1966,6 +2008,8 @@ class cfgvehicles
 	};
 	class ZSN_USMC_Truck_Repair: ZSN_Army_Truck_Repair
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_SoldierWB";
 		typicalCargo[] = {"ZSN_SoldierWB"};
 		faction = "ZSN_WMarines_ColdWar";
@@ -1973,13 +2017,15 @@ class cfgvehicles
 	class B_Truck_01_ammo_F;
 	class ZSN_DArmy_Truck_ammo: B_Truck_01_ammo_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		tf_hasLRradio = 1;
 		crew = "ZSN_SoldierWDB";
 		typicalCargo[] = {"ZSN_SoldierWDB"};
 		faction = "ZSN_WArmyD_ColdWar";
 		hiddenSelectionsTextures[] = {"zsn_coldwar_vehicles\truck_d_01_ext_01_co.paa","zsn_coldwar_vehicles\truck_d_01_ext_02_co.paa","zsn_coldwar_vehicles\truck_d_01_ammo_CO.paa"};
 		maximumLoad = 20000;
-    		ace_rearm_defaultSupply = 10000;
+    	ace_rearm_defaultSupply = 10000;
 		class Transportweapons
 		{
 			class _xx_CUP_launch_M72A6
@@ -2087,6 +2133,8 @@ class cfgvehicles
 	};
 	class ZSN_DUSMC_Truck_ammo: B_Truck_01_ammo_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		tf_hasLRradio = 1;
 		crew = "ZSN_MarineWDB";
 		typicalCargo[] = {"ZSN_MarineWDB"};
@@ -2206,6 +2254,8 @@ class cfgvehicles
 	};
 	class ZSN_Army_Truck_ammo: ZSN_DArmy_Truck_ammo
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_SoldierWB";
 		typicalCargo[] = {"ZSN_SoldierWB"};
 		faction = "ZSN_WArmy_ColdWar";
@@ -2213,6 +2263,8 @@ class cfgvehicles
 	};
 	class ZSN_USMC_Truck_ammo: ZSN_DUSMC_Truck_ammo
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_MarineWB";
 		typicalCargo[] = {"ZSN_MarineWB"};
 		faction = "ZSN_WMarines_ColdWar";
@@ -2221,6 +2273,8 @@ class cfgvehicles
 	class B_Truck_01_fuel_F;
 	class ZSN_DArmy_Truck_fuel: B_Truck_01_fuel_F
 	{
+		scope = 2;
+		scopeCurator = 2;
 		tf_hasLRradio = 1;
 		crew = "ZSN_SoldierWDB";
 		typicalCargo[] = {"ZSN_SoldierWDB"};
@@ -2229,12 +2283,16 @@ class cfgvehicles
 	};
 	class ZSN_DUSMC_Truck_fuel: ZSN_DArmy_Truck_fuel
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_MarineWDB";
 		typicalCargo[] = {"ZSN_MarineWDB"};
 		faction = "ZSN_WMarinesD_ColdWar";
 	};
 	class ZSN_Army_Truck_fuel: ZSN_DArmy_Truck_fuel
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_SoldierWB";
 		typicalCargo[] = {"ZSN_SoldierWB"};
 		faction = "ZSN_WArmy_ColdWar";
@@ -2242,6 +2300,8 @@ class cfgvehicles
 	};
 	class ZSN_USMC_Truck_fuel: ZSN_Army_Truck_fuel
 	{
+		scope = 2;
+		scopeCurator = 2;
 		crew = "ZSN_MarineWB";
 		typicalCargo[] = {"ZSN_MarineWB"};
 		faction = "ZSN_WMarines_ColdWar";
@@ -2636,7 +2696,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolWCrew";
 		typicalCargo[] = {"ZSN_EurosolWCrew"};
 	};
-	class ZSN_CUP_DBAF_FV432_AMB: CUP_B_FV432_GB_Ambulance
+	class ZSN_CUP_DBAF_FV432_AMB: ZSN_CUP_BAF_FV432_AMB
 	{
 		faction = "ZSN_WEuroD_ColdWar";
 		crew = "ZSN_EurosolWDCrew";
@@ -2655,7 +2715,7 @@ class cfgvehicles
 		crew = "ZSN_EurosolWCrew";
 		typicalCargo[] = {"ZSN_EurosolWCrew"};
 	};
-	class ZSN_CUP_DBAF_FV432_Mortar: CUP_B_FV432_Mortar
+	class ZSN_CUP_DBAF_FV432_Mortar: ZSN_CUP_BAF_FV432_Mortar
 	{
 		faction = "ZSN_WEuroD_ColdWar";
 		crew = "ZSN_EurosolWDCrew";
@@ -3036,6 +3096,7 @@ class cfgvehicles
 	class ZSN_CUP_USMC_AAV: CUP_B_AAV_USMC
 	{
 		threat[] = {1,1,0.3};
+		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
@@ -3363,7 +3424,7 @@ class cfgvehicles
 	class ZSN_CUP_ARMY_M113_HQ: CUP_M113_Med_Base
 	{
 		side = 1;
-		scope = 1;
+		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
@@ -3384,9 +3445,9 @@ class cfgvehicles
 		};
 		class TransportBackpacks
 		{
-			class _xx_ZSN_762x51_ammobelts
+			class _xx_ZSN_762x51_ammobelts_OD
 			{
-				backpack = "ZSN_762x51_ammobelts";
+				backpack = "ZSN_762x51_ammobelts_OD";
 				count = 2;
 			};
 		};
@@ -3427,15 +3488,15 @@ class cfgvehicles
 		faction = "ZSN_WGerD_ColdWar";
 		crew = "ZSN_GersolWDCrew";
 		typicalCargo[] = {"ZSN_GersolWDCrew"};
-		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_desert_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_desert_co.paa"};
+		hiddenSelectionsTextures[] = {"zsn_coldwar_euro\m113a3_bw_desert_co.paa","cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_desert_co.paa"};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M113_desert_USA.jpg";
 	};
 	class ZSN_CUP_BW_M113_HQ: CUP_M113_Med_Base
 	{
 		side = 1;
-		scope = 2;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		tf_hasLRradio = 1;
 		transportSoldier = 0;
 		displayName = "M113 HQ (Woodland)";
@@ -3468,12 +3529,13 @@ class cfgvehicles
 		faction = "ZSN_WGerD_ColdWar";
 		crew = "ZSN_GersolWDCrew";
 		typicalCargo[] = {"ZSN_GersolWDCrew"};
-		hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_desert_co.paa",""};
+		hiddenSelectionsTextures[] = {"zsn_coldwar_euro\m113a3_bw_desert_co.paa",""};
 		editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M113_desert_USA.jpg";
 	};
 	class CUP_B_UH1D_slick_GER_KSK;
 	class ZSN_CUP_B_UH1D_GER: CUP_B_UH1D_slick_GER_KSK
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWPilot";
@@ -3483,6 +3545,7 @@ class cfgvehicles
 	class CUP_B_CH53E_GER;
 	class ZSN_CUP_B_CH53E_GER: CUP_B_CH53E_GER
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWPilot";
@@ -3491,6 +3554,7 @@ class cfgvehicles
 	class CUP_B_CH53E_VIV_GER;
 	class ZSN_CUP_B_CH53E_VIV_GER: CUP_B_CH53E_VIV_GER
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWPilot";
@@ -4821,120 +4885,30 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGLeader";
+						vehicle = "ZSN_CUP_GUER_LR_SPG9";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
 					class Unit1
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGLAW";
-						rank = "Private";
+						vehicle = "ZSN_CUP_GUER_LR_SPG9";
+						rank = "CORPORAL";
 						position[] = {-3,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGHunter";
+						vehicle = "ZSN_CUP_GUER_Datsun_PK";
 						rank = "Private";
 						position[] = {6,0,0};
 					};
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGMG";
+						vehicle = "ZSN_CUP_GUER_Datsun_PK";
 						rank = "Private";
 						position[] = {-6,0,0};
-					};
-					class Unit4
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_GUER_LR_SPG9";
-						rank = "CORPORAL";
-						position[] = {3,-6,0};
-					};
-					class Unit5
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_GUER_LR_SPG9";
-						rank = "CORPORAL";
-						position[] = {-3,-6,0};
-					};
-					class Unit6
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_GUER_Datsun_PK";
-						rank = "Private";
-						position[] = {6,-6,0};
-					};
-					class Unit7
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_GUER_Datsun_PK";
-						rank = "Private";
-						position[] = {-6,-6,0};
-					};
-				};
-				class ZSN_GEuro_AAVehicles
-				{
-					name = "Resistance Cell (ZSU)";
-					faction = "ZSN_GEuro_ColdWar";
-					side = 2;
-					class Unit0
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLeader";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
-					};
-					class Unit1
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLeader";
-						rank = "CORPORAL";
-						position[] = {-3,0,0};
-					};
-					class Unit2
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGLAW";
-						rank = "Private";
-						position[] = {5,0,0};
-					};
-					class Unit3
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGR";
-						rank = "Private";
-						position[] = {-5,0,0};
-					};
-					class Unit4
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGHunter";
-						rank = "Private";
-						position[] = {7,0,0};
-					};
-					class Unit5
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGMG";
-						rank = "Private";
-						position[] = {-7,0,0};
-					};
-					class Unit6
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_GUER_Ural_ZU23";
-						rank = "Private";
-						position[] = {-6,-6,0};
-					};
-					class Unit7
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_GUER_Ural_ZU23";
-						rank = "Private";
-						position[] = {6,-6,0};
 					};
 				};
 			};
@@ -4994,6 +4968,26 @@ class CfgGroups
 						vehicle = "ZSN_CUP_GUER_BMP2_ZU";
 						rank = "Private";
 						position[] = {0,5,0};
+					};
+				};
+				class ZSN_GEuro_AAVehicles
+				{
+					name = "Resistance Cell (ZSU)";
+					faction = "ZSN_GEuro_ColdWar";
+					side = 2;
+					class Unit0
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_Ural_ZU23";
+						rank = "Private";
+						position[] = {-6,0,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "ZSN_CUP_GUER_Ural_ZU23";
+						rank = "Private";
+						position[] = {6,0,0};
 					};
 				};
 			};
@@ -5078,7 +5072,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGHunter";
+						vehicle = "ZSN_EurosolGDHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -5120,7 +5114,7 @@ class CfgGroups
 					class Unit10
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGHunter";
+						vehicle = "ZSN_EurosolGDHunter";
 						rank = "Private";
 						position[] = {7,-2,0};
 					};
@@ -5175,7 +5169,7 @@ class CfgGroups
 					class Unit4
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGHunter";
+						vehicle = "ZSN_EurosolGDHunter";
 						rank = "Private";
 						position[] = {7,0,0};
 					};
@@ -5243,63 +5237,39 @@ class CfgGroups
 					class Unit0
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDLeader";
+						vehicle = "ZSN_CUP_DGUER_LR_SPG9";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
 					class Unit1
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDLAW";
-						rank = "Private";
+						vehicle = "ZSN_CUP_DGUER_LR_SPG9";
+						rank = "CORPORAL";
 						position[] = {-3,0,0};
 					};
 					class Unit2
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGHunter";
+						vehicle = "ZSN_CUP_DGUER_Datsun_PK";
 						rank = "Private";
 						position[] = {6,0,0};
 					};
 					class Unit3
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDMG";
+						vehicle = "ZSN_CUP_DGUER_Datsun_PK";
 						rank = "Private";
 						position[] = {-6,0,0};
 					};
-					class Unit4
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_DGUER_LR_SPG9";
-						rank = "CORPORAL";
-						position[] = {3,-6,0};
-					};
-					class Unit5
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_DGUER_LR_SPG9";
-						rank = "CORPORAL";
-						position[] = {-3,-6,0};
-					};
-					class Unit6
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_DGUER_Datsun_PK";
-						rank = "Private";
-						position[] = {6,-6,0};
-					};
-					class Unit7
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_DGUER_Datsun_PK";
-						rank = "Private";
-						position[] = {-6,-6,0};
-					};
 				};
-				class ZSN_GEuroD_AAVehicles
+			};
+			class Mechanised
+			{
+				name = "Mechanised Infantry";
+				class ZSN_GEuroD_MechInfantry
 				{
-					name = "Resistance Cell (ZSU)";
+					name = "Resistance Cell (BMP)";
 					faction = "ZSN_GEuroD_ColdWar";
 					side = 2;
 					class Unit0
@@ -5347,75 +5317,29 @@ class CfgGroups
 					class Unit6
 					{
 						side = 2;
-						vehicle = "ZSN_CUP_DGUER_Ural_ZU23";
+						vehicle = "ZSN_CUP_DGUER_BMP2_ZU";
 						rank = "Private";
-						position[] = {-6,-6,0};
-					};
-					class Unit7
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_DGUER_Ural_ZU23";
-						rank = "Private";
-						position[] = {6,-6,0};
+						position[] = {0,5,0};
 					};
 				};
-			};
-			class Mechanised
-			{
-				name = "Mechanised Infantry";
-				class ZSN_GEuroD_MechInfantry
+				class ZSN_GEuroD_AAVehicles
 				{
-					name = "Resistance Cell (BMP)";
+					name = "Resistance Cell (ZSU)";
 					faction = "ZSN_GEuroD_ColdWar";
 					side = 2;
 					class Unit0
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDLeader";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
+						vehicle = "ZSN_CUP_DGUER_Ural_ZU23";
+						rank = "Private";
+						position[] = {-6,0,0};
 					};
 					class Unit1
 					{
 						side = 2;
-						vehicle = "ZSN_EurosolGDLeader";
-						rank = "CORPORAL";
-						position[] = {-3,0,0};
-					};
-					class Unit2
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGDLAW";
+						vehicle = "ZSN_CUP_DGUER_Ural_ZU23";
 						rank = "Private";
-						position[] = {5,0,0};
-					};
-					class Unit3
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGDR";
-						rank = "Private";
-						position[] = {-5,0,0};
-					};
-					class Unit4
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGHunter";
-						rank = "Private";
-						position[] = {7,0,0};
-					};
-					class Unit5
-					{
-						side = 2;
-						vehicle = "ZSN_EurosolGDMG";
-						rank = "Private";
-						position[] = {-7,0,0};
-					};
-					class Unit6
-					{
-						side = 2;
-						vehicle = "ZSN_CUP_DGUER_BMP2_ZU";
-						rank = "Private";
-						position[] = {0,5,0};
+						position[] = {6,0,0};
 					};
 				};
 			};
@@ -5698,7 +5622,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWLeader";
+						vehicle = "ZSN_RangerWHAT";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
@@ -5712,35 +5636,21 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWHAT";
+						vehicle = "ZSN_RangerWHATAss";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWLAW";
+						vehicle = "ZSN_CUP_USR_Jeep";
 						rank = "Private";
-						position[] = {-7,0,0};
+						position[] = {-9,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWHATAss";
-						rank = "Private";
-						position[] = {7,0,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "ZSN_CUP_USR_LR";
-						rank = "Private";
-						position[] = {-9,0,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "ZSN_CUP_USR_LR_MG";
+						vehicle = "ZSN_CUP_USR_Jeep_MG";
 						rank = "Private";
 						position[] = {9,0,0};
 					};
@@ -5762,73 +5672,80 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWLeader";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
+						rank = "SERGEANT";
+						position[] = {0,-2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWLeader";
 						rank = "CORPORAL";
-						position[] = {-3,0,0};
+						position[] = {3,0,0};
 					};
 					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWLAW";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWMedic";
-						rank = "Private";
-						position[] = {-5,0,0};
-					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWMGAss";
+						vehicle = "ZSN_GersolWLAW";
 						rank = "Private";
-						position[] = {7,0,0};
+						position[] = {-5,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWMG";
 						rank = "Private";
-						position[] = {9,0,0};
+						position[] = {7,0,0};
 					};
 					class Unit6
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWLeader";
-						rank = "CORPORAL";
-						position[] = {3,2,0};
+						vehicle = "ZSN_GersolWMG";
+						rank = "Private";
+						position[] = {-7,0,0};
 					};
 					class Unit7
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWLAW";
+						vehicle = "ZSN_GersolWMGAss";
 						rank = "Private";
-						position[] = {-3,2,0};
+						position[] = {9,0,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWMGAss";
 						rank = "Private";
-						position[] = {5,2,0};
+						position[] = {-9,0,0};
 					};
 					class Unit9
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWMG";
+						vehicle = "ZSN_GersolWMedic";
 						rank = "Private";
-						position[] = {-5,2,0};
+						position[] = {11,0,0};
 					};
 					class Unit10
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWMedic";
+						rank = "Private";
+						position[] = {-11,0,0};
+					};
+					class Unit11
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_BW_M113";
@@ -5891,73 +5808,80 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWDLeader";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
+						rank = "SERGEANT";
+						position[] = {0,-2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWDLeader";
 						rank = "CORPORAL";
-						position[] = {-3,0,0};
+						position[] = {3,0,0};
 					};
 					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWDLAW";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWDMedic";
-						rank = "Private";
-						position[] = {-5,0,0};
-					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWDMGAss";
+						vehicle = "ZSN_GersolWDLAW";
 						rank = "Private";
-						position[] = {7,0,0};
+						position[] = {-5,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWDMG";
 						rank = "Private";
-						position[] = {9,0,0};
+						position[] = {7,0,0};
 					};
 					class Unit6
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWDLeader";
-						rank = "CORPORAL";
-						position[] = {3,2,0};
+						vehicle = "ZSN_GersolWDMG";
+						rank = "Private";
+						position[] = {-7,0,0};
 					};
 					class Unit7
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWDLAW";
+						vehicle = "ZSN_GersolWDMGAss";
 						rank = "Private";
-						position[] = {-3,2,0};
+						position[] = {9,0,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWDMGAss";
 						rank = "Private";
-						position[] = {5,2,0};
+						position[] = {-9,0,0};
 					};
 					class Unit9
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWDMG";
+						vehicle = "ZSN_GersolWDMedic";
 						rank = "Private";
-						position[] = {-5,2,0};
+						position[] = {11,0,0};
 					};
 					class Unit10
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDMedic";
+						rank = "Private";
+						position[] = {-11,0,0};
+					};
+					class Unit11
 					{
 						side = 1;
 						vehicle = "ZSN_CUP_BW_M113_Des";
@@ -7087,7 +7011,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDLeader";
+						vehicle = "ZSN_RangerWDHAT";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
@@ -7101,35 +7025,21 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDHAT";
+						vehicle = "ZSN_RangerWDHATAss";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDLAW";
+						vehicle = "ZSN_CUP_DUSR_Jeep";
 						rank = "Private";
-						position[] = {-7,0,0};
+						position[] = {-9,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
-						vehicle = "ZSN_RangerWDHATAss";
-						rank = "Private";
-						position[] = {7,0,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "ZSN_CUP_DUSR_LR";
-						rank = "Private";
-						position[] = {-9,0,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "ZSN_CUP_DUSR_LR_MG";
+						vehicle = "ZSN_CUP_DUSR_Jeep_MG";
 						rank = "Private";
 						position[] = {9,0,0};
 					};
@@ -7619,46 +7529,32 @@ class CfgGroups
 					class Unit1
 					{
 						side = 0;
-						vehicle = "ZSN_RangerELeader";
+						vehicle = "ZSN_RangerEMG";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "ZSN_RangerEMG";
+						vehicle = "ZSN_RangerELAW";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "ZSN_RangerEAR";
+						vehicle = "ZSN_RangerEMGAss";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "ZSN_RangerEMGAss";
-						rank = "Private";
-						position[] = {-7,0,0};
-					};
-					class Unit5
-					{
-						side = 0;
-						vehicle = "ZSN_RangerELAW";
-						rank = "Private";
-						position[] = {7,0,0};
-					};
-					class Unit6
-					{
-						side = 0;
 						vehicle = "ZSN_CUP_VDV_UAZ_SPG9";
 						rank = "Private";
 						position[] = {-9,0,0};
 					};
-					class Unit7
+					class Unit5
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_VDV_UAZ_Open";
@@ -8259,46 +8155,32 @@ class CfgGroups
 					class Unit1
 					{
 						side = 0;
-						vehicle = "ZSN_RangerEDLeader";
+						vehicle = "ZSN_RangerEDMG";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
 					class Unit2
 					{
 						side = 0;
-						vehicle = "ZSN_RangerEDMG";
+						vehicle = "ZSN_RangerEDLAW";
 						rank = "Private";
 						position[] = {-5,0,0};
 					};
 					class Unit3
 					{
 						side = 0;
-						vehicle = "ZSN_RangerEDAR";
+						vehicle = "ZSN_RangerEDMGAss";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
 					class Unit4
 					{
 						side = 0;
-						vehicle = "ZSN_RangerEDMGAss";
-						rank = "Private";
-						position[] = {-7,0,0};
-					};
-					class Unit5
-					{
-						side = 0;
-						vehicle = "ZSN_RangerEDLAW";
-						rank = "Private";
-						position[] = {7,0,0};
-					};
-					class Unit6
-					{
-						side = 0;
 						vehicle = "ZSN_CUP_DVDV_UAZ_SPG9";
 						rank = "Private";
 						position[] = {-9,0,0};
 					};
-					class Unit7
+					class Unit5
 					{
 						side = 0;
 						vehicle = "ZSN_CUP_DVDV_UAZ_Open";

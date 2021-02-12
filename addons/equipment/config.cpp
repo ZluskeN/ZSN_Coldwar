@@ -700,12 +700,7 @@ class CfgVehicles
 			class _xx_CUP_PG7V_M
 			{
 				magazine = "CUP_PG7V_M";
-				count = 2;
-			};
-			class _xx_CUP_OG7_M
-			{
-				magazine = "CUP_OG7_M";
-				count = 1;
+				count = 3;
 			};
 		};
 	};

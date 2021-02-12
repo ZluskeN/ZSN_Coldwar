@@ -3,7 +3,7 @@ class CfgPatches
 	class ZSN_ColdWar_RnT
 	{
 		author = "ZluskeN";
-		units[] = {};
+		units[] = {"ZSN_Redd_Marder_1A5_Flecktarn","ZSN_Redd_Marder_1A5_Tropentarn","ZSN_Redd_Tank_Fuchs_1A4_Jg_Flecktarn","ZSN_Redd_Tank_Fuchs_1A4_Jg_Tropentarn","ZSN_Redd_Tank_Fuchs_1A4_Jg_Milan_Flecktarn","ZSN_Redd_Tank_Fuchs_1A4_Jg_Milan_Tropentarn","ZSN_Redd_Tank_Wiesel_1A4_MK20_Flecktarn","ZSN_Redd_Tank_Wiesel_1A4_MK20_Tropentarn","ZSN_Redd_Tank_Wiesel_1A2_TOW_Flecktarn","ZSN_Redd_Tank_Wiesel_1A2_TOW_Tropentarn","ZSN_Redd_Tank_Gepard_1A2_Flecktarn","ZSN_Redd_Tank_Gepard_1A2_Tropentarn","ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu","ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FueFu","ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser","ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_Moerser","ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San","ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San","ZSN_Redd_Milan_Static","ZSN_Redd_Milan_Static_Des","ZSN_Redd_Tank_M120_Tampella","ZSN_Redd_Tank_M120_Tampella_Des","ZSN_rnt_sppz_2a2_luchs_flecktarn","ZSN_rnt_sppz_2a2_luchs_tropentarn","ZSN_rnt_lkw_10t_mil_gl_kat_i_repair_fleck","ZSN_rnt_lkw_10t_mil_gl_kat_i_repair_trope","ZSN_rnt_lkw_7t_mil_gl_kat_i_mun_fleck","ZSN_rnt_lkw_7t_mil_gl_kat_i_mun_trope","ZSN_rnt_lkw_5t_mil_gl_kat_i_fuel_fleck","ZSN_rnt_lkw_5t_mil_gl_kat_i_fuel_trope","ZSN_gm_demo_nato_mb_u1300l_cargo","ZSN_gm_demo_nato_mb_u1300l_cargo_des","ZSN_rnt_mg3_static_ai","ZSN_rnt_mg3_static_ai_des"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"ZSN_ColdWarEuro","Redd_Vehicles_Main","gm_demo"};
@@ -22,6 +22,7 @@ class CfgVehicles
 	class Redd_Marder_1A5_Flecktarn;
 	class ZSN_Redd_Marder_1A5_Flecktarn: Redd_Marder_1A5_Flecktarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_APCs";
 		faction = "ZSN_WGer_ColdWar";
@@ -31,6 +32,7 @@ class CfgVehicles
 	class Redd_Marder_1A5_Tropentarn;
 	class ZSN_Redd_Marder_1A5_Tropentarn: Redd_Marder_1A5_Tropentarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_APCs";
 		faction = "ZSN_WGerD_ColdWar";
@@ -40,6 +42,7 @@ class CfgVehicles
 	class Redd_Tank_Fuchs_1A4_Jg_Flecktarn;
 	class ZSN_Redd_Tank_Fuchs_1A4_Jg_Flecktarn: Redd_Tank_Fuchs_1A4_Jg_Flecktarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_APCs";
 		faction = "ZSN_WGer_ColdWar";
@@ -49,6 +52,7 @@ class CfgVehicles
 	class Redd_Tank_Fuchs_1A4_Jg_Tropentarn;
 	class ZSN_Redd_Tank_Fuchs_1A4_Jg_Tropentarn: Redd_Tank_Fuchs_1A4_Jg_Tropentarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_APCs";
 		faction = "ZSN_WGerD_ColdWar";
@@ -58,6 +62,7 @@ class CfgVehicles
 	class Redd_Tank_Fuchs_1A4_Jg_Milan_Flecktarn;
 	class ZSN_Redd_Tank_Fuchs_1A4_Jg_Milan_Flecktarn: Redd_Tank_Fuchs_1A4_Jg_Milan_Flecktarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_APCs";
 		faction = "ZSN_WGer_ColdWar";
@@ -67,6 +72,7 @@ class CfgVehicles
 	class Redd_Tank_Fuchs_1A4_Jg_Milan_Tropentarn;
 	class ZSN_Redd_Tank_Fuchs_1A4_Jg_Milan_Tropentarn: Redd_Tank_Fuchs_1A4_Jg_Milan_Tropentarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_APCs";
 		faction = "ZSN_WGerD_ColdWar";
@@ -96,6 +102,7 @@ class CfgVehicles
 	class Redd_Tank_Wiesel_1A4_MK20_Flecktarn;
 	class ZSN_Redd_Tank_Wiesel_1A4_MK20_Flecktarn: Redd_Tank_Wiesel_1A4_MK20_Flecktarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Tanks";
 		faction = "ZSN_WGer_ColdWar";
@@ -105,6 +112,7 @@ class CfgVehicles
 	class Redd_Tank_Wiesel_1A4_MK20_Tropentarn;
 	class ZSN_Redd_Tank_Wiesel_1A4_MK20_Tropentarn: Redd_Tank_Wiesel_1A4_MK20_Tropentarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Tanks";
 		faction = "ZSN_WGerD_ColdWar";
@@ -114,6 +122,7 @@ class CfgVehicles
 	class Redd_Tank_Wiesel_1A2_TOW_Flecktarn;
 	class ZSN_Redd_Tank_Wiesel_1A2_TOW_Flecktarn: Redd_Tank_Wiesel_1A2_TOW_Flecktarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Tanks";
 		faction = "ZSN_WGer_ColdWar";
@@ -123,6 +132,7 @@ class CfgVehicles
 	class Redd_Tank_Wiesel_1A2_TOW_Tropentarn;
 	class ZSN_Redd_Tank_Wiesel_1A2_TOW_Tropentarn: Redd_Tank_Wiesel_1A2_TOW_Tropentarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Tanks";
 		faction = "ZSN_WGerD_ColdWar";
@@ -132,6 +142,7 @@ class CfgVehicles
 	class Redd_Tank_Gepard_1A2_Flecktarn;
 	class ZSN_Redd_Tank_Gepard_1A2_Flecktarn: Redd_Tank_Gepard_1A2_Flecktarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_AAs";
 		faction = "ZSN_WGer_ColdWar";
@@ -141,6 +152,7 @@ class CfgVehicles
 	class Redd_Tank_Gepard_1A2_Tropentarn;
 	class ZSN_Redd_Tank_Gepard_1A2_Tropentarn: Redd_Tank_Gepard_1A2_Tropentarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_AAs";
 		faction = "ZSN_WGerD_ColdWar";
@@ -150,6 +162,7 @@ class CfgVehicles
 	class Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu;
 	class ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu: Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_FueFu
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGer_ColdWar";
@@ -159,6 +172,7 @@ class CfgVehicles
 	class Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FueFu;
 	class ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FueFu: Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_FueFu
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGerD_ColdWar";
@@ -168,6 +182,7 @@ class CfgVehicles
 	class Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser;
 	class ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser: Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_Moerser
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGer_ColdWar";
@@ -177,6 +192,7 @@ class CfgVehicles
 	class Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_Moerser;
 	class ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_Moerser: Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_Moerser
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGerD_ColdWar";
@@ -186,6 +202,7 @@ class CfgVehicles
 	class Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San;
 	class ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San: Redd_Tank_LKW_leicht_gl_Wolf_Flecktarn_San
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGer_ColdWar";
@@ -195,6 +212,7 @@ class CfgVehicles
 	class Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San;
 	class ZSN_Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San: Redd_Tank_LKW_leicht_gl_Wolf_Tropentarn_San
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGerD_ColdWar";
@@ -204,6 +222,7 @@ class CfgVehicles
 	class Redd_Milan_Static;
 	class ZSN_Redd_Milan_Static: Redd_Milan_Static
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Turrets";
 		faction = "ZSN_WGer_ColdWar";
@@ -212,6 +231,7 @@ class CfgVehicles
 	};
 	class ZSN_Redd_Milan_Static_Des: ZSN_Redd_Milan_Static
 	{
+		scopeCurator = 2;
 		faction = "ZSN_WGerD_ColdWar";
 		crew = "ZSN_GersolWDB";
 		typicalCargo[] = {"ZSN_GersolWDB"};
@@ -219,6 +239,7 @@ class CfgVehicles
 	class Redd_Tank_M120_Tampella;
 	class ZSN_Redd_Tank_M120_Tampella: Redd_Tank_M120_Tampella
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Turrets";
 		faction = "ZSN_WGer_ColdWar";
@@ -227,6 +248,7 @@ class CfgVehicles
 	};
 	class ZSN_Redd_Tank_M120_Tampella_Des: ZSN_Redd_Tank_M120_Tampella
 	{
+		scopeCurator = 2;
 		faction = "ZSN_WGerD_ColdWar";
 		crew = "ZSN_GersolWDB";
 		typicalCargo[] = {"ZSN_GersolWDB"};
@@ -234,6 +256,7 @@ class CfgVehicles
 	class rnt_sppz_2a2_luchs_flecktarn;
 	class ZSN_rnt_sppz_2a2_luchs_flecktarn: rnt_sppz_2a2_luchs_flecktarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Tanks";
 		faction = "ZSN_WGer_ColdWar";
@@ -243,6 +266,7 @@ class CfgVehicles
 	class rnt_sppz_2a2_luchs_tropentarn;
 	class ZSN_rnt_sppz_2a2_luchs_tropentarn: rnt_sppz_2a2_luchs_tropentarn
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Tanks";
 		faction = "ZSN_WGerD_ColdWar";
@@ -252,6 +276,7 @@ class CfgVehicles
 	class rnt_lkw_10t_mil_gl_kat_i_repair_fleck;
 	class ZSN_rnt_lkw_10t_mil_gl_kat_i_repair_fleck: rnt_lkw_10t_mil_gl_kat_i_repair_fleck
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGer_ColdWar";
@@ -261,6 +286,7 @@ class CfgVehicles
 	class rnt_lkw_10t_mil_gl_kat_i_repair_trope;
 	class ZSN_rnt_lkw_10t_mil_gl_kat_i_repair_trope: rnt_lkw_10t_mil_gl_kat_i_repair_trope
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGerD_ColdWar";
@@ -270,6 +296,7 @@ class CfgVehicles
 	class rnt_lkw_7t_mil_gl_kat_i_mun_fleck;
 	class ZSN_rnt_lkw_7t_mil_gl_kat_i_mun_fleck: rnt_lkw_7t_mil_gl_kat_i_mun_fleck
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGer_ColdWar";
@@ -279,6 +306,7 @@ class CfgVehicles
 	class rnt_lkw_7t_mil_gl_kat_i_mun_trope;
 	class ZSN_rnt_lkw_7t_mil_gl_kat_i_mun_trope: rnt_lkw_7t_mil_gl_kat_i_mun_trope
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGerD_ColdWar";
@@ -298,6 +326,7 @@ class CfgVehicles
 	class rnt_lkw_5t_mil_gl_kat_i_fuel_fleck;
 	class ZSN_rnt_lkw_5t_mil_gl_kat_i_fuel_fleck: rnt_lkw_5t_mil_gl_kat_i_fuel_fleck
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGer_ColdWar";
@@ -307,6 +336,7 @@ class CfgVehicles
 	class rnt_lkw_5t_mil_gl_kat_i_fuel_trope;
 	class ZSN_rnt_lkw_5t_mil_gl_kat_i_fuel_trope: rnt_lkw_5t_mil_gl_kat_i_fuel_trope
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Cars";
 		faction = "ZSN_WGerD_ColdWar";
@@ -326,6 +356,7 @@ class CfgVehicles
 	class gm_demo_nato_mb_u1300l_cargo;
 	class ZSN_gm_demo_nato_mb_u1300l_cargo: gm_demo_nato_mb_u1300l_cargo
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
 		crew = "ZSN_GersolWB";
@@ -348,6 +379,7 @@ class CfgVehicles
 	};
 	class ZSN_gm_demo_nato_mb_u1300l_cargo_des: ZSN_gm_demo_nato_mb_u1300l_cargo
 	{
+		scopeCurator = 2;
 		faction = "ZSN_WGerD_ColdWar";
 		crew = "ZSN_GersolWDB";
 		typicalCargo[] = {"ZSN_GersolWDB"};
@@ -372,6 +404,7 @@ class CfgVehicles
 	class rnt_mg3_static_ai;
 	class ZSN_rnt_mg3_static_ai: rnt_mg3_static_ai
 	{
+		scopeCurator = 2;
 		editorCategory = "ZSN_FRG";
 		editorSubcategory = "EdSubcat_Turrets";
 		faction = "ZSN_WGer_ColdWar";
@@ -380,6 +413,7 @@ class CfgVehicles
 	};
 	class ZSN_rnt_mg3_static_ai_des: ZSN_rnt_mg3_static_ai
 	{
+		scopeCurator = 2;
 		faction = "ZSN_WGerD_ColdWar";
 		crew = "ZSN_GersolWDB";
 		typicalCargo[] = {"ZSN_GersolWDB"};
@@ -502,73 +536,66 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWLeader";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
+						rank = "SERGEANT";
+						position[] = {0,-2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWLeader";
 						rank = "CORPORAL";
-						position[] = {-3,0,0};
+						position[] = {3,0,0};
 					};
 					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWLAW";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWMedic";
-						rank = "Private";
-						position[] = {-5,0,0};
-					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWMGAss";
+						vehicle = "ZSN_GersolWLAW";
 						rank = "Private";
-						position[] = {7,0,0};
+						position[] = {-5,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWMG";
 						rank = "Private";
-						position[] = {9,0,0};
+						position[] = {7,0,0};
 					};
 					class Unit6
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWLeader";
-						rank = "CORPORAL";
-						position[] = {3,2,0};
+						vehicle = "ZSN_GersolWMG";
+						rank = "Private";
+						position[] = {-7,0,0};
 					};
 					class Unit7
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWLAW";
+						vehicle = "ZSN_GersolWMGAss";
 						rank = "Private";
-						position[] = {-3,2,0};
+						position[] = {9,0,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWMGAss";
 						rank = "Private";
-						position[] = {5,2,0};
+						position[] = {-9,0,0};
 					};
 					class Unit9
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWMG";
-						rank = "Private";
-						position[] = {-5,2,0};
-					};
-					class Unit10
 					{
 						side = 1;
 						vehicle = "ZSN_Redd_Tank_Fuchs_1A4_Jg_Flecktarn";
@@ -803,73 +830,66 @@ class CfgGroups
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWDLeader";
-						rank = "CORPORAL";
-						position[] = {3,0,0};
+						rank = "SERGEANT";
+						position[] = {0,-2,0};
 					};
 					class Unit1
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWDLeader";
 						rank = "CORPORAL";
-						position[] = {-3,0,0};
+						position[] = {3,0,0};
 					};
 					class Unit2
+					{
+						side = 1;
+						vehicle = "ZSN_GersolWDLeader";
+						rank = "CORPORAL";
+						position[] = {-3,0,0};
+					};
+					class Unit3
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWDLAW";
 						rank = "Private";
 						position[] = {5,0,0};
 					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWDMedic";
-						rank = "Private";
-						position[] = {-5,0,0};
-					};
 					class Unit4
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWDMGAss";
+						vehicle = "ZSN_GersolWDLAW";
 						rank = "Private";
-						position[] = {7,0,0};
+						position[] = {-5,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWDMG";
 						rank = "Private";
-						position[] = {9,0,0};
+						position[] = {7,0,0};
 					};
 					class Unit6
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWDLeader";
-						rank = "CORPORAL";
-						position[] = {3,2,0};
+						vehicle = "ZSN_GersolWDMG";
+						rank = "Private";
+						position[] = {-7,0,0};
 					};
 					class Unit7
 					{
 						side = 1;
-						vehicle = "ZSN_GersolWDLAW";
+						vehicle = "ZSN_GersolWDMGAss";
 						rank = "Private";
-						position[] = {-3,2,0};
+						position[] = {9,0,0};
 					};
 					class Unit8
 					{
 						side = 1;
 						vehicle = "ZSN_GersolWDMGAss";
 						rank = "Private";
-						position[] = {5,2,0};
+						position[] = {-9,0,0};
 					};
 					class Unit9
-					{
-						side = 1;
-						vehicle = "ZSN_GersolWDMG";
-						rank = "Private";
-						position[] = {-5,2,0};
-					};
-					class Unit10
 					{
 						side = 1;
 						vehicle = "ZSN_Redd_Tank_Fuchs_1A4_Jg_Tropentarn";

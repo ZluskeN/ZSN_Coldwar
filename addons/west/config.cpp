@@ -3,11 +3,11 @@ class CfgPatches
 	class ZSN_ColdWarWest
 	{
 		author = "ZluskeN";
-		units[] = {"ZSN_West_Ammocrate","ZSN_SoldierW","ZSN_SoldierWAR","ZSN_SoldierWMedic","ZSN_SoldierWRTO","ZSN_SoldierWB","ZSN_SoldierWMG","ZSN_SoldierWMGAss","ZSN_SoldierWLAW","ZSN_SoldierWSniper","ZSN_SoldierWOfficer","ZSN_SoldierWNCO","ZSN_SoldierWLeader","ZSN_SoldierWG","ZSN_SoldierWAT","ZSN_SoldierWATAss","ZSN_SoldierWAA","ZSN_SoldierWSaboteur","ZSN_SoldierWcrew","ZSN_SoldierWD","ZSN_SoldierWDAR","ZSN_SoldierWDMedic","ZSN_SoldierWDRTO","ZSN_SoldierWDB","ZSN_SoldierWDMG","ZSN_SoldierWDMGAss","ZSN_SoldierWDLAW","ZSN_SoldierWDSniper","ZSN_SoldierWDOfficer","ZSN_SoldierWDNCO","ZSN_SoldierWDLeader","ZSN_SoldierWDG","ZSN_SoldierWDAT","ZSN_SoldierWDATAss","ZSN_SoldierWDAA","ZSN_SoldierWDSaboteur","ZSN_SoldierWDcrew","ZSN_MarineW","ZSN_MarineWAR","ZSN_MarineWMedic","ZSN_MarineWRTO","ZSN_MarineWB","ZSN_MarineWMG","ZSN_MarineWMGAss","ZSN_MarineWLAW","ZSN_MarineWLAWAss","ZSN_MarineWSniper","ZSN_MarineWOfficer","ZSN_MarineWNCO","ZSN_MarineWLeader","ZSN_MarineWG","ZSN_MarineWAT","ZSN_MarineWATAss","ZSN_MarineWAA","ZSN_MarineWCrew","ZSN_MarineWD","ZSN_MarineWDAR","ZSN_MarineWDMedic","ZSN_MarineWDRTO","ZSN_MarineWDB","ZSN_MarineWDMG","ZSN_MarineWDMGAss","ZSN_MarineWDLAW","ZSN_MarineWDLAWAss","ZSN_MarineWDSniper","ZSN_MarineWDOfficer","ZSN_MarineWDNCO","ZSN_MarineWDLeader","ZSN_MarineWDG","ZSN_MarineWDAT","ZSN_MarineWDATAss","ZSN_MarineWDAA","ZSN_MarineWDCrew","ZSN_Rangerw","ZSN_RangerWAR","ZSN_RangerWMedic","ZSN_RangerWRTO","ZSN_RangerWB","ZSN_RangerWMG","ZSN_RangerWMGAss","ZSN_RangerWLAW","ZSN_RangerWLAWAss","ZSN_RangerWSniper","ZSN_RangerWOfficer","ZSN_RangerWNCO","ZSN_RangerWLeader","ZSN_RangerWG","ZSN_RangerwAT","ZSN_RangerwATAss","ZSN_RangerWAA","ZSN_SoldierWPilot","ZSN_RangerWD","ZSN_RangerWDAR","ZSN_RangerWDMedic","ZSN_RangerWDRTO","ZSN_RangerWDB","ZSN_RangerWDMG","ZSN_RangerWDMGAss","ZSN_RangerWDLAW","ZSN_RangerWDLAWass","ZSN_RangerWDSniper","ZSN_RangerWDOfficer","ZSN_RangerWDNCO","ZSN_RangerWDLeader","ZSN_RangerWDG","ZSN_RangerWDAT","ZSN_RangerWDATAss","ZSN_RangerWDAA","ZSN_SoldierWDPilot","ZSN_M2StaticMG","ZSN_MM2StaticMG","ZSN_RM2StaticMG","ZSN_M2StaticMGD","ZSN_MM2StaticMGD","ZSN_RM2StaticMGD","ZSN_M2LowMG","ZSN_MM2LowMG","ZSN_RM2LowMG","ZSN_M2LowMGD","ZSN_MM2LowMGD","ZSN_RM2LowMGD","ZSN_StaticGMG","ZSN_MStaticGMG","ZSN_RStaticGMG","ZSN_StaticGMGD","ZSN_MStaticGMGD","ZSN_RStaticGMGD","ZSN_StaticTOW","ZSN_MStaticTOW","ZSN_RStaticTOW","ZSN_StaticTOWD","ZSN_MStaticTOWD","ZSN_RStaticTOWD","ZSN_staticM252","ZSN_MstaticM252","ZSN_RstaticM252","ZSN_staticM252D","ZSN_MstaticM252D","ZSN_RstaticM252D"};
+		units[] = {"ZSN_West_Ammocrate","ZSN_SoldierW","ZSN_SoldierWAR","ZSN_SoldierWMedic","ZSN_SoldierWRTO","ZSN_SoldierWB","ZSN_SoldierWMG","ZSN_SoldierWMGAss","ZSN_SoldierWLAW","ZSN_SoldierWSniper","ZSN_SoldierWOfficer","ZSN_SoldierWNCO","ZSN_SoldierWLeader","ZSN_SoldierWG","ZSN_SoldierWAT","ZSN_SoldierWATAss","ZSN_SoldierWAA","ZSN_SoldierWSaboteur","ZSN_SoldierWcrew","ZSN_SoldierWD","ZSN_SoldierWDAR","ZSN_SoldierWDMedic","ZSN_SoldierWDRTO","ZSN_SoldierWDB","ZSN_SoldierWDMG","ZSN_SoldierWDMGAss","ZSN_SoldierWDLAW","ZSN_SoldierWDSniper","ZSN_SoldierWDOfficer","ZSN_SoldierWDNCO","ZSN_SoldierWDLeader","ZSN_SoldierWDG","ZSN_SoldierWDAT","ZSN_SoldierWDATAss","ZSN_SoldierWDAA","ZSN_SoldierWDSaboteur","ZSN_SoldierWDcrew","ZSN_MarineW","ZSN_MarineWAR","ZSN_MarineWMedic","ZSN_MarineWRTO","ZSN_MarineWB","ZSN_MarineWMG","ZSN_MarineWMGAss","ZSN_MarineWLAW","ZSN_MarineWSniper","ZSN_MarineWOfficer","ZSN_MarineWNCO","ZSN_MarineWLeader","ZSN_MarineWG","ZSN_MarineWAT","ZSN_MarineWATAss","ZSN_MarineWAA","ZSN_MarineWCrew","ZSN_MarineWD","ZSN_MarineWDAR","ZSN_MarineWDMedic","ZSN_MarineWDRTO","ZSN_MarineWDB","ZSN_MarineWDMG","ZSN_MarineWDMGAss","ZSN_MarineWDLAW","ZSN_MarineWDSniper","ZSN_MarineWDOfficer","ZSN_MarineWDNCO","ZSN_MarineWDLeader","ZSN_MarineWDG","ZSN_MarineWDAT","ZSN_MarineWDATAss","ZSN_MarineWDAA","ZSN_MarineWDCrew","ZSN_Rangerw","ZSN_RangerWAR","ZSN_RangerWMedic","ZSN_RangerWRTO","ZSN_RangerWB","ZSN_RangerWMG","ZSN_RangerWMGAss","ZSN_RangerWLAW","ZSN_RangerWSniper","ZSN_RangerWOfficer","ZSN_RangerWNCO","ZSN_RangerWLeader","ZSN_RangerWG","ZSN_RangerwAT","ZSN_RangerwATAss","ZSN_RangerWAA","ZSN_SoldierWPilot","ZSN_RangerWD","ZSN_RangerWDAR","ZSN_RangerWDMedic","ZSN_RangerWDRTO","ZSN_RangerWDB","ZSN_RangerWDMG","ZSN_RangerWDMGAss","ZSN_RangerWDLAW","ZSN_RangerWDSniper","ZSN_RangerWDOfficer","ZSN_RangerWDNCO","ZSN_RangerWDLeader","ZSN_RangerWDG","ZSN_RangerWDAT","ZSN_RangerWDATAss","ZSN_RangerWDAA","ZSN_SoldierWDPilot","ZSN_M2StaticMG","ZSN_MM2StaticMG","ZSN_RM2StaticMG","ZSN_M2StaticMGD","ZSN_MM2StaticMGD","ZSN_RM2StaticMGD","ZSN_M2LowMG","ZSN_MM2LowMG","ZSN_RM2LowMG","ZSN_M2LowMGD","ZSN_MM2LowMGD","ZSN_RM2LowMGD","ZSN_StaticGMG","ZSN_MStaticGMG","ZSN_RStaticGMG","ZSN_StaticGMGD","ZSN_MStaticGMGD","ZSN_RStaticGMGD","ZSN_StaticTOW","ZSN_MStaticTOW","ZSN_RStaticTOW","ZSN_StaticTOWD","ZSN_MStaticTOWD","ZSN_RStaticTOWD","ZSN_staticM252","ZSN_MstaticM252","ZSN_RstaticM252","ZSN_staticM252D","ZSN_MstaticM252D","ZSN_RstaticM252D","ZSN_SoldierWR","ZSN_SoldierWDR","ZSN_MarineWHAT","ZSN_MarineWHATAss","ZSN_MarineWDHAT","ZSN_MarineWDHATAss","ZSN_RangerWHAT","ZSN_RangerWHATAss","ZSN_RangerWDHAT","ZSN_RangerWDHATass"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"ZSN_ColdWarunits"};
 		magazines[] = {};
-		weapons[] = {};
+		weapons[] = {"ZSN_Uniform_Ghillie_Top","ZSN_Uniform_6CD_Ghillie_Top"};
 	};
 };
 class cfgFactionClasses
@@ -260,8 +260,7 @@ class CfgVehicles
 	{
 		author = "ZluskeN";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
 		faction = "ZSN_WArmy_ColdWar";
 		displayName = "Soldier (Garrison)";
 		picture = "";
@@ -515,8 +514,7 @@ class CfgVehicles
 	{
 		author = "ZluskeN";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
 		faction = "ZSN_WArmyD_ColdWar";
 		displayName = "Soldier (Garrison)";
 		picture = "";
@@ -766,6 +764,7 @@ class CfgVehicles
 	class ZSN_SoldierWDcrew: ZSN_SoldierWD
 	{
 		scope = 1;
+		scopeCurator = 1;
 		displayName = "Crew";
 		icon = "iconManEngineer";
 		weapons[] = {"Throw","Put","CUP_smg_M3A1","CUP_hgun_Colt1911","Binocular"};
@@ -781,8 +780,7 @@ class CfgVehicles
 	{
 		author = "ZluskeN";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
 		faction = "ZSN_WMarines_ColdWar";
 		displayName = "Soldier (Garrison)";
 		picture = "";
@@ -1015,6 +1013,7 @@ class CfgVehicles
 	class ZSN_MarineWCrew: ZSN_MarineW
 	{
 		scope = 1;
+		scopeCurator = 1;
 		displayName = "Crew";
 		icon = "iconManEngineer";
 		weapons[] = {"Throw","Put","CUP_smg_M3A1","CUP_hgun_Colt1911","Binocular"};
@@ -1030,8 +1029,7 @@ class CfgVehicles
 	{
 		author = "ZluskeN";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
 		faction = "ZSN_WMarinesD_ColdWar";
 		displayName = "Soldier (Garrison)";
 		picture = "";
@@ -1264,6 +1262,7 @@ class CfgVehicles
 	class ZSN_MarineWDCrew: ZSN_MarineWD
 	{
 		scope = 1;
+		scopeCurator = 1;
 		displayName = "Crew";
 		icon = "iconManEngineer";
 		weapons[] = {"Throw","Put","CUP_smg_M3A1","CUP_hgun_Colt1911","Binocular"};
@@ -1279,8 +1278,7 @@ class CfgVehicles
 	{
 		author = "ZluskeN";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
 		faction = "ZSN_WRangers_ColdWar";
 		displayName = "Soldier (Garrison)";
 		picture = "";
@@ -1532,8 +1530,7 @@ class CfgVehicles
 	{
 		author = "ZluskeN";
 		scope = 1;
-		scopeCurator = 2;
-		scopeArsenal = 2;
+		scopeCurator = 1;
 		faction = "ZSN_WRangersD_ColdWar";
 		displayName = "Soldier (Garrison)";
 		picture = "";
@@ -1558,7 +1555,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "LMG Soldier";
 		icon = "iconManMG";
-		backpack = "ZSN_200rnd_556x45_bag_OD";
+		backpack = "ZSN_200rnd_556x45_bag_khaki";
 		weapons[] = {"Throw","Put","CUP_lmg_M249_E1"};
 		respawnWeapons[] = {"Throw","Put","CUP_lmg_M249_E1"};
 		magazines[] = {"CUP_100Rnd_TE4_Red_Tracer_556x45_M249","CUP_100Rnd_TE4_Red_Tracer_556x45_M249","30Rnd_556x45_Stanag_tracer_red","30Rnd_556x45_Stanag_tracer_red","CUP_HandGrenade_M67","CUP_HandGrenade_M67"};
