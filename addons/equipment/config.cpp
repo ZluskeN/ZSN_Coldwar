@@ -11,71 +11,16 @@ class CfgPatches
 		ammo[] = {"ZSN_WPSmoke","Flare_82mm_AMOS_White","F_40mm_White","F_20mm_White","F_Signal_Green"};
 	};
 };
-class CfgCloudlets
-{
-	class WPCloud;
-	class ZSN_WPCloud: WPCloud
-	{
-		lifeTime = 30;
-		blockAIVisibility = 1;
-	};
-	class WPTrails;
-	class ZSN_WPTrails: WPTrails
-	{
-		damageType = "Fire";
-		coreIntensity = 5;
-		coreDistance = 4;
-		damageTime = 0.1;
-		lifeTime = 3;
-	};
-};
-class ZSN_WPExplosion
-{
-	class LightExp
-	{
-		simulation = "light";
-		type = "ExploLight";
-		position[] = {0,0,0};
-		intensity = 0.001;
-		interval = 1;
-		lifeTime = 1;
-	};
-	class Explosion1
-	{
-		simulation = "particles";
-		type = "ZSN_WPCloud";
-		position[] = {0,0,0};
-		intensity = 1;
-		interval = 1;
-		lifeTime = 30;
-	};
-	class Trails
-	{
-		simulation = "particles";
-		type = "ZSN_WPTrails";
-		position[] = {0,0,0};
-		intensity = 1;
-		interval = 1;
-		lifeTime = 3;
-	};
-};
 class CfgAmmo
 {
-	class SmokeShell;
-	class ZSN_WPSmoke: SmokeShell
-	{
-		grenadeBurningSound[] = {};
-		aiAmmoUsageFlags = "64 + 4";
-		effectsSmoke = "ZSN_WPExplosion";
-	};
 	class FlareCore;
-	class FlareBase;
 	class Flare_82mm_AMOS_White: FlareCore
 	{
 		timeToLive = 80;
 		brightness = 200;
 		intensity = 1000000;
 	};
+	class FlareBase;
 	class F_40mm_White: FlareBase
 	{
 		timeToLive = 80;
@@ -95,49 +40,8 @@ class CfgAmmo
 		intensity = 1000000;
 	};
 };
-class CfgMagazines
-{
-	class SmokeShell;
-	class ZSN_WPShell: SmokeShell
-	{
-		author = "ZluskeN";
-		displayName = "White Phosphorous Grenade";
-		value = 2;
-		ammo = "ZSN_WPSmoke";
-		nameSoundWeapon = "smokeshell";
-		nameSound = "smokeshell";
-		descriptionShort = "Type: Smoke Grenade - White Phosphorous";
-		displayNameShort = "White Phosphorous";
-	};
-	class CUP_6Rnd_TOW_HMMWV_M;
-	class ZSN_1Rnd_TOW_HMMWV_M: CUP_6Rnd_TOW_HMMWV_M
-	{
-		scope = 1;
-		count = 1;
-	};
-};
 class CfgWeapons
 {
-	class Default;
-	class CUP_Vmlauncher_TOW_veh;
-	class ZSN_Vmlauncher_TOW_single_veh: CUP_Vmlauncher_TOW_veh
-	{
-		magazineReloadTime = 20;
-		reloadTime = 20;
-		magazines[] = {"ZSN_1Rnd_TOW_HMMWV_M"};
-	};
-	class GrenadeLauncher;
-	class Throw: GrenadeLauncher
-	{
-		muzzles[] += {"ZSN_WPMuzzle"};
-		class ThrowMuzzle;
-		class ZSN_WPMuzzle: ThrowMuzzle
-		{
-			displayName = "White Phosphorous Grenade";
-			magazines[] = {"ZSN_WPShell"};
-		};
-	};
-	class Binocular;
 	class CUP_SOFLAM;
 	class ZSN_Rangefinder: CUP_SOFLAM
 	{
@@ -152,7 +56,6 @@ class CfgWeapons
 		visionMode[] = {"Normal"};
 		thermalMode[] = {};
 	};
-	class ItemCore;
 	class CUP_hgun_glock17_blk_snds;
 	class zsn_glocks: CUP_hgun_glock17_blk_snds
 	{
@@ -171,6 +74,84 @@ class CfgWeapons
 	{
 		class WeaponSlotsInfo;
 		class GunParticles;
+	};
+	class CUP_arifle_AKS74U;
+	class ZSN_AK74SU: CUP_arifle_AKS74U
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsMuzzle
+			{
+				slot = "CUP_EastMuzzleSlotAK";
+				item = "CUP_muzzle_PBS4";
+			};
+		};
+	};
+	class CUP_arifle_AK74_GL;
+	class ZSN_AK74_Night: CUP_arifle_AK74_GL
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_DovetailMount_AK";
+				item = "cup_optic_nspu";
+			};
+		};
+	};
+	class CUP_arifle_AKS74_GL;
+	class ZSN_AKS74_Night: CUP_arifle_AKS74_GL
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_DovetailMount_AK";
+				item = "cup_optic_nspu";
+			};
+		};
+	};
+	class CUP_arifle_Colt727;
+	class ZSN_XMS: CUP_arifle_Colt727
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM16";
+				item = "cup_optic_aimpoint_5000";
+			};
+		};
+	};
+	class CUP_arifle_M16A1GL;
+	class ZSN_M16A1_Night: CUP_arifle_M16A1GL
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM16";
+				item = "cup_optic_an_pvs_4_m16";
+			};
+		};
+	};
+	class CUP_arifle_M16A2_GL;
+	class ZSN_M16A2_Night: CUP_arifle_M16A2_GL
+	{
+		scope = 1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot = "CUP_PicatinnyTopMountM16";
+				item = "cup_optic_an_pvs_4_m16";
+			};
+		};
 	};
 	class CUP_arifle_M16A1;
 	class ZSN_M16A1_GL: CUP_arifle_M16A1
@@ -221,7 +202,6 @@ class CfgWeapons
 			};
 		};
 	};
-	class CUP_srifle_LeeEnfield;
 	class CUP_srifle_LeeEnfield_rail;
 	class ZSN_L42A1: CUP_srifle_LeeEnfield_rail
 	{
@@ -375,8 +355,6 @@ class CfgWeapons
 			};
 		};
 	};
-	class CUP_saw_base;
-	class CUP_lmg_minimipara;
 	class CUP_lmg_minimi;
 	class ZSN_M249_SAW: CUP_lmg_minimi
 	{
@@ -394,9 +372,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\zsn_coldwar_equipment\launch_RPG29_F_co.paa","\A3\Weapons_F\Launchers\RPG32\data\RPG_32_optics_CO.paa"};
 		//hiddenSelectionsTextures[] = {"\A3\Weapons_F_Enoch\Launchers\RPG32\Data\RPG_32_body_RUgrn_CO.paa","\A3\Weapons_F\Launchers\RPG32\data\RPG_32_optics_CO.paa"};
 	};
-	class UniformItem;
-	class VestItem;
-	class Uniform_Base;
+	class ItemCore;
 	class CUP_H_USArmy_Helmet_M1_m81: ItemCore
 	{
 		hiddenSelectionsTextures[] = {"\zsn_coldwar_equipment\zsn_merc_g_m81_co.paa"};
@@ -1055,11 +1031,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class B_FieldPack_base;
 	class B_FieldPack_khk;
-	class B_FieldPack_blk;
-	class B_FieldPack_cbr;
-	class B_FieldPack_oli;
 	class ZSN_demopack_khk: B_FieldPack_khk
 	{
 		scope = 1;
@@ -1086,6 +1058,7 @@ class CfgVehicles
 			};
 		};
 	};
+	class B_FieldPack_cbr;
 	class ZSN_Demopack_cbr: B_FieldPack_cbr
 	{
 		scope = 1;
@@ -1112,6 +1085,7 @@ class CfgVehicles
 			};
 		};
 	};
+	class B_FieldPack_oli;
 	class ZSN_DemoPack_oli: B_FieldPack_oli
 	{
 		scope = 1;
@@ -1138,6 +1112,7 @@ class CfgVehicles
 			};
 		};
 	};
+	class B_FieldPack_blk;
 	class ZSN_demopack_blk: B_FieldPack_blk
 	{
 		scope = 1;

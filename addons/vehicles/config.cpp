@@ -3429,6 +3429,7 @@ class cfgvehicles
 		scopeArsenal = 2;
 		tf_hasLRradio = 1;
 		transportSoldier = 0;
+		attendant = 0;
 		displayName = "M113A3 (HQ)";
 		faction = "ZSN_WArmy_ColdWar";
 		crew = "ZSN_SoldierWCrew";
@@ -3499,6 +3500,7 @@ class cfgvehicles
 		scopeArsenal = 1;
 		tf_hasLRradio = 1;
 		transportSoldier = 0;
+		attendant = 0;
 		displayName = "M113 HQ (Woodland)";
 		editorCategory = "ZSN_FRG";
 		faction = "ZSN_WGer_ColdWar";
@@ -3848,6 +3850,7 @@ class cfgvehicles
 		side = 0;
 		scope = 2;
 		scopeCurator = 2;
+		displayName = "Mi-17";
 		faction = "ZSN_EEuro_ColdWar";
 		crew = "ZSN_EurosolEPilot";
 		typicalCargo[] = {"ZSN_EurosolEPilot"};
@@ -3899,16 +3902,17 @@ class cfgvehicles
 	};
 	class ZSN_CUP_VMF_Mi8: ZSN_CSLA_Mi17
 	{
+		displayName = "Mi-8MT";
 		faction = "ZSN_EMarines_ColdWar";
 		crew = "ZSN_SoldierEPilot";
 		typicalCargo[] = {"ZSN_SoldierEPilot"};
-		hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_1_co.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_2_co.paa","a3\data_f\clear_empty.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"};
+		hiddenSelectionstextures[] = {"CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet NAVY\Mi-8MT\mi8mt_body_navy_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet NAVY\Mi-8MT\mi8mt_det_navy_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet NAVY\Mi-8MT\mi8mt_decals2_navy_ca.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet NAVY\Mi-8MT\mi8_decals_navy_ca.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_Mi8\Data\preview\CUP_O_Mi8_SLA_1.jpg";
 	};
 	class ZSN_CUP_VDV_Mi8: ZSN_CUP_MSV_Mi8
 	{
 		faction = "ZSN_ERangers_ColdWar";
-		hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla2_1_co.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla1_2_co.paa","a3\data_f\clear_empty.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"};
+		hiddenSelectionstextures[] = {"CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MTV\mi8mtv_body_army_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MTV\mi8mtv_det_army_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MTV\mi8mtv_decals2_army_ca.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MTV\mi8_decals_army_ca.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_Mi8\Data\preview\CUP_O_Mi8_SLA_1.jpg";
 	};
 	class CUP_Mi8_medevac_base;
@@ -3922,7 +3926,7 @@ class cfgvehicles
 		faction = "ZSN_EArmy_ColdWar";
 		displayName = "Mi-8AMT (Medevac)";
 		typicalCargo[] = {"ZSN_SoldierEPilot"};
-		hiddenSelectionsTextures[] = {"CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_body_g_vsr_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_det_g_co.paa","a3\data_f\clear_empty.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"};
+		hiddenSelectionstextures[] = {"CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8T\mi8t_body_army_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8T\mi8t_det_army_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8T\mi8t_decals2_army_ca.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8T\mi8_decals_army_ca.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_Mi8\Data\preview\CUP_O_Mi8_medevac_RU.jpg";
 		class TransportItems
 		{
@@ -3951,13 +3955,13 @@ class cfgvehicles
 	class ZSN_CUP_VMF_Mi8_medevac: ZSN_CUP_MSV_Mi8_medevac
 	{
 		faction = "ZSN_EMarines_ColdWar";
-		hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_1_co.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla1_2_co.paa","a3\data_f\clear_empty.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"};
+		hiddenSelectionstextures[] = {"CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet NAVY\Mi-8T\mi8t_body_navy_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet NAVY\Mi-8T\mi8t_det_navy_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet NAVY\Mi-8T\mi8t_decals2_navy_ca.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet NAVY\Mi-8T\mi8_decals_navy_ca.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_Mi8\Data\preview\CUP_O_Mi8_SLA_1.jpg";
 	};
 	class ZSN_CUP_VDV_Mi8_medevac: ZSN_CUP_MSV_Mi8_medevac
 	{
 		faction = "ZSN_ERangers_ColdWar";
-		hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla2_1_co.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla1_2_co.paa","a3\data_f\clear_empty.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"};
+		hiddenSelectionstextures[] = {"CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MTB ambulance\mi8mtb_amb_body_army_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MTB ambulance\mi8mtb_amb_det_army_ca.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MTB ambulance\mi8mtb_amb_decals2_army_ca.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MTB ambulance\mi8mtb_amb_decals_army_ca.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_Mi8\Data\preview\CUP_O_Mi8_SLA_1.jpg";
 	};
 	class CUP_Mi8_VIV_base;
@@ -3970,7 +3974,7 @@ class cfgvehicles
 		faction = "ZSN_ERangers_ColdWar";
 		crew = "ZSN_SoldierEPilot";
 		typicalCargo[] = {"ZSN_SoldierEPilot"};
-		hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla2_1_co.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla1_2_co.paa","a3\data_f\clear_empty.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"};
+		hiddenSelectionstextures[] = {"CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MT\mi8mt_body_army_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MT\mi8mt_det_army_co.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MT\mi8mt_decals2_army_ca.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\batteriefuhrer\Soviet Army\Mi-8MT\mi8_decals_army_ca.paa"};
 		editorPreview = "CUP\AirVehicles\CUP_AirVehicles_Mi8\Data\preview\CUP_O_Mi8_SLA_1.jpg";
 	};
 	class CUP_UH1H_base;
